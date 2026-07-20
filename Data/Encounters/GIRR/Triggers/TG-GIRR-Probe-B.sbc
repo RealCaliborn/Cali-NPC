@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Trigger Group TG-GIRR-Transport is all of the Transport-specific triggers -->
+    <!-- This file contains all related triggers, actions, and chats -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GIRR-Probe-B</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GIRR-Probe-B-Send]
+        [Triggers:TR-GIRR-Probe-B-AcquiredTarget]
+        [Triggers:TR-GIRR-Probe-B-Damage]
+        [Triggers:TR-GIRR-Probe-B-Compromised]
+        [Triggers:TR-GIRR-Probe-B-Retreat]
+
+      </Description>
+
+    </EntityComponent>
+    
+    <!-- This block covers the initial engagement triggers and actions -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Probe-B-Send</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:180000]
+        [MaxCooldownMs:300000]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-Probe-B-Send]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Probe-B-Send</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Probe-B-Send]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Probe-B-Send</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:80]
+        [MaxChats:-1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:15000]
+
+        [ChatMessages:This territory is hereby annexed by the Independent Republic under Section 4 of the Articles of Confederation.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:This unit is equipped with active defenses, leave this area immediately.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:This Independent Republic No Fly Zone is enforced by an automated system. Do not approach!]
+        [BroadcastChatType:Chat]
+        [ChatMessages:All territory within the range of this broadcast is now under the control of the Independent Republic.]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- This block covers random chatter when the ship takes damage -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Probe-B-AcquiredTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:AcquiredTarget]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GIRR-Probe-B-AcquiredTarget]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Probe-B-AcquiredTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Probe-B-AcquiredTarget]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Probe-B-AcquiredTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:80]
+        [MaxChats:1]
+        [BroadcastRandomly:false]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:15000]
+
+        [ChatMessages:This territory is restricted to authorized IR personnel only! Automated defenses activated.]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- This block covers chatter when the first turret locks on the first target -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Probe-B-Damage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-Probe-B-Damage]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Probe-B-Damage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Probe-B-Damage]
+
+        [ChangeReputationWithPlayers:true]
+        [ReputationChangeRadius:5000]
+        [ReputationChangeFactions:GIRR]
+        [ReputationChangeAmount:-1]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Probe-B-Damage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:80]
+        [MaxChats:1]
+        [BroadcastRandomly:false]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:15000]
+
+        [ChatMessages:You actions are being recorded and reported to IR authorities.]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Probe-B-Compromised</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Compromised]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-Probe-B-Compromised]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Probe-B-Compromised</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [GenerateExplosion:true]
+        [ExplosionOffsetFromRemote:{X:0 Y:0 Z:0}]
+        [ExplosionRange:3]
+        [ExplosionDamage:100000]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Probe-B-Retreat</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:1200000]
+        [MaxCooldownMs:1201000]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-Probe-B-Retreat]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Probe-B-Retreat</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ForceDespawn:true]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

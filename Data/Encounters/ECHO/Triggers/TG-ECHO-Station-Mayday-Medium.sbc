@@ -1,0 +1,528 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-ECHO-Mayday-VOID-Medium</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-ECHO-Mayday-VOID-Medium-Hailing]
+        [Triggers:TR-ECHO-Mayday-VOID-Medium-AllWave-CheckAlive]
+        [Triggers:TR-ECHO-Mayday-VOID-Medium-AllWave-ReceiveAlive]
+        [Triggers:TR-ECHO-Mayday-VOID-Medium-AllWave-NextWave]
+        [Triggers:TR-ECHO-Mayday-VOID-Medium-Wave-Start]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-ECHO-Mayday-VOID-Medium-Hailing</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:5000]
+        [StartsReady:true]
+        [MinCooldownMs:3000]
+        [MaxCooldownMs:3001]
+        [MaxActions:1]
+
+        [Actions:AC-ECHO-Mayday-VOID-Medium-Hailing]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-ECHO-Mayday-VOID-Medium-Hailing</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+      
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-ECHO-Mayday-VOID-Medium-AllWave-NextWave]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-ECHO-Mayday-VOID-Medium-AllWave-NextWave]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-Mayday-VOID-Medium-Hailing]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-ECHO-Mayday-VOID-Medium-Hailing]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CH-ECHO-Mayday-VOID-Medium-Hailing</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+
+      [UseChat:true]
+      [StartsReady:true]
+      [Author:ECHO IFA]
+      [Color:Green]
+
+      [Chance:100]
+      [MaxChats:1]
+      [BroadcastRandomly:true]
+
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:10000]
+
+      [ChatMessages:This unit requires assistance, {PlayerName}. Reward authorized. I have detected 12 hostile ships with 96.9% certainty of VOID classification.]
+      [BroadcastChatType:Chat]
+
+      [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-ECHO-Mayday-VOID-Medium-AllWave-CheckAlive</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:3000]
+        [MaxCooldownMs:3001]
+        [StartsReady:true]
+
+        [Actions:AC-ECHO-Mayday-VOID-Medium-AllWave-CheckAlive]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-ECHO-Mayday-VOID-Medium-AllWave-CheckAlive</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-ECHO-OPFOR-Mayday-CheckAlive]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-Mayday-VOID-Medium-AllWave-ReceiveAlive</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:CommandReceived]
+                
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-ECHO-OPFOR-Mayday-CheckAlive-Respond]
+        [Actions:AC-ECHO-Mayday-VOID-Medium-AllWave-ReceiveAlive]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-Mayday-VOID-Medium-AllWave-ReceiveAlive</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-ECHO-Mayday-VOID-Medium-AllWave-NextWave]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-ECHO-Mayday-VOID-Medium-AllWave-NextWave</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:11000]
+        [MaxCooldownMs:11001]
+        [StartsReady:false]
+
+        [Actions:AC-ECHO-Mayday-VOID-Medium-AllWave-NextWave]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-ECHO-Mayday-VOID-Medium-AllWave-NextWave</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ManuallyActivateTrigger:true]
+        [ManuallyActivatedTriggerNames:TR-ECHO-Mayday-VOID-Medium-Wave-Start]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-ECHO-Mayday-VOID-Medium-Wave-Start</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Manual]
+        [StartsReady:true]
+        [ActionExecution:Sequential]
+
+        [Actions:AC-ECHO-Mayday-VOID-Medium-Wave1-Start]
+        [Actions:AC-ECHO-Mayday-VOID-Medium-Wave2-Start]
+        [Actions:AC-ECHO-Mayday-VOID-Medium-Wave3-Start]
+        [Actions:AC-ECHO-Mayday-VOID-Medium-Reward]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-ECHO-Mayday-VOID-Medium-Wave1-Start</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-ECHO-Mayday-VOID-Medium-Wave1-Start]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-ECHO-Mayday-VOID-Medium-Wave1-Start]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CH-ECHO-Mayday-VOID-Medium-Wave1-Start</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+
+      [UseChat:true]
+      [StartsReady:true]
+      [Author:ECHO IFA]
+      [Color:Green]
+
+      [Chance:100]
+      [MaxChats:1]
+      [BroadcastRandomly:true]
+
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:10000]
+
+      [ChatMessages:Hostile forces are deploying their lead element.]
+      [BroadcastChatType:Chat]
+
+      [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-ECHO-Mayday-VOID-Medium-Wave1-Start</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:CustomSpawn]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:1]
+      
+      [SpawnGroups:(NPC-VOID) ECHO Mayday Wave 1Stingray1Hunter1UrchinB]
+      
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:4000]
+      [MaxDistance:6000]
+      [IgnoreSafetyChecks:false]
+      
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-ECHO-Mayday-VOID-Medium-Wave2-Start</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-ECHO-Mayday-VOID-Medium-Wave2-Start]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-ECHO-Mayday-VOID-Medium-Wave2-Start]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CH-ECHO-Mayday-VOID-Medium-Wave2-Start</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+
+      [UseChat:true]
+      [StartsReady:true]
+      [Author:ECHO IFA]
+      [Color:Green]
+
+      [Chance:100]
+      [MaxChats:1]
+      [BroadcastRandomly:true]
+
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:10000]
+
+      [ChatMessages:Incoming ships. Sensors indicate a combined arms attack.]
+      [BroadcastChatType:Chat]
+
+      [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-ECHO-Mayday-VOID-Medium-Wave2-Start</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:CustomSpawn]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:1]
+      
+      [SpawnGroups:(NPC-VOID) ECHO Mayday Wave 1Stingray1UrchinB1UrchinS2Bro]
+      
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:4000]
+      [MaxDistance:6000]
+      [IgnoreSafetyChecks:false]
+      
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-ECHO-Mayday-VOID-Medium-Wave3-Start</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-ECHO-Mayday-VOID-Medium-Wave3-Start]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-ECHO-Mayday-VOID-Medium-Wave3-Start]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CH-ECHO-Mayday-VOID-Medium-Wave3-Start</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+
+      [UseChat:true]
+      [StartsReady:true]
+      [Author:ECHO IFA]
+      [Color:Green]
+
+      [Chance:100]
+      [MaxChats:1]
+      [BroadcastRandomly:true]
+
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:10000]
+
+      [ChatMessages:My analysis indicates that the largest hostile ships are now committed to the attack.]
+      [BroadcastChatType:Chat]
+
+      [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-ECHO-Mayday-VOID-Medium-Wave3-Start</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:CustomSpawn]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:1]
+      
+      [SpawnGroups:(NPC-VOID) ECHO Mayday Wave 2Stingray1Chordata1UrchinS]
+      
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:4000]
+      [MaxDistance:6000]
+      [IgnoreSafetyChecks:false]
+      
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-ECHO-Mayday-VOID-Medium-Reward</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-Mayday-VOID-Medium-Hailing]
+        [DisableTriggerNames:TR-ECHO-Mayday-VOID-Medium-AllWave-CheckAlive]
+        [DisableTriggerNames:TR-ECHO-Mayday-VOID-Medium-AllWave-ReceiveAlive]
+        [DisableTriggerNames:TR-ECHO-Mayday-VOID-Medium-AllWave-NextWave]
+        [DisableTriggerNames:TR-ECHO-Mayday-VOID-Medium-Wave-Start]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-ECHO-Mayday-VOID-Medium-Reward]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-ECHO-Mayday-Medium-Reward]
+
+        [ChangeReputationWithPlayers:true]
+        [ReputationChangeRadius:10000]
+        [ReputationChangeFactions:ECHO]
+        [ReputationChangeAmount:200]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CH-ECHO-Mayday-VOID-Medium-Reward</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+
+      [UseChat:true]
+      [StartsReady:true]
+      [Author:ECHO IFA]
+      [Color:Green]
+
+      [Chance:100]
+      [MaxChats:1]
+      [BroadcastRandomly:true]
+
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:10000]
+
+      [ChatMessages:This unit is authorized to provide you with a reward, {PlayerName}. ECHO extends its gratitude to you.]
+      [BroadcastChatType:Chat]
+
+      [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-ECHO-Mayday-Medium-Reward</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:CustomSpawn]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:1]
+      
+      [SpawnGroups:(NPC-ECHO) ECHO Mayday Medium Reward]
+      
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:500]
+      [MaxDistance:1000]
+      [IgnoreSafetyChecks:false]
+      
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

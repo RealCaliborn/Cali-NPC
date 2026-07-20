@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GKNT-Mayday-Fighter-Jump</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GKNT-Mayday-Fighter-Jump-Retreat]
+        [Triggers:TR-GKNT-Mayday-Fighter-Jump-Despawn]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Mayday-Fighter-Jump-Retreat</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:210000]
+        [MaxCooldownMs:270000]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-GKNT-Mayday-Fighter-Jump-Retreat]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Mayday-Fighter-Jump-Retreat</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChatData:CH-GKNT-Mayday-Fighter-Jump-Retreat]
+        [UseChatBroadcast:true]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-GKNT-Mayday-Fighter-Jump-Despawn]
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-GKNT-Mayday-Fighter-Jump-Despawn]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-GKNT-Mayday-Fighter-Jump-Retreat]
+
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GKNT-Mayday-Fighter-Jump-Retreat</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Chance:100]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [Author:{GridName}]
+        [Color:Green]
+
+        [ChatMessages: Thank you stranger! My jumpdrive is back online, jumping out!]
+        [BroadcastChatType:Chat]
+        [ChatMessages: We're good to go, Thank you {PlayerName}!]
+        [BroadcastChatType:Chat]
+        [ChatMessages: Spooling jumpdrive, let's get out of here!]
+        [BroadcastChatType:Chat]
+        [ChatMessages: Setting jump destination, jump in 10.]
+        [BroadcastChatType:Chat]
+        [ChatMessages: Jumpdrive is fixed, time to go people.]
+        [BroadcastChatType:Chat]
+        [ChatMessages: Good luck {PlayerName}, I can't thank you enough!]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Mayday-Fighter-Jump-Despawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:10000]
+        [MaxCooldownMs:10001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-GKNT-Mayday-Fighter-Jump-Despawn]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Mayday-Fighter-Jump-Despawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeReputationWithPlayers:true]
+        [ReputationChangeRadius:7500]
+        [ReputationChangeFactions:GKNT]
+        [ReputationChangeAmount:25]
+
+        [ForceDespawn:true]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

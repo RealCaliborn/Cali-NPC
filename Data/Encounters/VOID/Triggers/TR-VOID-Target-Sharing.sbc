@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Target-Sharing</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        
+        [DamageTypes:Any]
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        
+        [MinCooldownMs:500]
+        [MaxCooldownMs:501]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-VOID-Target-Sharing]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Target-Sharing</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-VOID-Target-Sharing]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CO-VOID-Target-Sharing</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+              
+        [CommandCode:CO-VOID-Target-Sharing]
+        [MatchSenderReceiverOwners:false]
+        [IgnoreAntennaRequirement:true]
+        [Radius:12000]
+        [SendTargetEntityId:true]
+        [SendDamagerEntityId:true]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

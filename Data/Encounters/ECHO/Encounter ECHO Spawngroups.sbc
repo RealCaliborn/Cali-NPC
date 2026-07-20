@@ -1,0 +1,1004 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <SpawnGroups>
+      <!-- (NPC-ECHO) Scarab -->
+      <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId>
+            <SubtypeId>(NPC-ECHO) Scarab (OUTER)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+    
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:1000]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Easy Reward,Small Cargo Container|ECHO Easy Reward]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>
+        <Frequency>0.5</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Scarab">
+              <Position>
+                  <X>0.0</X>
+                  <Y>0.0</Y>
+                  <Z>0.0</Z>
+              </Position>
+              <Speed>25</Speed>
+              <Behaviour>BH-ECHO-Scarab-Single</Behaviour>
+          </Prefab>
+        </Prefabs>
+    </SpawnGroup>
+    <!-- (NPC-ECHO) Scarab -->
+
+    <!-- (NPC-ECHO) Scarab -->
+    <SpawnGroup>
+      <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>
+          <SubtypeId>(NPC-ECHO) Scarab (INNER)</SubtypeId>
+      </Id>
+      <Description>
+
+      [Modular Encounters SpawnGroup]
+  
+      [DisableDampeners:false]
+
+      [SpaceCargoShip:true]
+
+      [FactionOwner:ECHO]
+      [ReplenishSystems:true]
+
+      [UseRivalAi:true]
+      [RivalAiReplaceRemoteControl:true]
+
+      [UseThreatLevelCheck:true]
+      [ThreatLevelCheckRange:10000]
+      [ThreatScoreMinimum:-1]
+      [ThreatScoreMaximum:-1]
+
+      [UseContainerTypeAssignment:true]
+      [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Medium Reward,Small Cargo Container|ECHO Medium Reward]
+      [AddDefenseShieldBlocks:true]
+      [ReplaceArmorBlocksWithModules:true]
+      [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.5</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+            <Position>
+                <X>0.0</X>
+                <Y>0.0</Y>
+                <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Scarab-Single</Behaviour>
+        </Prefab>
+      </Prefabs>
+  </SpawnGroup>
+  <!-- (NPC-ECHO) Scarab -->
+
+<!-- (NPC-ECHO) Cargo Freighter Solo -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
+          <SubtypeId>(NPC-ECHO) Cargo Freighter Solo (PVE;NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [IgnoreShieldProviderMod:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:249]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>           <!--Do not edit-->
+        <Frequency>0.5</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Solo</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Cargo Freighter Solo -->
+
+<!-- (NPC-ECHO) Cargo Freighter Solo -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
+          <SubtypeId>(NPC-ECHO) Cargo Freighter Solo Veteran (PVE;NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:250]
+        [ThreatScoreMaximum:-1]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>           <!--Do not edit-->
+        <Frequency>0.5</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Solo</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Cargo Freighter Solo -->
+
+<!-- (NPC-ECHO) Cargo Small Cargo Ship Solo -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
+          <SubtypeId>(NPC-ECHO) Cargo Small Cargo Ship Solo (PVE;NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [IgnoreShieldProviderMod:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:249]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>           <!--Do not edit-->
+        <Frequency>0.5</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Solo</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Cargo Small Cargo Ship Solo -->
+
+<!-- (NPC-ECHO) Cargo Small Cargo Ship Solo -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
+          <SubtypeId>(NPC-ECHO) Cargo Small Cargo Ship Solo Veteran (PVE;NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:250]
+        [ThreatScoreMaximum:-1]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>           <!--Do not edit-->
+        <Frequency>0.5</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Solo</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Cargo Small Cargo Ship Solo -->
+
+<!-- (NPC-ECHO) Cargo Freighter Easy -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
+          <SubtypeId>(NPC-ECHO) Cargo Freighter Easy (NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>           <!--Do not edit-->
+        <Frequency>0.75</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Easy</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Cargo Freighter Easy -->
+
+<!-- (NPC-ECHO) Cargo Small Cargo Ship Easy -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
+          <SubtypeId>(NPC-ECHO) Cargo Small Cargo Ship Easy (NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>           <!--Do not edit-->
+        <Frequency>0.75</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Easy</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Cargo Small Cargo Ship Easy -->
+
+<!-- (NPC-ECHO) Cargo Freighter Medium -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
+          <SubtypeId>(NPC-ECHO) Cargo Freighter Medium (NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:750]
+        [ThreatScoreMaximum:-1]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+       
+        </Description>
+        <IsPirate>true</IsPirate>           <!--Do not edit-->
+        <Frequency>0.85</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Medium</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Cargo Freighter Medium -->
+
+<!-- (NPC-ECHO) Cargo Small Cargo Ship Medium -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
+          <SubtypeId>(NPC-ECHO) Cargo Small Cargo Ship Medium (NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:750]
+        [ThreatScoreMaximum:-1]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>           <!--Do not edit-->
+        <Frequency>0.85</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Medium</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Cargo Small Cargo Ship Medium -->
+
+<!-- (NPC-ECHO-TS) Mandir Solo -->
+      <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
+            <SubtypeId>(NPC-ECHO-TS) Mandir Solo (PVE;OUTER)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [DisableDampeners:false]
+
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:true]
+        [ForceStaticGrid:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:false]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+        
+        </Description>
+        <IsPirate>true</IsPirate>           <!--Do not edit-->
+        <Frequency>0.5</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO-TS) Mandir">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Station-Solo</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO-TS) Mandir Solo -->
+
+<!-- (NPC-ECHO-TS) Port Royal Solo -->
+      <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
+            <SubtypeId>(NPC-ECHO-TS) Port Royal Solo (PVE;OUTER)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [DisableDampeners:false]
+
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:true]
+        [ForceStaticGrid:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:false]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+        
+        </Description>
+        <IsPirate>true</IsPirate>           <!--Do not edit-->
+        <Frequency>0.5</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO-TS) Port Royal">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Station-Solo</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO-TS) Port Royal Solo -->
+
+<!-- (NPC-ECHO) Mandir Easy -->
+      <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
+            <SubtypeId>(NPC-ECHO) Mandir Easy (OUTER;INNER)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [DisableDampeners:false]
+
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:true]
+        [ForceStaticGrid:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:500]
+        [ThreatScoreMaximum:-1]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:false]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+        
+        </Description>
+        <IsPirate>true</IsPirate>           <!--Do not edit-->
+        <Frequency>0.65</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Mandir">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Station-Easy</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Mandir Easy -->
+
+<!-- (NPC-ECHO) Port Royal Easy -->
+      <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
+            <SubtypeId>(NPC-ECHO) Port Royal Easy (OUTER;INNER)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [DisableDampeners:false]
+
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:true]
+        [ForceStaticGrid:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:750]
+        [ThreatScoreMaximum:-1]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:false]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+        
+        </Description>
+        <IsPirate>true</IsPirate>           <!--Do not edit-->
+        <Frequency>0.65</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Port Royal">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Station-Easy</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Port Royal Easy -->
+
+<!-- (NPC-ECHO) Mandir Medium -->
+      <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
+            <SubtypeId>(NPC-ECHO) Mandir Medium (OUTER;INNER)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [DisableDampeners:false]
+
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:true]
+        [ForceStaticGrid:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:-1]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:false]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+        
+        </Description>
+        <IsPirate>true</IsPirate>           <!--Do not edit-->
+        <Frequency>0.75</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Mandir">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Station-Medium</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Mandir Medium -->
+
+<!-- (NPC-ECHO) Port Royal Medium -->
+      <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
+            <SubtypeId>(NPC-ECHO) Port Royal Medium (OUTER;INNER)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [DisableDampeners:false]
+
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:true]
+        [ForceStaticGrid:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:-1]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:false]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+        
+        </Description>
+        <IsPirate>true</IsPirate>           <!--Do not edit-->
+        <Frequency>0.75</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Port Royal">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Station-Medium</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Port Royal Medium -->
+
+<!-- (NPC-ECHO) Mandir Mayday VOID Easy -->
+      <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
+            <SubtypeId>(NPC-ECHO) Mandir Mayday VOID Easy (OUTER;INNER)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [DisableDampeners:false]
+
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:true]
+        [ForceStaticGrid:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:-1]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:false]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+        
+        </Description>
+        <IsPirate>true</IsPirate>           <!--Do not edit-->
+        <Frequency>0.85</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Mandir">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Station-Mayday-VOID-Easy</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Mandir Mayday VOID Easy -->
+
+<!-- (NPC-ECHO) Port Royal Mayday VOID Easy -->
+      <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
+            <SubtypeId>(NPC-ECHO) Port Royal Mayday VOID Easy (OUTER;INNER)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [DisableDampeners:false]
+
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:true]
+        [ForceStaticGrid:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:-1]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:false]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+        
+        </Description>
+        <IsPirate>true</IsPirate>           <!--Do not edit-->
+        <Frequency>0.85</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Port Royal">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Station-Mayday-VOID-Easy</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Port Royal Mayday VOID Easy -->
+
+<!-- (NPC-ECHO) Mandir Mayday VOID Medium -->
+      <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
+            <SubtypeId>(NPC-ECHO) Mandir Mayday VOID Medium (OUTER;INNER)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [DisableDampeners:false]
+
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:true]
+        [ForceStaticGrid:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:2000]
+        [ThreatScoreMaximum:-1]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:false]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+        
+        </Description>
+        <IsPirate>true</IsPirate>           <!--Do not edit-->
+        <Frequency>0.95</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Mandir">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Station-Mayday-VOID-Medium</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Mandir Mayday VOID Medium -->
+
+<!-- (NPC-ECHO) Port Royal Mayday VOID Medium -->
+      <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
+            <SubtypeId>(NPC-ECHO) Port Royal Mayday VOID Medium (OUTER;INNER)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [DisableDampeners:false]
+
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:true]
+        [ForceStaticGrid:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:2000]
+        [ThreatScoreMaximum:-1]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:false]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+        
+        </Description>
+        <IsPirate>true</IsPirate>           <!--Do not edit-->
+        <Frequency>0.95</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Port Royal">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Station-Mayday-VOID-Medium</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Port Royal Mayday VOID Medium -->
+
+    </SpawnGroups>
+</Definitions>

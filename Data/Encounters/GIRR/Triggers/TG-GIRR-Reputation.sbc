@@ -1,0 +1,136 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GIRR-Reputation</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GIRR-Reputation-GeneralDamage]
+        [Triggers:TR-GIRR-Reputation-Compromised]
+        [Triggers:TR-GIRR-Reputation-GrindDamage]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Reputation-GeneralDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        
+        [DamageTypes:Any]
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        
+        [MinCooldownMs:100]
+        [MaxCooldownMs:101]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-Reputation-GeneralDamage]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Reputation-GeneralDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeAttackerReputation:true]
+        [ChangeAttackerReputationFaction:GIRR]
+        [ChangeAttackerReputationAmount:-5]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Reputation-Compromised</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Compromised]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-Reputation-Compromised]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Reputation-Compromised</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeAttackerReputation:true]
+        [ChangeAttackerReputationFaction:GIRR]
+        [ChangeAttackerReputationAmount:-100]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Reputation-GrindDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Grind]
+        [MinCooldownMs:100]
+        [MaxCooldownMs:101]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-Reputation-GrindDamage]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Reputation-GrindDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeAttackerReputation:true]
+        [ChangeAttackerReputationFaction:GIRR]
+        [ChangeAttackerReputationAmount:-5]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

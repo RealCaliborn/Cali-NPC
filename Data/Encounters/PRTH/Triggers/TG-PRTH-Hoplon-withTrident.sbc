@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-PRTH-Hoplon-withTrident</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-PRTH-Hoplon-withTrident-LaunchFighters]
+        [Triggers:TR-PRTH-Hoplon-withTrident-LaunchFighter]
+        [Triggers:TR-PRTH-Hoplon-withTrident-CheckFighter]
+        [Triggers:TR-PRTH-Hoplon-withTrident-ReceiveFighter]
+
+      </Description>
+    </EntityComponent>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Hoplon-withTrident-LaunchFighters</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:3000]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-PRTH-Hoplon-withTrident-LaunchFighters]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Hoplon-withTrident-LaunchFighters</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-PRTH-Hoplon-withTrident-CheckFighter]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-PRTH-Hoplon-withTrident-LaunchFighter]
+        [EnableTriggerNames:TR-PRTH-Hoplon-withTrident-CheckFighter]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-PRTH-Hoplon-withTrident-LaunchFighters]
+
+      </Description>
+    </EntityComponent>
+
+
+
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Hoplon-withTrident-LaunchFighter</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:30000]
+        [MaxCooldownMs:30001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-PRTH-Hoplon-withTrident-LaunchFighter]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Hoplon-withTrident-LaunchFighter</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-PRTH-Hoplon-withTrident-LaunchFighter]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-PRTH-Hoplon-withTrident-LaunchFighter]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-PRTH-Hoplon-withTrident-LaunchFighter</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:4]
+      
+      [SpawnGroups:(NPC-PRTH) Spawn HoplonFighter Nymph]
+      
+      [UseRelativeSpawnPosition:true]
+      [RelativeSpawnOffset:{X:0 Y:0 Z:-150}]
+      [RelativeSpawnVelocity:{X:0 Y:45 Z:0}]
+      [IgnoreSafetyChecks:true]
+      
+      </Description>
+    </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-PRTH-Hoplon-withTrident-LaunchFighter</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:Hoplon]
+        [Color:Red]
+
+        [Chance:100]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Go forth, end them.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Fighter away.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Launching Nymph.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Nymph away.]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Hoplon-withTrident-CheckFighter</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:10000]
+        [MaxCooldownMs:10001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-PRTH-Hoplon-withTrident-CheckFighter]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Hoplon-withTrident-CheckFighter</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-PRTH-Hoplon-Calling-Nymph]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CO-PRTH-Hoplon-Calling-Nymph</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Command]
+
+      [CommandCode:CO-PRTH-Hoplon-Calling-Nymph]
+      [MatchSenderReceiverOwners:true]
+      [IgnoreAntennaRequirement:true]
+      [Radius:12000]
+
+      </Description>
+    </EntityComponent>
+
+
+
+
+
+
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Hoplon-withTrident-ReceiveFighter</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-PRTH-Hoplon-Nymph-Answering]
+        [Actions:AC-PRTH-Hoplon-withTrident-ReceiveFighter]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Hoplon-withTrident-ReceiveFighter</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-PRTH-Hoplon-withTrident-LaunchFighter]
+
+      </Description>
+    </EntityComponent>
+
+
+
+
+
+
+
+
+
+
+  </EntityComponents>
+</Definitions>

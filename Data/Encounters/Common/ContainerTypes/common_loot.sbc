@@ -1,0 +1,101 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+
+<!-- Common Loot Default -->
+    <ContainerType CountMin="3" CountMax="4">
+      <Id>
+        <TypeId>ContainerTypeDefinition</TypeId>
+        <SubtypeId>Common Loot Default</SubtypeId>
+      </Id>
+      <Items>
+           <Item AmountMin="20" AmountMax="50">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>ShieldComponent</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="200" AmountMax="800">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Tech2x</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="100" AmountMax="400">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Tech4x</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="50" AmountMax="200">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Tech8x</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="10" AmountMax="25">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>ZoneChip</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="10" AmountMax="20">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>ConsumableItem</TypeId>
+                    <SubtypeId>Medkit</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="10" AmountMax="20">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>ConsumableItem</TypeId>
+                    <SubtypeId>Powerkit</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="2" AmountMax="4">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>PhysicalGunObject</TypeId>
+                    <SubtypeId>AngleGrinder4Item</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="2" AmountMax="4">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>PhysicalGunObject</TypeId>
+                    <SubtypeId>HandDrill4Item</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="2" AmountMax="4">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>PhysicalGunObject</TypeId>
+                    <SubtypeId>UltimateAutomaticRifleItem</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="2" AmountMax="4">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>PhysicalGunObject</TypeId>
+                    <SubtypeId>Welder4Item</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="25000" AmountMax="100000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>PhysicalObject</TypeId>
+                    <SubtypeId>SpaceCredit</SubtypeId>
+                </Id>
+            </Item>
+        </Items>
+    </ContainerType>
+<!-- Common Loot Default -->
+
+  </ContainerTypes>
+</Definitions>

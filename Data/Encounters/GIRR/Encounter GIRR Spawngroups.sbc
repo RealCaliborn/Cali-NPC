@@ -1,0 +1,2638 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) Class A Probe (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+            [SpaceRandomEncounter:true]
+			[AddDefenseShieldBlocks:true]
+            [FactionOwner:GIRR]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:false]
+			[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>2.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Class A Probe">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>BH-GIRR-Probe-A</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) Class A Probe Trap1 (OUTER;INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+            [SpaceRandomEncounter:true]
+			[AddDefenseShieldBlocks:true]
+            [FactionOwner:GIRR]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:false]
+			[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            [ThreatScoreMinimum:500]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Class A Probe">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>BH-GIRR-Probe-A-Trap1</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) Class A Probe Trap2 (OUTER;INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+            [SpaceRandomEncounter:true]
+			[AddDefenseShieldBlocks:true]
+            [FactionOwner:GIRR]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:false]
+			[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            [ThreatScoreMinimum:1200]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.4</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Class A Probe">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>BH-GIRR-Probe-A-Trap2</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) Class B Probe (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+            [SpaceRandomEncounter:true]
+			[AddDefenseShieldBlocks:true]
+            [FactionOwner:GIRR]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:false]
+			[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Class B Probe">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>BH-GIRR-Probe-B</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) Class B Probe Trap2 (OUTER;INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+            [SpaceRandomEncounter:true]
+			[AddDefenseShieldBlocks:true]
+            [FactionOwner:GIRR]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:false]
+			[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            [ThreatScoreMinimum:1200]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.6</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Class B Probe">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>0</Speed>
+					<Behaviour>BH-GIRR-Probe-B-Trap2</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xHauler (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:500]
+                [ThreatScoreMaximum:1249]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+		
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Hauler</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xTransport (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:500]
+                [ThreatScoreMaximum:1249]
+                [AddDefenseShieldBlocks:true]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Transport</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xMiner (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:500]
+                [ThreatScoreMaximum:1249]
+                [AddDefenseShieldBlocks:true]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xMerchant (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:500]
+                [ThreatScoreMaximum:1249]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+				[ManipulationProfiles:MES-Manipulation-Visual]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xRepurposed Passenger Transport (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:500]
+                [ThreatScoreMaximum:1249]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Repurposed Passenger Transport">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xHauler1xTransport (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:1000]
+                [ThreatScoreMaximum:2499]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Transport</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Hauler</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xHauler1xMiner (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:1000]
+                [ThreatScoreMaximum:2499]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Hauler</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xTransport1xMiner (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:1000]
+                [ThreatScoreMaximum:2499]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Transport</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xTransport1xMerchant (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:1000]
+                [ThreatScoreMaximum:2499]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Transport</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xTransport1xPassenger (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:1000]
+                [ThreatScoreMaximum:2499]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Repurposed Passenger Transport">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Transport</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 2xHauler1xTransport (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:2500]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Hauler</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Hauler</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Transport</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 2xHauler1xTransport (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:-1]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Hauler</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Hauler</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Transport</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xHauler2xTransport (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+ 
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:2500]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Transport</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Hauler</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Transport</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xHauler2xTransport (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+   
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:-1]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Transport</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Hauler</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Transport</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xHauler1xTransport1xMiner (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:2500]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Transport</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Hauler</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xHauler1xTransport1xMiner (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:-1]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Transport</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Hauler</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xHauler1xTransport1xMerchant (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+  
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:2500]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Transport</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Hauler</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xHauler1xTransport1xPassenger (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:2500]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Transport</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Hauler</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Repurposed Passenger Transport">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xHauler1xTransport1xMerchant (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:-1]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Transport</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Hauler</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xHauler1xTransport1xPassenger (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:-1]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Transport</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Hauler</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Repurposed Passenger Transport">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xHauler2xMiner (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:2500]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Hauler</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xHauler2xMiner (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:-1]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Hauler</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xHauler1xMiner1xMerchant (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:2500]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Hauler</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xHauler1xMiner1xMerchant (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:-1]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Hauler</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xTransport1xMiner1xMerchant (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:2500]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Transport</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xTransport1xMiner1xMerchant (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:-1]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Transport</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xTransport2xMerchant (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:2500]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Transport</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xTransport2xMerchant (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:2500]
+                [ThreatScoreMinimum:-1]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Transport</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xHauler1xTransport1xMiner1xMerchant (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:-1]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Transport</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Hauler</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>-500.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xTransport1xMiner2xMerchant (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:-1]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Transport</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>-500.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xHauler3xMiner (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:4000]
+                [ThreatScoreMinimum:-1]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Hauler</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>-500.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xHauler1xTransport2xMerchant (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:-1]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Lead-Hauler</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>-500.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Transport</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xCruiserNospawn Veteran (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:2000]
+
+                [ReplaceArmorBlocksWithModules:true]
+
+                [UseContainerTypeAssignment:true]
+				[ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-CruiserNospawn</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xCruiserNospawn (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:-1]
+
+                [ReplaceArmorBlocksWithModules:true]
+                
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-CruiserNospawn</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xCruiser1xMiner1xMerchant (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:-1]
+
+                [ReplaceArmorBlocksWithModules:true]
+                
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-CruiserNospawn</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xCruiserSpawn (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:-1]
+
+                [ReplaceArmorBlocksWithModules:true]
+                
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-CruiserSpawn</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xMRC071xMerchant (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:2500]
+
+                [ReplaceArmorBlocksWithModules:true]
+				
+				[ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Nanobots-Large]
+
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.2</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) MRC07">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-MRC07</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xMRC071xMiner1xMerchant (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:2500]
+
+                [ReplaceArmorBlocksWithModules:true]
+				
+				[ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Nanobots-Large]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+				
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.2</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) MRC07">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-MRC07</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) Cargo Modified Cargo Hauler Solo (PVE;NPC)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+  
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:-1]
+                [ThreatScoreMaximum:249]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Cargo Ship Default,Small Cargo Container|GIRR Cargo Ship Default,NPC_Container|GIRR Cargo Ship Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Cargo Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Cargo-Solo</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) Cargo Modified Cargo Hauler Solo Veteran (PVE;NPC)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:250]
+                [ThreatScoreMaximum:-1]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Cargo Ship Default,Small Cargo Container|GIRR Cargo Ship Default,NPC_Container|GIRR Cargo Ship Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Cargo Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Cargo-Solo</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) Cargo Modified Cargo Hauler Easy (NPC)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [AddDefenseShieldBlocks:true]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Cargo Ship Default,Small Cargo Container|GIRR Cargo Ship Default,NPC_Container|GIRR Cargo Ship Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Cargo Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Cargo-Easy</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) Cargo Modified Cargo Hauler Medium (NPC)</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [AddDefenseShieldBlocks:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:750]
+                [ThreatScoreMaximum:-1]
+
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Cargo Ship Default,Small Cargo Container|GIRR Cargo Ship Default,NPC_Container|GIRR Cargo Ship Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Cargo Hauler">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Cargo-Medium</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+	</SpawnGroups>
+</Definitions>

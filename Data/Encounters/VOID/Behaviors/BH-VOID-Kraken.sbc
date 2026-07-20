@@ -1,0 +1,111 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Kraken</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Horsefly]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+
+        [UseAmmoReplenish:true]
+
+        [TriggerGroups:TG-Common-PvE-Hard]
+
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [Triggers:TR-Common-FireFixed]
+
+        [TriggerGroups:TG-VOID-Kraken]
+        [TriggerGroups:TG-VOID-Reputation]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Kraken-StingBaby-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:HorseFighter]
+		[HorseFighterTimeEngaging:15]
+		[HorseFighterTimeApproaching:27]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseBarrageFire:false]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-VOID-Reputation]
+        [Triggers:TR-VOID-Answer-Kraken-Port]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Kraken-StingBaby-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:HorseFighter]
+		[HorseFighterTimeEngaging:21]
+		[HorseFighterTimeApproaching:47]
+		
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseBarrageFire:false]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-VOID-Reputation]
+        [Triggers:TR-VOID-Answer-Kraken-Starboard]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,60 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SpawnGroups>
+    <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+            <SubtypeId>(NPC-VOID) 2xBaby1xBro</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup] 
+        [RivalAiSpawn:true]
+        [SpaceRandomEncounter:false]
+        [SpaceCargoShip:false]
+        [LunarCargoShip:false]
+        [AtmosphericCargoShip:false]
+        [PlanetaryInstallation:false]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]                
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+
+        </Description>
+        <IsPirate>true</IsPirate> <!--Do not edit-->
+        <Frequency>1.0</Frequency>
+        <Prefabs>
+            <Prefab SubtypeId="(NPC-VOID) Stingbaby">
+                <Position>
+                    <X>500.0</X>
+                    <Y>50.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>400</Speed>
+                <Behaviour>BH-VOID-StingBaby</Behaviour>
+            </Prefab>
+            <Prefab SubtypeId="(NPC-VOID) Stingbaby">
+                <Position>
+                    <X>-500.0</X>
+                    <Y>50.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>400</Speed>
+                <Behaviour>BH-VOID-StingBaby</Behaviour>
+            </Prefab>
+            <Prefab SubtypeId="(NPC-VOID) StingBro">
+                <Position>
+                    <X>0.0</X>
+                    <Y>50.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>400</Speed>
+                <Behaviour>BH-VOID-StingBro</Behaviour>
+            </Prefab>
+        </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>

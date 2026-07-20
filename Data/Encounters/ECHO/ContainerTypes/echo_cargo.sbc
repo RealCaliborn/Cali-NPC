@@ -1,0 +1,150 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+
+<!-- ECHO Cargo Ship Default -->
+    <ContainerType CountMin="3" CountMax="3">
+      <Id>
+        <TypeId>ContainerTypeDefinition</TypeId>
+        <SubtypeId>ECHO Cargo Ship Default</SubtypeId>
+      </Id>
+      <Items>
+           <Item AmountMin="500" AmountMax="2000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Computer</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="100" AmountMax="500">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Detector</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="500" AmountMax="2000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Display</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="100" AmountMax="500">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>GravityGenerator</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="100" AmountMax="200">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Medical</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="100" AmountMax="500">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Motor</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="100" AmountMax="500">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>RadioCommunication</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="100" AmountMax="500">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Superconductor</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="20" AmountMax="40">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>ConsumableItem</TypeId>
+                    <SubtypeId>Medkit</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="20" AmountMax="40">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>ConsumableItem</TypeId>
+                    <SubtypeId>Powerkit</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="500" AmountMax="2000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Cobalt</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="250" AmountMax="1000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Magnesium</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="2000" AmountMax="5000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Nickel</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="2000" AmountMax="5000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Cobalt</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="2000" AmountMax="5000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Magnesium</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="2000" AmountMax="5000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Silver</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="3" AmountMax="8">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>PhysicalGunObject</TypeId>
+                    <SubtypeId>AngleGrinder4Item</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="3" AmountMax="8">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>PhysicalGunObject</TypeId>
+                    <SubtypeId>HandDrill4Item</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="3" AmountMax="8">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>PhysicalGunObject</TypeId>
+                    <SubtypeId>Welder4Item</SubtypeId>
+                </Id>
+            </Item>
+        </Items>
+    </ContainerType>
+<!-- ECHO Cargo Ship Default -->
+
+  </ContainerTypes>
+</Definitions>

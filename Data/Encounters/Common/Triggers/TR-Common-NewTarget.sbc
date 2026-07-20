@@ -1,0 +1,71 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!--NewTarget-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-Common-NewTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:BehaviorTriggerA]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-Common-NewTarget]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-Common-NewTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-Common-NewTarget]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-Common-NewTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:-1]
+        [BroadcastRandomly:false]
+        [Author:Ship]
+        [Color:Red]
+
+        [IgnoreAntennaRequirement:true]
+
+        [ChatMessages:The {AntennaName} Has Detected a Potential Target]
+        [ChatAudio:Detection-1]
+        [ChatVolumeMultiplier:0.2]
+        [BroadcastChatType:Notify]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

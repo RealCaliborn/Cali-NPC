@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SpawnGroups>
+    <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+            <SubtypeId>(NPC-BASS) Gx1</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup] 
+        [RivalAiSpawn:true]
+        [SpaceRandomEncounter:false]
+        [SpaceCargoShip:false]
+        [LunarCargoShip:false]
+        [AtmosphericCargoShip:false]
+        [PlanetaryInstallation:false]
+        [FactionOwner:BASS]
+        [ReplenishSystems:true]
+                
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [RotateFirstCockpitToForward:true]
+
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+        [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+
+        </Description>
+        <IsPirate>true</IsPirate> <!--Do not edit-->
+        <Frequency>1.0</Frequency>
+        <Prefabs>
+            <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+                <Position>
+                    <X>0.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>25</Speed>
+                <Behaviour>BH-BASS-Sentinel-G</Behaviour>
+            </Prefab>
+        </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>

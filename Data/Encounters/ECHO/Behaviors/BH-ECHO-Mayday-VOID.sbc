@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Stingray-ECHOMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseBarrageFire:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        
+
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-ECHO-OPFOR-Mayday-Rep]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Hunter-ECHOMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:2500]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+
+        [UseAmmoReplenish:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-Common-FireFixed]
+
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-ECHO-OPFOR-Mayday-Rep]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Urchin-B-ECHOMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-2500-3750-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:2500]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+
+        [UseAmmoReplenish:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-Common-FireFixed]
+
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-ECHO-OPFOR-Mayday-Rep]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Urchin-S-ECHOMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-3500-4750-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:2500]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+
+        [UseAmmoReplenish:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-Common-FireFixed]
+
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-ECHO-OPFOR-Mayday-Rep]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Chordata-ECHOMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-3500-4750-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:2500]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+
+        [UseAmmoReplenish:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-Common-FireFixed]
+
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-ECHO-OPFOR-Mayday-Rep]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-StingBaby-ECHOMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseBarrageFire:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-ECHO-OPFOR-Mayday-Rep]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-StingBro-ECHOMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseBarrageFire:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-ECHO-OPFOR-Mayday-Rep]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

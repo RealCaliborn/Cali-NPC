@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+
+<!-- PRTH Cargo Ship Default -->
+    <ContainerType CountMin="3" CountMax="3">
+      <Id>
+        <TypeId>ContainerTypeDefinition</TypeId>
+        <SubtypeId>PRTH Cargo Ship Default</SubtypeId>
+      </Id>
+      <Items>
+           <Item AmountMin="100" AmountMax="500">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Thrust</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="250" AmountMax="1000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Gold</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="250" AmountMax="1000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Platinum</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="250" AmountMax="1000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Uranium</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="2000" AmountMax="5000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Gold</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="2000" AmountMax="5000">
+                <Frequency>5</Frequency>
+                <Id>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Ice</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="2000" AmountMax="5000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Platinum</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="2000" AmountMax="5000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Uranium</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="3" AmountMax="6">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>PhysicalGunObject</TypeId>
+                    <SubtypeId>AngleGrinder4Item</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="3" AmountMax="6">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>PhysicalGunObject</TypeId>
+                    <SubtypeId>UltimateAutomaticRifleItem</SubtypeId>
+                </Id>
+            </Item>
+        </Items>
+    </ContainerType>
+<!-- PRTH Cargo Ship Default -->
+
+  </ContainerTypes>
+</Definitions>

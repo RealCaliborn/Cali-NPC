@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Applied to the protected entity in NPC-Protection encounters. -->
+    <!-- On hostile player approach: spawns GKNT escort fighters via NPC-Protection-GetHelp-*. -->
+    <!-- On damage: TG-Common-NPC-Protection-Tx (separate TG on same behavior) broadcasts -->
+    <!-- NPC-Protection-Damage so those escorts switch to attack the attacker. -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GKNT-Protected</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GKNT-Protected-HostileApproach]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Protected-HostileApproach</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:4000]
+
+        [MinPlayerReputation:-1500]
+        [MaxPlayerReputation:-1]
+
+        [MinCooldownMs:30000]
+        [MaxCooldownMs:60000]
+        [StartsReady:true]
+        [MaxActions:2]
+        [Actions:AC-GKNT-Protected-CallEscort]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Protected-CallEscort</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:80]
+        [SpawnEncounter:true]
+        [Spawner:SP-GKNT-Protected-Escort]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-GKNT-Protected-Escort</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+
+      [UseSpawn:true]
+
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:2]
+
+      [SpawnGroups:NPC-Protection-GetHelp-Base]
+      [SpawnGroups:NPC-Protection-GetHelp-Light]
+      [SpawnGroups:NPC-Protection-GetHelp-Heavy]
+
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:1000]
+      [MaxDistance:2000]
+      [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

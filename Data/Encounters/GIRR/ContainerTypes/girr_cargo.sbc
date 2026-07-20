@@ -1,0 +1,171 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+
+<!-- GIRR Cargo Default -->
+    <ContainerType CountMin="3" CountMax="3">
+      <Id>
+        <TypeId>ContainerTypeDefinition</TypeId>
+        <SubtypeId>GIRR Cargo Ship Default</SubtypeId>
+      </Id>
+      <Items>
+           <Item AmountMin="250" AmountMax="1000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>BulletproofGlass</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="250" AmountMax="1000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Construction</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="100" AmountMax="300">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Explosives</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="250" AmountMax="1000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Girder</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="250" AmountMax="1000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>InteriorPlate</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="100" AmountMax="300">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>LargeTube</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="250" AmountMax="1000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>MetalGrid</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="250" AmountMax="1000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>SmallTube</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="1000" AmountMax="2000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>SteelPlate</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="1000" AmountMax="5000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Iron</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="1000" AmountMax="5000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Nickel</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="1000" AmountMax="5000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Silicon</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="250" AmountMax="1000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Cobalt</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="250" AmountMax="1000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Magnesium</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="1000" AmountMax="2000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Ice</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="3000" AmountMax="7500">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Iron</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="3000" AmountMax="7500">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Nickel</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="3000" AmountMax="7500">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Silicon</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="2000" AmountMax="5000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Cobalt</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="2000" AmountMax="5000">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Magnesium</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="3" AmountMax="6">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>PhysicalGunObject</TypeId>
+                    <SubtypeId>AngleGrinder4Item</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="3" AmountMax="6">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>PhysicalGunObject</TypeId>
+                    <SubtypeId>UltimateAutomaticRifleItem</SubtypeId>
+                </Id>
+            </Item>
+        </Items>
+    </ContainerType>
+<!-- GIRR Cargo Default -->
+
+  </ContainerTypes>
+</Definitions>

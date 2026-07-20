@@ -1,0 +1,128 @@
+<?xml version="1.0"?>
+<!-- Cali-NPC V3 3.0.5 -->
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Factions>
+	
+		<Faction Tag="VOID" Founder="Emptiness"> <!--Must Be Unique-->
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>VOID</SubtypeId> <!--Must Be Unique-->
+			</Id>
+			<DisplayName>Void Walkers</DisplayName>
+			<Description>The Void Walkers are a nomadic race who hide in space and attack passers by at their own free will.</Description>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Enemies</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>true</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\PirateIcon.dds</FactionIcon> <!--Game or Mod Path For Texture File-->
+		</Faction>
+
+		<Faction Tag="PRTH" Founder="Triton"> <!--Must Be Unique-->
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>PRTH</SubtypeId> <!--Must Be Unique-->
+			</Id>
+			<DisplayName>Poseidon's Wrath</DisplayName>
+			<Description>Poseidon's Wrath is a group of religious zealots seeking to cleanse the stars in the name of the true gods of old. Distrustful of all other space interstellar factions, they wage an intense holy war.</Description>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Enemies</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>true</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\PirateIcon.dds</FactionIcon> <!--Game or Mod Path For Texture File-->
+		</Faction>
+
+		<Faction Tag="GKNT" Founder="Ace Gold"> <!--Must Be Unique-->
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>GKNT</SubtypeId> <!--Must Be Unique-->
+			</Id>
+			<DisplayName>Golden Knights</DisplayName>
+			<Description>The Golden Knights are a police force started by the founder Ace Gold. They strive to keep space clear of wrong doings done by the void and other malicious entities.</Description>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Neutral</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<DefaultRelationToPlayers>Neutral</DefaultRelationToPlayers>
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>true</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\PirateIcon.dds</FactionIcon> <!--Game or Mod Path For Texture File-->
+		</Faction>
+
+		<Faction Tag="GIRR" Founder="Geraldine Shultz"> <!--Must Be Unique-->
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>GIRR</SubtypeId> <!--Must Be Unique-->
+			</Id>
+			<DisplayName>Gerry's Independent Republican Regiment</DisplayName>
+			<Description>A paramilitary organization of ships and stations with a fanatical dedication to founding their own sovereign government in the lawless reaches of the black hole accretion disk known to the locals as "Roach Motel". Depending on who is asked, GIRR has been called pirates, freedom fighters, separatists, or even terrorists. Despite this, GIRR always seems to find enough recruits and ships to violently annex more and more territory.</Description>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Enemies</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>true</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\PirateIcon.dds</FactionIcon> <!--Game or Mod Path For Texture File-->
+		</Faction>
+
+		<Faction Tag="ECHO" Founder="Haxor Black"> <!--Must Be Unique-->
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>ECHO</SubtypeId> <!--Must Be Unique-->
+			</Id>
+			<DisplayName>Enclave for Control of the Human Order</DisplayName>
+			<Description>The enclave is a sect of humans who vie for their AI overlords to control all of the human population. It is thought that there may be a human incharge but we may never know.</Description>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Neutral</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<DefaultRelationToPlayers>Neutral</DefaultRelationToPlayers>
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>true</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\PirateIcon.dds</FactionIcon> <!--Game or Mod Path For Texture File-->
+		</Faction>
+
+		<Faction Tag="BASS" Founder="Manny"> <!--Must Be Unique-->
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>BASS</SubtypeId> <!--Must Be Unique-->
+			</Id>
+			<DisplayName>Blackmoon Allied Security Services</DisplayName>
+			<Description>Blackwater Allied Security Services is a private military corporation that sells its services to the highest bidder. The investment firm Parks and Gimbal, who owns a large share of ASTRA's debt, also owns a controlling interest in BASS. Because of this it is rumored that they work to create opprutunities for ASTRA to sell more of its wares.</Description>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Enemies</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>true</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\PirateIcon.dds</FactionIcon> <!--Game or Mod Path For Texture File-->
+		</Faction>
+
+		<Faction Tag="ASTRA" Founder="Auto"> <!--Must Be Unique-->
+			<Id>
+				<TypeId>MyObjectBuilder_FactionDefinition</TypeId> <!--Do Not Edit-->
+				<SubtypeId>ASTRA</SubtypeId> <!--Must Be Unique-->
+			</Id>
+			<DisplayName>Allied Astronautical</DisplayName>
+			<Description>A corporation of arms dealers and warmongers skirting the legal line and often dipping into suspect (but lucrative) endeavors. ASTRA always goes where there is credits to be made. They may hire 3rd parties to keep their record squeaky clean.</Description>
+			<IsDefault>true</IsDefault>
+			<DefaultRelation>Neutral</DefaultRelation> <!--Enemies, Neutral, Friends-->
+			<DefaultRelationToPlayers>Neutral</DefaultRelationToPlayers>
+			<AcceptHumans>false</AcceptHumans>
+			<AutoAcceptMember>false</AutoAcceptMember>
+			<StartingBalance>1000000</StartingBalance>
+			<Type>None</Type> <!--None, Miner, Trader, Builder-->
+			<DiscoveredByDefault>true</DiscoveredByDefault>
+			<FactionIcon>Textures\FactionLogo\PirateIcon.dds</FactionIcon> <!--Game or Mod Path For Texture File-->
+		</Faction>
+	</Factions>
+</Definitions>

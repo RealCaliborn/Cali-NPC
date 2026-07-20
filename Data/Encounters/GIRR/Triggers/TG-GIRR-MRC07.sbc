@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GIRR-MRC07</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GIRR-MRC07-Engaging]
+        [Triggers:TR-GIRR-MRC07-Backup1]
+        [Triggers:TR-GIRR-MRC07-Backup2]
+        [Triggers:TR-GIRR-MRC07-Backup3]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-MRC07-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:BehaviorTriggerA]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-MRC07-Engaging]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-MRC07-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-MRC07-Engaging]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-GIRR-MRC07-Engaging]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-GIRR-MRC07-Backup1]
+        [ResetTriggerCooldownNames:TR-GIRR-MRC07-Backup2]
+        [ResetTriggerCooldownNames:TR-GIRR-MRC07-Backup3]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-GIRR-MRC07-Backup1]
+        [EnableTriggerNames:TR-GIRR-MRC07-Backup2]
+        [EnableTriggerNames:TR-GIRR-MRC07-Backup3]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-MRC07-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:MRC07]
+        [Color:Red]
+
+        [Chance:80]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Sector HQ is compromised, all units: RTB and defend!]
+        [BroadcastChatType:Chat]
+        [ChatMessages:HQ under attack, all units: RTB.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:They fell into our trap, close the net!]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-MRC07-Backup1</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-MRC07-Backup1]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-MRC07-Backup1</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-GIRR-MRC07-Backup1]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-MRC07-Backup]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-GIRR-MRC07-Backup]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-MRC07-Backup2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:360000]
+        [MaxCooldownMs:360001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-MRC07-Backup2]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-MRC07-Backup2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-GIRR-MRC07-Backup2]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-MRC07-Backup]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-GIRR-MRC07-Backup]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-MRC07-Backup3</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:600000]
+        [MaxCooldownMs:600001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-MRC07-Backup3]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-MRC07-Backup3</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-GIRR-MRC07-Backup3]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-MRC07-Backup]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-GIRR-MRC07-Backup]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-MRC07-Backup</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:GIRR]
+        [Color:Red]
+
+        [Chance:80]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Friendlies inbound.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Taking up defensive position.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:We're here!]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-GIRR-MRC07-Backup</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+
+      [UseSpawn:true]
+
+      [SpawningType:CustomSpawn]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:-1]
+
+      [SpawnGroups:(NPC-GIRR) CruiserSpawn Transport]
+      [SpawnGroups:(NPC-GIRR) CruiserSpawn Miner]
+      [SpawnGroups:(NPC-GIRR) CruiserSpawn Merchant]
+
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:1500]
+      [MaxDistance:3000]
+      [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

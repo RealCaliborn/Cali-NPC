@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GIRR-Cargo-Easy</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GIRR-Cargo-Easy-CallSupport-Call]
+        [Triggers:TR-GIRR-Cargo-Easy-CallSupport-Response]
+        [Triggers:TR-GIRR-Cargo-Easy-CallSupport-Spawn]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-GIRR-Cargo-Easy-CallSupport-Call</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:6000]
+        [StartsReady:true]
+        [MinCooldownMs:3000]
+        [MaxCooldownMs:3001]
+        [MaxActions:1]
+
+        [Actions:AC-GIRR-Cargo-Easy-CallSupport-Call]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-GIRR-Cargo-Easy-CallSupport-Call</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+      
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Cargo-All-CallSupport-Call]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-GIRR-Cargo-Easy-CallSupport-Response]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-GIRR-Cargo-Easy-CallSupport-Response]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-GIRR-Cargo-Easy-CallSupport-Call]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-GIRR-Cargo-Easy-CallSupport-Response</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [StartsReady:false]
+        [MinCooldownMs:2000]
+        [MaxCooldownMs:2001]
+        [MaxActions:1]
+
+        [Actions:AC-GIRR-Cargo-Easy-CallSupport-Response]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-GIRR-Cargo-Easy-CallSupport-Response</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+      
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Cargo-All-CallSupport-Affirmative]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-GIRR-Cargo-Easy-CallSupport-Spawn]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-GIRR-Cargo-Easy-CallSupport-Spawn]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-GIRR-Cargo-Easy-CallSupport-Response]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-GIRR-Cargo-Easy-CallSupport-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [StartsReady:false]
+        [MinCooldownMs:2000]
+        [MaxCooldownMs:2001]
+        [MaxActions:1]
+
+        [Actions:AC-GIRR-Cargo-Easy-CallSupport-Spawn]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-GIRR-Cargo-Easy-CallSupport-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+      
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-GIRR-Cargo-Easy-CallSupport-Spawn]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-GIRR-Cargo-Easy-CallSupport-Spawn]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-GIRR-Cargo-Easy-CallSupport-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:CustomSpawn]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:1]
+      
+      [SpawnGroups:(NPC-GIRR) CruiserSpawn Hauler]
+      [SpawnGroups:(NPC-GIRR) CruiserSpawn Transport]
+      [SpawnGroups:(NPC-GIRR) CruiserSpawn Miner]
+      [SpawnGroups:(NPC-GIRR) CruiserSpawn Merchant]
+      
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:1500]
+      [MaxDistance:2500]
+      [IgnoreSafetyChecks:false]
+      
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

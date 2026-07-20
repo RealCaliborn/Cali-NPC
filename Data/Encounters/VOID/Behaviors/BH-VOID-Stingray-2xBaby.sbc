@@ -1,0 +1,107 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Stingray-2xBaby</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseBarrageFire:false]
+
+        [TriggerGroups:TG-Common-PvE-Hard]
+
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-VOID-Reputation]
+
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [Triggers:TR-VOID-Stingray-2xBaby]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-VOID-Stingray-2xBaby</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+      [Type:PlayerNear]
+      [StartsReady:true]
+      [UseTrigger:true]
+      [MaxActions:3]
+      [MinCooldownMs:30000]
+      [MaxCooldownMs:60000]
+      [TargetDistance:2500]
+      [Actions:AC-VOID-Stingray-2xBaby]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-VOID-Stingray-2xBaby</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      
+      [UseChatBroadcast:true]
+      [ChatData:CH-VOID-CallSupport]
+
+      [SpawnEncounter:true]
+      [Spawner:SP-VOID-Spawn-2xStingbaby]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-VOID-Spawn-2xStingbaby</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      [UseSpawn:true]
+      
+      [StartsReady:true]
+      [MaxSpawns:1]
+      
+      [SpawnGroups:(NPC-VOID) Stingbaby2]
+
+      [SpawnMinCooldown:60]
+      [SpawnMaxCooldown:120]
+      
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:500]
+      [MaxDistance:1000]
+      [IgnoreSafetyChecks:false]
+      
+      </Description>
+      
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

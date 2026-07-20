@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CH-ECHO-Cargo-All-CallSupport-Call</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+
+      [UseChat:true]
+      [StartsReady:true]
+      [Author:Cargo Ship]
+      [Color:Red]
+
+      [Chance:100]
+      [MaxChats:1]
+      [BroadcastRandomly:true]
+
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:10000]
+
+      [ChatMessages:Requesting support for target {PlayerName}.]
+      [BroadcastChatType:Chat]
+      [ChatMessages:Reinforcement needed for {PlayerName}.]
+      [BroadcastChatType:Chat]
+      [ChatMessages:We are under attack!]
+      [BroadcastChatType:Chat]
+
+      [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CH-ECHO-Cargo-All-CallSupport-Affirmative</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+      
+      [UseChat:true]
+      [StartsReady:true]
+      [Author:HQ]
+      [Color:Red]
+      
+      [Chance:100]
+      [MaxChats:1]
+      [BroadcastRandomly:true]
+
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:10000]
+
+      [ChatMessages:Support confirmed, friendlies are spooling jump drives.]
+      [BroadcastChatType:Chat]
+      [ChatMessages:Support confirmed, the Knights are on their way.]
+      [BroadcastChatType:Chat]
+      [ChatMessages:Affirmative, Golden Knights inbound.]
+      [BroadcastChatType:Chat]
+
+      [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CH-ECHO-Cargo-All-CallSupport-Negative</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+      
+      [UseChat:true]
+      [StartsReady:true]
+      [Author:HQ]
+      [Color:Red]
+
+      [Chance:100]
+      [MaxChats:1]
+      [BroadcastRandomly:true]
+
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:10000]
+
+      [ChatMessages:Unable, nearest support is 2 jumps out.]
+      [BroadcastChatType:Chat]
+      [ChatMessages:Negative, no Knights are in your sector.]
+      [BroadcastChatType:Chat]
+      [ChatMessages:Unable, all forces are already engaged.]
+      [BroadcastChatType:Chat]
+
+      [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

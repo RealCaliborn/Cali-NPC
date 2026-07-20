@@ -1,0 +1,405 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <SpawnGroups>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-VOID) ECHO Mayday Wave 2baby2bro</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [RivalAiSpawn:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+
+            [FactionOwner:VOID]
+            [ReplenishSystems:true]
+
+            [ReplaceArmorBlocksWithModules:true]
+            [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+            [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-VOID) Stingbaby">
+                    <Position>
+                        <X>375.4</X>
+                        <Y>250.2</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-StingBaby-ECHOMayday</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-VOID) Stingbaby">
+                    <Position>
+                        <X>-375.4</X>
+                        <Y>250.2</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-StingBaby-ECHOMayday</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-VOID) StingBro">
+                    <Position>
+                        <X>375.4</X>
+                        <Y>-250.2</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-StingBro-ECHOMayday</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-VOID) StingBro">
+                    <Position>
+                        <X>-375.4</X>
+                        <Y>-250.2</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-StingBro-ECHOMayday</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-VOID) ECHO Mayday Wave 1hunter1urchin</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [RivalAiSpawn:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+
+            [FactionOwner:VOID]
+            [ReplenishSystems:true]
+
+            [ReplaceArmorBlocksWithModules:true]
+            [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+            [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-VOID) Hunter">
+                    <Position>
+                        <X>208.2</X>
+                        <Y>138.8</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-Hunter-ECHOMayday</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-VOID) Urchin B">
+                    <Position>
+                        <X>-208.2</X>
+                        <Y>-138.8</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-Urchin-B-ECHOMayday</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-VOID) ECHO Mayday Wave 1Stingray2baby</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [RivalAiSpawn:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+
+            [FactionOwner:VOID]
+            [ReplenishSystems:true]
+
+            [ReplaceArmorBlocksWithModules:true]
+            [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+            [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-VOID) Stingray">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-Stingray-ECHOMayday</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-VOID) Stingbaby">
+                    <Position>
+                        <X>474.8</X>
+                        <Y>158.3</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-StingBaby-ECHOMayday</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-VOID) Stingbaby">
+                    <Position>
+                        <X>-474.8</X>
+                        <Y>158.3</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-StingBaby-ECHOMayday</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-VOID) ECHO Mayday Wave 1Stingray1Hunter1UrchinB</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [RivalAiSpawn:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+
+            [FactionOwner:VOID]
+            [ReplenishSystems:true]
+
+            [ReplaceArmorBlocksWithModules:true]
+            [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+            [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-VOID) Stingray">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-Stingray-ECHOMayday</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-VOID) Hunter">
+                    <Position>
+                        <X>474.8</X>
+                        <Y>158.3</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-Hunter-ECHOMayday</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-VOID) Urchin B">
+                    <Position>
+                        <X>-474.8</X>
+                        <Y>158.3</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-Urchin-B-ECHOMayday</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-VOID) ECHO Mayday Wave 1Stingray1UrchinB1UrchinS2Bro</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [RivalAiSpawn:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+
+            [FactionOwner:VOID]
+            [ReplenishSystems:true]
+
+            [ReplaceArmorBlocksWithModules:true]
+            [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+            [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-VOID) Stingray">
+                    <Position>
+                        <X>500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-Stingray-ECHOMayday</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-VOID) Urchin B">
+                    <Position>
+                        <X>1000.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-Urchin-B-ECHOMayday</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-VOID) Urchin S">
+                    <Position>
+                        <X>-1000.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-Urchin-S-ECHOMayday</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-VOID) StingBro">
+                    <Position>
+                        <X>-500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-StingBro-ECHOMayday</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-VOID) StingBro">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-StingBro-ECHOMayday</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-VOID) ECHO Mayday Wave 2Stingray1Chordata1UrchinS</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [RivalAiSpawn:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+
+            [FactionOwner:VOID]
+            [ReplenishSystems:true]
+
+            [ReplaceArmorBlocksWithModules:true]
+            [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+            [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-VOID) Stingray">
+                    <Position>
+                        <X>300.0</X>
+                        <Y>250.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-Stingray-ECHOMayday</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-VOID) Stingray">
+                    <Position>
+                        <X>300.0</X>
+                        <Y>-250.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-Stingray-ECHOMayday</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-VOID) Chordata">
+                    <Position>
+                        <X>-300.0</X>
+                        <Y>250.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-Chordata-ECHOMayday</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-VOID) Urchin S">
+                    <Position>
+                        <X>-300.0</X>
+                        <Y>-250.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-VOID-Urchin-S-ECHOMayday</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+      </SpawnGroups>
+</Definitions>

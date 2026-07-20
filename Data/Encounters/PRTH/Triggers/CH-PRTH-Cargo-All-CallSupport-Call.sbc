@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CH-PRTH-Cargo-All-CallSupport-Call</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+
+      [UseChat:true]
+      [StartsReady:true]
+      [Author:Cargo Ship]
+      [Color:Red]
+
+      [Chance:100]
+      [MaxChats:1]
+      [BroadcastRandomly:true]
+
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:10000]
+
+      [ChatMessages:The heathens come to take what it ours.]
+      [BroadcastChatType:Chat]
+      [ChatMessages:The unclean threaten us...]
+      [BroadcastChatType:Chat]
+      [ChatMessages:There is another here, send the sharks.]
+      [BroadcastChatType:Chat]
+
+      [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CH-PRTH-Cargo-All-CallSupport-Affirmative</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+
+      [UseChat:true]
+      [StartsReady:true]
+      [Author:HQ]
+      [Color:Red]
+
+      [Chance:100]
+      [MaxChats:1]
+      [BroadcastRandomly:true]
+
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:10000]
+
+      [ChatMessages:Our warriors are coming to make the Endless Ocean safe.]
+      [BroadcastChatType:Chat]
+      [ChatMessages:We protect all who have faith, ships incoming.]
+      [BroadcastChatType:Chat]
+      [ChatMessages:The foolish mortals don't realize what awaits them.]
+      [BroadcastChatType:Chat]
+
+      [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CH-PRTH-Cargo-All-CallSupport-Negative</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+
+      [UseChat:true]
+      [StartsReady:true]
+      [Author:HQ]
+      [Color:Red]
+
+      [Chance:100]
+      [MaxChats:1]
+      [BroadcastRandomly:true]
+
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:10000]
+
+      [ChatMessages:There are none who can help, Poseidon be with you.]
+      [BroadcastChatType:Chat]
+      [ChatMessages:The Fates are against you, there is no help to be had.]
+      [BroadcastChatType:Chat]
+      [ChatMessages:Your stars are crossed, there are none who can reach you in time.]
+      [BroadcastChatType:Chat]
+
+      [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

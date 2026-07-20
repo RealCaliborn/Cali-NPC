@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!--ReceiveTarget-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-Common-EconDespawnTimer</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-Common-EconDespawnTimer]
+        [Triggers:TR-Common-EconDespawnPlayerFar]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-Common-EconDespawnTimer</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:3600000]
+        [MaxCooldownMs:3601000]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-Common-EconDespawnTimer]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-Common-EconDespawnTimer</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-Common-EconDespawnPlayerFar]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-Common-EconDespawnTimer]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-Common-EconDespawnPlayerFar</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:PlayerFar]
+        [TargetDistance:500]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:1001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-Common-EconDespawn]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-Common-EconDespawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ForceDespawn:true]
+
+      </Description>
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

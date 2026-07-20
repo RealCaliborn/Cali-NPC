@@ -1,0 +1,72 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!--ScreamBroadcast-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-LeviathanBroadcast</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:6000]
+        [MaxCooldownMs:1800000]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-VOID-LeviathanBroadcast]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-LeviathanBroadcast</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:100]
+        [UseChatBroadcast:true]
+        [ChatData:CH-VOID-LeviathanBroadcast]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-VOID-LeviathanBroadcast</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:-1]
+        [BroadcastRandomly:true]
+        [Author:Darkness Emissary]
+        [Color:Red]
+
+        [IgnoreAntennaRequirement:true]
+
+        [ChatMessages: Tremble mortals and despair! ]
+        [ChatAudio:Void-Screams-Levi]
+        [BroadcastChatType:Chat]
+        [ChatVolumeMultiplier:0.25]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

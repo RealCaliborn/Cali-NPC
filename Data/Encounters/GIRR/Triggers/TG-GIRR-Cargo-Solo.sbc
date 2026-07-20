@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GIRR-Cargo-Solo</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GIRR-Cargo-Solo-CallSupport-Call]
+        [Triggers:TR-GIRR-Cargo-Solo-CallSupport-Response]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-GIRR-Cargo-Solo-CallSupport-Call</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:6000]
+        [StartsReady:true]
+        [MinCooldownMs:3000]
+        [MaxCooldownMs:3001]
+        [MaxActions:1]
+
+        [Actions:AC-GIRR-Cargo-Solo-CallSupport-Call]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-GIRR-Cargo-Solo-CallSupport-Call</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+      
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Cargo-All-CallSupport-Call]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-GIRR-Cargo-Solo-CallSupport-Response]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-GIRR-Cargo-Solo-CallSupport-Response]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-GIRR-Cargo-Solo-CallSupport-Call]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-GIRR-Cargo-Solo-CallSupport-Response</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [StartsReady:false]
+        [MinCooldownMs:2000]
+        [MaxCooldownMs:2001]
+        [MaxActions:1]
+
+        [Actions:AC-GIRR-Cargo-Solo-CallSupport-Response]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-GIRR-Cargo-Solo-CallSupport-Response</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Cargo-All-CallSupport-Negative]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-GIRR-Cargo-Solo-CallSupport-Response]
+
+        [ChangeAutopilotSpeed:true]
+        [NewAutopilotSpeed:60]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

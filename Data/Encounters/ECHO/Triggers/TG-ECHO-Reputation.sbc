@@ -1,0 +1,251 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-ECHO-Reputation</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-ECHO-Reputation-GeneralDamage]
+        [Triggers:TR-ECHO-Reputation-PRTH-GeneralDamage]
+        [Triggers:TR-ECHO-Reputation-Compromised]
+        [Triggers:TR-ECHO-Reputation-GrindDamage]
+        [Triggers:TR-ECHO-Reputation-PRTH-GrindDamage]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-Reputation-GeneralDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        
+        [DamageTypes:Any]
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        
+        [MinCooldownMs:100]
+        [MaxCooldownMs:101]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-Reputation-GeneralDamage]
+        [Actions:AC-ECHO-Reputation-GKNT-GeneralDamage]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-Reputation-GeneralDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeAttackerReputation:true]
+        [ChangeAttackerReputationFaction:ECHO]
+        [ChangeAttackerReputationAmount:-5]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-Reputation-GKNT-GeneralDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeAttackerReputation:true]
+        [ChangeAttackerReputationFaction:GKNT]
+        [ChangeAttackerReputationAmount:-1]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-Reputation-PRTH-GeneralDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        
+        [DamageTypes:Any]
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        
+        [MinCooldownMs:5000]
+        [MaxCooldownMs:5001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-Reputation-PRTH-GeneralDamage]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-Reputation-PRTH-GeneralDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeAttackerReputation:true]
+        [ChangeAttackerReputationFaction:PRTH]
+        [ChangeAttackerReputationAmount:1]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-Reputation-Compromised</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Compromised]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-Reputation-Compromised]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-Reputation-Compromised</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeAttackerReputation:true]
+        [ChangeAttackerReputationFaction:ECHO]
+        [ChangeAttackerReputationAmount:-100]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-Reputation-GrindDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Grind]
+        [MinCooldownMs:100]
+        [MaxCooldownMs:101]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-Reputation-GrindDamage]
+        [Actions:AC-ECHO-Reputation-GKNT-GrindDamage]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-Reputation-GrindDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeAttackerReputation:true]
+        [ChangeAttackerReputationFaction:ECHO]
+        [ChangeAttackerReputationAmount:-5]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-Reputation-GKNT-GrindDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeAttackerReputation:true]
+        [ChangeAttackerReputationFaction:GKNT]
+        [ChangeAttackerReputationAmount:-1]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-Reputation-PRTH-GrindDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Grind]
+        [MinCooldownMs:5000]
+        [MaxCooldownMs:5001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-Reputation-PRTH-GrindDamage]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-Reputation-PRTH-GrindDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeAttackerReputation:true]
+        [ChangeAttackerReputationFaction:PRTH]
+        [ChangeAttackerReputationAmount:1]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Sounds>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Void-Screams</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>2000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+
+        <Wave Type="D3">
+          <Start>Audio\void-screams-med-01.xwm</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\void-screams-med-02.xwm</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\void-screams-med-03.xwm</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\void-screams-med-04.xwm</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\void-screams-med-05.xwm</Start>
+        </Wave>
+        
+      </Waves>
+    </Sound>
+
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Void-Screams-Levi</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>15000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+
+        <Wave Type="D3">
+          <Start>Audio\voidvoice.wav</Start>
+        </Wave>
+        
+      </Waves>
+    </Sound>
+
+        <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>Asim-Legion</SubtypeId>
+      </Id>
+      <Category>SHOT</Category>
+      <MaxDistance>5000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>1.0</Volume>
+      <Waves>
+
+        <Wave Type="D3">
+          <Start>Audio\voidvoice.wav</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\voidvoice.wav</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\voidvoice.wav</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\voidvoice.wav</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\voidvoice.wav</Start>
+        </Wave>
+        
+      </Waves>
+    </Sound>
+
+
+  </Sounds>
+  
+</Definitions>

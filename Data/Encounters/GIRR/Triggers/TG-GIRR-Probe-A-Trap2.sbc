@@ -1,0 +1,141 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Trigger Group TG-GIRR-Transport is all of the Transport-specific triggers -->
+    <!-- This file contains all related triggers, actions, and chats -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GIRR-Probe-A-Trap2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GIRR-Probe-A-Send]
+        [Triggers:TR-GIRR-Probe-A-Player-Near]
+        [Triggers:TR-GIRR-Probe-A-Trap2-Player-Really-Near]
+        [Triggers:TR-GIRR-Probe-A-Trap2-TrapSpawner]
+		
+      </Description>
+    </EntityComponent>
+
+    <!-- This block covers chatter when the first turret locks on the first target -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Probe-A-Trap2-Player-Really-Near</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [MinCooldownMs:90000]
+        [MaxCooldownMs:150000]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:4800]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GIRR-Probe-A-Trap2-Player-Really-Near]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Probe-A-Trap2-Player-Really-Near</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Probe-A-Player-Really-Near]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-GIRR-Probe-A-Trap2-Player-Really-Near]
+        [Spawner:SP-GIRR-Probe-A-Trap2-Player-Really-Near]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-GIRR-Probe-A-Trap2-TrapSpawner]
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-GIRR-Probe-A-Trap2-TrapSpawner]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-GIRR-Probe-A-Trap2-Player-Really-Near]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Probe-A-Trap2-TrapSpawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [MinCooldownMs:90000]
+        [MaxCooldownMs:150000]
+
+        [UseTrigger:false]
+        [Type:PlayerNear]
+        [TargetDistance:8000]
+        [StartsReady:false]
+        [MaxActions:6]
+        [Actions:AC-GIRR-Probe-A-Trap2-TrapSpawner]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Probe-A-Trap2-TrapSpawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-GIRR-Probe-A-Trap2-Player-Really-Near]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-GIRR-Probe-A-Trap2-Player-Really-Near</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:CustomSpawn]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:-1]
+      
+      [SpawnGroups:(NPC-GIRR) CruiserSpawn Hauler]
+      [SpawnGroups:(NPC-GIRR) CruiserSpawn Transport]
+      [SpawnGroups:(NPC-GIRR) CruiserSpawn Miner]
+      [SpawnGroups:(NPC-GIRR) CruiserSpawn Merchant]
+      
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:1500]
+      [MaxDistance:2500]
+      [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

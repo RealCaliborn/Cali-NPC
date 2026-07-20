@@ -1,0 +1,114 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Answer-Kraken-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:CommandReceived]
+                
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-VOID-Kraken-Calling-Port]
+        [Actions:AC-VOID-Answer-Kraken-Port]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Answer-Kraken-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-VOID-Baby-Answering-Port]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CO-VOID-Baby-Answering-Port</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Command]
+
+      [CommandCode:CO-VOID-Baby-Answering-Port]
+      [MatchSenderReceiverOwners:true]
+      [IgnoreAntennaRequirement:true]
+      [Radius:12000]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Answer-Kraken-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:CommandReceived]
+                
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-VOID-Kraken-Calling-Starboard]
+        [Actions:AC-VOID-Answer-Kraken-Starboard]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Answer-Kraken-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-VOID-Baby-Answering-Starboard]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CO-VOID-Baby-Answering-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Command]
+      
+      [CommandCode:CO-VOID-Baby-Answering-Starboard]
+      [MatchSenderReceiverOwners:true]
+      [IgnoreAntennaRequirement:true]
+      [Radius:12000]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

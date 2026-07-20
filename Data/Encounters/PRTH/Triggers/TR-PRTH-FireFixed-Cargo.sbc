@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- No-target blind-fire trigger for the PRTH cargo behaviors (Bulk Freighter, Cargo Hauler): CargoShip behavior never acquires a target, so TR-Common-FireFixed (TargetNear) never fires. PlayerNear pulses the same Timer Block Shoot timer instead. -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-PRTH-FireFixed-Cargo</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+      [Type:PlayerNear]
+      [TargetDistance:2500]
+
+      [StartsReady:true]
+      [UseTrigger:true]
+      [MaxActions:-1]
+      [MinCooldownMs:10000]
+      [MaxCooldownMs:20000]
+
+      [Actions:AC-Common-FireFixed]
+
+      </Description>
+
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

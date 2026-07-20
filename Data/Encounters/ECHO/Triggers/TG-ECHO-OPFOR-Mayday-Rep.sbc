@@ -1,0 +1,193 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-ECHO-OPFOR-Mayday-Rep</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-ECHO-OPFOR-Mayday-Damaged]
+        [Triggers:TR-ECHO-OPFOR-Mayday-Compromised]
+        [Triggers:TR-ECHO-OPFOR-Mayday-NoMoreRep]
+        [Triggers:TR-ECHO-OPFOR-Mayday-CheckAlive-Respond]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-OPFOR-Mayday-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        
+        [DamageTypes:Any]
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        
+        [MinCooldownMs:5000]
+        [MaxCooldownMs:5001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-OPFOR-Mayday-Damaged]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-OPFOR-Mayday-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeReputationWithPlayers:true]
+        [ReputationChangeRadius:6000]
+        [ReputationChangeFactions:ECHO]
+        [ReputationChangeAmount:1]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-OPFOR-Mayday-Compromised</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Compromised]
+
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-OPFOR-Mayday-Compromised]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-OPFOR-Mayday-Compromised</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeReputationWithPlayers:true]
+        [ReputationChangeRadius:6000]
+        [ReputationChangeFactions:ECHO]
+        [ReputationChangeAmount:20]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-OPFOR-Mayday-NoMoreRep</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:210000]
+        [MaxCooldownMs:210001]
+        [StartsReady:false]
+        [MaxActions:1]
+        [Actions:AC-ECHO-OPFOR-Mayday-NoMoreRep]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-OPFOR-Mayday-NoMoreRep</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-OPFOR-Mayday-Damaged]
+        [DisableTriggerNames:TR-ECHO-OPFOR-Mayday-Compromised]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-OPFOR-Mayday-CheckAlive-Respond</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:CommandReceived]
+                
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-ECHO-OPFOR-Mayday-CheckAlive]
+        [Actions:AC-ECHO-OPFOR-Mayday-CheckAlive-Respond]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-OPFOR-Mayday-CheckAlive-Respond</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-ECHO-OPFOR-Mayday-CheckAlive-Respond]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CO-ECHO-OPFOR-Mayday-CheckAlive-Respond</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Command]
+
+      [CommandCode:CO-ECHO-OPFOR-Mayday-CheckAlive-Respond]
+      [MatchSenderReceiverOwners:false]
+      [IgnoreAntennaRequirement:true]
+      [Radius:12000]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

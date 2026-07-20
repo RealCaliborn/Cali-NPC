@@ -1,0 +1,201 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Trigger Group TG-GIRR-LeadShip is all of the triggers and action at the "per-encounter" level -->
+    <!-- This file contains all related triggers, actions, and chats -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GIRR-LeadShip</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GIRR-LeadShip-AcquiredTarget]
+        [Triggers:TR-GIRR-LeadShip-LostTarget]
+
+      </Description>
+
+    </EntityComponent>
+    
+    <!-- This block covers the initial engagement triggers and actions -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-LeadShip-AcquiredTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:BehaviorTriggerA]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-LeadShip-AcquiredTarget]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-LeadShip-AcquiredTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-LeadShip-AcquiredTarget-Notify]
+        [ChatData:CH-GIRR-LeadShip-AcquiredTarget]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-LeadShip-AcquiredTarget-Notify</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:-1]
+        [BroadcastRandomly:false]
+        [BroadcastChatType:Notify]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [Author:GIRR]
+        [Color:Red]
+
+        [ChatMessages:GIRR {AntennaName} has Detected a Potential Target]
+        [ChatAudio:Detection-1]
+        [ChatVolumeMultiplier:0.2]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-LeadShip-AcquiredTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Chance:80]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [Author:GIRR]
+        [Color:Red]
+
+        [ChatMessages:Patrol 22A, HQ... We've got a tango, moving to attack positions.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Patrol 4B to HQ... I've got something on my scopes, we're going to check it out...]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Patrol 7A, HQ, contact... Wilco, moving on last known location]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Patrol 2C calling HQ... We've got company]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Patrol 14B to HQ... Looks like we'll be bringing another wreck home!]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- This block covers the chatter when a target is lost -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-LeadShip-LostTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:BehaviorTriggerC]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-LeadShip-LostTarget]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-LeadShip-LostTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-LeadShip-LostTarget]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-LeadShip-LostTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Chance:80]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [Author:GIRR]
+        [Color:Red]
+
+        [ChatMessages:HQ, I think they bugged out. Resuming patrol.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:HQ, we lost lock. I'm going to take one more look before we resume patrol.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:HQ, we lost them.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:HQ? I think we got 'em.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Haha! HQ! They're gone, we neutranized 'em!]
+        [BroadcastChatType:Chat]
+        [ChatMessages:HQ, condition green. Heading back to assigned sector.]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

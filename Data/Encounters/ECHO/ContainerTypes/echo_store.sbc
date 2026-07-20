@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+
+<!-- ECHO Store Default -->
+    <ContainerType CountMin="3" CountMax="4">
+      <Id>
+        <TypeId>ContainerTypeDefinition</TypeId>
+        <SubtypeId>ECHO Store Default</SubtypeId>
+      </Id>
+      <Items>
+           <Item AmountMin="50" AmountMax="250">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Computer</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="20" AmountMax="80">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Detector</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="50" AmountMax="250">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Display</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="20" AmountMax="80">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>GravityGenerator</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="10" AmountMax="30">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Medical</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="20" AmountMax="80">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>RadioCommunication</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="200" AmountMax="500">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Superconductor</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="10" AmountMax="40">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>ConsumableItem</TypeId>
+                    <SubtypeId>Medkit</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="10" AmountMax="40">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>ConsumableItem</TypeId>
+                    <SubtypeId>Powerkit</SubtypeId>
+                </Id>
+            </Item>
+        </Items>
+    </ContainerType>
+<!-- ECHO Store Default -->
+
+  </ContainerTypes>
+</Definitions>

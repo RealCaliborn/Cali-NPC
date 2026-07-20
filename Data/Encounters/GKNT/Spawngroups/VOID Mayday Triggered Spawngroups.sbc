@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <SpawnGroups>
+        <!-- (NPC-VOID) Stingray -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-VOID) Mayday Stingray</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [RivalAiSpawn:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+
+            [FactionOwner:VOID]
+            [ReplenishSystems:true]
+
+            [ReplaceArmorBlocksWithModules:true]
+            [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+            [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-VOID) Stingray">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>400</Speed>
+                    <Behaviour>BH-VOID-Stingray-Mayday</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-VOID) Stingray -->
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-VOID) Mayday Hunter</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [RivalAiSpawn:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+
+            [FactionOwner:VOID]
+            [ReplenishSystems:true]
+
+            [ReplaceArmorBlocksWithModules:true]
+            [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+            [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-VOID) Hunter">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>400</Speed>
+                    <Behaviour>BH-VOID-Hunter-Mayday</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-VOID) Mayday Urchin B</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [RivalAiSpawn:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+
+            [FactionOwner:VOID]
+            [ReplenishSystems:true]
+
+            [ReplaceArmorBlocksWithModules:true]
+            [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+            [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-VOID) Urchin B">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>400</Speed>
+                    <Behaviour>BH-VOID-Urchin-B-Mayday</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+                <SubtypeId>(NPC-VOID) Mayday Stingbaby</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [RivalAiSpawn:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+
+            [FactionOwner:VOID]
+            [ReplenishSystems:true]
+                    
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+
+            </Description>
+            <IsPirate>true</IsPirate> <!--Do not edit-->
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-VOID) Stingbaby">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>400</Speed>
+                    <Behaviour>BH-VOID-Stingbaby-Mayday</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+                <SubtypeId>(NPC-VOID) Mayday StingBro</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [RivalAiSpawn:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+
+            [FactionOwner:VOID]
+            [ReplenishSystems:true]
+                    
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+
+            </Description>
+            <IsPirate>true</IsPirate> <!--Do not edit-->
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-VOID) StingBro">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>400</Speed>
+                    <Behaviour>BH-VOID-Stingbaby-Mayday</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+      </SpawnGroups>
+</Definitions>

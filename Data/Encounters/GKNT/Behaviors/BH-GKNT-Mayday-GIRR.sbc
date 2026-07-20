@@ -1,0 +1,144 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- BH-GIRR-Hauler is used for any Hauler type ships -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GIRR-Hauler-Mayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-GKNT-OPFOR-Mayday-Rep]
+
+        [TriggerGroups:TG-GIRR-Hauler]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+
+        [UseBarrageFire:false]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-GIRR-Transport is used for any Transport type ships -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GIRR-Transport-Mayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-Common-FireFixed]
+        [TriggerGroups:TG-GKNT-OPFOR-Mayday-Rep]
+
+        [TriggerGroups:TG-GIRR-Transport]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-GIRR-Miner is used for any Miner type ships -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GIRR-Miner-Mayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-3500-4750-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-GKNT-OPFOR-Mayday-Rep]
+
+        [TriggerGroups:TG-GIRR-Miner]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-GIRR-Merchant is used for any Merchant type ships -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GIRR-Merchant-Mayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-6000-8000-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-GKNT-OPFOR-Mayday-Rep]
+
+        [TriggerGroups:TG-GIRR-Merchant]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Mayday-FJ-PN</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-GKNT-Mayday-FJ-GKNT]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GKNT-MAYDAY-Player-Near]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GKNT-MAYDAY-Player-Near</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:GKNT Wing Commander]
+        [Color:Green]
+
+        [Chance:100]
+        [MaxChats:1]
+        [BroadcastRandomly:false]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:We were ambushed and they hit my wing's jump drive. Help us hold them until he can get it repaired!]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-GKNT-Mayday-FJ-GKNT</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:1]
+
+      [SpawnGroups:SG-GKNT-Mayday-Fighter-Jump]
+      
+      [UseRelativeSpawnPosition:true]
+      [RelativeSpawnOffset:{X:1500 Y:0 Z:0}]
+      [IgnoreSafetyChecks:false]
+      
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <SpawnGroups>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-PRTH) PRTH Mayday Easy Reward</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [IgnoreCleanupRules:true]
+
+            [RivalAiSpawn:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+
+            [FactionOwner:Nobody]
+            [ReplenishSystems:false]
+
+            [ClearGridInventories:true]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Reward Container|PRTH Easy Reward]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-All) SI Loot Pod">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>400</Speed>
+                    <Behaviour>BH-Common-None</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-PRTH) PRTH Mayday Medium Reward</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [IgnoreCleanupRules:true]
+
+            [RivalAiSpawn:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+
+            [FactionOwner:Nobody]
+            [ReplenishSystems:false]
+
+            [ClearGridInventories:true]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Reward Container|PRTH Medium Reward]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-All) SI Loot Pod">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>400</Speed>
+                    <Behaviour>BH-Common-None</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+      </SpawnGroups>
+</Definitions>

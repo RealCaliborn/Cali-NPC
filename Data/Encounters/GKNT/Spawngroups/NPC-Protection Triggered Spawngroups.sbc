@@ -1,0 +1,124 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SpawnGroups>
+    <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+            <SubtypeId>NPC-Protection-GetHelp-Base</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup] 
+        [RivalAiSpawn:true]
+        [SpaceRandomEncounter:false]
+        [SpaceCargoShip:false]
+        [LunarCargoShip:false]
+        [AtmosphericCargoShip:false]
+        [PlanetaryInstallation:false]
+        [FactionOwner:GKNT]
+        [ReplenishSystems:true]
+                
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        </Description>
+        <IsPirate>true</IsPirate> <!--Do not edit-->
+        <Frequency>1.0</Frequency>
+        <Prefabs>
+            <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
+                <Position>
+                    <X>0.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>400</Speed>
+                <Behaviour>BH-GKNT-NPC-Protection</Behaviour>
+            </Prefab>
+        </Prefabs>
+        <Prefabs>
+            <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
+                <Position>
+                    <X>500.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>400</Speed>
+                <Behaviour>BH-GKNT-NPC-Protection</Behaviour>
+            </Prefab>
+        </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+            <SubtypeId>NPC-Protection-GetHelp-Light</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup] 
+        [RivalAiSpawn:true]
+        [SpaceRandomEncounter:false]
+        [SpaceCargoShip:false]
+        [LunarCargoShip:false]
+        [AtmosphericCargoShip:false]
+        [PlanetaryInstallation:false]
+        [FactionOwner:GKNT]
+        [ReplenishSystems:true]
+                
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        </Description>
+        <IsPirate>true</IsPirate> <!--Do not edit-->
+        <Frequency>1.0</Frequency>
+        <Prefabs>
+            <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
+                <Position>
+                    <X>0.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>400</Speed>
+                <Behaviour>BH-GKNT-NPC-Protection</Behaviour>
+            </Prefab>
+        </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+            <SubtypeId>NPC-Protection-GetHelp-Heavy</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup] 
+        [RivalAiSpawn:true]
+        [SpaceRandomEncounter:false]
+        [SpaceCargoShip:false]
+        [LunarCargoShip:false]
+        [AtmosphericCargoShip:false]
+        [PlanetaryInstallation:false]
+        [FactionOwner:GKNT]
+        [ReplenishSystems:true]
+                
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        </Description>
+        <IsPirate>true</IsPirate> <!--Do not edit-->
+        <Frequency>1.0</Frequency>
+        <Prefabs>
+            <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
+                <Position>
+                    <X>0.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>400</Speed>
+                <Behaviour>BH-GKNT-NPC-Protection</Behaviour>
+            </Prefab>
+        </Prefabs>
+    </SpawnGroup>
+
+  </SpawnGroups>
+</Definitions>

@@ -1,0 +1,471 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-PRTH-Trident</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-PRTH-Trident-Engaging]
+        [Triggers:TR-PRTH-Trident-LaunchFighters]
+        [Triggers:TR-PRTH-Trident-LaunchFighter]
+        [Triggers:TR-PRTH-Trident-CheckFighter]
+        [Triggers:TR-PRTH-Trident-ReceiveFighter]
+        [Triggers:TR-PRTH-Trident-ShieldsDown-Spawn]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Trident-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:BehaviorTriggerA]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-PRTH-Trident-Engaging]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Trident-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-PRTH-Trident-Engaging]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-PRTH-Trident-Engaging]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-PRTH-Trident-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:Trident]
+        [Color:Red]
+
+        [Chance:100]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:I AM the wrath!]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Your judgement has come, mortal.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:This is where you meet your end, do not be a coward.]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Trident-LaunchFighters</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:2000]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-PRTH-Trident-LaunchFighters]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Trident-LaunchFighters</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-PRTH-Trident-CheckFighter]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-PRTH-Trident-LaunchFighter]
+        [EnableTriggerNames:TR-PRTH-Trident-CheckFighter]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-PRTH-Trident-LaunchFighters]
+
+      </Description>
+    </EntityComponent>
+
+
+
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Trident-LaunchFighter</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:30000]
+        [MaxCooldownMs:30001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-PRTH-Trident-LaunchFighter]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Trident-LaunchFighter</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-PRTH-Trident-LaunchFighter]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-PRTH-Trident-LaunchFighter]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-PRTH-Trident-LaunchFighter</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:4]
+      
+      [SpawnGroups:(NPC-PRTH) Spawn TridentFighter Nymph]
+      
+      [UseRelativeSpawnPosition:true]
+      [RelativeSpawnOffset:{X:0 Y:25 Z:-75}]
+      [RelativeSpawnVelocity:{X:0 Y:45 Z:0}]
+      [IgnoreSafetyChecks:true]
+      
+      </Description>
+    </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-PRTH-Trident-LaunchFighter</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:Trident]
+        [Color:Red]
+
+        [Chance:100]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Go forth, end them.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Fighter away.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Launching Nymph.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Nymph away.]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Trident-CheckFighter</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:10000]
+        [MaxCooldownMs:10001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-PRTH-Trident-CheckFighter]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Trident-CheckFighter</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-PRTH-Trident-Calling]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CO-PRTH-Trident-Calling</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Command]
+
+      [CommandCode:CO-PRTH-Trident-Calling]
+      [MatchSenderReceiverOwners:true]
+      [IgnoreAntennaRequirement:true]
+      [Radius:12000]
+
+      </Description>
+    </EntityComponent>
+
+
+
+
+
+
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Trident-ReceiveFighter</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-PRTH-Trident-Nymph-Answering]
+        [Actions:AC-PRTH-Trident-ReceiveFighter]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Trident-ReceiveFighter</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-PRTH-Trident-LaunchFighter]
+
+      </Description>
+    </EntityComponent>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Trident-ShieldsDown-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Deformation]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-PRTH-Trident-ShieldsDown-Spawn]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Trident-ShieldsDown-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-PRTH-Trident-ShieldsDown-Spawn]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-PRTH-Trident-ShieldsDown-Spawn]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-PRTH-Trident-ShieldsDown-Spawn]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-PRTH-Trident-ShieldsDown-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:1]
+      
+      [SpawnGroups:(NPC-PRTH) 1xSpeartip1xThunderbolt (OUTER)]
+      
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:1000]
+      [MaxDistance:2000]
+      [IgnoreSafetyChecks:false]
+      
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-PRTH-Trident-ShieldsDown-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:PRTH]
+        [Color:Red]
+
+        [Chance:100]
+        [MaxChats:1]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:We came as quickly as we could your holiness.]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+
+
+
+
+
+
+
+
+
+
+  </EntityComponents>
+</Definitions>

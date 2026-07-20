@@ -1,0 +1,84 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- BH-ECHO-Cargo-Solo is used for Cargo ships that do not spawn reinforcements -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-ECHO-Cargo-Solo</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:CargoShip]
+
+        [AutopilotData:AP-Common-Cargo-Default]
+
+        [TargetData:TA-GKNT-NPC-Protection-A]
+        [OverrideTargetData:TA-GKNT-NPC-Protection-B]
+
+        
+
+        [TriggerGroups:TG-ECHO-Cargo-Solo]
+        [TriggerGroups:TG-ECHO-Target-Sharing]
+        [TriggerGroups:TG-ECHO-Reputation]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-ECHO-Cargo-Easy is used for Cargo ships that spawn easy reinforcements -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-ECHO-Cargo-Easy</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:CargoShip]
+
+        [AutopilotData:AP-Common-Cargo-Default]
+
+        [TargetData:TA-GKNT-NPC-Protection-A]
+        [OverrideTargetData:TA-GKNT-NPC-Protection-B]
+
+        
+
+        [TriggerGroups:TG-ECHO-Cargo-Easy]
+        [TriggerGroups:TG-ECHO-Target-Sharing]
+        [TriggerGroups:TG-ECHO-Reputation]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-ECHO-Cargo-Medium is used for Cargo ships that spawn difficult reinforcements -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-ECHO-Cargo-Medium</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:CargoShip]
+
+        [AutopilotData:AP-Common-Cargo-Default]
+
+        [TargetData:TA-GKNT-NPC-Protection-A]
+        [OverrideTargetData:TA-GKNT-NPC-Protection-B]
+
+        
+
+        [TriggerGroups:TG-ECHO-Cargo-Medium]
+        [TriggerGroups:TG-ECHO-Target-Sharing]
+        [TriggerGroups:TG-ECHO-Reputation]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

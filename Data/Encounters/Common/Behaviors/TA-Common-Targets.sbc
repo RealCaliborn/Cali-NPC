@@ -1,0 +1,119 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TA-Common-Default-A</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Target]
+
+        [UseCustomTargeting:true]
+        [Target:PlayerAndGrid]
+
+        [MaxDistance:10000]
+
+        [TimeUntilTargetAcquisition:1]
+        [UseTargetRefresh:true]
+        [TimeUntilNextRefresh:20]
+
+        [MatchAllFilters:OutsideOfSafezone]
+        [MatchAllFilters:Owner]
+        [MatchAllFilters:Relation]
+        [MatchAllFilters:Powered]
+
+        [MatchAnyFilters:Broadcasting]
+        [MatchAnyFilters:MovementScore]
+        [MatchAnyFilters:LineOfSight]
+
+        [NonBroadcastVisualRange:2000]
+        [MinMovementScore:1000]
+        [MaxMovementDetectableDistance:8000]
+        [MaxLineOfSight:7000]
+
+        [Owners:Player]
+        [Relations:Enemy]
+
+        [GetTargetBy:ClosestDistance]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TA-Common-Default-B</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Target]
+
+        [UseCustomTargeting:true]
+        [Target:PlayerAndGrid]
+
+        [MaxDistance:10000]
+
+        [TimeUntilTargetAcquisition:1]
+        [UseTargetRefresh:true]
+        [TimeUntilNextRefresh:20]
+
+        [MatchAllFilters:OutsideOfSafezone]
+        [MatchAllFilters:Owner]
+        [MatchAllFilters:Relation]
+        [MatchAllFilters:Powered]
+
+        [Owners:Player]
+
+        [Relations:Enemy]
+
+        [GetTargetBy:ClosestDistance]
+
+      </Description>
+    </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TA-Common-8000-A</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Target]
+
+        [UseCustomTargeting:true]
+        [Target:PlayerAndGrid]
+
+        [MaxDistance:10000]
+
+        [TimeUntilTargetAcquisition:1]
+        [UseTargetRefresh:true]
+        [TimeUntilNextRefresh:20]
+
+        [MatchAllFilters:OutsideOfSafezone]
+        [MatchAllFilters:Owner]
+        [MatchAllFilters:Relation]
+        [MatchAllFilters:Powered]
+
+        [MatchAnyFilters:Broadcasting]
+        [MatchAnyFilters:MovementScore]
+        [MatchAnyFilters:LineOfSight]
+
+        [NonBroadcastVisualRange:8000]
+        [MinMovementScore:200]
+        [MaxMovementDetectableDistance:8000]
+        [MaxLineOfSight:8000]
+
+        [Owners:Player]
+        [Relations:Enemy]
+
+        [GetTargetBy:ClosestDistance]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,216 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-PRTH-Reputation</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-PRTH-Reputation-GeneralDamage]
+        [Triggers:TR-PRTH-Reputation-ECHO-GeneralDamage]
+        [Triggers:TR-PRTH-Reputation-Compromised]
+        [Triggers:TR-PRTH-Reputation-GrindDamage]
+        [Triggers:TR-PRTH-Reputation-ECHO-GrindDamage]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Reputation-GeneralDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        
+        [DamageTypes:Any]
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        
+        [MinCooldownMs:100]
+        [MaxCooldownMs:101]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-PRTH-Reputation-GeneralDamage]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Reputation-GeneralDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeAttackerReputation:true]
+        [ChangeAttackerReputationFaction:PRTH]
+        [ChangeAttackerReputationAmount:-5]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Reputation-ECHO-GeneralDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        
+        [DamageTypes:Any]
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        
+        [MinCooldownMs:5000]
+        [MaxCooldownMs:5001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-PRTH-Reputation-ECHO-GeneralDamage]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Reputation-ECHO-GeneralDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeAttackerReputation:true]
+        [ChangeAttackerReputationFaction:ECHO]
+        [ChangeAttackerReputationAmount:1]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Reputation-Compromised</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Compromised]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-PRTH-Reputation-Compromised]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Reputation-Compromised</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeAttackerReputation:true]
+        [ChangeAttackerReputationFaction:PRTH]
+        [ChangeAttackerReputationAmount:-100]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Reputation-GrindDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Grind]
+        [MinCooldownMs:100]
+        [MaxCooldownMs:101]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-PRTH-Reputation-GrindDamage]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Reputation-GrindDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeAttackerReputation:true]
+        [ChangeAttackerReputationFaction:PRTH]
+        [ChangeAttackerReputationAmount:-5]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Reputation-ECHO-GrindDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Grind]
+        [MinCooldownMs:5000]
+        [MaxCooldownMs:5001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-PRTH-Reputation-ECHO-GrindDamage]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Reputation-ECHO-GrindDamage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeAttackerReputation:true]
+        [ChangeAttackerReputationFaction:ECHO]
+        [ChangeAttackerReputationAmount:1]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

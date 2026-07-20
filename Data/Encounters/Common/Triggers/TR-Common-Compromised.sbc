@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!--Compromised-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-Common-Compromised</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Compromised]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-Common-Compromised-A]
+        [Actions:AC-Common-Compromised-B]
+        [Actions:AC-Common-Compromised-C]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-Common-Compromised-A</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:20]
+        [SelfDestruct:true]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-Common-Compromised-B</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:40]
+        [SelfDestruct:true]
+        [StaggerWarheadDetonation:true]
+        [SelfDestructTimeBetweenBlasts:3]
+        [SelfDestructTimerPadding:120]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-Common-Compromised-C</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [StopAllRotation:true]
+        [StopAllThrust:true]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

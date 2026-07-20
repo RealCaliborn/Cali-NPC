@@ -1,0 +1,332 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-ECHO-Station-Easy</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-ECHO-ChatHolding]
+        [Triggers:TR-ECHO-Station-Easy-CallSupport-Damage]
+        [Triggers:TR-ECHO-Station-Easy-CallSupport-Hostile]
+        [Triggers:TR-ECHO-Station-Easy-CallSupport-Call]
+        [Triggers:TR-ECHO-Station-Easy-CallSupport-Response]
+        [Triggers:TR-ECHO-Station-Easy-CallSupport-Spawn]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-ECHO-ChatHolding</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Trigger]
+      [Type:PlayerNear]
+      [TargetDistance:10000]
+      [UseTrigger:true]
+      [Actions:AC-ECHO-ChatHolding]
+      [MaxActions:1]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-ECHO-ChatHolding</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Action]
+      
+      [UseChatBroadcast:true]
+      [ChatData:CH-ECHO-ChatHolding]
+
+      [DisableTriggers:true]
+      [DisableTriggerNames:TR-ECHO-ChatHolding]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CH-ECHO-ChatHolding</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+      
+      [UseChat:true]
+      [StartsReady:true]
+      [Chance:100]
+      
+      [Author:Station]
+      [Color:Red]
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:10000]
+      [MaxChats:1]
+
+      [ChatMessages:Holding.]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-ECHO-Station-Easy-CallSupport-Damage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        [StartsReady:true]
+        [MinCooldownMs:3000]
+        [MaxCooldownMs:3001]
+        [MaxActions:1]
+
+        [Actions:AC-ECHO-Station-Easy-CallSupport-Damage]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-ECHO-Station-Easy-CallSupport-Damage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+      
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-ECHO-Station-Easy-CallSupport-Call]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-ECHO-Station-Easy-CallSupport-Call]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-Station-Easy-CallSupport-Damage]
+        [DisableTriggerNames:TR-ECHO-Station-Easy-CallSupport-Hostile]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-ECHO-Station-Easy-CallSupport-Hostile</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:6000]
+        [MinPlayerReputation:-1500]
+        [MaxPlayerReputation:-501]
+        [StartsReady:true]
+        [MinCooldownMs:3000]
+        [MaxCooldownMs:3001]
+        [MaxActions:1]
+
+        [Actions:AC-ECHO-Station-Easy-CallSupport-Hostile]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-ECHO-Station-Easy-CallSupport-Hostile</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+      
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-ECHO-Station-Easy-CallSupport-Call]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-ECHO-Station-Easy-CallSupport-Call]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-Station-Easy-CallSupport-Damage]
+        [DisableTriggerNames:TR-ECHO-Station-Easy-CallSupport-Hostile]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-ECHO-Station-Easy-CallSupport-Call</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [StartsReady:false]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:101]
+        [MaxActions:1]
+
+        [Actions:AC-ECHO-Station-Easy-CallSupport-Call]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-ECHO-Station-Easy-CallSupport-Call</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+      
+        [UseChatBroadcast:true]
+        [ChatData:CH-ECHO-Station-All-CallSupport-Call]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-ECHO-Station-Easy-CallSupport-Response]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-ECHO-Station-Easy-CallSupport-Response]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-Station-Easy-CallSupport-Call]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-ECHO-Station-Easy-CallSupport-Response</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [StartsReady:false]
+        [MinCooldownMs:2000]
+        [MaxCooldownMs:2001]
+        [MaxActions:1]
+
+        [Actions:AC-ECHO-Station-Easy-CallSupport-Response]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-ECHO-Station-Easy-CallSupport-Response</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+      
+        [UseChatBroadcast:true]
+        [ChatData:CH-ECHO-Station-All-CallSupport-Affirmative]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-ECHO-Station-Easy-CallSupport-Spawn]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-ECHO-Station-Easy-CallSupport-Spawn]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-Station-Easy-CallSupport-Response]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-ECHO-Station-Easy-CallSupport-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [StartsReady:false]
+        [MinCooldownMs:2000]
+        [MaxCooldownMs:2001]
+        [MaxActions:1]
+
+        [Actions:AC-ECHO-Station-Easy-CallSupport-Spawn]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-ECHO-Station-Easy-CallSupport-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+      
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-Station-Easy-CallSupport-Spawn]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-ECHO-Station-Easy-CallSupport-Spawn]
+        [Spawner:SP-ECHO-Station-Easy-CallSupport-Spawn]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-ECHO-Station-Easy-CallSupport-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:CustomSpawn]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:1]
+      
+      [SpawnGroups:(NPC-GKNT) 1Sabre 1Swallow]
+      
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:1500]
+      [MaxDistance:2500]
+      [IgnoreSafetyChecks:false]
+      
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

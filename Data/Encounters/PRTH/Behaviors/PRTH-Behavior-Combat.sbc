@@ -1,0 +1,242 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- BH-PRTH-Nymph is the default behavior for all Nymph Fighters -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Nymph</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseBarrageFire:false]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+
+        [Triggers:TR-PRTH-Any-Engaging]
+
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-PRTH-Speartip is the default behavior for all Speartip Ships -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Speartip</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseBarrageFire:false]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+
+        [Triggers:TR-PRTH-Any-Engaging]
+
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-PRTH-Speartip-Spawn1 is a default Speartip that spawns 1 Nymph -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Speartip-Spawn1</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseBarrageFire:false]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+
+        [Triggers:TR-PRTH-Spawn-1xNymph]
+        [Triggers:TR-PRTH-Any-Engaging]
+
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-PRTH-Speartip-Spawn2 is a default Speartip that spawns 2 Nymphs -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Speartip-Spawn2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseBarrageFire:false]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+
+        [Triggers:TR-PRTH-Spawn-2xNymph]
+        [Triggers:TR-PRTH-Any-Engaging]
+
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-PRTH-Thunderbolt is the default behavior for all Thunderbolt Ships -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Thunderbolt</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseBarrageFire:false]
+
+        [TriggerGroups:TG-Common-PvE-Hard]
+
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+
+        [Triggers:TR-PRTH-Any-Engaging]
+
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-PRTH-Thunderbolt is the default behavior for all Thunderbolt Ships -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Thunderbolt-Spawn2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseBarrageFire:false]
+
+        [TriggerGroups:TG-Common-PvE-Hard]
+
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+
+        [Triggers:TR-PRTH-Spawn-2xNymph]
+        [Triggers:TR-PRTH-Any-Engaging]
+
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-PRTH-Hoplon is the default behavior for all Hoplon Ships -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Hoplon</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-6000-8000-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+
+        [TriggerGroups:TG-Common-PvE-Hard]
+
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+
+        [Triggers:TR-PRTH-Any-Engaging]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

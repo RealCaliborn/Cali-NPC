@@ -1,0 +1,313 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Trigger Group TG-GIRR-Cruiser is all of the Cruiser-specific triggers -->
+    <!-- This file contains all related triggers, actions, and chats -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GIRR-Cruiser</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GIRR-Cruiser-Engaging]
+        [Triggers:TR-GIRR-Cruiser-Damaged]
+        [Triggers:TR-GIRR-Cruiser-TurretTarget]
+        [Triggers:TR-GIRR-Cruiser-NoWeapon]
+
+      </Description>
+
+    </EntityComponent>
+    
+    <!-- This block covers the initial engagement triggers and actions -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Cruiser-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:AcquiredTarget]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-Cruiser-Engaging]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Cruiser-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Cruiser-Engaging]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Cruiser-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:25]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Visual on the target, HQ.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Enemy contact, engaging.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:CC, proceeding to target.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:For Geraldine!!!]
+        [BroadcastChatType:Chat]
+        [ChatMessages:To glory! For the First Regiment!]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- This block covers random chatter when the ship takes damage -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Cruiser-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GIRR-Cruiser-Damaged]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Cruiser-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Cruiser-Damaged]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Cruiser-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:25]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Brace for impact!]
+        [BroadcastChatType:Chat]
+        [ChatMessages:I'm hit!]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Taking damage...]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Emitter 1 overheating...]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- This block covers chatter when the first turret locks on the first target -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Cruiser-TurretTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:TurretTarget]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GIRR-Cruiser-TurretTarget]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Cruiser-TurretTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Cruiser-TurretTarget]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Cruiser-TurretTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:25]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Firing solution obtained.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Fire at will!]
+        [BroadcastChatType:Chat]
+        [ChatMessages:We're on station, deploying weapons.]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- This block covers chatter when the grid no longer has fireable weapons -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Cruiser-NoWeapon</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:NoWeapon]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GIRR-Cruiser-NoWeapon]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Cruiser-NoWeapon</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Cruiser-NoWeapon]
+        [Ramming:true]
+        [ChangeAutopilotSpeed:true]
+        [NewAutopilotSpeed:240]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Cruiser-NoWeapon</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:40]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Cruiser to HQ, critical damage sustained.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:All hands, abandon ship!]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Dying today is like dying any other day.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:For the glory of GIRR!]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

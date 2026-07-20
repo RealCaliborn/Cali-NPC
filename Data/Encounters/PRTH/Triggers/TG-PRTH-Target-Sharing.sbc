@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-PRTH-Target-Sharing</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-PRTH-Target-Sharing]
+        [Triggers:TR-PRTH-Target-Sharing-Receive]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

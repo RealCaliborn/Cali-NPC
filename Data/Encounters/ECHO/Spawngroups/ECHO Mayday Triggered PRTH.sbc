@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <SpawnGroups>
+        <!-- GIRR Mayday groups consolidated to GKNT/Spawngroups/GIRR Mayday Triggered Spawngroups.sbc (CP-11) -->
+    </SpawnGroups>
+</Definitions>

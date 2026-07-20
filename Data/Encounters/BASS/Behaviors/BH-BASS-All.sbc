@@ -1,0 +1,94 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- BH-BASS-Lead-Hauler is used for Hauler type ships given the "formation leader" role -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-BASS-Sentinel-M-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-6000-8000-B]
+
+        [TargetData:TA-Common-8000-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-BASS-Sentinel-Spawner]
+        [TriggerGroups:TG-BASS-Target-Sharing]
+
+        [UseBarrageFire:false]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-BASS-Lead-Transport is used for Transport ships given the "formation leader" role -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-BASS-Sentinel-M-NoSpawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-6000-8000-B]
+
+        [TargetData:TA-Common-8000-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-BASS-Target-Sharing]
+
+        [UseBarrageFire:false]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-BASS-Hauler is used for any Hauler type ships -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-BASS-Sentinel-G</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+
+        [TargetData:TA-Common-8000-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-BASS-Target-Sharing]
+
+        [UseBarrageFire:false]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

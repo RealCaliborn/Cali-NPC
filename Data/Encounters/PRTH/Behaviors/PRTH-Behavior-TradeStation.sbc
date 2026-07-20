@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- BH-PRTH-Station-Solo is used for Stations that do not spawn reinforcements -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Station-Solo</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Passive]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-Common-WarheadOnDamage]
+
+        [TriggerGroups:TG-PRTH-Station-Solo]
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-PRTH-Station-Easy is used for Stations that spawn easy reinforcements -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Station-Easy</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Passive]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+
+        [TriggerGroups:TG-PRTH-Station-Easy]
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-PRTH-Station-Medium is used for Stations that spawn difficult reinforcements -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Station-Medium</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Passive]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+
+        [TriggerGroups:TG-PRTH-Station-Medium]
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

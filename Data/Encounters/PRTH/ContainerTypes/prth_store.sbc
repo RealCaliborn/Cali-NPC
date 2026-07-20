@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+
+<!-- PRTH Store Default -->
+    <ContainerType CountMin="3" CountMax="4">
+      <Id>
+        <TypeId>ContainerTypeDefinition</TypeId>
+        <SubtypeId>PRTH Store Default</SubtypeId>
+      </Id>
+      <Items>
+           <Item AmountMin="200" AmountMax="500">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Reactor</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="200" AmountMax="500">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Thrust</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="200" AmountMax="500">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Gold</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="200" AmountMax="500">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Platinum</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="20000" AmountMax="250000">
+                <Frequency>5</Frequency>
+                <Id>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Ice</SubtypeId>
+                </Id>
+            </Item>
+        </Items>
+    </ContainerType>
+<!-- PRTH Store Default -->
+
+  </ContainerTypes>
+</Definitions>

@@ -1,0 +1,2339 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<SpawnGroups>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID)1xKraken1xUrchinS1xUrchinB</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:true]
+            [SpaceRandomEncounter:true]
+
+            [FactionOwner:VOID]
+            [ReplenishSystems:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+            [AddDefenseShieldBlocks:true]
+
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMinimum:2500]
+            [ThreatScoreMaximum:-1]
+
+			[UseRemoteControlCodeRestrictions:true]
+			[RemoteControlCode:SI-Roaches-Boss-Any]
+			[RemoteControlCodeMinDistance:20000]
+            [ReplaceArmorBlocksWithModules:true]
+            [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+			[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.05</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Urchin S">
+					<Position>
+						<X>0.0</X>
+						<Y>500.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-S</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Kraken">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Kraken</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Urchin B">
+					<Position>
+						<X>0.0</X>
+						<Y>-500.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-B</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) Boss Encounter 1 (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:true]
+            [SpaceRandomEncounter:true]
+		
+
+            [FactionOwner:VOID]
+            [ReplenishSystems:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+            [AddDefenseShieldBlocks:true]
+
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMinimum:5000]
+            [ThreatScoreMaximum:-1]
+			
+			[UseRemoteControlCodeRestrictions:true]
+			[RemoteControlCode:SI-Roaches-Boss-Any]
+			[RemoteControlCodeMinDistance:20000]
+
+            [ReplaceArmorBlocksWithModules:true]
+            [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+			[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+				
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.05</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Kraken">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Kraken</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Chordata">
+					<Position>
+						<X>0.0</X>
+						<Y>-834.2</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- Leviathan 3xStingray -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) Boss Encounter 2 (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [IgnoreCombatPhase:true]
+        [DisableDampeners:true]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:4000]
+        [ThreatScoreMaximum:-1]
+
+			[UseRemoteControlCodeRestrictions:true]
+			[RemoteControlCode:SI-Roaches-Boss-Any]
+			[RemoteControlCodeMinDistance:20000]
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+		[UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+			    
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.02</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Leviathan">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Leviathan</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>1001.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- Leviathan 3xStingray -->
+		<!-- Kraken Lamprey -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID)1xKraken1xLamprey</SubtypeId>
+			</Id>
+			<Description>
+
+			[Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:true]
+            [SpaceRandomEncounter:true]
+
+            [FactionOwner:VOID]
+            [ReplenishSystems:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+            [AddDefenseShieldBlocks:true]
+
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMinimum:1500]
+            [ThreatScoreMaximum:-1]
+
+			[UseRemoteControlCodeRestrictions:true]
+			[RemoteControlCode:SI-Roaches-Boss-Any]
+			[RemoteControlCodeMinDistance:20000]
+            [ReplaceArmorBlocksWithModules:true]
+            [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+			[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+				
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.07</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Kraken">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Kraken</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Lamprey">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Lamprey</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Lamprey">
+					<Position>
+						<X>-800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Lamprey</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) Hunter -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) Hunter (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:500]
+        [ThreatScoreMaximum:1499]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.50</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) Hunter -->
+		<!-- (NPC-VOID) 2xHunter -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 2xHunter (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:750]
+        [ThreatScoreMaximum:1999]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.50</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>-250.2</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>250.2</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 2xHunter -->
+		<!-- (NPC-VOID) HunterUrchinS -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) HunterUrchinS (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:750]
+        [ThreatScoreMaximum:1999]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.50</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>-250.2</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Urchin S">
+					<Position>
+						<X>250.2</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-S</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) HunterUrchinS -->
+		<!-- (NPC-VOID) HunterUrchinB -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) HunterUrchinB (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:750]
+        [ThreatScoreMaximum:1999]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.50</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>-250.2</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Urchin B">
+					<Position>
+						<X>250.2</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-B</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) HunterUrchinB -->
+		<!-- (NPC-VOID) UrchinSUrchinB -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) UrchinSUrchinB (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:500]
+        [ThreatScoreMaximum:1749]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.50</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Urchin S">
+					<Position>
+						<X>-250.2</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-S</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Urchin B">
+					<Position>
+						<X>250.2</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-B</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) UrchinSUrchinB -->
+		<!-- (NPC-VOID) Lamprey -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) Lamprey (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:750]
+        [ThreatScoreMaximum:1749]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.20</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Lamprey">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Lamprey</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) Lamprey -->
+		<!-- (NPC-VOID) Lamprey B -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) LampreyB (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:750]
+        [ThreatScoreMaximum:1999]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.20</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Lamprey B">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Lamprey-B</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) Lamprey B -->
+		<!-- (NPC-VOID) Stingray -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) Stingray (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:1999]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) Stingray -->
+		<!-- (NPC-VOID) Stingray1xBaby -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) Stingray1xBaby (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:750]
+        [ThreatScoreMaximum:1999]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-1xBaby</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) Stingray1xBaby -->
+		<!-- (NPC-VOID) Stingray2xBaby -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) Stingray2xBaby (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:2249]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-2xBaby</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) Stingray2xBaby -->
+		<!-- (NPC-VOID) Stingray2xBaby1xBro -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) Stingray2xBaby1xBro (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:2249]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-2xBaby1xBro</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) Stingray2xBaby1xBro -->
+		<!-- (NPC-VOID) 2xStingray -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 2xStingray (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:2500]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 2xStingray -->
+		<!-- (NPC-VOID) 2xStingray -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 2xStingray (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.75</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 2xStingray -->
+		<!-- (NPC-VOID) 1xStingray1xLamprey -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xStingray1xLamprey (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:2500]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.25</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Lamprey">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Lamprey</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 1xStingray1xLamprey -->
+		<!-- (NPC-VOID) 1xStingray1xLamprey -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xStingray1xLamprey (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.25</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Lamprey">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Lamprey</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 1xStingray1xLamprey -->
+		<!-- (NPC-VOID) 1xStingray1xLampreyB -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xStingray1xLampreyB (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:2250]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.25</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Lamprey B">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Lamprey-B</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 1xStingray1xLampreyB -->
+		<!-- (NPC-VOID) 1xStingray1xLampreyB -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xStingray1xLampreyB (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.25</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Lamprey B">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Lamprey-B</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 1xStingray1xLampreyB -->
+		<!-- (NPC-VOID) 2xStingray2xBaby -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 2xStingray2xBaby (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:2800]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.75</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-1xBaby</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-1xBaby</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 2xStingray2xBaby -->
+		<!-- (NPC-VOID) 2xStingray2xBaby -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 2xStingray2xBaby (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.75</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-1xBaby</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-1xBaby</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 2xStingray2xBaby -->
+		<!-- (NPC-VOID) 2xStingray4xBaby -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 2xStingray4xBaby (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:3499]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.75</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-2xBaby</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-2xBaby</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 2xStingray4xBaby -->
+		<!-- (NPC-VOID) 2xStingray4xBaby -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 2xStingray4xBaby (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-2xBaby</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-2xBaby</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 2xStingray4xBaby -->
+		<!-- (NPC-VOID) Chordata -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) Chordata (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.20</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Chordata">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Chordata-1Baby</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+    <!-- (NPC-VOID) Chordata -->
+		<!-- (NPC-VOID) 1xStingray 1xUrchinS 1xUrchinB -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xStingray 1xUrchinS 1xUrchinB (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>353.9</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Urchin S">
+					<Position>
+						<X>0.0</X>
+						<Y>-353.9</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-S</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Urchin B">
+					<Position>
+						<X>0.0</X>
+						<Y>353.9</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-B</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 1xStingray 1xUrchinS 1xUrchinB -->
+		<!-- (NPC-VOID) 1xStingray 1xUrchinS 2xStingbaby -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xStingray 1xUrchinS 2xStingbaby (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>353.9</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-2xBaby</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Urchin S">
+					<Position>
+						<X>0.0</X>
+						<Y>-353.9</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-S</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 1xStingray 1xUrchinS 2xStingbaby -->
+		<!-- (NPC-VOID) 1xStingray 1xHunter 2xBaby 1xBro -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xStingray 1xHunter 2xBaby 1xBro (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Energy-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>353.9</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-2xBaby1xBro</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>0.0</X>
+						<Y>-353.9</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 1xStingray 1xHunter 2xBaby 1xBro -->
+		<!-- (NPC-VOID) 1xStingray 1xUrchinS 1xUrchinB 1xHunter -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xStingray 1xUrchinS 1xUrchinB 1xHunter (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.50</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>353.9</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Urchin S">
+					<Position>
+						<X>0.0</X>
+						<Y>-353.9</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-S</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Urchin B">
+					<Position>
+						<X>0.0</X>
+						<Y>353.9</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-B</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>-353.9</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 1xStingray 1xUrchinS 1xUrchinB 1xHunter -->
+		<!-- (NPC-VOID) 2xStingray 1xUrchinS 1xUrchinB -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 2xStingray 1xUrchinS 1xUrchinB (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.50</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>353.9</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Urchin S">
+					<Position>
+						<X>0.0</X>
+						<Y>-353.9</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-S</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Urchin B">
+					<Position>
+						<X>0.0</X>
+						<Y>353.9</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-B</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>-353.9</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 2xStingray 1xUrchinS 1xUrchinB -->
+		<!-- (NPC-VOID) 2xStingray 2xHunter -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 2xStingray 2xHunter (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.50</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>353.9</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>0.0</X>
+						<Y>353.9</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>0.0</X>
+						<Y>-353.9</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>-353.9</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 2xStingray 2xHunter -->
+		<!-- (NPC-VOID) 1xChordata 2xStingray -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xChordata 2xStingray (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.30</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Chordata">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 1xChordata 2xStingray -->
+		<!-- (NPC-VOID) 1xMahi -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xMahi (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [IgnoreCombatPhase:true]
+        [DisableDampeners:true]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:2000]
+        [ThreatScoreMaximum:12000]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]			
+
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.30</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Mahi">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>40</Speed>
+					<Behaviour>BH-VOID-Mahi</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 1xMahi -->
+		<!-- (NPC-VOID) 1xChordata 1xUrchinS 1xUrchinB -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xChordata 1xUrchinS 1xUrchinB (INNER)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+	
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.30</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Urchin S">
+					<Position>
+						<X>0.0</X>
+						<Y>-500.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-S</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Urchin B">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-B</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Urchin B">
+					<Position>
+						<X>0.0</X>
+						<Y>500.5</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-B</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 1xChordata 1xUrchinS 1xUrchinB -->
+		<!-- (NPC-VOID) 1xChordata 1xStingray 1xMahi -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xChordata 1xStingray 1xMahi (WAVES)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+    [IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:5000]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.30</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Mahi">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>40</Speed>
+					<Behaviour>BH-VOID-Mahi</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Chordata">
+					<Position>
+						<X>500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>-500.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- (NPC-VOID) 1xChordata 1xStingray 1xMahi -->
+		<!-- Leviathan 2xStingray 1xMahi -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) Leviathan 2xStingray 1xMahi (WAVES)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [IgnoreCombatPhase:true]
+        [DisableDampeners:true]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:5000]
+
+			[UseRemoteControlCodeRestrictions:true]
+			[RemoteControlCode:SI-Roaches-Boss-Any]
+			[RemoteControlCodeMinDistance:20000]
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+		[UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			    
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.01</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Leviathan">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Leviathan</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Mahi">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>40</Speed>
+					<Behaviour>BH-VOID-Mahi</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>1001.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- Leviathan 2xStingray 1xMahi -->
+		<!-- Thunder Kraken 2xLamprey -->
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xThunder Kraken 2xLamprey (WAVES)</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [IgnoreCombatPhase:true]
+        [DisableDampeners:true]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:5000]
+
+			[UseRemoteControlCodeRestrictions:true]
+			[RemoteControlCode:SI-Roaches-Boss-Any]
+			[RemoteControlCodeMinDistance:20000]
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.07</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Kraken">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-ThunderKraken</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Lamprey">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Lamprey</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Lamprey B">
+					<Position>
+						<X>-800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Lamprey</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<!-- Thunder Kraken 2xLamprey -->
+	</SpawnGroups>
+</Definitions>

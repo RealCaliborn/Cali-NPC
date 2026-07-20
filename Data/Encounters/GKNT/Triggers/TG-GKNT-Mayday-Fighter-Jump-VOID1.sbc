@@ -1,0 +1,315 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GKNT-Mayday-FJ-VOID1</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GKNT-Mayday-FJ-VOID1-PN]
+        [Triggers:TR-GKNT-Mayday-FJ-VOID1-SR-PN]
+        [Triggers:TR-GKNT-Mayday-FJ-VOID1-HU-PN]
+        [Triggers:TR-GKNT-Mayday-FJ-VOID1-Fgt-PN-SP1]
+        [Triggers:TR-GKNT-Mayday-FJ-VOID1-Fgt-PN-SP2]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Mayday-FJ-VOID1-PN</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:7000]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GKNT-Mayday-FJ-PN]
+        [Actions:AC-GKNT-Mayday-FJ-VOID1-PN]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Mayday-FJ-VOID1-PN</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-GKNT-Mayday-FJ-VOID1-SR-PN]
+        [ResetTriggerCooldownNames:TR-GKNT-Mayday-FJ-VOID1-HU-PN]
+        [ResetTriggerCooldownNames:TR-GKNT-Mayday-FJ-VOID1-Fgt-PN-SP1]
+        [ResetTriggerCooldownNames:TR-GKNT-Mayday-FJ-VOID1-Fgt-PN-SP2]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-GKNT-Mayday-FJ-VOID1-SR-PN]
+        [EnableTriggerNames:TR-GKNT-Mayday-FJ-VOID1-HU-PN]
+        [EnableTriggerNames:TR-GKNT-Mayday-FJ-VOID1-Fgt-PN-SP1]
+        [EnableTriggerNames:TR-GKNT-Mayday-FJ-VOID1-Fgt-PN-SP2]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-GKNT-Mayday-FJ-VOID1-PN]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Mayday-FJ-VOID1-SR-PN</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:2000]
+        [MaxCooldownMs:2001]
+        [StartsReady:false]
+        [MaxActions:1]
+        [Actions:AC-GKNT-Mayday-FJ-VOID1-SR-PN]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Mayday-FJ-VOID1-SR-PN</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-GKNT-Mayday-FJ-VOID1-SR-PN]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-GKNT-Mayday-FJ-VOID1-SR-PN</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:1]
+      
+      [SpawnGroups:(NPC-VOID) Mayday Stingray]
+      [SpawnGroups:(NPC-VOID) Mayday Hunter]
+      
+      [UseRelativeSpawnPosition:true]
+      [RelativeSpawnOffset:{X:-1500 Y:150 Z:0}]
+      [IgnoreSafetyChecks:false]
+      
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Mayday-FJ-VOID1-HU-PN</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:4000]
+        [MaxCooldownMs:4001]
+        [StartsReady:false]
+        [MaxActions:1]
+        [Actions:AC-GKNT-Mayday-FJ-VOID1-HU-PN]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Mayday-FJ-VOID1-HU-PN</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-GKNT-Mayday-FJ-VOID1-HU-PN]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-GKNT-Mayday-FJ-VOID1-HU-PN</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:1]
+      
+      [SpawnGroups:(NPC-VOID) Mayday Hunter]
+      [SpawnGroups:(NPC-VOID) Mayday Urchin B]
+      
+      [UseRelativeSpawnPosition:true]
+      [RelativeSpawnOffset:{X:-1500 Y:-150 Z:0}]
+      [IgnoreSafetyChecks:false]
+      
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Mayday-FJ-VOID1-Fgt-PN-SP1</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:10000]
+        [MaxCooldownMs:10001]
+        [StartsReady:false]
+        [MaxActions:1]
+        [Actions:AC-GKNT-Mayday-FJ-VOID1-Fgt-PN-SP1]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Mayday-FJ-VOID1-Fgt-PN-SP1</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-GKNT-Mayday-FJ-VOID1-Fgt-PN-SP1]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-GKNT-Mayday-FJ-VOID1-Fgt-PN-SP1</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:1]
+      
+      [SpawnGroups:(NPC-VOID) Mayday Stingbaby]
+      [SpawnGroups:(NPC-VOID) Mayday StingBro]
+      
+      [UseRelativeSpawnPosition:true]
+      [RelativeSpawnOffset:{X:-1350 Y:0 Z:0}]
+      [IgnoreSafetyChecks:false]
+      
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Mayday-FJ-VOID1-Fgt-PN-SP2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:12000]
+        [MaxCooldownMs:12001]
+        [StartsReady:false]
+        [MaxActions:1]
+        [Actions:AC-GKNT-Mayday-FJ-VOID1-Fgt-PN-SP2]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Mayday-FJ-VOID1-Fgt-PN-SP2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-GKNT-Mayday-FJ-VOID1-Fgt-PN-SP2]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-GKNT-Mayday-FJ-VOID1-Fgt-PN-SP2</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:1]
+      
+      [SpawnGroups:(NPC-VOID) Mayday Stingbaby]
+      [SpawnGroups:(NPC-VOID) Mayday StingBro]
+      
+      [UseRelativeSpawnPosition:true]
+      [RelativeSpawnOffset:{X:-1650 Y:0 Z:0}]
+      [IgnoreSafetyChecks:false]
+      
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

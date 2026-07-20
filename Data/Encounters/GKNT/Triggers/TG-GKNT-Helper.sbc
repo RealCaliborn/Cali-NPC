@@ -1,0 +1,453 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- This TG gets applied to any hostile force that qualifies for player GKNT help -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GKNT-Helper</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GKNT-Helper-SpawnIn]
+        [Triggers:TR-GKNT-Helper-RxCommand]
+        [Triggers:TR-GKNT-Helper-Rep1500]
+        [Triggers:TR-GKNT-Helper-Rep1499]
+        [Triggers:TR-GKNT-Helper-Rep1299]
+        [Triggers:TR-GKNT-Helper-Rep899]
+        [Triggers:TR-GKNT-Helper-RepBad]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Helper-SpawnIn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:2000]
+        [MaxCooldownMs:3000]
+        [StartsReady:false]
+        [MaxActions:1]
+        [Actions:AC-GKNT-Helper-SpawnIn]
+        [Actions:AC-GKNT-Helper-EnableAll]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Helper-SpawnIn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+              
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-GKNT-Helper-SpawnIn]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CO-GKNT-Helper-SpawnIn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+              
+        [CommandCode:GKNTHelperSpawnIn]
+        [MatchSenderReceiverOwners:true]
+        [IgnoreAntennaRequirement:true]
+        [Radius:12000]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Helper-EnableAll</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-GKNT-Helper-Rep1500]
+        [ResetTriggerCooldownNames:TR-GKNT-Helper-Rep1499]
+        [ResetTriggerCooldownNames:TR-GKNT-Helper-Rep1299]
+        [ResetTriggerCooldownNames:TR-GKNT-Helper-Rep899]
+        [ResetTriggerCooldownNames:TR-GKNT-Helper-RepBad]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-GKNT-Helper-Rep1500]
+        [EnableTriggerNames:TR-GKNT-Helper-Rep1499]
+        [EnableTriggerNames:TR-GKNT-Helper-Rep1299]
+        [EnableTriggerNames:TR-GKNT-Helper-Rep899]
+        [EnableTriggerNames:TR-GKNT-Helper-RepBad]  
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Helper-RxCommand</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:GKNTHelperSpawnIn]
+        [Actions:AC-GKNT-Helper-RxCommand]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Helper-RxCommand</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-GKNT-Helper-SpawnIn]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Helper-Rep1500</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:PlayerNear]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:5000]
+        [StartsReady:false]
+        [MaxActions:1]
+
+        [TargetDistance:6000]
+        [MinPlayerReputation:1500]
+        [MaxPlayerReputation:1500]
+
+        [Actions:AC-GKNT-Helper-2Light]
+        [Actions:AC-GKNT-Helper-2Heavy]
+        [Actions:AC-GKNT-Helper-DisableAll]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Helper-Rep1499</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:PlayerNear]
+        [MinCooldownMs:6000]
+        [MaxCooldownMs:10000]
+        [StartsReady:false]
+        [MaxActions:1]
+
+        [TargetDistance:6000]
+        [MinPlayerReputation:1300]
+        [MaxPlayerReputation:1499]
+
+        [Actions:AC-GKNT-Helper-2Light]
+        [Actions:AC-GKNT-Helper-2Heavy]
+        [Actions:AC-GKNT-Helper-DisableAll]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Helper-Rep1299</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:PlayerNear]
+        [MinCooldownMs:11000]
+        [MaxCooldownMs:25000]
+        [StartsReady:false]
+        [MaxActions:1]
+
+        [TargetDistance:6000]
+        [MinPlayerReputation:900]
+        [MaxPlayerReputation:1299]
+
+        [Actions:AC-GKNT-Helper-1Light]
+        [Actions:AC-GKNT-Helper-1Heavy]
+        [Actions:AC-GKNT-Helper-DisableAll]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Helper-Rep899</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:PlayerNear]
+        [MinCooldownMs:16000]
+        [MaxCooldownMs:20000]
+        [StartsReady:false]
+        [MaxActions:1]
+
+        [TargetDistance:6000]
+        [MinPlayerReputation:150]
+        [MaxPlayerReputation:899]
+
+        [Actions:AC-GKNT-Helper-1Light]
+        [Actions:AC-GKNT-Helper-DisableAll]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Helper-RepBad</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:PlayerNear]
+        [MinCooldownMs:21000]
+        [MaxCooldownMs:25000]
+        [StartsReady:false]
+        [MaxActions:1]
+
+        [TargetDistance:6000]
+        [MaxPlayerReputation:149]
+
+        [Actions:AC-GKNT-Helper-DisableAll]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Helper-1Light</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:5]
+        [SpawnEncounter:true]
+        [Spawner:SP-GKNT-Helper-1Light]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-GKNT-Helper-1Light</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+              
+        [UseSpawn:true]
+        [SpawningType:SpaceCargoShip]
+        [StartsReady:true]
+        [SpawnMinCooldown:0]
+        [MaxSpawns:-1]
+              
+        [SpawnGroups:(NPC-GKNT) Helper 1Swallow]
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:2000]
+        [MaxDistance:3000]
+        [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Helper-2Light</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:5]
+        [SpawnEncounter:true]
+        [Spawner:SP-GKNT-Helper-2Light]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-GKNT-Helper-2Light</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+              
+        [UseSpawn:true]
+        [SpawningType:SpaceCargoShip]
+        [StartsReady:true]
+        [SpawnMinCooldown:0]
+        [MaxSpawns:-1]
+              
+        [SpawnGroups:(NPC-GKNT) Helper 2Swallow]
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:2000]
+        [MaxDistance:3000]
+        [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Helper-1Heavy</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:5]
+        [SpawnEncounter:true]
+        [Spawner:SP-GKNT-Helper-1Heavy]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-GKNT-Helper-1Heavy</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+              
+        [UseSpawn:true]
+        [SpawningType:SpaceCargoShip]
+        [StartsReady:true]
+        [SpawnMinCooldown:0]
+        [MaxSpawns:-1]
+              
+        [SpawnGroups:(NPC-GKNT) Helper 1Sabre]
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:2000]
+        [MaxDistance:3000]
+        [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Helper-2Heavy</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:5]
+        [SpawnEncounter:true]
+        [Spawner:SP-GKNT-Helper-2Heavy]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-GKNT-Helper-2Heavy</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+              
+        [UseSpawn:true]
+        [SpawningType:SpaceCargoShip]
+        [StartsReady:true]
+        [SpawnMinCooldown:0]
+        [MaxSpawns:-1]
+              
+        [SpawnGroups:(NPC-GKNT) Helper 2Sabre]
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:2000]
+        [MaxDistance:3000]
+        [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Helper-DisableAll</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-GKNT-Helper-Rep1500]
+        [DisableTriggerNames:TR-GKNT-Helper-Rep1499]
+        [DisableTriggerNames:TR-GKNT-Helper-Rep1299]
+        [DisableTriggerNames:TR-GKNT-Helper-Rep899]
+        [DisableTriggerNames:TR-GKNT-Helper-RepBad]
+
+      </Description>
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

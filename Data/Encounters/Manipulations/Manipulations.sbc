@@ -1,0 +1,221 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-Manipulation-PropulsionVOID</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+		
+		[ConfigureSpecialNpcThrusters:true]
+		[RestrictNpcIonThrust:true]
+		[NpcIonThrustForceMultiply:18]
+		[NpcIonThrustPowerMultiply:0.01]
+		
+		[RestrictNpcAtmoThrust:true]
+		[NpcAtmoThrustForceMultiply:18]
+		[NpcAtmoThrustPowerMultiply:0.01]
+		
+		[RestrictNpcHydroThrust:true]
+		[NpcHydroThrustForceMultiply:18]
+		[NpcHydroThrustPowerMultiply:0.01]
+		
+		[SetNpcGyroscopeMultiplier:true]
+		[NpcGyroscopeMultiplier:8]
+		
+		[AddDefenseShieldBlocks:true]
+		[ChangeTurretSettings:true]
+		[TurretRange:11000]
+		[TurretIdleRotation:false]
+		[TurretTargetMeteors:false]
+		[TurretTargetSmallGrids:true]
+		[TurretTargetLargeGrids:true]
+		[TurretTargetNeutrals:false]
+		
+      </Description>
+
+    </EntityComponent>
+	    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-Manipulation-PropulsionGIRR</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+		
+		[ConfigureSpecialNpcThrusters:true]
+		[RestrictNpcIonThrust:true]
+		[NpcIonThrustForceMultiply:32]
+		[NpcIonThrustPowerMultiply:0.01]
+		
+		[RestrictNpcAtmoThrust:true]
+		[NpcAtmoThrustForceMultiply:18]
+		[NpcAtmoThrustPowerMultiply:0.01]
+		
+		[RestrictNpcHydroThrust:true]
+		[NpcHydroThrustForceMultiply:32]
+		[NpcHydroThrustPowerMultiply:0.01]
+		
+		[SetNpcGyroscopeMultiplier:true]
+		[NpcGyroscopeMultiplier:16]
+		
+		[AddDefenseShieldBlocks:true]
+		[ChangeTurretSettings:true]
+		[TurretRange:11000]
+		[TurretIdleRotation:false]
+		[TurretTargetMeteors:false]
+		[TurretTargetSmallGrids:true]
+		[TurretTargetLargeGrids:true]
+		[TurretTargetNeutrals:false]
+		
+      </Description>
+
+    </EntityComponent>
+	    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-Manipulation-PropulsionPRTH</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+		
+		[ConfigureSpecialNpcThrusters:true]
+		[RestrictNpcIonThrust:true]
+		[NpcIonThrustForceMultiply:24]
+		[NpcIonThrustPowerMultiply:0.01]
+		
+		[RestrictNpcAtmoThrust:true]
+		[NpcAtmoThrustForceMultiply:24]
+		[NpcAtmoThrustPowerMultiply:0.01]
+		
+		[RestrictNpcHydroThrust:true]
+		[NpcHydroThrustForceMultiply:24]
+		[NpcHydroThrustPowerMultiply:0.01]
+		
+		[SetNpcGyroscopeMultiplier:true]
+		[NpcGyroscopeMultiplier:16]
+		
+		[AddDefenseShieldBlocks:true]
+		[ChangeTurretSettings:true]
+		[TurretRange:11000]
+		[TurretIdleRotation:false]
+		[TurretTargetMeteors:false]
+		[TurretTargetSmallGrids:true]
+		[TurretTargetLargeGrids:true]
+		[TurretTargetNeutrals:false]
+		
+      </Description>
+
+    </EntityComponent>
+	    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-Manipulation-PropulsionECHO</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+		
+		[ConfigureSpecialNpcThrusters:true]
+		[RestrictNpcIonThrust:true]
+		[NpcIonThrustForceMultiply:18]
+		[NpcIonThrustPowerMultiply:0.01]
+		
+		[RestrictNpcAtmoThrust:true]
+		[NpcAtmoThrustForceMultiply:18]
+		[NpcAtmoThrustPowerMultiply:0.01]
+		
+		[RestrictNpcHydroThrust:true]
+		[NpcHydroThrustForceMultiply:18]
+		[NpcHydroThrustPowerMultiply:0.01]
+		
+		[SetNpcGyroscopeMultiplier:true]
+		[NpcGyroscopeMultiplier:8]
+		
+		[AddDefenseShieldBlocks:true]
+		[ChangeTurretSettings:true]
+		[TurretRange:11000]
+		[TurretIdleRotation:false]
+		[TurretTargetMeteors:false]
+		[TurretTargetSmallGrids:true]
+		[TurretTargetLargeGrids:true]
+		[TurretTargetNeutrals:false]
+		
+      </Description>
+
+    </EntityComponent>
+	    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-Manipulation-PropulsionBASS</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+		
+		[ConfigureSpecialNpcThrusters:true]
+		[RestrictNpcIonThrust:true]
+		[NpcIonThrustForceMultiply:18]
+		[NpcIonThrustPowerMultiply:0.01]
+		
+		[RestrictNpcAtmoThrust:true]
+		[NpcAtmoThrustForceMultiply:18]
+		[NpcAtmoThrustPowerMultiply:0.01]
+		
+		[RestrictNpcHydroThrust:true]
+		[NpcHydroThrustForceMultiply:18]
+		[NpcHydroThrustPowerMultiply:0.01]
+		
+		[SetNpcGyroscopeMultiplier:true]
+		[NpcGyroscopeMultiplier:8]
+		
+		[AddDefenseShieldBlocks:true]
+		[ChangeTurretSettings:true]
+		[TurretRange:11000]
+		[TurretIdleRotation:false]
+		[TurretTargetMeteors:false]
+		[TurretTargetSmallGrids:true]
+		[TurretTargetLargeGrids:true]
+		[TurretTargetNeutrals:false]
+		
+      </Description>
+
+    </EntityComponent>
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-Manipulation-Visual</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+
+        [SkinRandomBlocks:true]
+        [MinPercentageSkinRandomBlocks:0]
+        [MaxPercentageSkinRandomBlocks:95]
+        [SkinRandomBlocksTextures:Rusty_Armor]
+        [SkinRandomBlocksTextures:Battered_Armor]
+        [SkinRandomBlocksTextures:Heavy_Rust_Armor]
+
+        [ReduceBlockBuildStates:false]
+        [MinimumBlocksPercent:0]
+        [MaximumBlocksPercent:8]
+        [MinimumBuildPercent:51]
+        [MaximumBuildPercent:90]
+		
+		[ShiftBlockColorsHue:true]
+		[RandomHueShift:true]
+		[ShiftBlockColorAmount:0]
+
+      </Description>
+
+    </EntityComponent>
+    
+  </EntityComponents>
+</Definitions>

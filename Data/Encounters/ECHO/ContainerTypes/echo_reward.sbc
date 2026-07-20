@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+
+<!-- ECHO Easy Reward Default -->
+    <ContainerType CountMin="3" CountMax="3">
+      <Id>
+        <TypeId>ContainerTypeDefinition</TypeId>
+        <SubtypeId>ECHO Easy Reward</SubtypeId>
+      </Id>
+      <Items>
+           <Item AmountMin="300" AmountMax="600">
+                <Frequency>5</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Tech2x</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="200" AmountMax="400">
+                <Frequency>8</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Tech4x</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="100" AmountMax="250">
+                <Frequency>20</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Tech8x</SubtypeId>
+                </Id>
+            </Item>
+            <Item AmountMin="25" AmountMax="50">
+                <Frequency>10</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>LeapTube</SubtypeId>
+                </Id>
+            </Item>
+            <Item AmountMin="50" AmountMax="125">
+                <Frequency>5</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>QuantumCoProcessor</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="5" AmountMax="10">
+                <Frequency>5</Frequency>
+                <Id>
+                    <TypeId>ConsumableItem</TypeId>
+                    <SubtypeId>Medkit</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="5" AmountMax="10">
+                <Frequency>5</Frequency>
+                <Id>
+                    <TypeId>ConsumableItem</TypeId>
+                    <SubtypeId>Powerkit</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="1000000" AmountMax="2000000">
+                <Frequency>10</Frequency>
+                <Id>
+                    <TypeId>PhysicalObject</TypeId>
+                    <SubtypeId>SpaceCredit</SubtypeId>
+                </Id>
+            </Item>
+        </Items>
+    </ContainerType>
+<!-- ECHO Easy Reward Default -->
+
+<!-- ECHO Medium Reward Default -->
+    <ContainerType CountMin="3" CountMax="3">
+      <Id>
+        <TypeId>ContainerTypeDefinition</TypeId>
+        <SubtypeId>ECHO Medium Reward</SubtypeId>
+      </Id>
+      <Items>
+           <Item AmountMin="500" AmountMax="800">
+                <Frequency>5</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Tech2x</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="300" AmountMax="600">
+                <Frequency>8</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Tech4x</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="250" AmountMax="400">
+                <Frequency>20</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Tech8x</SubtypeId>
+                </Id>
+            </Item>
+            <Item AmountMin="50" AmountMax="100">
+                <Frequency>10</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>LeapTube</SubtypeId>
+                </Id>
+            </Item>
+            <Item AmountMin="100" AmountMax="200">
+                <Frequency>5</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>QuantumCoProcessor</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="5" AmountMax="10">
+                <Frequency>5</Frequency>
+                <Id>
+                    <TypeId>ConsumableItem</TypeId>
+                    <SubtypeId>Medkit</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="5" AmountMax="10">
+                <Frequency>5</Frequency>
+                <Id>
+                    <TypeId>ConsumableItem</TypeId>
+                    <SubtypeId>Powerkit</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="2000000" AmountMax="4000000">
+                <Frequency>10</Frequency>
+                <Id>
+                    <TypeId>PhysicalObject</TypeId>
+                    <SubtypeId>SpaceCredit</SubtypeId>
+                </Id>
+            </Item>
+        </Items>
+    </ContainerType>
+<!-- ECHO Medium Reward Default -->
+
+  </ContainerTypes>
+</Definitions>

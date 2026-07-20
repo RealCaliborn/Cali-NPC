@@ -1,0 +1,506 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<EntityComponents>
+		<!-- BH-GIRR-Lead-Hauler is used for Hauler type ships given the "formation leader" role -->
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BH-GIRR-Lead-Hauler</SubtypeId>
+			</Id>
+			<Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+		[TriggerGroups:TG-Common-Jump]
+
+
+		
+
+        [TriggerGroups:TG-GIRR-LeadShip]
+        [TriggerGroups:TG-GIRR-Hauler]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+		
+
+        [UseBarrageFire:true]
+
+      </Description>
+		</EntityComponent>
+		<!-- BH-GIRR-Lead-Transport is used for Transport ships given the "formation leader" role -->
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BH-GIRR-Lead-Transport</SubtypeId>
+			</Id>
+			<Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+		[TriggerGroups:TG-Common-Jump]
+		
+        
+        [Triggers:TR-Common-FireFixed]
+
+		
+
+        [TriggerGroups:TG-GIRR-LeadShip]
+        [TriggerGroups:TG-GIRR-Transport]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:4000]
+        [UseTurrets:true]
+        [UseBarrageFire:true]
+
+      </Description>
+		</EntityComponent>
+		<!-- BH-GIRR-Hauler is used for any Hauler type ships -->
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BH-GIRR-Hauler</SubtypeId>
+			</Id>
+			<Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+		[TriggerGroups:TG-Common-Jump]
+
+
+		
+
+        [TriggerGroups:TG-GIRR-Hauler]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+
+        [UseBarrageFire:true]
+
+      </Description>
+		</EntityComponent>
+		<!-- BH-GIRR-Transport is used for any Transport type ships -->
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BH-GIRR-Transport</SubtypeId>
+			</Id>
+			<Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+		[TriggerGroups:TG-Common-Jump]
+		
+        
+        [Triggers:TR-Common-FireFixed]
+
+        [TriggerGroups:TG-GIRR-Transport]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:4000]
+        [UseTurrets:true]
+        [UseBarrageFire:true]
+
+      </Description>
+		</EntityComponent>
+		<!-- BH-GIRR-Miner is used for any Miner type ships -->
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BH-GIRR-Miner</SubtypeId>
+			</Id>
+			<Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+		[TriggerGroups:TG-Common-Jump]
+
+        [TriggerGroups:TG-GIRR-Miner]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:4000]
+        [UseTurrets:true]
+        [UseBarrageFire:true]
+
+        [RetreatDespawnDistance:12000]
+
+      </Description>
+		</EntityComponent>
+		<!-- BH-GIRR-Merchant is used for any Merchant type ships -->
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BH-GIRR-Merchant</SubtypeId>
+			</Id>
+			<Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+		[TriggerGroups:TG-Common-Jump]
+        
+
+        [TriggerGroups:TG-GIRR-Merchant]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+		
+
+		
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:9000]
+        [UseTurrets:true]
+        [UseBarrageFire:true]
+
+      </Description>
+		</EntityComponent>
+		<!-- BH-GIRR-CruiserNospawn is used for Cruiser type ships that do not spawn in reinforcements -->
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BH-GIRR-CruiserNospawn</SubtypeId>
+			</Id>
+			<Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+		
+
+        [TriggerGroups:TG-Common-PvE-Hard]
+		[TriggerGroups:TG-Common-Jump]
+        
+
+        [TriggerGroups:TG-GIRR-Cruiser]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+		
+
+        [UseBarrageFire:true]
+
+      </Description>
+		</EntityComponent>
+		<!-- BH-GIRR-CruiserSpawn is used for Cruiser type ships that DO spawn reinforcements when attacked -->
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BH-GIRR-CruiserSpawn</SubtypeId>
+			</Id>
+			<Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+		
+
+        [TriggerGroups:TG-Common-PvE-Hard]
+		[TriggerGroups:TG-Common-Jump]
+        
+
+        [TriggerGroups:TG-GIRR-Cruiser]
+        [Triggers:TR-GIRR-CruiserSpawn]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+		
+
+        [UseBarrageFire:true]
+
+      </Description>
+		</EntityComponent>
+		<!-- BH-GIRR-Probe is used for the passive probes -->
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BH-GIRR-Probe-A</SubtypeId>
+			</Id>
+			<Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Passive]
+
+        [TriggerGroups:TG-GIRR-Probe-A]
+        [Triggers:TR-GIRR-FireFixed-Probe]
+
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+
+      </Description>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BH-GIRR-Probe-A-Trap1</SubtypeId>
+			</Id>
+			<Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Passive]
+
+        [TriggerGroups:TG-GIRR-Probe-A-Trap1]
+        [Triggers:TR-GIRR-FireFixed-Probe]
+
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+
+      </Description>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BH-GIRR-Probe-A-Trap2</SubtypeId>
+			</Id>
+			<Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Passive]
+
+        [TriggerGroups:TG-GIRR-Probe-A-Trap2]
+        [Triggers:TR-GIRR-FireFixed-Probe]
+
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+
+      </Description>
+		</EntityComponent>
+		<!-- BH-GIRR-Probe-B is used for probes with the ability to defend themselves -->
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BH-GIRR-Probe-B</SubtypeId>
+			</Id>
+			<Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Fighter]
+
+        [AutopilotData:AP-Common-Standoff-1500-2250-B]
+
+        [TargetData:TA-Common-8000-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+		[TriggerGroups:TG-Common-Jump]
+        
+
+        [TriggerGroups:TG-GIRR-Probe-B]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:4000]
+        [UseTurrets:true]
+        [UseBarrageFire:true]
+
+      </Description>
+		</EntityComponent>
+		<!-- BH-GIRR-Probe-B is used for probes with the ability to defend themselves -->
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BH-GIRR-Probe-B-Trap2</SubtypeId>
+			</Id>
+			<Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Fighter]
+
+        [AutopilotData:AP-Common-Standoff-1500-2250-B]
+
+        [TargetData:TA-Common-8000-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+		[TriggerGroups:TG-Common-Jump]
+        
+
+        [TriggerGroups:TG-GIRR-Probe-B-Trap2]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:4000]
+        [UseTurrets:true]
+        [UseBarrageFire:true]
+
+      </Description>
+		</EntityComponent>
+		<!-- BH-GIRR-Cargo-Solo is used for Cargo ships that do not spawn reinforcements -->
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BH-GIRR-Cargo-Solo</SubtypeId>
+			</Id>
+			<Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:CargoShip]
+
+        [AutopilotData:AP-Common-Cargo-Default]
+
+        
+
+        [TriggerGroups:TG-GIRR-Cargo-Solo]
+        [Triggers:TR-GIRR-FireFixed-Cargo]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+		
+
+		
+
+      </Description>
+		</EntityComponent>
+		<!-- BH-GIRR-Cargo-Easy is used for Cargo ships that spawn easy reinforcements -->
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BH-GIRR-Cargo-Easy</SubtypeId>
+			</Id>
+			<Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:CargoShip]
+
+        [AutopilotData:AP-Common-Cargo-Default]
+
+        
+
+        [TriggerGroups:TG-GIRR-Cargo-Easy]
+        [Triggers:TR-GIRR-FireFixed-Cargo]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+		
+
+		
+
+      </Description>
+		</EntityComponent>
+		<!-- BH-GIRR-Cargo-Medium is used for Cargo ships that spawn difficult reinforcements -->
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BH-GIRR-Cargo-Medium</SubtypeId>
+			</Id>
+			<Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:CargoShip]
+
+        [AutopilotData:AP-Common-Cargo-Default]
+
+        
+
+        [TriggerGroups:TG-GIRR-Cargo-Medium]
+        [Triggers:TR-GIRR-FireFixed-Cargo]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+		
+
+		
+
+      </Description>
+		</EntityComponent>
+	</EntityComponents>
+</Definitions>

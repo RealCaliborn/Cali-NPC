@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+
+<!-- GIRR Loot Default -->
+    <ContainerType CountMin="3" CountMax="4">
+      <Id>
+        <TypeId>ContainerTypeDefinition</TypeId>
+        <SubtypeId>GIRR Loot Default</SubtypeId>
+      </Id>
+      <Items>
+           <Item AmountMin="100" AmountMax="200">
+                <Frequency>2</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Reactor</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="100" AmountMax="2000">
+                <Frequency>4</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Tech2x</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="500" AmountMax="1000">
+                <Frequency>4</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Tech4x</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="20" AmountMax="600">
+                <Frequency>2</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Tech8x</SubtypeId>
+                </Id>
+            </Item>
+            <Item AmountMin="25" AmountMax="50">
+                <Frequency>1</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>GraphineGrid</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="100" AmountMax="200">
+                <Frequency>2</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Thrust</SubtypeId>
+                </Id>
+            </Item>
+        </Items>
+    </ContainerType>
+<!-- GIRR Loot Default -->
+
+  </ContainerTypes>
+</Definitions>

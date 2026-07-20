@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CH-VOID-CallSupport-Call</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+      
+      [UseChat:true]
+      [Chance:100]
+      [MaxChats:1]
+      [BroadcastRandomly:true]
+      [StartsReady:true]
+      
+      [Author:The Void]
+      [Color:Red]
+
+      [IgnoreAntennaRequirement:true]
+
+      [ChatMessages:Calling in support.]
+      [ChatAudio:None]
+      [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

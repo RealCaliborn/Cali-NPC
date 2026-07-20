@@ -1,0 +1,139 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Trigger Group TG-GIRR-Probe-B-Trap2 is for Class B probes that spawn ongoing attacks -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GIRR-Probe-B-Trap2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GIRR-Probe-B-Send]
+        [Triggers:TR-GIRR-Probe-B-AcquiredTarget]
+        [Triggers:TR-GIRR-Probe-B-Damage]
+        [Triggers:TR-GIRR-Probe-B-Compromised]
+        [Triggers:TR-GIRR-Probe-B-Retreat]
+        [Triggers:TR-GIRR-Probe-B-Trap2]
+        [Triggers:TR-GIRR-Probe-B-Trap2-TrapSpawner]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Probe-B-Trap2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [MinCooldownMs:90000]
+        [MaxCooldownMs:150000]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:4800]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GIRR-Probe-B-Trap2]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Probe-B-Trap2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-GIRR-Probe-B-Trap2-TrapSpawner]
+        [Spawner:SP-GIRR-Probe-B-Trap2-TrapSpawner]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-GIRR-Probe-B-Trap2-TrapSpawner]
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-GIRR-Probe-B-Trap2-TrapSpawner]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-GIRR-Probe-B-Trap2]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Probe-B-Trap2-TrapSpawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [MinCooldownMs:90000]
+        [MaxCooldownMs:150000]
+
+        [UseTrigger:false]
+        [Type:PlayerNear]
+        [TargetDistance:8000]
+        [StartsReady:false]
+        [MaxActions:6]
+        [Actions:AC-GIRR-Probe-B-Trap2-TrapSpawner]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Probe-B-Trap2-TrapSpawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-GIRR-Probe-B-Trap2-TrapSpawner]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-GIRR-Probe-B-Trap2-TrapSpawner</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:CustomSpawn]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:-1]
+      
+      [SpawnGroups:(NPC-GIRR) CruiserSpawn Hauler]
+      [SpawnGroups:(NPC-GIRR) CruiserSpawn Transport]
+      [SpawnGroups:(NPC-GIRR) CruiserSpawn Miner]
+      [SpawnGroups:(NPC-GIRR) CruiserSpawn Merchant]
+      
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:500]
+      [MaxDistance:1500]
+      [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- This Trigger gets applied to all GKNT spawned to protect NPCs/Locations -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-NPC-Protection-Rx</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:CommandReceived]
+
+        [MinCooldownMs:250]
+        [MaxCooldownMs:750]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:NPC-Protection-Damage]
+        [Actions:AC-GKNT-NPC-Protection-Rx]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-NPC-Protection-Rx</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeTargetProfile:true]
+        [NewTargetProfileId:TA-GKNT-NPC-Protection-B]
+
+        [SwitchToReceivedTarget:true]
+        [InheritLastAttackerFromCommand:true]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

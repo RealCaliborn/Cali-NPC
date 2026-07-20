@@ -1,0 +1,267 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-PRTH-Cargo-Easy</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-PRTH-Cargo-Easy-CallSupport-Damage]
+        [Triggers:TR-PRTH-Cargo-Easy-CallSupport-Hostile]
+        [Triggers:TR-PRTH-Cargo-Easy-CallSupport-Call]
+        [Triggers:TR-PRTH-Cargo-Easy-CallSupport-Response]
+        [Triggers:TR-PRTH-Cargo-Easy-CallSupport-Spawn]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-PRTH-Cargo-Easy-CallSupport-Damage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        [StartsReady:true]
+        [MinCooldownMs:3000]
+        [MaxCooldownMs:3001]
+        [MaxActions:1]
+
+        [Actions:AC-PRTH-Cargo-Easy-CallSupport-Damage]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-PRTH-Cargo-Easy-CallSupport-Damage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+      
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-PRTH-Cargo-Easy-CallSupport-Call]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-PRTH-Cargo-Easy-CallSupport-Call]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-PRTH-Cargo-Easy-CallSupport-Damage]
+        [DisableTriggerNames:TR-PRTH-Cargo-Easy-CallSupport-Hostile]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-PRTH-Cargo-Easy-CallSupport-Hostile</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:6000]
+        [MinPlayerReputation:-1500]
+        [MaxPlayerReputation:-501]
+        [StartsReady:true]
+        [MinCooldownMs:3000]
+        [MaxCooldownMs:3001]
+        [MaxActions:1]
+
+        [Actions:AC-PRTH-Cargo-Easy-CallSupport-Hostile]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-PRTH-Cargo-Easy-CallSupport-Hostile</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+      
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-PRTH-Cargo-Easy-CallSupport-Call]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-PRTH-Cargo-Easy-CallSupport-Call]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-PRTH-Cargo-Easy-CallSupport-Damage]
+        [DisableTriggerNames:TR-PRTH-Cargo-Easy-CallSupport-Hostile]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-PRTH-Cargo-Easy-CallSupport-Call</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [StartsReady:false]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:101]
+        [MaxActions:1]
+
+        [Actions:AC-PRTH-Cargo-Easy-CallSupport-Call]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-PRTH-Cargo-Easy-CallSupport-Call</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+      
+        [UseChatBroadcast:true]
+        [ChatData:CH-PRTH-Cargo-All-CallSupport-Call]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-PRTH-Cargo-Easy-CallSupport-Response]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-PRTH-Cargo-Easy-CallSupport-Response]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-PRTH-Cargo-Easy-CallSupport-Call]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-PRTH-Cargo-Easy-CallSupport-Response</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [StartsReady:false]
+        [MinCooldownMs:2000]
+        [MaxCooldownMs:2001]
+        [MaxActions:1]
+
+        [Actions:AC-PRTH-Cargo-Easy-CallSupport-Response]
+
+      </Description>
+      
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-PRTH-Cargo-Easy-CallSupport-Response</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+      
+        [UseChatBroadcast:true]
+        [ChatData:CH-PRTH-Cargo-All-CallSupport-Affirmative]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-PRTH-Cargo-Easy-CallSupport-Spawn]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-PRTH-Cargo-Easy-CallSupport-Spawn]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-PRTH-Cargo-Easy-CallSupport-Response]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>TR-PRTH-Cargo-Easy-CallSupport-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [StartsReady:false]
+        [MinCooldownMs:2000]
+        [MaxCooldownMs:2001]
+        [MaxActions:1]
+
+        [Actions:AC-PRTH-Cargo-Easy-CallSupport-Spawn]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>AC-PRTH-Cargo-Easy-CallSupport-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+      
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-PRTH-Cargo-Easy-CallSupport-Spawn]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-PRTH-Cargo-Easy-CallSupport-Spawn]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-PRTH-Cargo-Easy-CallSupport-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:1]
+      
+      [SpawnGroups:(NPC-PRTH) Spawn 1 Thunderbolt]
+      
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:1500]
+      [MaxDistance:2500]
+      [IgnoreSafetyChecks:false]
+      
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

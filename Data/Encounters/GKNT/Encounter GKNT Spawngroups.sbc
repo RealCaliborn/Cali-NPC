@@ -1,0 +1,120 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <SpawnGroups>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-GKNT) Mayday Fighter Jump GIRR1 (OUTER;INNER)</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GKNT]
+                [ReplenishSystems:true]
+                [IgnoreShieldProviderMod:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:10000]
+                [ThreatScoreMaximum:-1]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.5</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-All) MAYDAY RivalAI Container">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-GKNT-Mayday-Fighter-Jump-GIRR1</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-GKNT) Mayday Fighter Jump VOID1 (OUTER;INNER)</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+                
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GKNT]
+                [ReplenishSystems:true]
+                [IgnoreShieldProviderMod:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:10000]
+                [ThreatScoreMaximum:-1]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.5</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-All) MAYDAY RivalAI Container">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-GKNT-Mayday-Fighter-Jump-VOID1</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-GKNT) Protected Patrol (OUTER;INNER)</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GKNT]
+                [ReplenishSystems:true]
+                [IgnoreShieldProviderMod:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:true]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-GKNT-Protected-Patrol</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+    </SpawnGroups>
+</Definitions>

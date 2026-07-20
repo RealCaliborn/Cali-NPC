@@ -1,0 +1,316 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Trigger Group TG-GIRR-Merchant is all of the Merchant-specific triggers -->
+    <!-- This file contains all related triggers, actions, and chats -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GIRR-Merchant</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GIRR-Merchant-Engaging]
+        [Triggers:TR-GIRR-Merchant-Damaged]
+        [Triggers:TR-GIRR-Merchant-TurretTarget]
+        [Triggers:TR-GIRR-Merchant-NoWeapon]
+
+      </Description>
+
+    </EntityComponent>
+    
+    <!-- This block covers the initial engagement triggers and actions -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Merchant-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:BehaviorTriggerA]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-Merchant-Engaging]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Merchant-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Merchant-Engaging]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Merchant-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:25]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:(Singing)... Let every mand here drink up his full bowl, And let us be jolly and drown melancholy! ...]
+        [BroadcastChatType:Chat]
+        [ChatMessages:(Singing)... So it’s cheer up my lads, let your hearts never fail, While the bonny ship, the Diamond, goes a-fishing for the whale. ...]
+        [BroadcastChatType:Chat]
+        [ChatMessages:(Singing)... When the girls are all pretty and the beer it is free And ther’s bottles of rum growing from every tree! ...]
+        [BroadcastChatType:Chat]
+        [ChatMessages:We got another one, it's a good day!]
+        [BroadcastChatType:Chat]
+        [ChatMessages:For my bonny Geraldine!]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- This block covers random chatter when the ship takes damage -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Merchant-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GIRR-Merchant-Damaged]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Merchant-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Merchant-Damaged]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Merchant-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:25]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Bah, that part wasn't that important...]
+        [BroadcastChatType:Chat]
+        [ChatMessages:I'm hit!]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Mod Merchant, taking fire...]
+        [BroadcastChatType:Chat]
+        [ChatMessages:(Singing) ... He takes a bit, and we takes a bit, Their guns be gleaming, but our Torps be singing! ...]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- This block covers chatter when the first turret locks on the first target -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Merchant-TurretTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:TurretTarget]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GIRR-Merchant-TurretTarget]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Merchant-TurretTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Merchant-TurretTarget]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Merchant-TurretTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:25]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:We were going to paint stuff on the torps, but that sounded like a lot more work than yelling "piss off {PlayerName}"!.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Hey! Over there! I got a joke for you! ... You'll get it in a minute (laughter) ...]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Fire in the hole!]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Don't worry guys, we'll do the heavy lifting...]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- This block covers chatter when the grid no longer has fireable weapons -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Merchant-NoWeapon</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:NoWeapon]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GIRR-Merchant-NoWeapon]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Merchant-NoWeapon</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Merchant-NoWeapon]
+        
+        [Ramming:true]
+        [ChangeAutopilotSpeed:true]
+        [NewAutopilotSpeed:240]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Merchant-NoWeapon</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:25]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Can't win 'em all...]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Ya know what else is a missle? Every ship with at least one thruster left! (cackling)]
+        [BroadcastChatType:Chat]
+        [ChatMessages:It's either hell or Valhalla for this lot, and I'll know real soon...]
+        [BroadcastChatType:Chat]
+        [ChatMessages:For every one of us you get, there's 10 more waiting in line!]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

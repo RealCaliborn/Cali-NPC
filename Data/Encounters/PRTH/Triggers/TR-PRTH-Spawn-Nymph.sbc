@@ -1,0 +1,92 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- This block spawns in a Nymph fighter -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Spawn-1xNymph</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:4000]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [MaxActions:1]
+        [Actions:AC-PRTH-Spawn1-Nymph]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- This block spawns in two Nymph fighters -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Spawn-2xNymph</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:4000]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [MaxActions:1]
+        [Actions:AC-PRTH-Spawn1-Nymph]
+        [Actions:AC-PRTH-Spawn1-Nymph]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Spawn1-Nymph</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:100]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-PRTH-Spawn1-Nymph]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-PRTH-Spawn1-Nymph</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:-1]
+      
+      [SpawnGroups:(NPC-PRTH) Spawn 1 Nymph]
+      
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:150]
+      [MaxDistance:750]
+      [IgnoreSafetyChecks:false]
+      
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

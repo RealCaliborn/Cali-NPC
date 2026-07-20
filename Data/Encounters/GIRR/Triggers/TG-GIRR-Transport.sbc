@@ -1,0 +1,314 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Trigger Group TG-GIRR-Transport is all of the Transport-specific triggers -->
+    <!-- This file contains all related triggers, actions, and chats -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GIRR-Transport</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GIRR-Transport-Engaging]
+        [Triggers:TR-GIRR-Transport-Damaged]
+        [Triggers:TR-GIRR-Transport-TurretTarget]
+        [Triggers:TR-GIRR-Transport-NoWeapon]
+
+      </Description>
+
+    </EntityComponent>
+    
+    <!-- This block covers the initial engagement triggers and actions -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Transport-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:BehaviorTriggerA]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-Transport-Engaging]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Transport-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Transport-Engaging]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Transport-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:25]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Mod Transport, setting intercept course.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Yeah, we see 'em too, headed there now.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Mod Transport here, proceeding to target.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:We'll crack the shell, y'all can get the nuts inside...]
+        [BroadcastChatType:Chat]
+        [ChatMessages:You are trespassing in GIRR territory, we will open lawful hostilities if you remain.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:For Gerry!!!]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- This block covers random chatter when the ship takes damage -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Transport-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GIRR-Transport-Damaged]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Transport-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Transport-Damaged]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Transport-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:40]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Shields down! Help!]
+        [BroadcastChatType:Chat]
+        [ChatMessages:I'm hit!]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Mod Transport, taking damage...]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Mod Transport here, taking hits... Requesting assistance!]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- This block covers chatter when the first turret locks on the first target -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Transport-TurretTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:TurretTarget]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GIRR-Transport-TurretTarget]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Transport-TurretTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Transport-TurretTarget]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Transport-TurretTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:25]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Mod Transport in position, beginning shield mitigation.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Target locked in, firing.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Mod Transport here, we're in position!]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Keep them off me guys, we'll have that shield down real quick...]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- This block covers chatter when the grid no longer has fireable weapons -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Transport-NoWeapon</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:NoWeapon]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GIRR-Transport-NoWeapon]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Transport-NoWeapon</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Transport-NoWeapon]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Transport-NoWeapon</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:25]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Mod Transport here, I don't think this ship is making it back...]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Abandon Ship!!!]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Oh no! She's coming apa... *static*]
+        [BroadcastChatType:Chat]
+        [ChatMessages:The loss of one ship is nothing to the might of GIRR!]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

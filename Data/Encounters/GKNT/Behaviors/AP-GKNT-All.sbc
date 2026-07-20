@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AP-GKNT-NPC-Protection</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [DisableInertiaDampeners:false]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:100]
+        [WaypointTolerance:40]
+        [FlyLevelWithGravity:false]
+
+        [IdealMinSpeed:10]
+        [IdealMaxSpeed:400]
+        [MaxSpeedTolerance:5]
+
+        [EngageDistanceSpace:500]
+        [EngageDistancePlanet:600]
+        [DisengageDistanceSpace:2000]
+        [DisengageDistancePlanet:2000]
+
+        [UseProjectileLeadPrediction:true]
+        [OffsetSpaceMinDistFromTarget:100]
+        [OffsetSpaceMaxDistFromTarget:500]
+
+        [AllowStrafing:true]
+        [StrafeMinDurationMs:1500]
+        [StrafeMaxDurationMs:3000]
+        [StrafeMinCooldownMs:2000]
+        [StrafeMaxCooldownMs:4000]
+        [StrafeMinimumSafeAngleFromTarget:100]
+        [StrafeMinimumTargetDistance:150]
+        [StrafeSpeedCutOff:260]
+        [StrafeDistanceCutOff:100]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

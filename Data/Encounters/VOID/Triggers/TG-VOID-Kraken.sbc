@@ -1,0 +1,623 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-VOID-Kraken</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-VOID-Kraken-Engaging]
+        [Triggers:TR-VOID-Kraken-LaunchFighters]
+
+        [Triggers:TR-VOID-Kraken-LaunchFighter-Port]
+        [Triggers:TR-VOID-Kraken-LaunchFighter-Starboard]
+
+        [Triggers:TR-VOID-Kraken-CheckFighter-Port]
+        [Triggers:TR-VOID-Kraken-CheckFighter-Starboard]
+
+        [Triggers:TR-VOID-Kraken-ReceiveFighter-Port]
+        [Triggers:TR-VOID-Kraken-ReceiveFighter-Starboard]
+
+        [Triggers:TR-VOID-Kraken-ShieldsDown-Spawn]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Kraken-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:AcquiredTarget]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-VOID-Kraken-Engaging]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Kraken-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-VOID-Kraken-Engaging]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-VOID-Kraken-Engaging]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-VOID-Kraken-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:Kraken]
+        [Color:Red]
+
+        [Chance:100]
+        [MaxChats:1]
+		[MinTime:38]
+		[MaxTime:120]
+        [BroadcastRandomly:true]
+		[AllowDuplicatedMessages:false]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:The emptiness comes, become one with the nothing.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Just like a star whose Hydrogen is spent, your end shall be violent and short.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Worry not, oblivion comes for us all... in time.]
+        [BroadcastChatType:Chat]
+		[ChatMessages:Only An honest death can cure you now {PlayerName}. Liberate you from your wild curiosity.]
+        [BroadcastChatType:Chat]
+		[ChatMessages:Stand in the ashes of a trillion dead souls, and asks the ghosts if honor matters. The silence is your answer.]
+		[BroadcastChatType:Chat]
+		[ChatMessages:Does this unit have a soul?]
+		[BroadcastChatType:Chat]
+      </Description>
+    </EntityComponent>
+
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Kraken-LaunchFighters</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:2000]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-VOID-Kraken-LaunchFighters]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Kraken-LaunchFighters</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-VOID-Kraken-CheckFighter-Port]
+        [ResetTriggerCooldownNames:TR-VOID-Kraken-CheckFighter-Starboard]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-VOID-Kraken-LaunchFighter-Port]
+        [EnableTriggerNames:TR-VOID-Kraken-LaunchFighter-Starboard]
+        [EnableTriggerNames:TR-VOID-Kraken-CheckFighter-Port]
+        [EnableTriggerNames:TR-VOID-Kraken-CheckFighter-Starboard]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-VOID-Kraken-LaunchFighters]
+
+      </Description>
+    </EntityComponent>
+
+
+
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Kraken-LaunchFighter-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:30000]
+        [MaxCooldownMs:30001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-VOID-Kraken-LaunchFighter-Port]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Kraken-LaunchFighter-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-VOID-Kraken-LaunchFighter-Port]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-VOID-Kraken-LaunchFighter]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-VOID-Kraken-LaunchFighter-Port</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:4]
+      
+      [SpawnGroups:(NPC-VOID) Kraken-Stingbaby-Port]
+      
+      [UseRelativeSpawnPosition:true]
+      [RelativeSpawnOffset:{X:-20 Y:20 Z:20}]
+      [RelativeSpawnVelocity:{X:0 Y:45 Z:0}]
+      [IgnoreSafetyChecks:true]
+      
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Kraken-LaunchFighter-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:30000]
+        [MaxCooldownMs:30001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-VOID-Kraken-LaunchFighter-Starboard]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Kraken-LaunchFighter-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-VOID-Kraken-LaunchFighter-Starboard]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-VOID-Kraken-LaunchFighter]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-VOID-Kraken-LaunchFighter-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:4]
+      
+      [SpawnGroups:(NPC-VOID) Kraken-Stingbaby-Starboard]
+      
+      [UseRelativeSpawnPosition:true]
+      [RelativeSpawnOffset:{X:0 Y:20 Z:20}]
+      [RelativeSpawnVelocity:{X:0 Y:45 Z:0}]
+      [IgnoreSafetyChecks:true]
+      
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-VOID-Kraken-LaunchFighter</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:Kraken]
+        [Color:Red]
+
+        [Chance:100]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Launching fighter.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Fighter construction complete.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Fighter synthesis complete.]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Kraken-CheckFighter-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:10000]
+        [MaxCooldownMs:10001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-VOID-Kraken-CheckFighter-Port]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Kraken-CheckFighter-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-VOID-Kraken-Calling-Port]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Kraken-CheckFighter-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:10000]
+        [MaxCooldownMs:10001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-VOID-Kraken-CheckFighter-Starboard]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Kraken-CheckFighter-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-VOID-Kraken-Calling-Starboard]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CO-VOID-Kraken-Calling-Port</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Command]
+
+      [CommandCode:CO-VOID-Kraken-Calling-Port]
+      [MatchSenderReceiverOwners:true]
+      [IgnoreAntennaRequirement:true]
+      [Radius:12000]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CO-VOID-Kraken-Calling-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Command]
+      
+      [CommandCode:CO-VOID-Kraken-Calling-Starboard]
+      [MatchSenderReceiverOwners:true]
+      [IgnoreAntennaRequirement:true]
+      [Radius:12000]
+
+      </Description>
+    </EntityComponent>
+
+
+
+
+
+
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Kraken-ReceiveFighter-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-VOID-Baby-Answering-Port]
+        [Actions:AC-VOID-Kraken-ReceiveFighter-Port]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Kraken-ReceiveFighter-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-VOID-Kraken-LaunchFighter-Port]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Kraken-ReceiveFighter-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-VOID-Baby-Answering-Starboard]
+        [Actions:AC-VOID-Kraken-ReceiveFighter-Starboard]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Kraken-ReceiveFighter-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-VOID-Kraken-LaunchFighter-Starboard]
+
+      </Description>
+    </EntityComponent>
+
+
+
+
+
+
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Kraken-ShieldsDown-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Deformation]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-VOID-Kraken-ShieldsDown-Spawn]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Kraken-ShieldsDown-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-VOID-Kraken-ShieldsDown-Spawn]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-VOID-Kraken-ShieldsDown-Spawn]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-VOID-Kraken-ShieldsDown-Spawn]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-VOID-Kraken-ShieldsDown-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:1]
+      
+      [SpawnGroups:(NPC-VOID) 1xLampreyB]
+      
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:1500]
+      [MaxDistance:2500]
+      [IgnoreSafetyChecks:false]
+      
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-VOID-Kraken-ShieldsDown-Spawn</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:Kraken]
+        [Color:Red]
+
+        [Chance:100]
+        [MaxChats:1]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Send the reserves in!]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+
+
+
+
+
+
+
+
+  </EntityComponents>
+</Definitions>

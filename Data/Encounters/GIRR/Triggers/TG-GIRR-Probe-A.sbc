@@ -1,0 +1,419 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Trigger Group TG-GIRR-Transport is all of the Transport-specific triggers -->
+    <!-- This file contains all related triggers, actions, and chats -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GIRR-Probe-A</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GIRR-Probe-A-Send]
+        [Triggers:TR-GIRR-Probe-A-Player-Near]
+        [Triggers:TR-GIRR-Probe-A-Player-Really-Near]
+        [Triggers:TR-GIRR-Probe-A-Enable-SelfDestruct]
+        [Triggers:TR-GIRR-Probe-A-Time-To-Blow]
+        [Triggers:TR-GIRR-Probe-A-Damage]
+        [Triggers:TR-GIRR-Probe-A-Retreat]
+
+      </Description>
+
+    </EntityComponent>
+    
+    <!-- This block covers the initial engagement triggers and actions -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Probe-A-Send</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:180000]
+        [MaxCooldownMs:300000]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-Probe-A-Send]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Probe-A-Send</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Probe-A-Send]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Probe-A-Send</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:80]
+        [MaxChats:-1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:12000]
+
+        [ChatMessages:This territory is hereby annexed by the Independent Republic under Section 4 of the Articles of Confederation.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:The annexation of this territory will be lawfully enforced by the Independent Republican 1st regiment.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:You have graciously been given a short time to peacefully remove any material and personnel from this territory.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:All space within the range of this broadcast is now under the control of the Independent Republic.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Attention pirates and privateers of Roach Motel! Your unlawful occupation of Independent Republic holdings will not be tolerated.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Warning! Interference with Independent Republic operations in this sector will not be tolerated.]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- This block covers random chatter when the ship takes damage -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Probe-A-Player-Near</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:5500]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GIRR-Probe-A-Player-Near]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Probe-A-Player-Near</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Probe-A-Player-Near]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Probe-A-Player-Near</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:80]
+        [MaxChats:1]
+        [BroadcastRandomly:false]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:You are trespassing on IR territory! Move away immediately!]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- This block covers chatter when the first turret locks on the first target -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Probe-A-Player-Really-Near</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [MinCooldownMs:6000]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:2200]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GIRR-Probe-A-Player-Really-Near]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Probe-A-Player-Really-Near</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Probe-A-Player-Really-Near]
+
+        [ChangeReputationWithPlayers:true]
+        [ReputationChangeRadius:2500]
+        [ReputationChangeFactions:GIRR]
+        [ReputationChangeAmount:-50]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Probe-A-Player-Really-Near</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:80]
+        [MaxChats:1]
+        [BroadcastRandomly:false]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Your behvior has been reported to IRR authorities.]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- This block covers chatter when the first turret locks on the first target -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Probe-A-Enable-SelfDestruct</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:1700]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GIRR-Probe-A-Enable-SelfDestruct]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Probe-A-Enable-SelfDestruct</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-GIRR-Probe-A-Time-To-Blow]
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-GIRR-Probe-A-Time-To-Blow]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-GIRR-Probe-A-Enable-SelfDestruct]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- This block covers chatter when the first turret locks on the first target -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Probe-A-Time-To-Blow</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:PlayerNear]
+        [TargetDistance:1700]
+        [StartsReady:false]
+
+        [MinCooldownMs:10000]
+        [MaxCooldownMs:10001]
+
+        [Actions:AC-GIRR-Probe-A-Time-To-Blow]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Probe-A-Time-To-Blow</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Probe-A-Time-To-Blow]
+
+        [GenerateExplosion:true]
+        [ExplosionOffsetFromRemote:{X:0 Y:0 Z:1}]
+        [ExplosionRange:2]
+        [ExplosionDamage:100000]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Probe-A-Time-To-Blow</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:80]
+        [MaxChats:1]
+        [BroadcastRandomly:false]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Deployment of asset seizure prevention system authorized.]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- This block covers chatter when the first turret locks on the first target -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Probe-A-Damage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-Probe-A-Damage]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Probe-A-Damage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ChangeReputationWithPlayers:true]
+        [ReputationChangeRadius:5000]
+        [ReputationChangeFactions:GIRR]
+        [ReputationChangeAmount:-20]
+
+        [GenerateExplosion:true]
+        [ExplosionOffsetFromRemote:{X:0 Y:0 Z:1}]
+        [ExplosionRange:1]
+        [ExplosionDamage:100000]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- This block covers the initial engagement triggers and actions -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Probe-A-Retreat</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:1200000]
+        [MaxCooldownMs:1201000]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-Probe-A-Retreat]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Probe-A-Retreat</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ForceDespawn:true]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

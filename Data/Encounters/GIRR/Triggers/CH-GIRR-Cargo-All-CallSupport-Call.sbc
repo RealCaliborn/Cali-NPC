@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CH-GIRR-Cargo-All-CallSupport-Call</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+
+      [UseChat:true]
+      [StartsReady:true]
+      [Author:Cargo Ship]
+      [Color:Red]
+
+      [Chance:80]
+      [MaxChats:1]
+      [BroadcastRandomly:true]
+
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:10000]
+
+      [ChatMessages:HQ, we've got hostiles, requesting assistance.]
+      [BroadcastChatType:Chat]
+      [ChatMessages:{PlayerName} is here, send help!]
+      [BroadcastChatType:Chat]
+      [ChatMessages:We are under attack by {PlayerName}, requesting intervention.]
+      [BroadcastChatType:Chat]
+
+      [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CH-GIRR-Cargo-All-CallSupport-Affirmative</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+
+      [UseChat:true]
+      [StartsReady:true]
+      [Author:HQ]
+      [Color:Red]
+
+      [Chance:80]
+      [MaxChats:1]
+      [BroadcastRandomly:true]
+
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:10000]
+
+      [ChatMessages:Rapid response team enroute.]
+      [BroadcastChatType:Chat]
+      [ChatMessages:Hang in there, forces inbound.]
+      [BroadcastChatType:Chat]
+      [ChatMessages:Affirm, dispatching rapid response.]
+      [BroadcastChatType:Chat]
+
+      [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CH-GIRR-Cargo-All-CallSupport-Negative</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Chat]
+
+      [UseChat:true]
+      [StartsReady:true]
+      [Author:HQ]
+      [Color:Red]
+
+      [Chance:80]
+      [MaxChats:1]
+      [BroadcastRandomly:true]
+
+      [IgnoreAntennaRequirement:true]
+      [IgnoredAntennaRangeOverride:10000]
+
+      [ChatMessages:No forces available, recommend best speed for waypoint.]
+      [BroadcastChatType:Chat]
+      [ChatMessages:No teams in jump range, try to outrun them.]
+      [BroadcastChatType:Chat]
+      [ChatMessages:Neg, no forces available.]
+      [BroadcastChatType:Chat]
+
+      [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

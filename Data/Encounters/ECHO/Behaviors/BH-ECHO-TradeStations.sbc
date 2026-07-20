@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-ECHO-Station-Solo</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Passive]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-Common-EconDespawnTimer]
+        [Triggers:TR-Common-WarheadOnDamage]
+
+        [TriggerGroups:TG-ECHO-Station-Solo]
+        [TriggerGroups:TG-ECHO-Target-Sharing]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-ECHO-Station-Easy</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Passive]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-Common-EconDespawnTimer]
+
+        [TriggerGroups:TG-ECHO-Station-Easy]
+        [TriggerGroups:TG-ECHO-Target-Sharing]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-ECHO-Station-Medium</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Passive]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-Common-EconDespawnTimer]
+
+        [TriggerGroups:TG-ECHO-Station-Medium]
+        [TriggerGroups:TG-ECHO-Target-Sharing]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- TG-Common-NPC-Protection-Tx -->
+    <!-- Attach to any entity that GKNT fighters are meant to protect (e.g., ASTRA merchants, neutral stations). -->
+    <!-- When this entity takes damage, broadcasts NPC-Protection-Damage so nearby GKNT ships (BH-GKNT-NPC-Protection) -->
+    <!-- switch target to the attacker via TR-GKNT-NPC-Protection-Rx / AC-GKNT-NPC-Protection-Rx. -->
+    <!-- Pair with a spawner that calls NPC-Protection-GetHelp-Base/Light/Heavy to summon the GKNT escort. -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-Common-NPC-Protection-Tx</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-Common-NPC-Protection-Tx]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-Common-NPC-Protection-Tx</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+
+        [DamageTypes:Any]
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+
+        [MinCooldownMs:250]
+        [MaxCooldownMs:750]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-Common-NPC-Protection-Tx]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-Common-NPC-Protection-Tx</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [BroadcastSendCode:NPC-Protection-Damage]
+        [BroadcastDamagerTarget:true]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,213 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<EntityComponents>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>TG-Common-Jump</SubtypeId>
+			</Id>
+			<Description>
+
+			[RivalAI TriggerGroup]
+			
+			[Triggers:TR-Common-Jump-Completed]
+			[Triggers:TR-Common-Jump-Acquired]
+      
+			</Description>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>TR-Common-Jump-Completed</SubtypeId>
+			</Id>
+			<Description>
+
+			[RivalAI Trigger]
+			  
+			[Type:JumpCompleted]
+			[UseTrigger:true]
+			[StartsReady:false]
+			[MinCooldownMs:60]
+			[MaxCooldownMs:30000]
+			[MaxActions:3]
+			[JumpedGridsCanBeNonHostile:false]
+			[DetectSelfAsJumpedGrid:false]
+			[Actions:AC-Common-Jump-To-Entity]
+		  
+			</Description>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>TR-Common-Jump-Acquired</SubtypeId>
+			</Id>
+			<Description>
+
+			[RivalAI Trigger]
+			  
+			[Type:AcquiredTarget]
+			[UseTrigger:true]
+			[StartsReady:false]
+			[MinCooldownMs:1000]
+			[MaxCooldownMs:1001]
+			[Conditions:CD-Jump-Condition-Target]
+			[Actions:AC-Common-Jump-To-Target]
+		  
+			</Description>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+		  <Id>
+			<TypeId>Inventory</TypeId>
+			<SubtypeId>CH-Common-Jump</SubtypeId>
+		  </Id>
+		  <Description>
+
+			[RivalAI Chat]
+
+			[UseChat:true]
+			[StartsReady:true]
+			[Author:{GridName}]
+			[Color:Blue]
+
+			[Chance:30]
+			[MaxChats:1]
+			[BroadcastRandomly:true]
+
+			[IgnoreAntennaRequirement:true]
+			[IgnoredAntennaRangeOverride:10000]
+
+			[ChatMessages:Jumping to target!]
+			[BroadcastChatType:Chat]
+			[ChatMessages:FOR GERRYYY!!!]
+			[BroadcastChatType:Chat]
+
+		  </Description>
+    </EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>AC-Common-Jump-To-Target</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Action]
+			  
+				[Chance:30]
+				[JumpToTarget:true]
+				[UseChatBroadcast:true]
+				[ChatData:CH-Common-Jump]
+				 
+			</Description>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>AC-Common-Jump-To-Entity</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Action]
+			  
+				[Chance:30]
+				[JumpToJumpedEntity:true]
+				
+			</Description>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>CD-Jump-Condition-Target</SubtypeId>
+			</Id>
+			<Description>
+
+			[RivalAI Condition]
+			  
+			[UseConditions:true]
+			[CheckTargetDistance:true]
+			[MinTargetDistance:5000]
+			[CheckIfTargetIsPlayerOwned:true]
+			  
+			</Description>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>WP-Waypoint-Self</SubtypeId>
+			</Id>
+			<Description>
+
+			  [RivalAI Waypoint]
+			  
+			  [Waypoint:EntityRandom]
+			  [RelativeEntity:Self]
+
+			  [MinDistance:3000]
+			  [MaxDistance:9000]
+			  [MinAltitude:100]
+			  [MaxAltitude:500]
+
+			  [InheritRelativeAltitude:true]
+			  
+			</Description>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>WP-Waypoint-Target</SubtypeId>
+			</Id>
+			<Description>
+
+			  [RivalAI Waypoint]
+			  
+			  [Waypoint:EntityRandom]
+			  [RelativeEntity:Target]
+
+			  [MinDistance:1500]
+			  [MaxDistance:2500]
+			  [MinAltitude:100]
+			  [MaxAltitude:500]
+
+			  [InheritRelativeAltitude:true]
+			  
+			</Description>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>WP-Waypoint-Damager</SubtypeId>
+			</Id>
+			<Description>
+
+			  [RivalAI Waypoint]
+			  
+			  [Waypoint:EntityRandom]
+			  [RelativeEntity:Damager]
+
+			  [MinDistance:1500]
+			  [MaxDistance:2500]
+			  [MinAltitude:100]
+			  [MaxAltitude:500]
+
+			  [InheritRelativeAltitude:true]
+			  
+			</Description>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>IF-Jump</SubtypeId>
+			</Id>
+			<Description>
+
+			  [RivalAI Condition]
+			  
+			  [UseConditions:true]
+			  [MatchAnyCondition:true]
+			  [CheckTargetDistance:true]
+			  [MinTargetDistance:5000]
+			  [MaxTargetDistance:150000]
+	  
+			</Description>
+		</EntityComponent>
+	</EntityComponents>
+</Definitions>

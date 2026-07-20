@@ -1,0 +1,226 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <SpawnGroups>
+
+        <!-- (NPC-GIRR) CruiserSpawn Hauler -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-GIRR) CruiserSpawn Hauler</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+            [RivalAiSpawn:true]
+
+            [FactionOwner:GIRR]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-GIRR-Hauler</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-GIRR) CruiserSpawn Hauler -->
+
+        <!-- (NPC-GIRR) CruiserSpawn Transport -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-GIRR) CruiserSpawn Transport</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+            [RivalAiSpawn:true]
+
+            [FactionOwner:GIRR]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-GIRR-Transport</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-GIRR) CruiserSpawn Transport -->
+
+        <!-- (NPC-GIRR) CruiserSpawn Miner -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-GIRR) CruiserSpawn Miner</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+            [RivalAiSpawn:true]
+
+            [FactionOwner:GIRR]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-GIRR-Miner</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-GIRR) CruiserSpawn Miner -->
+
+        <!-- (NPC-GIRR) CruiserSpawn Merchant -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-GIRR) CruiserSpawn Merchant</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+            [RivalAiSpawn:true]
+
+            [FactionOwner:GIRR]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-GIRR-Merchant</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-GIRR) CruiserSpawn Merchant -->
+
+        <!-- (NPC-GIRR) CruiserSpawn Cruiser -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-GIRR) CruiserSpawn Cruiser</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+            [RivalAiSpawn:true]
+
+            [FactionOwner:GIRR]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-GIRR-CruiserNospawn</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-GIRR) CruiserSpawn Cruiser -->
+
+    </SpawnGroups>
+</Definitions>

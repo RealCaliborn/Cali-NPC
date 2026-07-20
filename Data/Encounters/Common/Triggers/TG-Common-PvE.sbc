@@ -1,0 +1,65 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+	    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-Common-PvE-Default</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-Common-GeneralDamage]
+        [Triggers:TR-Common-HydrogenManNear]
+        [Triggers:TR-Common-HydrogenManFar]
+        [Triggers:TR-Common-NewTarget]
+        [Triggers:TR-Common-ReceiveTarget]
+		[Triggers:TR-Common-Jump-Completed]
+		[Triggers:TR-Common-Jump-Acquired]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-Common-PvE-Default-NoNewTarget</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-Common-GeneralDamage]
+        [Triggers:TR-Common-HydrogenManNear]
+        [Triggers:TR-Common-HydrogenManFar]
+        [Triggers:TR-Common-ReceiveTarget]
+
+      </Description>
+    </EntityComponent>
+
+	    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-Common-PvE-Hard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-Common-Compromised]
+        [Triggers:TR-Common-GeneralDamage]
+        [Triggers:TR-Common-GrindDamage]
+        [Triggers:TR-Common-HydrogenManNear]
+        [Triggers:TR-Common-HydrogenManFar]
+        [Triggers:TR-Common-NewTarget]
+        [Triggers:TR-Common-ReceiveTarget]
+		[Triggers:TR-Common-Jump-Completed]
+		[Triggers:TR-Common-Jump-Acquired]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+
+<!-- VOID Loot Default -->
+    <ContainerType CountMin="3" CountMax="4">
+      <Id>
+        <TypeId>ContainerTypeDefinition</TypeId>
+        <SubtypeId>VOID Loot Default</SubtypeId>
+      </Id>
+      <Items>
+           <Item AmountMin="100" AmountMax="250">
+                <Frequency>2</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Reactor</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="1000" AmountMax="2000">
+                <Frequency>4</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Tech2x</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="500" AmountMax="5000">
+                <Frequency>4</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Tech4x</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="100" AmountMax="2000">
+                <Frequency>2</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>Tech8x</SubtypeId>
+                </Id>
+            </Item>
+            <Item AmountMin="25" AmountMax="500">
+                <Frequency>2</Frequency>
+                <Id>
+                    <TypeId>Component</TypeId>
+                    <SubtypeId>AdaptiveDynoCapacitor</SubtypeId>
+                </Id>
+            </Item>
+           <Item AmountMin="100" AmountMax="2000">
+                <Frequency>2</Frequency>
+                <Id>
+                    <TypeId>Ingot</TypeId>
+                    <SubtypeId>Uranium</SubtypeId>
+                </Id>
+            </Item>
+            <Item AmountMin="1000" AmountMax="5000">
+                <Frequency>4</Frequency>
+                <Id>
+                    <TypeId>Ore</TypeId>
+                    <SubtypeId>Uranium</SubtypeId>
+                </Id>
+            </Item>
+        </Items>
+    </ContainerType>
+<!-- VOID Loot Default -->
+
+  </ContainerTypes>
+</Definitions>

@@ -1,0 +1,72 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!--ScreamBroadcast-->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-ScreamBroadcast</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:60000]
+        [MaxCooldownMs:180000]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-VOID-ScreamBroadcast]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-ScreamBroadcast</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:25]
+        [UseChatBroadcast:true]
+        [ChatData:CH-VOID-ScreamBroadcast]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-VOID-ScreamBroadcast</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:-1]
+        [BroadcastRandomly:true]
+        [Author:The Void]
+        [Color:Red]
+
+        [IgnoreAntennaRequirement:true]
+
+        [ChatMessages: - Audio Broadcast - ]
+        [ChatAudio:Void-Screams]
+        [BroadcastChatType:Chat]
+        [ChatVolumeMultiplier:0.25]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>
