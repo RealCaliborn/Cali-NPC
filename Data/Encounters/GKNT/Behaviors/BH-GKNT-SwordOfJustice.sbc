@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- GKNT's capital-ship flagship, mirroring the shape of the mod's other boss-tier
+         behaviors (BH-PRTH-Trident, BH-VOID-Kraken): standoff autopilot, long-range
+         target acquisition, TG-Common-PvE-Hard trigger suite. -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GKNT-SwordOfJustice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+
+        [TargetData:TA-Common-8000-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseBarrageFire:false]
+
+        [TriggerGroups:TG-Common-PvE-Hard]
+        [TriggerGroups:TG-GKNT-Target-Sharing]
+        [TriggerGroups:TG-GKNT-Reputation]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

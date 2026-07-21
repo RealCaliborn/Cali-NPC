@@ -26,6 +26,7 @@
 
             [FactionOwner:VOID]
             [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
 
             [ReplaceArmorBlocksWithModules:true]
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
@@ -98,6 +99,7 @@
 
             [FactionOwner:VOID]
             [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
 
             [ReplaceArmorBlocksWithModules:true]
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
@@ -152,6 +154,7 @@
 
             [FactionOwner:VOID]
             [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
 
             [ReplaceArmorBlocksWithModules:true]
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
@@ -215,6 +218,7 @@
 
             [FactionOwner:VOID]
             [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
 
             [ReplaceArmorBlocksWithModules:true]
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
@@ -278,6 +282,7 @@
 
             [FactionOwner:VOID]
             [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
 
             [ReplaceArmorBlocksWithModules:true]
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
@@ -359,6 +364,7 @@
 
             [FactionOwner:VOID]
             [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
 
             [ReplaceArmorBlocksWithModules:true]
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]

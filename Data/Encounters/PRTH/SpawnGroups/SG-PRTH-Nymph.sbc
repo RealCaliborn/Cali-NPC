@@ -18,6 +18,7 @@
         [PlanetaryInstallation:false]
         [FactionOwner:PRTH]
         [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -57,6 +58,7 @@
         [PlanetaryInstallation:false]
         [FactionOwner:PRTH]
         [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -96,6 +98,7 @@
         [PlanetaryInstallation:false]
         [FactionOwner:PRTH]
         [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]

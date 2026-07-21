@@ -17,6 +17,7 @@
         [PlanetaryInstallation:false]
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -64,6 +65,7 @@
         [PlanetaryInstallation:false]
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -100,6 +102,7 @@
         [PlanetaryInstallation:false]
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]

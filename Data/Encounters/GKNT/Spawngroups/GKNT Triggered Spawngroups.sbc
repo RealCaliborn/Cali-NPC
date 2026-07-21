@@ -18,6 +18,7 @@
         [PlanetaryInstallation:false]
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -63,6 +64,7 @@
         [PlanetaryInstallation:false]
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -99,6 +101,7 @@
         [PlanetaryInstallation:false]
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -144,6 +147,7 @@
         [PlanetaryInstallation:false]
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -180,6 +184,7 @@
         [PlanetaryInstallation:false]
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -205,6 +210,252 @@
                 </Position>
                 <Speed>400</Speed>
                 <Behaviour>BH-GKNT-Fighter-Default</Behaviour>
+            </Prefab>
+        </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+            <SubtypeId>(NPC-GKNT) Scramble 1Swallow</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup] 
+        [RivalAiSpawn:true]
+        [SpaceRandomEncounter:false]
+        [SpaceCargoShip:false]
+        [LunarCargoShip:false]
+        [AtmosphericCargoShip:false]
+        [PlanetaryInstallation:false]
+        [FactionOwner:GKNT]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+                
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        </Description>
+        <IsPirate>true</IsPirate> <!--Do not edit-->
+        <Frequency>1.0</Frequency>
+        <Prefabs>
+            <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
+                <Position>
+                    <X>0.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>400</Speed>
+                <Behaviour>BH-GKNT-Fighter-Scrambled</Behaviour>
+            </Prefab>
+        </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+            <SubtypeId>(NPC-GKNT) Scramble 2Swallow</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup] 
+        [RivalAiSpawn:true]
+        [SpaceRandomEncounter:false]
+        [SpaceCargoShip:false]
+        [LunarCargoShip:false]
+        [AtmosphericCargoShip:false]
+        [PlanetaryInstallation:false]
+        [FactionOwner:GKNT]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+                
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        </Description>
+        <IsPirate>true</IsPirate> <!--Do not edit-->
+        <Frequency>1.0</Frequency>
+        <Prefabs>
+            <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
+                <Position>
+                    <X>-250.2</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>400</Speed>
+                <Behaviour>BH-GKNT-Fighter-Scrambled</Behaviour>
+            </Prefab>
+            <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
+                <Position>
+                    <X>250.2</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>400</Speed>
+                <Behaviour>BH-GKNT-Fighter-Scrambled</Behaviour>
+            </Prefab>
+        </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+            <SubtypeId>(NPC-GKNT) Scramble 1Saber</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup] 
+        [RivalAiSpawn:true]
+        [SpaceRandomEncounter:false]
+        [SpaceCargoShip:false]
+        [LunarCargoShip:false]
+        [AtmosphericCargoShip:false]
+        [PlanetaryInstallation:false]
+        [FactionOwner:GKNT]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+                
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        </Description>
+        <IsPirate>true</IsPirate> <!--Do not edit-->
+        <Frequency>1.0</Frequency>
+        <Prefabs>
+            <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
+                <Position>
+                    <X>0.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>400</Speed>
+                <Behaviour>BH-GKNT-Fighter-Scrambled</Behaviour>
+            </Prefab>
+        </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+            <SubtypeId>(NPC-GKNT) BASS-Assist 1Swallow</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup] 
+        [RivalAiSpawn:true]
+        [SpaceRandomEncounter:false]
+        [SpaceCargoShip:false]
+        [LunarCargoShip:false]
+        [AtmosphericCargoShip:false]
+        [PlanetaryInstallation:false]
+        [FactionOwner:GKNT]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+                
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        </Description>
+        <IsPirate>true</IsPirate> <!--Do not edit-->
+        <Frequency>1.0</Frequency>
+        <Prefabs>
+            <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
+                <Position>
+                    <X>0.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>400</Speed>
+                <Behaviour>BH-GKNT-Fighter-Scrambled</Behaviour>
+            </Prefab>
+        </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+            <SubtypeId>(NPC-GKNT) Helper 1Saber1Swallow</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup] 
+        [RivalAiSpawn:true]
+        [SpaceRandomEncounter:false]
+        [SpaceCargoShip:false]
+        [LunarCargoShip:false]
+        [AtmosphericCargoShip:false]
+        [PlanetaryInstallation:false]
+        [FactionOwner:GKNT]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+                
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        </Description>
+        <IsPirate>true</IsPirate> <!--Do not edit-->
+        <Frequency>1.0</Frequency>
+        <Prefabs>
+            <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
+                <Position>
+                    <X>250.2</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>400</Speed>
+                <Behaviour>BH-GKNT-Fighter-Default</Behaviour>
+            </Prefab>
+            <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
+                <Position>
+                    <X>-250.2</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>400</Speed>
+                <Behaviour>BH-GKNT-Fighter-Default</Behaviour>
+            </Prefab>
+        </Prefabs>
+    </SpawnGroup>
+
+
+    <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+            <SubtypeId>(NPC-GKNT) Helper Flagship</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup] 
+        [RivalAiSpawn:true]
+        [SpaceRandomEncounter:false]
+        [SpaceCargoShip:false]
+        [LunarCargoShip:false]
+        [AtmosphericCargoShip:false]
+        [PlanetaryInstallation:false]
+        [FactionOwner:GKNT]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+                
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        </Description>
+        <IsPirate>true</IsPirate> <!--Do not edit-->
+        <Frequency>1.0</Frequency>
+        <Prefabs>
+            <Prefab SubtypeId="(NPC-GKNT) The Sword of Justice">
+                <Position>
+                    <X>0.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>25</Speed>
+                <Behaviour>BH-GKNT-SwordOfJustice</Behaviour>
             </Prefab>
         </Prefabs>
     </SpawnGroup>

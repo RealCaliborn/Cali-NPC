@@ -135,6 +135,7 @@
         [TriggerGroups:TG-GKNT-Protected]
         [TriggerGroups:TG-Common-NPC-Protection-Tx]
         [TriggerGroups:TG-GKNT-Helper]
+        [TriggerGroups:TG-GKNT-Scramble]
         [TriggerGroups:TG-GKNT-Reputation]
 
       </Description>

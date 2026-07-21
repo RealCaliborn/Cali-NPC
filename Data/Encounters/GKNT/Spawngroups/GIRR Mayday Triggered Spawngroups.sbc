@@ -26,6 +26,7 @@
 
             [FactionOwner:GIRR]
             [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
 
             [UseRivalAi:true]
             [RivalAiReplaceRemoteControl:true]
@@ -70,6 +71,7 @@
 
             [FactionOwner:GIRR]
             [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
 
             [UseRivalAi:true]
             [RivalAiReplaceRemoteControl:true]
@@ -114,6 +116,7 @@
 
             [FactionOwner:GIRR]
             [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
 
             [UseRivalAi:true]
             [RivalAiReplaceRemoteControl:true]
@@ -158,6 +161,7 @@
 
             [FactionOwner:GIRR]
             [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
 
             [UseRivalAi:true]
             [RivalAiReplaceRemoteControl:true]

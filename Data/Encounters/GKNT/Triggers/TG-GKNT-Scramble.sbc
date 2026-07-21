@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Attached only to BH-GKNT-Protected-Patrol (never BH-GKNT-Fighter-Default —
+         spawned reinforcements run BH-GKNT-Fighter-Scrambled, which carries no
+         TG-GKNT-Scramble, so this cannot cascade). -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GKNT-Scramble</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GKNT-Scramble-Self]
+        [Triggers:TR-GKNT-Scramble-Relay]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- Stage 1: self-scramble. Fires once on taking damage, calls in GKNT backup. -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Scramble-Self</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [StartsReady:true]
+        [MaxActions:1]
+
+        [EnableNamedTriggerOnSuccess:TR-GKNT-Scramble-Relay]
+
+        [Actions:AC-GKNT-Scramble-1Wing]
+        [Actions:AC-GKNT-Scramble-2Wing]
+        [Actions:AC-GKNT-Scramble-Interceptor]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Scramble-1Wing</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:40]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-GKNT-Scramble-1Wing]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-GKNT-Scramble-1Wing</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+
+      [UseSpawn:true]
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:-1]
+
+      [SpawnGroups:(NPC-GKNT) Scramble 1Swallow]
+
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:1500]
+      [MaxDistance:2500]
+      [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Scramble-2Wing</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:25]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-GKNT-Scramble-2Wing]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-GKNT-Scramble-2Wing</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+
+      [UseSpawn:true]
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:-1]
+
+      [SpawnGroups:(NPC-GKNT) Scramble 2Swallow]
+
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:1500]
+      [MaxDistance:2500]
+      [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Scramble-Interceptor</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:15]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-GKNT-Scramble-Interceptor]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-GKNT-Scramble-Interceptor</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+
+      [UseSpawn:true]
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:-1]
+
+      [SpawnGroups:(NPC-GKNT) Scramble 1Saber]
+
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:1500]
+      [MaxDistance:2500]
+      [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- Stage 2: relay to allies. Starts disabled; only enabled once Stage 1 has
+         already fired (see EnableNamedTriggerOnSuccess above), so this only kicks
+         in once self-scramble is exhausted, not simultaneously. -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Scramble-Relay</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [StartsReady:true]
+        [MaxActions:1]
+
+        [Actions:AC-GKNT-Relay-ECHO]
+        [Actions:AC-GKNT-Relay-PRTH]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Relay-ECHO</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:30]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-GKNT-Relay-ECHO]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-GKNT-Relay-ECHO</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+
+      [UseSpawn:true]
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:-1]
+
+      [SpawnGroups:(NPC-ECHO) GKNT-Assist 2xScarab]
+
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:2000]
+      [MaxDistance:3000]
+      [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Relay-PRTH</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:30]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-GKNT-Relay-PRTH]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-GKNT-Relay-PRTH</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+
+      [UseSpawn:true]
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:-1]
+
+      [SpawnGroups:(NPC-PRTH) GKNT-Assist 2xThunderbolt]
+
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:2000]
+      [MaxDistance:3000]
+      [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

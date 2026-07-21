@@ -1000,5 +1000,854 @@
       </SpawnGroup>
 <!-- (NPC-ECHO) Port Royal Mayday VOID Medium -->
 
+
+<!-- (NPC-ECHO) 2xScarab (OUTER) -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>
+          <SubtypeId>(NPC-ECHO) 2xScarab (OUTER)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:500]
+        [ThreatScoreMaximum:1000]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Easy Reward,Small Cargo Container|ECHO Easy Reward]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>
+        <Frequency>0.4</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Scarab">
+            <Position>
+              <X>-300.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Scarab-Single</Behaviour>
+          </Prefab>
+          <Prefab SubtypeId="(NPC-ECHO) Scarab">
+            <Position>
+              <X>300.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Scarab-Single</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) 2xScarab (OUTER) -->
+
+<!-- (NPC-ECHO) 2xScarab (INNER) -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>
+          <SubtypeId>(NPC-ECHO) 2xScarab (INNER)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:500]
+        [ThreatScoreMaximum:-1]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Medium Reward,Small Cargo Container|ECHO Medium Reward]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>
+        <Frequency>0.4</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Scarab">
+            <Position>
+              <X>-300.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Scarab-Single</Behaviour>
+          </Prefab>
+          <Prefab SubtypeId="(NPC-ECHO) Scarab">
+            <Position>
+              <X>300.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Scarab-Single</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) 2xScarab (INNER) -->
+
+<!-- (NPC-ECHO) 3xScarab (OUTER) -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>
+          <SubtypeId>(NPC-ECHO) 3xScarab (OUTER)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:1250]
+        [ThreatScoreMaximum:-1]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Medium Reward,Small Cargo Container|ECHO Medium Reward]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>
+        <Frequency>0.2</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Scarab">
+            <Position>
+              <X>-600.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Scarab-Single</Behaviour>
+          </Prefab>
+          <Prefab SubtypeId="(NPC-ECHO) Scarab">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Scarab-Single</Behaviour>
+          </Prefab>
+          <Prefab SubtypeId="(NPC-ECHO) Scarab">
+            <Position>
+              <X>600.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Scarab-Single</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) 3xScarab (OUTER) -->
+
+<!-- (NPC-ECHO) Cargo Freighter 1xScarab Escort Solo (PVE;NPC) -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>
+          <SubtypeId>(NPC-ECHO) Cargo Freighter 1xScarab Escort Solo (PVE;NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [IgnoreShieldProviderMod:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:249]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>
+        <Frequency>0.4</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Solo</Behaviour>
+          </Prefab>
+          <Prefab SubtypeId="(NPC-ECHO) Scarab">
+            <Position>
+              <X>600.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Scarab-Single</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Cargo Freighter 1xScarab Escort Solo (PVE;NPC) -->
+
+<!-- (NPC-ECHO) Cargo Freighter 1xScarab Escort Solo Veteran (PVE;NPC) -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>
+          <SubtypeId>(NPC-ECHO) Cargo Freighter 1xScarab Escort Solo Veteran (PVE;NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [IgnoreShieldProviderMod:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:250]
+        [ThreatScoreMaximum:-1]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>
+        <Frequency>0.4</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Solo</Behaviour>
+          </Prefab>
+          <Prefab SubtypeId="(NPC-ECHO) Scarab">
+            <Position>
+              <X>600.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Scarab-Single</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Cargo Freighter 1xScarab Escort Solo Veteran (PVE;NPC) -->
+
+<!-- (NPC-ECHO) Cargo Freighter 1xScarab Escort Easy (NPC) -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>
+          <SubtypeId>(NPC-ECHO) Cargo Freighter 1xScarab Escort Easy (NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [IgnoreShieldProviderMod:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>
+        <Frequency>0.55</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Easy</Behaviour>
+          </Prefab>
+          <Prefab SubtypeId="(NPC-ECHO) Scarab">
+            <Position>
+              <X>600.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Scarab-Single</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Cargo Freighter 1xScarab Escort Easy (NPC) -->
+
+<!-- (NPC-ECHO) Cargo Freighter 1xScarab Escort Medium (NPC) -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>
+          <SubtypeId>(NPC-ECHO) Cargo Freighter 1xScarab Escort Medium (NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [IgnoreShieldProviderMod:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:750]
+        [ThreatScoreMaximum:-1]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>
+        <Frequency>0.6</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Medium</Behaviour>
+          </Prefab>
+          <Prefab SubtypeId="(NPC-ECHO) Scarab">
+            <Position>
+              <X>600.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Scarab-Single</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Cargo Freighter 1xScarab Escort Medium (NPC) -->
+
+<!-- (NPC-ECHO) Small Cargo Ship 1xScarab Escort Solo (PVE;NPC) -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>
+          <SubtypeId>(NPC-ECHO) Small Cargo Ship 1xScarab Escort Solo (PVE;NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [IgnoreShieldProviderMod:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:249]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>
+        <Frequency>0.4</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Solo</Behaviour>
+          </Prefab>
+          <Prefab SubtypeId="(NPC-ECHO) Scarab">
+            <Position>
+              <X>600.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Scarab-Single</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Small Cargo Ship 1xScarab Escort Solo (PVE;NPC) -->
+
+<!-- (NPC-ECHO) Small Cargo Ship 1xScarab Escort Solo Veteran (PVE;NPC) -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>
+          <SubtypeId>(NPC-ECHO) Small Cargo Ship 1xScarab Escort Solo Veteran (PVE;NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [IgnoreShieldProviderMod:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:250]
+        [ThreatScoreMaximum:-1]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>
+        <Frequency>0.4</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Solo</Behaviour>
+          </Prefab>
+          <Prefab SubtypeId="(NPC-ECHO) Scarab">
+            <Position>
+              <X>600.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Scarab-Single</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Small Cargo Ship 1xScarab Escort Solo Veteran (PVE;NPC) -->
+
+<!-- (NPC-ECHO) Small Cargo Ship 1xScarab Escort Easy (NPC) -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>
+          <SubtypeId>(NPC-ECHO) Small Cargo Ship 1xScarab Escort Easy (NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [IgnoreShieldProviderMod:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>
+        <Frequency>0.55</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Easy</Behaviour>
+          </Prefab>
+          <Prefab SubtypeId="(NPC-ECHO) Scarab">
+            <Position>
+              <X>600.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Scarab-Single</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Small Cargo Ship 1xScarab Escort Easy (NPC) -->
+
+<!-- (NPC-ECHO) Small Cargo Ship 1xScarab Escort Medium (NPC) -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>
+          <SubtypeId>(NPC-ECHO) Small Cargo Ship 1xScarab Escort Medium (NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [IgnoreShieldProviderMod:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:750]
+        [ThreatScoreMaximum:-1]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>
+        <Frequency>0.6</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
+            <Position>
+              <X>0.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Medium</Behaviour>
+          </Prefab>
+          <Prefab SubtypeId="(NPC-ECHO) Scarab">
+            <Position>
+              <X>600.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Scarab-Single</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Small Cargo Ship 1xScarab Escort Medium (NPC) -->
+
+<!-- (NPC-ECHO) Cargo Freighter Small Cargo Ship Convoy Solo (PVE;NPC) -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>
+          <SubtypeId>(NPC-ECHO) Cargo Freighter Small Cargo Ship Convoy Solo (PVE;NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [IgnoreShieldProviderMod:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:249]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>
+        <Frequency>0.4</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+            <Position>
+              <X>-550.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Solo</Behaviour>
+          </Prefab>
+          <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
+            <Position>
+              <X>550.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Solo</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Cargo Freighter Small Cargo Ship Convoy Solo (PVE;NPC) -->
+
+<!-- (NPC-ECHO) Cargo Freighter Small Cargo Ship Convoy Solo Veteran (PVE;NPC) -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>
+          <SubtypeId>(NPC-ECHO) Cargo Freighter Small Cargo Ship Convoy Solo Veteran (PVE;NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [IgnoreShieldProviderMod:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:250]
+        [ThreatScoreMaximum:-1]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>
+        <Frequency>0.4</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+            <Position>
+              <X>-550.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Solo</Behaviour>
+          </Prefab>
+          <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
+            <Position>
+              <X>550.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Solo</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Cargo Freighter Small Cargo Ship Convoy Solo Veteran (PVE;NPC) -->
+
+<!-- (NPC-ECHO) Cargo Freighter Small Cargo Ship Convoy Easy (NPC) -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>
+          <SubtypeId>(NPC-ECHO) Cargo Freighter Small Cargo Ship Convoy Easy (NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [IgnoreShieldProviderMod:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>
+        <Frequency>0.55</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+            <Position>
+              <X>-550.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Easy</Behaviour>
+          </Prefab>
+          <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
+            <Position>
+              <X>550.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Easy</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Cargo Freighter Small Cargo Ship Convoy Easy (NPC) -->
+
+<!-- (NPC-ECHO) Cargo Freighter Small Cargo Ship Convoy Medium (NPC) -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>
+          <SubtypeId>(NPC-ECHO) Cargo Freighter Small Cargo Ship Convoy Medium (NPC)</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [IgnoreShieldProviderMod:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:750]
+        [ThreatScoreMaximum:-1]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Cargo Ship Default,Small Cargo Container|ECHO Cargo Ship Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>
+        <Frequency>0.6</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+            <Position>
+              <X>-550.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Medium</Behaviour>
+          </Prefab>
+          <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
+            <Position>
+              <X>550.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>20</Speed>
+            <Behaviour>BH-ECHO-Cargo-Medium</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) Cargo Freighter Small Cargo Ship Convoy Medium (NPC) -->
+
+
+<!-- (NPC-ECHO) GKNT-Assist 2xScarab -->
+      <SpawnGroup>
+        <Id>
+          <TypeId>SpawnGroupDefinition</TypeId>
+          <SubtypeId>(NPC-ECHO) GKNT-Assist 2xScarab</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+        [RivalAiSpawn:true]
+        [SpaceRandomEncounter:false]
+        [SpaceCargoShip:false]
+
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+
+        </Description>
+        <IsPirate>true</IsPirate>
+        <Frequency>1.0</Frequency>
+        <Prefabs>
+          <Prefab SubtypeId="(NPC-ECHO) Scarab">
+            <Position>
+              <X>-300.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Scarab-Single</Behaviour>
+          </Prefab>
+          <Prefab SubtypeId="(NPC-ECHO) Scarab">
+            <Position>
+              <X>300.0</X>
+              <Y>0.0</Y>
+              <Z>0.0</Z>
+            </Position>
+            <Speed>25</Speed>
+            <Behaviour>BH-ECHO-Scarab-Single</Behaviour>
+          </Prefab>
+        </Prefabs>
+      </SpawnGroup>
+<!-- (NPC-ECHO) GKNT-Assist 2xScarab -->
+
     </SpawnGroups>
 </Definitions>

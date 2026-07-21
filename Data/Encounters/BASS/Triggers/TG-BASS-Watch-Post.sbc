@@ -1,0 +1,87 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Natural allied presence: one-shot PlayerNear spawn of a GKNT liaison alongside the
+         BASS Watch Post. MaxActions:1, never re-fires. Reuses the existing GKNT-owned
+         (NPC-GKNT) Scramble 1Saber SpawnGroup as the liaison unit rather than defining a
+         new one — it's already RivalAiSpawn:true and uses the non-broadcasting
+         BH-GKNT-Fighter-Scrambled behavior, so the liaison itself can't cascade. -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-BASS-Watch-Post</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-BASS-Watch-Post-Liaison]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-BASS-Watch-Post-Liaison</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:5000]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [StartsReady:true]
+        [MaxActions:1]
+
+        [Actions:AC-BASS-Watch-Post-Liaison]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-BASS-Watch-Post-Liaison</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-BASS-Watch-Post-Liaison]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-BASS-Watch-Post-Liaison</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+
+      [UseSpawn:true]
+      [SpawningType:SpaceCargoShip]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:-1]
+
+      [SpawnGroups:(NPC-GKNT) Scramble 1Saber]
+
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:600]
+      [MaxDistance:1000]
+      [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

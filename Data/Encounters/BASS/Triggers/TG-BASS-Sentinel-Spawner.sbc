@@ -13,10 +13,15 @@
         [RivalAI TriggerGroup]
 
         [Triggers:TR-BASS-Sentinel-Spawner]
+        [Triggers:TR-BASS-Distress-Stage2]
+        [Triggers:TR-BASS-Distress-Stage3]
 
       </Description>
     </EntityComponent>
 
+    <!-- Distress Network Stage 1 (unchanged) — on success, enables Stage 2. Stage 2's
+         prefabs run BH-BASS-Sentinel-G-Answered (no onward trigger), so Stage 1 itself
+         stays the only origin point and this chain cannot cascade. -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
@@ -32,6 +37,7 @@
         [MinCooldownMs:1000]
         [MaxCooldownMs:3000]
         [MaxActions:3]
+        [EnableNamedTriggerOnSuccess:TR-BASS-Distress-Stage2]
         [Actions:AC-BASS-Sentinel-Spawner]
 
       </Description>
@@ -78,7 +84,140 @@
       [MinDistance:500]
       [MaxDistance:1200]
       [IgnoreSafetyChecks:false]
-      
+
+      </Description>
+    </EntityComponent>
+
+    <!-- Distress Network Stage 2: starts disabled, only enabled once Stage 1 has
+         already fired at least once. Fires once, calls in a bigger BASS wave. -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-BASS-Distress-Stage2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [StartsReady:true]
+        [MaxActions:1]
+        [EnableNamedTriggerOnSuccess:TR-BASS-Distress-Stage3]
+        [Actions:AC-BASS-Distress-Stage2]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-BASS-Distress-Stage2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-BASS-Distress-Stage2]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-BASS-Distress-Stage2</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+
+      [UseSpawn:true]
+
+      [SpawningType:CustomSpawn]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:1]
+
+      [SpawnGroups:(NPC-BASS) Gx2]
+
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:500]
+      [MaxDistance:1200]
+      [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- Distress Network Stage 3 (relay to GKNT): starts disabled, only enabled
+         once Stage 2 has already fired. Final tier, fires once, calls in GKNT backup. -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-BASS-Distress-Stage3</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-BASS-Distress-Stage3]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-BASS-Distress-Stage3</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-BASS-Distress-Stage3]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-BASS-Distress-Stage3</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+
+      [UseSpawn:true]
+
+      [SpawningType:CustomSpawn]
+      [StartsReady:true]
+      [SpawnMinCooldown:0]
+      [MaxSpawns:1]
+
+      [SpawnGroups:(NPC-GKNT) BASS-Assist 1Swallow]
+
+      [UseRelativeSpawnPosition:false]
+      [MinDistance:500]
+      [MaxDistance:1200]
+      [IgnoreSafetyChecks:false]
+
       </Description>
     </EntityComponent>
 

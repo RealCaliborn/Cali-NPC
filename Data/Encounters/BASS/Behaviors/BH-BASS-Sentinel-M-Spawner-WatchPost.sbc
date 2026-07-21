@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Dedicated Watch Post variant: identical to BH-BASS-Sentinel-M-Spawner (same Distress
+         Network chain) plus a one-shot GKNT liaison spawn. Kept as its own SubtypeId rather
+         than editing BH-BASS-Sentinel-M-Spawner directly so ordinary BASS KOTH formations
+         (Mx1/Mx2/Mx3/Mx4/Mx5/MGx3) are unaffected — only the dedicated Watch Post SpawnGroup
+         uses this behavior. -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-BASS-Sentinel-M-Spawner-WatchPost</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-6000-8000-B]
+
+        [TargetData:TA-Common-8000-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-BASS-Sentinel-Spawner]
+        [TriggerGroups:TG-BASS-Target-Sharing]
+        [TriggerGroups:TG-BASS-Watch-Post]
+
+        [UseBarrageFire:false]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

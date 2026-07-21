@@ -161,6 +161,8 @@
 
         [Actions:AC-GKNT-Helper-2Light]
         [Actions:AC-GKNT-Helper-2Heavy]
+        [Actions:AC-GKNT-Helper-CombinedArms]
+        [Actions:AC-GKNT-Helper-Flagship]
         [Actions:AC-GKNT-Helper-DisableAll]
 
       </Description>
@@ -188,6 +190,7 @@
 
         [Actions:AC-GKNT-Helper-2Light]
         [Actions:AC-GKNT-Helper-2Heavy]
+        [Actions:AC-GKNT-Helper-CombinedArms]
         [Actions:AC-GKNT-Helper-DisableAll]
 
       </Description>
@@ -425,6 +428,86 @@
         [UseRelativeSpawnPosition:false]
         [MinDistance:2000]
         [MaxDistance:3000]
+        [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Helper-CombinedArms</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:5]
+        [SpawnEncounter:true]
+        [Spawner:SP-GKNT-Helper-CombinedArms]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-GKNT-Helper-CombinedArms</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+
+        [UseSpawn:true]
+        [SpawningType:SpaceCargoShip]
+        [StartsReady:true]
+        [SpawnMinCooldown:0]
+        [MaxSpawns:-1]
+
+        [SpawnGroups:(NPC-GKNT) Helper 1Saber1Swallow]
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:2000]
+        [MaxDistance:3000]
+        [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Helper-Flagship</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:2]
+        [SpawnEncounter:true]
+        [Spawner:SP-GKNT-Helper-Flagship]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-GKNT-Helper-Flagship</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+
+        [UseSpawn:true]
+        [SpawningType:SpaceCargoShip]
+        [StartsReady:true]
+        [SpawnMinCooldown:0]
+        [MaxSpawns:-1]
+
+        [SpawnGroups:(NPC-GKNT) Helper Flagship]
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:3000]
+        [MaxDistance:4000]
         [IgnoreSafetyChecks:false]
 
       </Description>

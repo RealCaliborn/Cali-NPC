@@ -23,6 +23,7 @@
 
             [FactionOwner:BASS]
             [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
             [UseRivalAi:true]
             [RivalAiReplaceRemoteControl:true]
             [RotateFirstCockpitToForward:true]
@@ -66,6 +67,7 @@
 
             [FactionOwner:BASS]
             [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
             [UseRivalAi:true]
             [RivalAiReplaceRemoteControl:true]
             [RotateFirstCockpitToForward:true]
@@ -118,6 +120,7 @@
 
             [FactionOwner:BASS]
             [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
             [UseRivalAi:true]
             [RivalAiReplaceRemoteControl:true]
             [RotateFirstCockpitToForward:true]
@@ -163,6 +166,375 @@
             </Prefabs>
         </SpawnGroup>
         <!-- (NPC-BASS) Sentinel-Mx3 -->
+
+
+        <!-- (NPC-BASS) Sentinel-Gx1 (KOTH) -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-BASS) Sentinel-Gx1 (KOTH)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+
+            [FactionOwner:BASS]
+            [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UsePlayerCountCheck:true]
+            [PlayerCountCheckRadius:10000]
+            [MaximumPlayers:1]
+
+            [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+            [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-BASS-Sentinel-G</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-BASS) Sentinel-Gx1 (KOTH) -->
+
+
+        <!-- (NPC-BASS) Sentinel-Gx3 (KOTH) -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-BASS) Sentinel-Gx3 (KOTH)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+
+            [FactionOwner:BASS]
+            [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UsePlayerCountCheck:true]
+            [PlayerCountCheckRadius:10000]
+            [MaximumPlayers:1]
+
+            [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+            [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.5</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+                    <Position>
+                        <X>-500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-BASS-Sentinel-G</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-BASS-Sentinel-G</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+                    <Position>
+                        <X>500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-BASS-Sentinel-G</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-BASS) Sentinel-Gx3 (KOTH) -->
+
+
+        <!-- (NPC-BASS) Sentinel-Mx4 (KOTH) -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-BASS) Sentinel-Mx4 (KOTH)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+
+            [FactionOwner:BASS]
+            [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UsePlayerCountCheck:true]
+            [PlayerCountCheckRadius:10000]
+            [MaximumPlayers:1]
+
+            [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+            [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.5</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+                    <Position>
+                        <X>-750.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-BASS-Sentinel-M-NoSpawn</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+                    <Position>
+                        <X>-250.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-BASS-Sentinel-M-Spawner</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+                    <Position>
+                        <X>250.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-BASS-Sentinel-M-NoSpawn</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+                    <Position>
+                        <X>750.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-BASS-Sentinel-M-NoSpawn</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-BASS) Sentinel-Mx4 (KOTH) -->
+
+
+        <!-- (NPC-BASS) Sentinel-Mx5 (KOTH) -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-BASS) Sentinel-Mx5 (KOTH)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+
+            [FactionOwner:BASS]
+            [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UsePlayerCountCheck:true]
+            [PlayerCountCheckRadius:10000]
+            [MaximumPlayers:1]
+
+            [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+            [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.3</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+                    <Position>
+                        <X>-1000.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-BASS-Sentinel-M-NoSpawn</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+                    <Position>
+                        <X>-500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-BASS-Sentinel-M-NoSpawn</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-BASS-Sentinel-M-Spawner</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+                    <Position>
+                        <X>500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-BASS-Sentinel-M-NoSpawn</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+                    <Position>
+                        <X>1000.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-BASS-Sentinel-M-NoSpawn</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-BASS) Sentinel-Mx5 (KOTH) -->
+
+
+        <!-- (NPC-BASS) Sentinel-MGx3 (KOTH) -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-BASS) Sentinel-MGx3 (KOTH)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+
+            [FactionOwner:BASS]
+            [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UsePlayerCountCheck:true]
+            [PlayerCountCheckRadius:10000]
+            [MaximumPlayers:1]
+
+            [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+            [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.75</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+                    <Position>
+                        <X>-500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-BASS-Sentinel-M-Spawner</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-BASS-Sentinel-G</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+                    <Position>
+                        <X>500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-BASS-Sentinel-G</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-BASS) Sentinel-MGx3 (KOTH) -->
+
+
+        <!-- (NPC-BASS) Sentinel-M Watch Post -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-BASS) Sentinel-M Watch Post (KOTH)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+
+            [FactionOwner:BASS]
+            [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UsePlayerCountCheck:true]
+            [PlayerCountCheckRadius:10000]
+            [MaximumPlayers:1]
+
+            [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+            [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.75</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-BASS-Sentinel-M-Spawner-WatchPost</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-BASS) Sentinel-M Watch Post -->
 
     </SpawnGroups>
 </Definitions>

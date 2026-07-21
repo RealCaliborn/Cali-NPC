@@ -17,6 +17,7 @@
         [PlanetaryInstallation:false]
         [FactionOwner:VOID]
         [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
         [GridsAreEditable:true]
         [GridsAreDestructable:true]                
         [UseRivalAi:true]

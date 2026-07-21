@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Non-broadcasting variant for Squadron Scramble / cross-faction reinforcement waves.
+         Deliberately carries no TG-GKNT-Scramble (that lives only on BH-GKNT-Protected-Patrol)
+         so spawned reinforcements cannot themselves call further reinforcements. -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GKNT-Fighter-Scrambled</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+
+        [TargetData:TA-GKNT-NPC-Protection-A]
+        [OverrideTargetData:TA-GKNT-NPC-Protection-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseBarrageFire:false]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+
+        [TriggerGroups:TG-GKNT-Target-Sharing]
+        [TriggerGroups:TG-GKNT-Reputation]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

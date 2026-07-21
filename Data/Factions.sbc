@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<!-- Cali-NPC V3 3.0.5 -->
+<!-- Cali-NPC V3 3.2.0 -->
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<Factions>
 	
@@ -78,7 +78,7 @@
 				<SubtypeId>ECHO</SubtypeId> <!--Must Be Unique-->
 			</Id>
 			<DisplayName>Enclave for Control of the Human Order</DisplayName>
-			<Description>The enclave is a sect of humans who vie for their AI overlords to control all of the human population. It is thought that there may be a human incharge but we may never know.</Description>
+			<Description>The enclave is a sect of humans who vie for their AI overlords to control all of the human population. It is thought that there may be a human in charge but we may never know.</Description>
 			<IsDefault>true</IsDefault>
 			<DefaultRelation>Neutral</DefaultRelation> <!--Enemies, Neutral, Friends-->
 			<DefaultRelationToPlayers>Neutral</DefaultRelationToPlayers>
@@ -96,7 +96,7 @@
 				<SubtypeId>BASS</SubtypeId> <!--Must Be Unique-->
 			</Id>
 			<DisplayName>Blackmoon Allied Security Services</DisplayName>
-			<Description>Blackwater Allied Security Services is a private military corporation that sells its services to the highest bidder. The investment firm Parks and Gimbal, who owns a large share of ASTRA's debt, also owns a controlling interest in BASS. Because of this it is rumored that they work to create opprutunities for ASTRA to sell more of its wares.</Description>
+			<Description>Blackmoon Allied Security Services is a private military corporation that sells its services to the highest bidder. The investment firm Parks and Gimbal, who owns a large share of ASTRA's debt, also owns a controlling interest in BASS. Because of this it is rumored that they work to create opportunities for ASTRA to sell more of its wares.</Description>
 			<IsDefault>true</IsDefault>
 			<DefaultRelation>Enemies</DefaultRelation> <!--Enemies, Neutral, Friends-->
 			<AcceptHumans>false</AcceptHumans>

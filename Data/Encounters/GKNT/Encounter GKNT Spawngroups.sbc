@@ -96,6 +96,7 @@
 
                 [FactionOwner:GKNT]
                 [ReplenishSystems:true]
+                [AddDefenseShieldBlocks:true]
                 [IgnoreShieldProviderMod:true]
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
@@ -116,5 +117,279 @@
                 </Prefab>
             </Prefabs>
         </SpawnGroup>
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-GKNT) Protected Patrol 1Saber1Swallow (OUTER;INNER)</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GKNT]
+                [ReplenishSystems:true]
+                [AddDefenseShieldBlocks:true]
+                [IgnoreShieldProviderMod:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:true]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
+                    <Position>
+                        <X>-250.2</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-GKNT-Protected-Patrol</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
+                    <Position>
+                        <X>250.2</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-GKNT-Protected-Patrol</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-GKNT) Protected Patrol 2Saber1Swallow (OUTER;INNER)</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GKNT]
+                [ReplenishSystems:true]
+                [AddDefenseShieldBlocks:true]
+                [IgnoreShieldProviderMod:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:true]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
+                    <Position>
+                        <X>-500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-GKNT-Protected-Patrol</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-GKNT-Protected-Patrol</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
+                    <Position>
+                        <X>500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-GKNT-Protected-Patrol</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-GKNT) Protected Patrol 1Saber2Swallow (OUTER;INNER)</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GKNT]
+                [ReplenishSystems:true]
+                [AddDefenseShieldBlocks:true]
+                [IgnoreShieldProviderMod:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:true]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-GKNT-Protected-Patrol</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
+                    <Position>
+                        <X>-500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-GKNT-Protected-Patrol</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
+                    <Position>
+                        <X>500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-GKNT-Protected-Patrol</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-GKNT) Escorted Convoy ECHO (OUTER;INNER)</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GKNT]
+                [ReplenishSystems:true]
+                [AddDefenseShieldBlocks:true]
+                [IgnoreShieldProviderMod:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:true]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-GKNT-Escort-ECHO</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-GKNT) Joint Patrol PRTH (OUTER;INNER)</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GKNT]
+                [ReplenishSystems:true]
+                [AddDefenseShieldBlocks:true]
+                [IgnoreShieldProviderMod:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:true]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>0</Speed>
+                    <Behaviour>BH-GKNT-Escort-PRTH</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+
+
+        <!-- (NPC-GKNT) The Sword of Justice -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-GKNT) The Sword of Justice (OUTER;INNER)</SubtypeId>
+            </Id>
+            <Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [DisableDampeners:false]
+
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GKNT]
+                [ReplenishSystems:true]
+                [AddDefenseShieldBlocks:true]
+                [IgnoreShieldProviderMod:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:true]
+
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:4000]
+
+                [UseRemoteControlCodeRestrictions:true]
+                [RemoteControlCode:SI-Roaches-Boss-GKNT]
+                [RemoteControlCodeMinDistance:20000]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.3</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-GKNT) The Sword of Justice">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-GKNT-SwordOfJustice</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-GKNT) The Sword of Justice -->
+
     </SpawnGroups>
 </Definitions>
