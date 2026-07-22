@@ -31,6 +31,9 @@
         [TriggerGroups:TG-BASS-Sentinel-Spawner]
         [TriggerGroups:TG-BASS-Target-Sharing]
         [TriggerGroups:TG-BASS-Watch-Post]
+        [TriggerGroups:TG-BASS-Chat]
+        [TriggerGroups:TG-BASS-Detect]
+        [TriggerGroups:TG-BASS-Chat-WatchPost]
 
         [UseBarrageFire:false]
 

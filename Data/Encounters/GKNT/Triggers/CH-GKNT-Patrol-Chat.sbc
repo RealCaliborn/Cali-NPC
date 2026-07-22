@@ -1,0 +1,317 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Rank-and-file patrol dispatch chatter (Saber Heavy Fighter / Swallow Light Fighter).
+         Wired to all "on-duty" GKNT fighter behaviors incl. scrambled reinforcements - the
+         Damaged->BackupCall escalation here is flavor-chat only (no SpawnEncounter), so
+         wiring it to reinforcement waves too carries no recursive-spawn risk. -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GKNT-Patrol-Chat</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GKNT-Patrol-Engage]
+        [Triggers:TR-GKNT-Patrol-Damaged]
+        [Triggers:TR-GKNT-Patrol-BackupCall]
+        [Triggers:TR-GKNT-Patrol-Standdown]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Patrol-Engage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:AcquiredTarget]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-GKNT-Patrol-Engage]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Patrol-Engage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GKNT-Patrol-Engage]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GKNT-Patrol-Engage</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Blue]
+
+        [Chance:30]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:2500]
+
+        [ChatMessages:Patrol to dispatch, hostile contact confirmed. Moving to engage.]
+        [ChatAudio:gknt-radio-beep]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Saber flight has visual on the hostile. Beginning intercept.]
+        [ChatAudio:gknt-radio-beep]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Swallow patrol reporting weapons fire. We're closing on the contact.]
+        [ChatAudio:gknt-radio-beep]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Patrol-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [StartsReady:true]
+        [MaxActions:1]
+        [EnableNamedTriggerOnSuccess:TR-GKNT-Patrol-BackupCall]
+        [Actions:AC-GKNT-Patrol-Damaged]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Patrol-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GKNT-Patrol-Damaged]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GKNT-Patrol-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Blue]
+
+        [Chance:30]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:2500]
+
+        [ChatMessages:Dispatch, patrol unit taking damage. Systems are holding, but cover is requested.]
+        [ChatAudio:gknt-radio-beep]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Saber flight, tighten up on me. I'm hit and losing maneuvering control.]
+        [ChatAudio:gknt-radio-beep]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Swallow Two taking sustained fire. Keep them occupied while I stabilize.]
+        [ChatAudio:gknt-radio-beep]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- Starts disabled; enabled once the first Damaged bark has fired. Flavor-only
+         escalation, no SpawnEncounter (the real Scramble spawn mechanic lives on
+         BH-GKNT-Protected-Patrol's TG-GKNT-Scramble). -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Patrol-BackupCall</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GKNT-Patrol-BackupCall]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Patrol-BackupCall</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GKNT-Patrol-BackupCall]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GKNT-Patrol-BackupCall</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Blue]
+
+        [Chance:50]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:2500]
+
+        [ChatMessages:Dispatch, request immediate backup at our position. Contact is heavier than expected.]
+        [ChatAudio:gknt-radio-beep]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Patrol to available units, reinforce our sector. We need another flight here.]
+        [ChatAudio:gknt-radio-beep]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Hostile pressure is increasing. Dispatch, scramble support and route them to us.]
+        [ChatAudio:gknt-radio-beep]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Patrol-Standdown</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:LostTarget]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-GKNT-Patrol-Standdown]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Patrol-Standdown</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GKNT-Patrol-Standdown]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GKNT-Patrol-Standdown</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Blue]
+
+        [Chance:30]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:2500]
+
+        [ChatMessages:Hostile is neutralized. Patrol units, cease fire and reform.]
+        [ChatAudio:gknt-radio-beep]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Dispatch, contact is down. Saber flight is returning to formation.]
+        [ChatAudio:gknt-radio-beep]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Sector is clear. Swallow patrol, stand down and check your wingmates.]
+        [ChatAudio:gknt-radio-beep]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

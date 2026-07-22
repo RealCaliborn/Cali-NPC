@@ -31,6 +31,7 @@
 
         [TriggerGroups:TG-GKNT-Target-Sharing]
         [TriggerGroups:TG-GKNT-Reputation]
+        [TriggerGroups:TG-GKNT-Patrol-Chat]
 
       </Description>
     </EntityComponent>

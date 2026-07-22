@@ -32,6 +32,7 @@
             [PlayerCountCheckRadius:10000]
             [MaximumPlayers:1]
 
+            [ReplaceArmorBlocksWithModules:true]
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
             [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
 
@@ -76,6 +77,7 @@
             [PlayerCountCheckRadius:10000]
             [MaximumPlayers:1]
 
+            [ReplaceArmorBlocksWithModules:true]
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
             [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
 
@@ -129,6 +131,7 @@
             [PlayerCountCheckRadius:10000]
             [MaximumPlayers:1]
 
+            [ReplaceArmorBlocksWithModules:true]
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
             [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
 
@@ -192,6 +195,7 @@
             [PlayerCountCheckRadius:10000]
             [MaximumPlayers:1]
 
+            [ReplaceArmorBlocksWithModules:true]
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
             [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
 
@@ -237,6 +241,7 @@
             [PlayerCountCheckRadius:10000]
             [MaximumPlayers:1]
 
+            [ReplaceArmorBlocksWithModules:true]
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
             [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
 
@@ -300,6 +305,7 @@
             [PlayerCountCheckRadius:10000]
             [MaximumPlayers:1]
 
+            [ReplaceArmorBlocksWithModules:true]
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
             [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
 
@@ -372,6 +378,7 @@
             [PlayerCountCheckRadius:10000]
             [MaximumPlayers:1]
 
+            [ReplaceArmorBlocksWithModules:true]
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
             [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
 
@@ -453,6 +460,7 @@
             [PlayerCountCheckRadius:10000]
             [MaximumPlayers:1]
 
+            [ReplaceArmorBlocksWithModules:true]
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
             [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
 
@@ -516,6 +524,7 @@
             [PlayerCountCheckRadius:10000]
             [MaximumPlayers:1]
 
+            [ReplaceArmorBlocksWithModules:true]
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
             [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
 

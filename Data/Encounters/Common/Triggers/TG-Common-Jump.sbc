@@ -77,8 +77,10 @@
 			[IgnoredAntennaRangeOverride:10000]
 
 			[ChatMessages:Jumping to target!]
+			[ChatAudio:girr-whoosh-01]
 			[BroadcastChatType:Chat]
 			[ChatMessages:FOR GERRYYY!!!]
+			[ChatAudio:girr-whoosh-01]
 			[BroadcastChatType:Chat]
 
 		  </Description>

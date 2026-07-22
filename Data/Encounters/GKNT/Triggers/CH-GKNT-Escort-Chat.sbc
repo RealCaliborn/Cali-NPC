@@ -1,0 +1,164 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Protected-Patrol VIP-escort chatter (start/complete). VIP-threatened chat is wired
+         directly onto TG-GKNT-Scramble's existing spawn actions instead (see that file) since
+         that's the real mechanical hook for "the escort is under attack". -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GKNT-Escort-Chat</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GKNT-Escort-Start]
+        [Triggers:TR-GKNT-Escort-Complete]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Escort-Start</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Session]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GKNT-Escort-Start]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Escort-Start</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GKNT-Escort-Start]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GKNT-Escort-Start</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Blue]
+
+        [Chance:60]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:2500]
+
+        [ChatMessages:Patrol to escorted vessel, we have your position. Moving into escort formation now.]
+        [ChatAudio:gknt-radio-beep]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Saber flight is on station. Hold your route and we'll cover the transit.]
+        [ChatAudio:gknt-radio-beep]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Swallow patrol has you in sight. Maintain course; we're taking escort positions.]
+        [ChatAudio:gknt-radio-beep]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GKNT-Escort-Complete</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:LostTarget]
+        [MinCooldownMs:120000]
+        [MaxCooldownMs:120001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-GKNT-Escort-Complete]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GKNT-Escort-Complete</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GKNT-Escort-Complete]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GKNT-Escort-Complete</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Blue]
+
+        [Chance:60]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:2500]
+
+        [ChatMessages:Dispatch, escorted vessel has reached the destination. Patrol mission complete.]
+        [ChatAudio:gknt-radio-beep]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Escort is safely delivered. Saber flight, reform for return patrol.]
+        [ChatAudio:gknt-radio-beep]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Protected vessel is clear of the route. Swallow patrol, stand down and regroup.]
+        [ChatAudio:gknt-radio-beep]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

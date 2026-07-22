@@ -28,6 +28,7 @@
 
         [TriggerGroups:TG-GKNT-Target-Sharing]
         [TriggerGroups:TG-GKNT-Reputation]
+        [TriggerGroups:TG-GKNT-Patrol-Chat]
 
       </Description>
     </EntityComponent>
@@ -117,6 +118,7 @@
         [TriggerGroups:TG-Common-PvE-Default]
 
         [Triggers:TR-GKNT-NPC-Protection-Rx]
+        [TriggerGroups:TG-GKNT-Patrol-Chat]
 
       </Description>
     </EntityComponent>
@@ -137,6 +139,7 @@
         [TriggerGroups:TG-GKNT-Helper]
         [TriggerGroups:TG-GKNT-Scramble]
         [TriggerGroups:TG-GKNT-Reputation]
+        [TriggerGroups:TG-GKNT-Escort-Chat]
 
       </Description>
     </EntityComponent>

@@ -240,12 +240,16 @@
         [IgnoredAntennaRangeOverride:10000]
 
         [ChatMessages:Go forth, end them.]
+        [ChatAudio:prth-whoosh-01]
         [BroadcastChatType:Chat]
         [ChatMessages:Fighter away.]
+        [ChatAudio:prth-whoosh-01]
         [BroadcastChatType:Chat]
         [ChatMessages:Launching Nymph.]
+        [ChatAudio:prth-whoosh-01]
         [BroadcastChatType:Chat]
         [ChatMessages:Nymph away.]
+        [ChatAudio:prth-whoosh-01]
         [BroadcastChatType:Chat]
 
       </Description>

@@ -25,6 +25,7 @@
         [UseBarrageFire:false]
 
         [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-VOID-ScreamBroadcast]
 
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]

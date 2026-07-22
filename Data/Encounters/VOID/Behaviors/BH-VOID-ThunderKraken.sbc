@@ -26,6 +26,7 @@
         [MaxStaticWeaponRange:-1]
         [UseTurrets:true]
         [UseBarrageFire:false]
+        [RemoteControlCode:SI-Roaches-Boss-Any]
 
         [UseAmmoReplenish:true]
 
@@ -35,6 +36,7 @@
         [Triggers:TR-VOID-ScreamBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-VOID-ThunderKraken-Chat]
 
       </Description>
     </EntityComponent>

@@ -28,6 +28,7 @@
 
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-BASS-Target-Sharing]
+        [TriggerGroups:TG-BASS-Chat]
 
         [UseBarrageFire:false]
 

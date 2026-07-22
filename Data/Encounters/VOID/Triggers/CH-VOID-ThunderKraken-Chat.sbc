@@ -1,0 +1,170 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- ThunderKraken combat chatter. Wired only to BH-VOID-ThunderKraken. Unlike the base
+         Kraken, ThunderKraken has no fighter-launch/reinforcement spawn mechanic (confirmed -
+         its behavior carries no Spawn triggers at all), so it only gets Engaging + a Damage
+         escalation bark - deliberately NOT a "launching fighters" line, since that would claim
+         a mechanic this variant doesn't have. -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-VOID-ThunderKraken-Chat</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-VOID-ThunderKraken-Engaging]
+        [Triggers:TR-VOID-ThunderKraken-Damaged]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-ThunderKraken-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:AcquiredTarget]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-VOID-ThunderKraken-Engaging]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-ThunderKraken-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-VOID-ThunderKraken-Engaging]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-VOID-ThunderKraken-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:ThunderKraken]
+        [Color:Red]
+
+        [Chance:100]
+        [MaxChats:1]
+        [MinTime:38]
+        [MaxTime:120]
+        [BroadcastRandomly:true]
+        [AllowDuplicatedMessages:false]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:You have mistaken the silence between stars for safety. It remembers you.]
+        [ChatAudio:None]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Every signal fades, {PlayerName}. Yours has merely begun to dim.]
+        [ChatAudio:None]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Beyond your final thought waits a darkness that has always known your name.]
+        [ChatAudio:None]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-ThunderKraken-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-VOID-ThunderKraken-Damaged]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-ThunderKraken-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-VOID-ThunderKraken-Damaged]
+
+      </Description>
+
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-VOID-ThunderKraken-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:ThunderKraken]
+        [Color:Red]
+
+        [Chance:100]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:The shell fails. Summon what waits beneath the silence!]
+        [ChatAudio:None]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Come, children of the void. The final hour opens!]
+        [ChatAudio:None]
+        [BroadcastChatType:Chat]
+        [ChatMessages:The boundary is broken. Let the reserves descend!]
+        [ChatAudio:None]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

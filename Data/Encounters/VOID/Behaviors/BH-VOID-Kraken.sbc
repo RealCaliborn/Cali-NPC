@@ -26,6 +26,7 @@
         [MaxStaticWeaponRange:-1]
         [UseTurrets:true]
         [UseBarrageFire:false]
+        [RemoteControlCode:SI-Roaches-Boss-Any]
 
         [UseAmmoReplenish:true]
 
@@ -70,6 +71,7 @@
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]
         [Triggers:TR-VOID-Answer-Kraken-Port]
+        [Triggers:TR-VOID-ScreamBroadcast]
 
       </Description>
     </EntityComponent>
@@ -103,6 +105,7 @@
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]
         [Triggers:TR-VOID-Answer-Kraken-Starboard]
+        [Triggers:TR-VOID-ScreamBroadcast]
 
       </Description>
     </EntityComponent>

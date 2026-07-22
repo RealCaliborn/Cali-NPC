@@ -83,16 +83,22 @@
         [IgnoredAntennaRangeOverride:12000]
 
         [ChatMessages:This territory is hereby annexed by the Independent Republic under Section 4 of the Articles of Confederation.]
+        [ChatAudio:girr-ping-01]
         [BroadcastChatType:Chat]
         [ChatMessages:The annexation of this territory will be lawfully enforced by the Independent Republican 1st regiment.]
+        [ChatAudio:girr-ping-01]
         [BroadcastChatType:Chat]
         [ChatMessages:You have graciously been given a short time to peacefully remove any material and personnel from this territory.]
+        [ChatAudio:girr-ping-01]
         [BroadcastChatType:Chat]
         [ChatMessages:All space within the range of this broadcast is now under the control of the Independent Republic.]
+        [ChatAudio:girr-ping-01]
         [BroadcastChatType:Chat]
         [ChatMessages:Attention pirates and privateers of Roach Motel! Your unlawful occupation of Independent Republic holdings will not be tolerated.]
+        [ChatAudio:girr-ping-01]
         [BroadcastChatType:Chat]
         [ChatMessages:Warning! Interference with Independent Republic operations in this sector will not be tolerated.]
+        [ChatAudio:girr-ping-01]
         [BroadcastChatType:Chat]
 
       </Description>

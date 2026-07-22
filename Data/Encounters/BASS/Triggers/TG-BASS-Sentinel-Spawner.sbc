@@ -58,8 +58,45 @@
         [SpawnEncounter:true]
         [Spawner:SP-BASS-Sentinel-Spawner]
 
+        [UseChatBroadcast:true]
+        [ChatData:CH-BASS-Distress-Call]
+
       </Description>
 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-BASS-Distress-Call</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:80]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Distress signal relayed. Reinforcements inbound.]
+        [ChatAudio:bass-alarm-01]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Distress Network activated. Support requested.]
+        [ChatAudio:bass-alarm-01]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Serious threat confirmed. Sentinel assistance requested.]
+        [ChatAudio:bass-alarm-01]
+        [BroadcastChatType:Chat]
+
+      </Description>
     </EntityComponent>
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
@@ -125,8 +162,45 @@
         [SpawnEncounter:true]
         [Spawner:SP-BASS-Distress-Stage2]
 
+        [UseChatBroadcast:true]
+        [ChatData:CH-BASS-Distress-Escalate]
+
       </Description>
 
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-BASS-Distress-Escalate</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:100]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Distress escalation transmitted. Immediate reinforcement required.]
+        [ChatAudio:bass-riser-01]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Support response absent. Threat level elevated.]
+        [ChatAudio:bass-riser-01]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Containment failing. Distress Network priority increased.]
+        [ChatAudio:bass-riser-01]
+        [BroadcastChatType:Chat]
+
+      </Description>
     </EntityComponent>
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">

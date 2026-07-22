@@ -26,6 +26,8 @@
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-BASS-Sentinel-Spawner]
         [TriggerGroups:TG-BASS-Target-Sharing]
+        [TriggerGroups:TG-BASS-Chat]
+        [TriggerGroups:TG-BASS-Detect]
 
         [UseBarrageFire:false]
 
@@ -55,6 +57,8 @@
 
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-BASS-Target-Sharing]
+        [TriggerGroups:TG-BASS-Chat]
+        [TriggerGroups:TG-BASS-Detect]
 
         [UseBarrageFire:false]
 
@@ -84,6 +88,8 @@
 
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-BASS-Target-Sharing]
+        [TriggerGroups:TG-BASS-Chat]
+        [TriggerGroups:TG-BASS-Detect]
 
         [UseBarrageFire:false]
 

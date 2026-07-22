@@ -82,14 +82,19 @@
         [IgnoredAntennaRangeOverride:10000]
 
         [ChatMessages:Visual on the target, HQ.]
+        [ChatAudio:girr-whoosh-02]
         [BroadcastChatType:Chat]
         [ChatMessages:Enemy contact, engaging.]
+        [ChatAudio:girr-whoosh-02]
         [BroadcastChatType:Chat]
         [ChatMessages:CC, proceeding to target.]
+        [ChatAudio:girr-whoosh-02]
         [BroadcastChatType:Chat]
         [ChatMessages:For Geraldine!!!]
+        [ChatAudio:girr-whoosh-02]
         [BroadcastChatType:Chat]
         [ChatMessages:To glory! For the First Regiment!]
+        [ChatAudio:girr-whoosh-02]
         [BroadcastChatType:Chat]
 
       </Description>

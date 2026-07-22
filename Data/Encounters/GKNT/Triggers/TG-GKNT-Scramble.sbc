@@ -61,6 +61,43 @@
         [SpawnEncounter:true]
         [Spawner:SP-GKNT-Scramble-1Wing]
 
+        [UseChatBroadcast:true]
+        [ChatData:CH-GKNT-VIP-Threatened]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GKNT-VIP-Threatened</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:80]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Dispatch, escorted vessel is under attack. Scramble reinforcements to our route immediately.]
+        [ChatAudio:gknt-scramble-alarm]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Patrol to available units, priority contact on the escort. We need support at our position.]
+        [ChatAudio:gknt-scramble-alarm]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Hostiles are pressing the protected vessel. Dispatch, route backup to us now.]
+        [ChatAudio:gknt-scramble-alarm]
+        [BroadcastChatType:Chat]
+
       </Description>
     </EntityComponent>
 
@@ -103,6 +140,9 @@
         [SpawnEncounter:true]
         [Spawner:SP-GKNT-Scramble-2Wing]
 
+        [UseChatBroadcast:true]
+        [ChatData:CH-GKNT-VIP-Threatened]
+
       </Description>
     </EntityComponent>
 
@@ -144,6 +184,9 @@
 
         [SpawnEncounter:true]
         [Spawner:SP-GKNT-Scramble-Interceptor]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GKNT-VIP-Threatened]
 
       </Description>
     </EntityComponent>

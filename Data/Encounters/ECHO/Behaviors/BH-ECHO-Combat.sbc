@@ -30,6 +30,7 @@
         
 
         [TriggerGroups:TG-ECHO-Target-Sharing]
+        [TriggerGroups:TG-ECHO-Scarab-Chat]
 
       </Description>
     </EntityComponent>

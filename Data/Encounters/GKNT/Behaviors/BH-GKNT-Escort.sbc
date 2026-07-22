@@ -32,6 +32,7 @@
         [TriggerGroups:TG-GKNT-Target-Sharing]
         [TriggerGroups:TG-GKNT-Reputation]
         [TriggerGroups:TG-GKNT-Escort-ECHO]
+        [TriggerGroups:TG-GKNT-Patrol-Chat]
 
       </Description>
     </EntityComponent>
@@ -62,6 +63,7 @@
         [TriggerGroups:TG-GKNT-Target-Sharing]
         [TriggerGroups:TG-GKNT-Reputation]
         [TriggerGroups:TG-GKNT-Escort-PRTH]
+        [TriggerGroups:TG-GKNT-Patrol-Chat]
 
       </Description>
     </EntityComponent>

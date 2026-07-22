@@ -1,0 +1,494 @@
+﻿<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+  <Sounds>
+
+    <!--BASS: damage-bark rotation (grunt range)-->
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>bass-glitch-01</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bass-glitch-01.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>bass-glitch-02</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bass-glitch-02.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>bass-glitch-03</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bass-glitch-03.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>bass-glitch-04</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bass-glitch-04.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>bass-glitch-05</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bass-glitch-05.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>bass-glitch-06</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bass-glitch-06.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>bass-glitch-07</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bass-glitch-07.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>bass-glitch-08</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bass-glitch-08.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>bass-glitch-09</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bass-glitch-09.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>bass-glitch-10</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bass-glitch-10.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>bass-glitch-11</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bass-glitch-11.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>bass-glitch-12</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bass-glitch-12.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>bass-glitch-13</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bass-glitch-13.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>bass-glitch-14</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bass-glitch-14.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>bass-glitch-15</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bass-glitch-15.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>bass-glitch-16</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bass-glitch-16.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <!--BASS: Distress Network (wider range, matches Kraken/Leviathan convention)-->
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>bass-alarm-01</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>10000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.7</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bass-alarm-01.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>bass-riser-01</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>10000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.7</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\bass-riser-01.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <!--GKNT: Sword of Justice + Squadron Scramble (boss/mechanic range)-->
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>gknt-command-01</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>10000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.7</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\gknt-command-01.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>gknt-command-whoosh</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>10000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.7</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\gknt-command-whoosh.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>gknt-scramble-alarm</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>10000</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.7</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\gknt-scramble-alarm.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>gknt-radio-beep</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\gknt-radio-beep.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <!--GIRR: launch/jump whoosh + detection ping (grunt range)-->
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>girr-whoosh-01</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\girr-whoosh-01.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>girr-whoosh-02</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\girr-whoosh-02.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>girr-whoosh-03</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\girr-whoosh-03.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>girr-ping-01</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\girr-ping-01.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>girr-ping-02</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\girr-ping-02.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <!--PRTH: launch whoosh + confirm ping (grunt range)-->
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>prth-whoosh-01</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\prth-whoosh-01.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>prth-ping-01</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.5</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\prth-ping-01.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+    <!--ECHO: launch whoosh (grunt range)-->
+    <Sound>
+      <Id>
+        <TypeId>MyObjectBuilder_AudioDefinition</TypeId>
+        <SubtypeId>echo-whoosh-01</SubtypeId>
+      </Id>
+      <Category>HUD</Category>
+      <MaxDistance>2500</MaxDistance>
+      <PreventSynchronization>0</PreventSynchronization>
+      <Volume>0.6</Volume>
+      <Waves>
+        <Wave Type="D3">
+          <Start>Audio\echo-whoosh-01.xwm</Start>
+        </Wave>
+      </Waves>
+    </Sound>
+
+  </Sounds>
+
+</Definitions>

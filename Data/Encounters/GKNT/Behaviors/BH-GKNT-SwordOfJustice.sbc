@@ -26,10 +26,12 @@
         [EngageOnWeaponActivation:true]
 
         [UseBarrageFire:false]
+        [RemoteControlCode:SI-Roaches-Boss-GKNT]
 
         [TriggerGroups:TG-Common-PvE-Hard]
         [TriggerGroups:TG-GKNT-Target-Sharing]
         [TriggerGroups:TG-GKNT-Reputation]
+        [TriggerGroups:TG-GKNT-Command-Chat]
 
       </Description>
     </EntityComponent>

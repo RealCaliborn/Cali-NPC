@@ -26,6 +26,7 @@
         [MaxStaticWeaponRange:-1]
         [UseTurrets:true]
         [UseBarrageFire:false]
+        [RemoteControlCode:SI-Roaches-Boss-Any]
 
         [UseAmmoReplenish:true]
 

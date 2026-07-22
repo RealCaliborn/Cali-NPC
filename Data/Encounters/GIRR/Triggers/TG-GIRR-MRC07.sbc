@@ -89,10 +89,13 @@
         [IgnoredAntennaRangeOverride:10000]
 
         [ChatMessages:Sector HQ is compromised, all units: RTB and defend!]
+        [ChatAudio:girr-whoosh-03]
         [BroadcastChatType:Chat]
         [ChatMessages:HQ under attack, all units: RTB.]
+        [ChatAudio:girr-whoosh-03]
         [BroadcastChatType:Chat]
         [ChatMessages:They fell into our trap, close the net!]
+        [ChatAudio:girr-whoosh-03]
         [BroadcastChatType:Chat]
 
       </Description>

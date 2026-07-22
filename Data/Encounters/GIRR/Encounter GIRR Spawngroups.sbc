@@ -2359,6 +2359,10 @@
                 [ThreatLevelCheckRange:10000]
                 [ThreatScoreMinimum:2500]
 
+                [UseRemoteControlCodeRestrictions:true]
+                [RemoteControlCode:SI-Roaches-Boss-Any]
+                [RemoteControlCodeMinDistance:20000]
+
                 [ReplaceArmorBlocksWithModules:true]
 				
 				[ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Nanobots-Large]
@@ -2419,6 +2423,10 @@
                 [UseThreatLevelCheck:false]
                 [ThreatLevelCheckRange:10000]
                 [ThreatScoreMinimum:2500]
+
+                [UseRemoteControlCodeRestrictions:true]
+                [RemoteControlCode:SI-Roaches-Boss-Any]
+                [RemoteControlCodeMinDistance:20000]
 
                 [ReplaceArmorBlocksWithModules:true]
 				

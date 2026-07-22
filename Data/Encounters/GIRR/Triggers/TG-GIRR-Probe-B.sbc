@@ -81,12 +81,16 @@
         [IgnoredAntennaRangeOverride:15000]
 
         [ChatMessages:This territory is hereby annexed by the Independent Republic under Section 4 of the Articles of Confederation.]
+        [ChatAudio:girr-ping-02]
         [BroadcastChatType:Chat]
         [ChatMessages:This unit is equipped with active defenses, leave this area immediately.]
+        [ChatAudio:girr-ping-02]
         [BroadcastChatType:Chat]
         [ChatMessages:This Independent Republic No Fly Zone is enforced by an automated system. Do not approach!]
+        [ChatAudio:girr-ping-02]
         [BroadcastChatType:Chat]
         [ChatMessages:All territory within the range of this broadcast is now under the control of the Independent Republic.]
+        [ChatAudio:girr-ping-02]
         [BroadcastChatType:Chat]
 
       </Description>

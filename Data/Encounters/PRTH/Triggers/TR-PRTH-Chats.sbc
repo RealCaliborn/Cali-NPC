@@ -62,12 +62,16 @@
         [IgnoredAntennaRangeOverride:10000]
 
         [ChatMessages:Do you think Clang is the only god here?]
+        [ChatAudio:prth-ping-01]
         [BroadcastChatType:Chat]
         [ChatMessages:Face my wrath!]
+        [ChatAudio:prth-ping-01]
         [BroadcastChatType:Chat]
         [ChatMessages:Pathetic Mortal...]
+        [ChatAudio:prth-ping-01]
         [BroadcastChatType:Chat]
         [ChatMessages:Bow to your betters!]
+        [ChatAudio:prth-ping-01]
         [BroadcastChatType:Chat]
 
       </Description>

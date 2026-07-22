@@ -208,6 +208,7 @@
 
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-ECHO-OPFOR-Mayday-Rep]
+        [Triggers:TR-VOID-ScreamBroadcast]
 
       </Description>
     </EntityComponent>
@@ -238,6 +239,7 @@
 
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-ECHO-OPFOR-Mayday-Rep]
+        [Triggers:TR-VOID-ScreamBroadcast]
 
       </Description>
     </EntityComponent>
