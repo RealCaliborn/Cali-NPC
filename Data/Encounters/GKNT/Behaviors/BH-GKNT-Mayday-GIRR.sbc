@@ -118,7 +118,7 @@
         [BehaviorName:Hunter]
 
         [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-6000-8000-B]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
 
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
