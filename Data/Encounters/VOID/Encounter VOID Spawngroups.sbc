@@ -126,7 +126,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+					<Behaviour>BH-VOID-Chordata</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1996,7 +1996,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+					<Behaviour>BH-VOID-Chordata</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -2180,7 +2180,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+					<Behaviour>BH-VOID-Chordata</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>

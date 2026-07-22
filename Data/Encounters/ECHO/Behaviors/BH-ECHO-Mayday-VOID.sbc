@@ -46,7 +46,7 @@
         [BehaviorName:Hunter]
 
         [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
 
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
@@ -120,7 +120,7 @@
         [BehaviorName:Hunter]
 
         [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-3500-4750-B]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
 
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
@@ -157,7 +157,7 @@
         [BehaviorName:Hunter]
 
         [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-3500-4750-B]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
 
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
@@ -225,7 +225,7 @@
         [BehaviorName:Hunter]
 
         [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
 
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
