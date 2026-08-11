@@ -10,32 +10,25 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Horsefly]
-
+        [BehaviorName:HorseFighter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
-
+        [HorseFighterTimeEngaging:55]
+        [HorseFighterTimeApproaching:29]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
         [UseStaticGuns:true]
         [MaxStaticWeaponRange:-1]
         [UseTurrets:true]
         [UseBarrageFire:false]
         [RemoteControlCode:SI-Roaches-Boss-Any]
-
         [UseAmmoReplenish:true]
-
         [TriggerGroups:TG-Common-PvE-Hard]
-
         [TriggerGroups:TG-VOID-Target-Sharing]
         [Triggers:TR-VOID-ScreamBroadcast]
         [Triggers:TR-Common-FireFixed]
-
         [TriggerGroups:TG-VOID-Kraken]
         [TriggerGroups:TG-VOID-Reputation]
 
@@ -48,29 +41,29 @@
         <SubtypeId>BH-VOID-Kraken-StingBaby-Port</SubtypeId>
       </Id>
       <Description>
-
         [RivalAI Behavior]
-
         [BehaviorName:HorseFighter]
-		[HorseFighterTimeEngaging:15]
-		[HorseFighterTimeApproaching:27]
-
         [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
-
+        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+        [HorseFighterTimeEngaging:50]
+        [HorseFighterTimeApproaching:12]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
         [UseBarrageFire:false]
-
+        [UseAmmoReplenish:true]
         [TriggerGroups:TG-Common-PvE-Default]
-
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-PRTH-VOID-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+        [Triggers:TR-Common-FireFixed]
         [Triggers:TR-VOID-Answer-Kraken-Port]
+        [Triggers:TR-VOID-Kraken-Wing-SpawnCall-Port]
         [Triggers:TR-VOID-ScreamBroadcast]
 
       </Description>
@@ -82,33 +75,225 @@
         <SubtypeId>BH-VOID-Kraken-StingBaby-Starboard</SubtypeId>
       </Id>
       <Description>
-
         [RivalAI Behavior]
-
         [BehaviorName:HorseFighter]
-		[HorseFighterTimeEngaging:21]
-		[HorseFighterTimeApproaching:47]
-		
         [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
-
+        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+        [HorseFighterTimeEngaging:50]
+        [HorseFighterTimeApproaching:12]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
+        [UseTurrets:true]
         [UseBarrageFire:false]
-
         [TriggerGroups:TG-Common-PvE-Default]
-
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-PRTH-VOID-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
         [Triggers:TR-VOID-Answer-Kraken-Starboard]
+        [Triggers:TR-VOID-Kraken-Wing-SpawnCall-Starboard]
         [Triggers:TR-VOID-ScreamBroadcast]
 
       </Description>
     </EntityComponent>
 
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Kraken-StingBro-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2000-B]
+        [HorseFighterTimeEngaging:30]
+        [HorseFighterTimeApproaching:20]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [UseAmmoReplenish:true]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-Common-FireFixed]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-PRTH-VOID-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+        [Triggers:TR-VOID-Answer-Kraken-Screen]
+        [Triggers:TR-VOID-Kraken-Wing-SpawnCall-Screen]
+        [Triggers:TR-VOID-ScreamBroadcast]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Kraken-Wing-SpawnCall-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:1500]
+        [MaxCooldownMs:2500]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-VOID-Kraken-Wing-SpawnCall-Port]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Kraken-Wing-SpawnCall-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [UseChatBroadcast:true]
+        [ChatData:CH-VOID-Kraken-Wing-SpawnCall-Port]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-VOID-Kraken-Wing-SpawnCall-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:false]
+        [Author:VOID Lamprey]
+        [Color:Red]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Lamprey answering the call — closing to break your shields.]
+        [ChatAudio:Void-Screams]
+        [BroadcastChatType:Chat]
+        [ChatVolumeMultiplier:0.35]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Kraken-Wing-SpawnCall-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:1500]
+        [MaxCooldownMs:2500]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-VOID-Kraken-Wing-SpawnCall-Starboard]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Kraken-Wing-SpawnCall-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [UseChatBroadcast:true]
+        [ChatData:CH-VOID-Kraken-Wing-SpawnCall-Starboard]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-VOID-Kraken-Wing-SpawnCall-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:false]
+        [Author:VOID Stingray]
+        [Color:Red]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Stingray inbound — railguns and beams hot.]
+        [ChatAudio:Void-Screams]
+        [BroadcastChatType:Chat]
+        [ChatVolumeMultiplier:0.35]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Kraken-Wing-SpawnCall-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:1500]
+        [MaxCooldownMs:2500]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-VOID-Kraken-Wing-SpawnCall-Screen]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Kraken-Wing-SpawnCall-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [UseChatBroadcast:true]
+        [ChatData:CH-VOID-Kraken-Wing-SpawnCall-Screen]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-VOID-Kraken-Wing-SpawnCall-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:false]
+        [Author:VOID StingBro]
+        [Color:Red]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Screen frigate on station — intercepting your ordnance.]
+        [ChatAudio:Void-Screams]
+        [BroadcastChatType:Chat]
+        [ChatVolumeMultiplier:0.35]
+
+      </Description>
+    </EntityComponent>
   </EntityComponents>
 </Definitions>

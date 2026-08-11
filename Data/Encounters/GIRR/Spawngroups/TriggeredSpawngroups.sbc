@@ -32,7 +32,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
                     <Position>
@@ -77,7 +77,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GIRR) Modified Transport">
                     <Position>
@@ -122,7 +122,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GIRR) Modified Miner">
                     <Position>
@@ -212,7 +212,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>0.7</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
                     <Position>
@@ -226,6 +226,145 @@
             </Prefabs>
         </SpawnGroup>
         <!-- (NPC-GIRR) CruiserSpawn Cruiser -->
+
+        <!-- =========================================================
+             MRC07 boss maintain-alive escort wings (respawn indefinitely,
+             one ship each, MaxSpawns:-1 on their Launch spawners). -->
+
+        <!-- (NPC-GIRR) MRC07 Breaker1 Wing -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-GIRR) MRC07 Breaker1 Wing</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+            [RivalAiSpawn:true]
+
+            [FactionOwner:GIRR]
+            [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-GIRR-MRC07-Breaker1</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-GIRR) MRC07 Breaker1 Wing -->
+
+        <!-- (NPC-GIRR) MRC07 Breaker2 Wing -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-GIRR) MRC07 Breaker2 Wing</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+            [RivalAiSpawn:true]
+
+            [FactionOwner:GIRR]
+            [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-GIRR-MRC07-Breaker2</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-GIRR) MRC07 Breaker2 Wing -->
+
+        <!-- (NPC-GIRR) MRC07 Screen Wing -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-GIRR) MRC07 Screen Wing</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+            [RivalAiSpawn:true]
+
+            [FactionOwner:GIRR]
+            [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-GIRR) Class B Probe">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-GIRR-MRC07-Screen</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-GIRR) MRC07 Screen Wing -->
 
     </SpawnGroups>
 </Definitions>

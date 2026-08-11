@@ -10,24 +10,20 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:HorseFighter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
-
+        [HorseFighterTimeEngaging:57]
+        [HorseFighterTimeApproaching:31]
         [TargetData:TA-Common-8000-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
+        [UseTurrets:true]
         [UseBarrageFire:true]
         [RemoteControlCode:SI-Roaches-Boss-Any]
-
         [TriggerGroups:TG-Common-PvE-Hard]
-		[TriggerGroups:TG-Common-Jump]
-
+        [TriggerGroups:TG-Common-Jump]
         [TriggerGroups:TG-GIRR-MRC07]
         [TriggerGroups:TG-GIRR-Target-Sharing]
         [TriggerGroups:TG-GIRR-Reputation]

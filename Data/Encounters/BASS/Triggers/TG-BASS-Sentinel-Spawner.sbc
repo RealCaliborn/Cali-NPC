@@ -112,7 +112,8 @@
       
       [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:3]
       
       [SpawnGroups:(NPC-BASS) Gx1]
@@ -216,7 +217,8 @@
 
       [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:1]
 
       [SpawnGroups:(NPC-BASS) Gx2]
@@ -282,7 +284,8 @@
 
       [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:1]
 
       [SpawnGroups:(NPC-GKNT) BASS-Assist 1Swallow]

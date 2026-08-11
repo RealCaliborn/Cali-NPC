@@ -10,22 +10,16 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:Horsefly]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
-
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
+        [UseTurrets:true]
         [UseBarrageFire:false]
-
         [TriggerGroups:TG-Common-PvE-Default]
-
         [Triggers:TR-VOID-ScreamBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]

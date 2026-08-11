@@ -71,14 +71,12 @@
       [UseSpawn:true]
       [SpawningType:SpaceCargoShip]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:-1]
 
       [SpawnGroups:(NPC-ECHO) Cargo Freighter Solo (PVE;NPC)]
 
-      [UseRelativeSpawnPosition:false]
-      [MinDistance:600]
-      [MaxDistance:1000]
       [IgnoreSafetyChecks:false]
 
       </Description>
@@ -147,14 +145,12 @@
       [UseSpawn:true]
       [SpawningType:SpaceCargoShip]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:-1]
 
       [SpawnGroups:(NPC-PRTH) 1xSpeartip (OUTER)]
 
-      [UseRelativeSpawnPosition:false]
-      [MinDistance:600]
-      [MaxDistance:1000]
       [IgnoreSafetyChecks:false]
 
       </Description>

@@ -13,19 +13,19 @@
 		
 		[ConfigureSpecialNpcThrusters:true]
 		[RestrictNpcIonThrust:true]
-		[NpcIonThrustForceMultiply:18]
+		[NpcIonThrustForceMultiply:32]
 		[NpcIonThrustPowerMultiply:0.01]
 		
 		[RestrictNpcAtmoThrust:true]
-		[NpcAtmoThrustForceMultiply:18]
+		[NpcAtmoThrustForceMultiply:32]
 		[NpcAtmoThrustPowerMultiply:0.01]
 		
 		[RestrictNpcHydroThrust:true]
-		[NpcHydroThrustForceMultiply:18]
+		[NpcHydroThrustForceMultiply:32]
 		[NpcHydroThrustPowerMultiply:0.01]
 		
 		[SetNpcGyroscopeMultiplier:true]
-		[NpcGyroscopeMultiplier:8]
+		[NpcGyroscopeMultiplier:16]
 		
 		[AddDefenseShieldBlocks:true]
 		[ChangeTurretSettings:true]
@@ -54,7 +54,7 @@
 		[NpcIonThrustPowerMultiply:0.01]
 		
 		[RestrictNpcAtmoThrust:true]
-		[NpcAtmoThrustForceMultiply:18]
+		[NpcAtmoThrustForceMultiply:32]
 		[NpcAtmoThrustPowerMultiply:0.01]
 		
 		[RestrictNpcHydroThrust:true]
@@ -124,19 +124,19 @@
 		
 		[ConfigureSpecialNpcThrusters:true]
 		[RestrictNpcIonThrust:true]
-		[NpcIonThrustForceMultiply:18]
+		[NpcIonThrustForceMultiply:32]
 		[NpcIonThrustPowerMultiply:0.01]
 		
 		[RestrictNpcAtmoThrust:true]
-		[NpcAtmoThrustForceMultiply:18]
+		[NpcAtmoThrustForceMultiply:32]
 		[NpcAtmoThrustPowerMultiply:0.01]
 		
 		[RestrictNpcHydroThrust:true]
-		[NpcHydroThrustForceMultiply:18]
+		[NpcHydroThrustForceMultiply:32]
 		[NpcHydroThrustPowerMultiply:0.01]
 		
 		[SetNpcGyroscopeMultiplier:true]
-		[NpcGyroscopeMultiplier:8]
+		[NpcGyroscopeMultiplier:16]
 		
 		[AddDefenseShieldBlocks:true]
 		[ChangeTurretSettings:true]
@@ -161,19 +161,56 @@
 		
 		[ConfigureSpecialNpcThrusters:true]
 		[RestrictNpcIonThrust:true]
-		[NpcIonThrustForceMultiply:18]
+		[NpcIonThrustForceMultiply:32]
 		[NpcIonThrustPowerMultiply:0.01]
 		
 		[RestrictNpcAtmoThrust:true]
-		[NpcAtmoThrustForceMultiply:18]
+		[NpcAtmoThrustForceMultiply:32]
 		[NpcAtmoThrustPowerMultiply:0.01]
 		
 		[RestrictNpcHydroThrust:true]
-		[NpcHydroThrustForceMultiply:18]
+		[NpcHydroThrustForceMultiply:32]
 		[NpcHydroThrustPowerMultiply:0.01]
 		
 		[SetNpcGyroscopeMultiplier:true]
-		[NpcGyroscopeMultiplier:8]
+		[NpcGyroscopeMultiplier:16]
+		
+		[AddDefenseShieldBlocks:true]
+		[ChangeTurretSettings:true]
+		[TurretRange:11000]
+		[TurretIdleRotation:false]
+		[TurretTargetMeteors:false]
+		[TurretTargetSmallGrids:true]
+		[TurretTargetLargeGrids:true]
+		[TurretTargetNeutrals:false]
+		
+      </Description>
+
+    </EntityComponent>
+	<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>MES-Manipulation-PropulsionGKNT</SubtypeId>
+      </Id>
+      <Description>
+
+        [MES Manipulation]
+		
+		[ConfigureSpecialNpcThrusters:true]
+		[RestrictNpcIonThrust:true]
+		[NpcIonThrustForceMultiply:32]
+		[NpcIonThrustPowerMultiply:0.01]
+		
+		[RestrictNpcAtmoThrust:true]
+		[NpcAtmoThrustForceMultiply:32]
+		[NpcAtmoThrustPowerMultiply:0.01]
+		
+		[RestrictNpcHydroThrust:true]
+		[NpcHydroThrustForceMultiply:32]
+		[NpcHydroThrustPowerMultiply:0.01]
+		
+		[SetNpcGyroscopeMultiplier:true]
+		[NpcGyroscopeMultiplier:16]
 		
 		[AddDefenseShieldBlocks:true]
 		[ChangeTurretSettings:true]

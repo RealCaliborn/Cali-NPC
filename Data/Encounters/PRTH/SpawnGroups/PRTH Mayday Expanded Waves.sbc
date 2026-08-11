@@ -1,0 +1,2722 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) PRTH Mayday Easy Wave 1</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) Stingbaby">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-StingBaby-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Stingbaby">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-StingBaby-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) StingBro">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-StingBro-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) StingBro">
+          <Position>
+            <X>-500.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-StingBro-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) PRTH Mayday Easy Wave 2</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) Hunter">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Hunter-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Urchin B">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Urchin-B-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) PRTH Mayday Easy Wave 3</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) Stingray">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Stingray-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Stingbaby">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-StingBaby-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Stingbaby">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-StingBaby-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) PRTH Mayday Medium Wave 1</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) Stingray">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Stingray-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Hunter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Hunter-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Urchin B">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Urchin-B-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) PRTH Mayday Medium Wave 2</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) Stingray">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Stingray-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Urchin B">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Urchin-B-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Urchin S">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Urchin-S-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) StingBro">
+          <Position>
+            <X>-500.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-StingBro-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) StingBro">
+          <Position>
+            <X>0.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-StingBro-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) PRTH Mayday Medium Wave 3</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) Stingray">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Stingray-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Stingray">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Stingray-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Chordata">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Chordata-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Urchin S">
+          <Position>
+            <X>-500.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Urchin-S-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) PRTH Mayday Medium Wave 4</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) Mahi">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Mahi-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Chordata">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Chordata-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Stingray">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Stingray-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) PRTH Mayday Medium Wave 5</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:SI-Roaches-Boss-Any]
+        [RemoteControlCodeMinDistance:20000]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) Kraken">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Kraken-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Urchin S">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Urchin-S-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Urchin B">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Urchin-B-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) PRTH Mayday Hard Wave 1</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) Stingray">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Stingray-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Stingray">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Stingray-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Chordata">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Chordata-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Urchin S">
+          <Position>
+            <X>-500.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Urchin-S-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) PRTH Mayday Hard Wave 2</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) Mahi">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Mahi-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Chordata">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Chordata-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Stingray">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Stingray-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) PRTH Mayday Hard Wave 3</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:SI-Roaches-Boss-Any]
+        [RemoteControlCodeMinDistance:20000]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) Kraken">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Kraken-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Chordata">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Chordata-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Stingray">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Stingray-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) PRTH Mayday Hard Wave 4</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:SI-Roaches-Boss-Any]
+        [RemoteControlCodeMinDistance:20000]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) Kraken">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-ThunderKraken-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Lamprey">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Lamprey-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Lamprey B">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Lamprey-B-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) PRTH Mayday Hard Wave 5</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:SI-Roaches-Boss-Any]
+        [RemoteControlCodeMinDistance:20000]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) Leviathan">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Leviathan-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Stingray">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Stingray-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Stingray">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Stingray-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Mahi">
+          <Position>
+            <X>-500.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Mahi-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) PRTH Mayday Easy Wave 1</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) PRTH Mayday Easy Wave 2</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Cargo-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) PRTH Mayday Easy Wave 3</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Cargo-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) PRTH Mayday Medium Wave 1</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) PRTH Mayday Medium Wave 2</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Cargo-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) PRTH Mayday Medium Wave 3</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Cargo-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Cargo-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>-500.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) PRTH Mayday Medium Wave 4</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Cargo-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Cargo-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>-500.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>0.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) PRTH Mayday Medium Wave 5</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) PRTH Mayday Medium Wave 5 Static</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ForceStaticGrid:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Mandir">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>BH-ECHO-Station-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) PRTH Mayday Hard Wave 1</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>-500.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) PRTH Mayday Hard Wave 2</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Cargo-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Cargo-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>-500.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>0.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) PRTH Mayday Hard Wave 3</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Cargo-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Cargo-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Cargo-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>-500.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>0.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>500.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>-500.0</X>
+            <Y>1000.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) PRTH Mayday Hard Wave 4</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Cargo-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Cargo-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>-500.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>0.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) PRTH Mayday Hard Wave 4 Static</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ForceStaticGrid:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Mandir">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>BH-ECHO-Station-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) PRTH Mayday Hard Wave 5</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Cargo-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Cargo-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Cargo-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>-500.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>0.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>500.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-ECHO) Scarab">
+          <Position>
+            <X>-500.0</X>
+            <Y>1000.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-ECHO-Scarab-Single-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) PRTH Mayday Hard Wave 5 Static</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ForceStaticGrid:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Mandir">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>0</Speed>
+          <Behaviour>BH-ECHO-Station-Medium-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-GIRR) PRTH Mayday Easy Wave 1</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:GIRR]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Hauler-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Transport-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-GIRR) PRTH Mayday Easy Wave 2</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:GIRR]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Miner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Merchant-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Transport-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-GIRR) PRTH Mayday Easy Wave 3</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:GIRR]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-CruiserNospawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Miner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Merchant-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-GIRR) PRTH Mayday Medium Wave 1</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:GIRR]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Hauler-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Transport-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Miner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-GIRR) PRTH Mayday Medium Wave 2</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:GIRR]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Transport-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Merchant-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Merchant-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-GIRR) PRTH Mayday Medium Wave 3</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:GIRR]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-CruiserSpawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Miner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Merchant-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-GIRR) PRTH Mayday Medium Wave 4</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:GIRR]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-CruiserSpawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Transport-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Miner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-GIRR) PRTH Mayday Medium Wave 5</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:GIRR]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-GIRR) MRC07">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-MRC07-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Merchant-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-GIRR) PRTH Mayday Hard Wave 1</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:GIRR]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Hauler-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Miner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Miner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+          <Position>
+            <X>-500.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Miner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-GIRR) PRTH Mayday Hard Wave 2</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:GIRR]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-CruiserSpawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Transport-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Merchant-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-GIRR) PRTH Mayday Hard Wave 3</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:GIRR]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-CruiserSpawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-CruiserNospawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Miner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-GIRR) PRTH Mayday Hard Wave 4</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:GIRR]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-GIRR) MRC07">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-MRC07-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Merchant-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Miner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-GIRR) PRTH Mayday Hard Wave 5</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:GIRR]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-GIRR) MRC07">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-MRC07-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-CruiserNospawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-GIRR-Merchant-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-BASS) PRTH Mayday Easy Wave 1</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:BASS]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-Spawner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-BASS) PRTH Mayday Easy Wave 2</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:BASS]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-Spawner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-NoSpawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-BASS) PRTH Mayday Easy Wave 3</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:BASS]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-G-Answered-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-Spawner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-BASS) PRTH Mayday Medium Wave 1</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:BASS]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-Spawner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-NoSpawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-BASS) PRTH Mayday Medium Wave 2</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:BASS]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-Spawner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-NoSpawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-NoSpawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-BASS) PRTH Mayday Medium Wave 3</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:BASS]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-G-Answered-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-Spawner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-NoSpawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-BASS) PRTH Mayday Medium Wave 4</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:BASS]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-G-Answered-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-G-Answered-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-G-Answered-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-BASS) PRTH Mayday Medium Wave 5</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:BASS]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-Spawner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-G-Answered-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-G-Answered-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-BASS) PRTH Mayday Hard Wave 1</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:BASS]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-Spawner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-NoSpawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-NoSpawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-BASS) PRTH Mayday Hard Wave 2</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:BASS]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-Spawner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-NoSpawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-NoSpawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>-500.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-NoSpawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-BASS) PRTH Mayday Hard Wave 3</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:BASS]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-G-Answered-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-G-Answered-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-Spawner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>-500.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-NoSpawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-BASS) PRTH Mayday Hard Wave 4</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:BASS]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-G-Answered-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-G-Answered-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-G-Answered-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>-500.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-Spawner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>0.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-NoSpawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-BASS) PRTH Mayday Hard Wave 5</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:BASS]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+          <Position>
+            <X>-500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-G-Answered-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-G-Answered-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>500.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-Spawner-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>-500.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-NoSpawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-BASS) Sentinel-M">
+          <Position>
+            <X>0.0</X>
+            <Y>500.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-BASS-Sentinel-M-NoSpawn-PRTHExpandedMayday</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>

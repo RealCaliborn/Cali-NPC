@@ -11,16 +11,15 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:CargoShip]
-
-        [AutopilotData:AP-Common-Cargo-Default]
-
+        [BehaviorName:Horsefly]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-GKNT-NPC-Protection-A]
         [OverrideTargetData:TA-GKNT-NPC-Protection-B]
-
-        
-
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [TriggerGroups:TG-Common-Jump]
         [TriggerGroups:TG-ECHO-Cargo-Solo]
         [TriggerGroups:TG-ECHO-Target-Sharing]
         [TriggerGroups:TG-ECHO-Reputation]
@@ -37,16 +36,15 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:CargoShip]
-
-        [AutopilotData:AP-Common-Cargo-Default]
-
+        [BehaviorName:Horsefly]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-GKNT-NPC-Protection-A]
         [OverrideTargetData:TA-GKNT-NPC-Protection-B]
-
-        
-
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [TriggerGroups:TG-Common-Jump]
         [TriggerGroups:TG-ECHO-Cargo-Easy]
         [TriggerGroups:TG-ECHO-Target-Sharing]
         [TriggerGroups:TG-ECHO-Reputation]
@@ -63,16 +61,15 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:CargoShip]
-
-        [AutopilotData:AP-Common-Cargo-Default]
-
+        [BehaviorName:Horsefly]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-GKNT-NPC-Protection-A]
         [OverrideTargetData:TA-GKNT-NPC-Protection-B]
-
-        
-
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [TriggerGroups:TG-Common-Jump]
         [TriggerGroups:TG-ECHO-Cargo-Medium]
         [TriggerGroups:TG-ECHO-Target-Sharing]
         [TriggerGroups:TG-ECHO-Reputation]

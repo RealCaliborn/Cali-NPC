@@ -38,7 +38,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.05</Frequency>
+			<Frequency>0.7</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Urchin S">
 					<Position>
@@ -108,7 +108,7 @@
 				
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.05</Frequency>
+			<Frequency>0.7</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Kraken">
 					<Position>
@@ -178,7 +178,7 @@
 			    
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.02</Frequency>
+			<Frequency>0.5</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Leviathan">
 					<Position>
@@ -257,7 +257,7 @@
 				
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.07</Frequency>
+			<Frequency>0.7</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Kraken">
 					<Position>
@@ -319,7 +319,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.50</Frequency>
+			<Frequency>1.1</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Hunter">
 					<Position>
@@ -367,7 +367,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.50</Frequency>
+			<Frequency>1.1</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Hunter">
 					<Position>
@@ -425,7 +425,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.50</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Hunter">
 					<Position>
@@ -482,7 +482,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.50</Frequency>
+			<Frequency>1.1</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Hunter">
 					<Position>
@@ -540,7 +540,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.50</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Urchin S">
 					<Position>
@@ -600,7 +600,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.20</Frequency>
+			<Frequency>0.7</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Lamprey">
 					<Position>
@@ -651,7 +651,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.20</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Lamprey B">
 					<Position>
@@ -702,7 +702,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -754,7 +754,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -805,7 +805,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -856,7 +856,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -907,7 +907,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -967,7 +967,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.75</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1027,7 +1027,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.25</Frequency>
+			<Frequency>0.7</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1087,7 +1087,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.25</Frequency>
+			<Frequency>0.7</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1147,7 +1147,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.25</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1207,7 +1207,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.25</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1268,7 +1268,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.75</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1329,7 +1329,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.75</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1389,7 +1389,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.75</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1449,7 +1449,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.0</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1509,7 +1509,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.20</Frequency>
+			<Frequency>0.7</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Chordata">
 					<Position>
@@ -1559,7 +1559,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.0</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1628,7 +1628,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.0</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1688,7 +1688,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.0</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1747,7 +1747,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.50</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1824,7 +1824,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.50</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1901,7 +1901,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.50</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1978,7 +1978,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.30</Frequency>
+			<Frequency>0.7</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -2043,7 +2043,7 @@
 
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.30</Frequency>
+			<Frequency>1.1</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Mahi">
 					<Position>
@@ -2094,7 +2094,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.30</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Urchin S">
 					<Position>
@@ -2162,7 +2162,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.30</Frequency>
+			<Frequency>0.7</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Mahi">
 					<Position>
@@ -2232,7 +2232,7 @@
 			    
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.01</Frequency>
+			<Frequency>0.5</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Leviathan">
 					<Position>
@@ -2310,7 +2310,7 @@
         [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.07</Frequency>
+			<Frequency>0.7</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Kraken">
 					<Position>
@@ -2374,7 +2374,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.50</Frequency>
+			<Frequency>1.1</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Hunter">
 					<Position>
@@ -2423,7 +2423,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.50</Frequency>
+			<Frequency>1.1</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Hunter">
 					<Position>
@@ -2482,7 +2482,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.50</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Hunter">
 					<Position>
@@ -2540,7 +2540,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.50</Frequency>
+			<Frequency>1.1</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Hunter">
 					<Position>
@@ -2599,7 +2599,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.50</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Urchin S">
 					<Position>
@@ -2660,7 +2660,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.20</Frequency>
+			<Frequency>0.7</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Lamprey">
 					<Position>
@@ -2712,7 +2712,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.20</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Lamprey B">
 					<Position>
@@ -2764,7 +2764,7 @@
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>

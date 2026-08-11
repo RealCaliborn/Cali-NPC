@@ -10,30 +10,26 @@
 			<Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
-
+        [HorseFighterTimeEngaging:35]
+        [HorseFighterTimeApproaching:19]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
+        [UseTurrets:true]
         [TriggerGroups:TG-Common-PvE-Default]
-		[TriggerGroups:TG-Common-Jump]
-
-
-		
-
+        [TriggerGroups:TG-Common-Jump]
         [TriggerGroups:TG-GIRR-LeadShip]
         [TriggerGroups:TG-GIRR-Hauler]
         [TriggerGroups:TG-GIRR-Target-Sharing]
         [TriggerGroups:TG-GIRR-Reputation]
-		
-
         [UseBarrageFire:true]
 
       </Description>
@@ -47,31 +43,22 @@
 			<Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:HorseFighter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
-
+        [HorseFighterTimeEngaging:40]
+        [HorseFighterTimeApproaching:22]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
         [TriggerGroups:TG-Common-PvE-Default]
-		[TriggerGroups:TG-Common-Jump]
-		
-        
+        [TriggerGroups:TG-Common-Jump]
         [Triggers:TR-Common-FireFixed]
-
-		
-
         [TriggerGroups:TG-GIRR-LeadShip]
         [TriggerGroups:TG-GIRR-Transport]
         [TriggerGroups:TG-GIRR-Target-Sharing]
         [TriggerGroups:TG-GIRR-Reputation]
-
         [UseStaticGuns:true]
         [MaxStaticWeaponRange:4000]
         [UseTurrets:true]
@@ -88,28 +75,27 @@
 			<Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
-
+        [HorseFighterTimeEngaging:35]
+        [HorseFighterTimeApproaching:19]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
+        [UseTurrets:true]
         [TriggerGroups:TG-Common-PvE-Default]
-		[TriggerGroups:TG-Common-Jump]
-
-
-		
-
+        [TriggerGroups:TG-Common-Jump]
         [TriggerGroups:TG-GIRR-Hauler]
         [TriggerGroups:TG-GIRR-Target-Sharing]
         [TriggerGroups:TG-GIRR-Reputation]
-
+        [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
         [UseBarrageFire:true]
 
       </Description>
@@ -123,28 +109,23 @@
 			<Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:HorseFighter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
-
+        [HorseFighterTimeEngaging:40]
+        [HorseFighterTimeApproaching:22]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
         [TriggerGroups:TG-Common-PvE-Default]
-		[TriggerGroups:TG-Common-Jump]
-		
-        
+        [TriggerGroups:TG-Common-Jump]
         [Triggers:TR-Common-FireFixed]
-
         [TriggerGroups:TG-GIRR-Transport]
         [TriggerGroups:TG-GIRR-Target-Sharing]
         [TriggerGroups:TG-GIRR-Reputation]
-
+        [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
         [UseStaticGuns:true]
         [MaxStaticWeaponRange:4000]
         [UseTurrets:true]
@@ -161,30 +142,26 @@
 			<Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:HorseFighter]
         [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
-
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:38]
+        [HorseFighterTimeApproaching:20]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
         [TriggerGroups:TG-Common-PvE-Default]
-		[TriggerGroups:TG-Common-Jump]
-
+        [TriggerGroups:TG-Common-Jump]
         [TriggerGroups:TG-GIRR-Miner]
         [TriggerGroups:TG-GIRR-Target-Sharing]
         [TriggerGroups:TG-GIRR-Reputation]
-
+        [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
         [UseStaticGuns:true]
         [MaxStaticWeaponRange:4000]
         [UseTurrets:true]
         [UseBarrageFire:true]
-
         [RetreatDespawnDistance:12000]
 
       </Description>
@@ -198,29 +175,54 @@
 			<Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:HorseFighter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
-
+        [HorseFighterTimeEngaging:38]
+        [HorseFighterTimeApproaching:20]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
         [TriggerGroups:TG-Common-PvE-Default]
-		[TriggerGroups:TG-Common-Jump]
-        
-
+        [TriggerGroups:TG-Common-Jump]
         [TriggerGroups:TG-GIRR-Merchant]
         [TriggerGroups:TG-GIRR-Target-Sharing]
         [TriggerGroups:TG-GIRR-Reputation]
-		
+        [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:9000]
+        [UseTurrets:true]
+        [UseBarrageFire:true]
 
-		
+      </Description>
+		</EntityComponent>
 
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BH-GIRR-Passenger</SubtypeId>
+			</Id>
+			<Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:40]
+        [HorseFighterTimeApproaching:22]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-GIRR-Merchant]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
         [UseStaticGuns:true]
         [MaxStaticWeaponRange:9000]
         [UseTurrets:true]
@@ -237,29 +239,27 @@
 			<Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
-
+        [HorseFighterTimeEngaging:45]
+        [HorseFighterTimeApproaching:25]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
-		
-
+        [UseTurrets:true]
         [TriggerGroups:TG-Common-PvE-Hard]
-		[TriggerGroups:TG-Common-Jump]
-        
-
+        [TriggerGroups:TG-Common-Jump]
         [TriggerGroups:TG-GIRR-Cruiser]
         [TriggerGroups:TG-GIRR-Target-Sharing]
         [TriggerGroups:TG-GIRR-Reputation]
-		
-
+        [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
         [UseBarrageFire:true]
 
       </Description>
@@ -273,30 +273,26 @@
 			<Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
-
+        [HorseFighterTimeEngaging:45]
+        [HorseFighterTimeApproaching:25]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
-		
-
+        [UseTurrets:true]
         [TriggerGroups:TG-Common-PvE-Hard]
-		[TriggerGroups:TG-Common-Jump]
-        
-
+        [TriggerGroups:TG-Common-Jump]
         [TriggerGroups:TG-GIRR-Cruiser]
         [Triggers:TR-GIRR-CruiserSpawn]
         [TriggerGroups:TG-GIRR-Target-Sharing]
         [TriggerGroups:TG-GIRR-Reputation]
-		
-
         [UseBarrageFire:true]
 
       </Description>
@@ -310,12 +306,22 @@
 			<Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Passive]
-
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [HorseFighterTimeEngaging:23]
+        [HorseFighterTimeApproaching:13]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
         [TriggerGroups:TG-GIRR-Probe-A]
         [Triggers:TR-GIRR-FireFixed-Probe]
-
         [TriggerGroups:TG-GIRR-Target-Sharing]
 
       </Description>
@@ -328,12 +334,22 @@
 			<Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Passive]
-
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [HorseFighterTimeEngaging:23]
+        [HorseFighterTimeApproaching:13]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
         [TriggerGroups:TG-GIRR-Probe-A-Trap1]
         [Triggers:TR-GIRR-FireFixed-Probe]
-
         [TriggerGroups:TG-GIRR-Target-Sharing]
 
       </Description>
@@ -346,12 +362,22 @@
 			<Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Passive]
-
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [HorseFighterTimeEngaging:23]
+        [HorseFighterTimeApproaching:13]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
         [TriggerGroups:TG-GIRR-Probe-A-Trap2]
         [Triggers:TR-GIRR-FireFixed-Probe]
-
         [TriggerGroups:TG-GIRR-Target-Sharing]
 
       </Description>
@@ -365,24 +391,19 @@
 			<Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Fighter]
-
-        [AutopilotData:AP-Common-Brawler-Default-B]
-
+        [BehaviorName:HorseFighter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [HorseFighterTimeEngaging:26]
+        [HorseFighterTimeApproaching:14]
         [TargetData:TA-Common-8000-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
         [TriggerGroups:TG-Common-PvE-Default]
-		[TriggerGroups:TG-Common-Jump]
-        
-
+        [TriggerGroups:TG-Common-Jump]
         [TriggerGroups:TG-GIRR-Probe-B]
         [TriggerGroups:TG-GIRR-Target-Sharing]
-
         [UseStaticGuns:true]
         [MaxStaticWeaponRange:4000]
         [UseTurrets:true]
@@ -399,24 +420,19 @@
 			<Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Fighter]
-
-        [AutopilotData:AP-Common-Brawler-Default-B]
-
+        [BehaviorName:HorseFighter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [HorseFighterTimeEngaging:26]
+        [HorseFighterTimeApproaching:14]
         [TargetData:TA-Common-8000-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
         [TriggerGroups:TG-Common-PvE-Default]
-		[TriggerGroups:TG-Common-Jump]
-        
-
+        [TriggerGroups:TG-Common-Jump]
         [TriggerGroups:TG-GIRR-Probe-B-Trap2]
         [TriggerGroups:TG-GIRR-Target-Sharing]
-
         [UseStaticGuns:true]
         [MaxStaticWeaponRange:4000]
         [UseTurrets:true]
@@ -433,13 +449,21 @@
 			<Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:CargoShip]
-
-        [AutopilotData:AP-Common-Cargo-Default]
-
-        
-
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:39]
+        [HorseFighterTimeApproaching:21]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [TriggerGroups:TG-Common-Jump]
         [TriggerGroups:TG-GIRR-Cargo-Solo]
         [Triggers:TR-GIRR-FireFixed-Cargo]
         [TriggerGroups:TG-GIRR-Target-Sharing]
@@ -459,13 +483,21 @@
 			<Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:CargoShip]
-
-        [AutopilotData:AP-Common-Cargo-Default]
-
-        
-
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:39]
+        [HorseFighterTimeApproaching:21]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [TriggerGroups:TG-Common-Jump]
         [TriggerGroups:TG-GIRR-Cargo-Easy]
         [Triggers:TR-GIRR-FireFixed-Cargo]
         [TriggerGroups:TG-GIRR-Target-Sharing]
@@ -485,13 +517,21 @@
 			<Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:CargoShip]
-
-        [AutopilotData:AP-Common-Cargo-Default]
-
-        
-
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:39]
+        [HorseFighterTimeApproaching:21]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [TriggerGroups:TG-Common-Jump]
         [TriggerGroups:TG-GIRR-Cargo-Medium]
         [Triggers:TR-GIRR-FireFixed-Cargo]
         [TriggerGroups:TG-GIRR-Target-Sharing]

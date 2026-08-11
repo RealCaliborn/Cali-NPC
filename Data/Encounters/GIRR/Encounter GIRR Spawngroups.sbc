@@ -22,7 +22,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>2.0</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Class A Probe">
 					<Position>
@@ -58,7 +58,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Class A Probe">
 					<Position>
@@ -94,7 +94,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.4</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Class A Probe">
 					<Position>
@@ -128,7 +128,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>1.1</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Class B Probe">
 					<Position>
@@ -164,7 +164,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.6</Frequency>
+			<Frequency>1.1</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Class B Probe">
 					<Position>
@@ -211,7 +211,7 @@
 		
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
 					<Position>
@@ -258,7 +258,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
 					<Position>
@@ -304,7 +304,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
 					<Position>
@@ -351,7 +351,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
 					<Position>
@@ -397,7 +397,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Repurposed Passenger Transport">
 					<Position>
@@ -406,7 +406,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>400</Speed>
-					<Behaviour>BH-GIRR-Merchant</Behaviour>
+					<Behaviour>BH-GIRR-Passenger</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
@@ -444,7 +444,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.7</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
 					<Position>
@@ -500,7 +500,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.7</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
 					<Position>
@@ -556,7 +556,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.7</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
 					<Position>
@@ -611,7 +611,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.7</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
 					<Position>
@@ -666,7 +666,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.7</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Repurposed Passenger Transport">
 					<Position>
@@ -675,7 +675,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>400</Speed>
-					<Behaviour>BH-GIRR-Merchant</Behaviour>
+					<Behaviour>BH-GIRR-Passenger</Behaviour>
 				</Prefab>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
 					<Position>
@@ -721,7 +721,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
 					<Position>
@@ -784,7 +784,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
 					<Position>
@@ -848,7 +848,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
 					<Position>
@@ -912,7 +912,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
 					<Position>
@@ -975,7 +975,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
 					<Position>
@@ -1039,7 +1039,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
 					<Position>
@@ -1102,7 +1102,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
 					<Position>
@@ -1165,7 +1165,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
 					<Position>
@@ -1192,7 +1192,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>400</Speed>
-					<Behaviour>BH-GIRR-Merchant</Behaviour>
+					<Behaviour>BH-GIRR-Passenger</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
@@ -1228,7 +1228,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
 					<Position>
@@ -1291,7 +1291,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
 					<Position>
@@ -1318,7 +1318,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>400</Speed>
-					<Behaviour>BH-GIRR-Merchant</Behaviour>
+					<Behaviour>BH-GIRR-Passenger</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
@@ -1354,7 +1354,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
 					<Position>
@@ -1417,7 +1417,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
 					<Position>
@@ -1481,7 +1481,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
 					<Position>
@@ -1545,7 +1545,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
 					<Position>
@@ -1609,7 +1609,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
 					<Position>
@@ -1673,7 +1673,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
 					<Position>
@@ -1736,7 +1736,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
 					<Position>
@@ -1799,7 +1799,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
 					<Position>
@@ -1863,7 +1863,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.7</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
 					<Position>
@@ -1935,7 +1935,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.7</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
 					<Position>
@@ -2007,7 +2007,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.7</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
 					<Position>
@@ -2079,7 +2079,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.7</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
 					<Position>
@@ -2155,7 +2155,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.7</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
 					<Position>
@@ -2204,7 +2204,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.7</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
 					<Position>
@@ -2252,7 +2252,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.7</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
 					<Position>
@@ -2319,7 +2319,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.7</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
 					<Position>
@@ -2375,7 +2375,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.2</Frequency>
+			<Frequency>0.5</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) MRC07">
 					<Position>
@@ -2439,7 +2439,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.2</Frequency>
+			<Frequency>0.5</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
 					<Position>
@@ -2502,7 +2502,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Cargo Hauler">
 					<Position>
@@ -2547,7 +2547,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Cargo Hauler">
 					<Position>
@@ -2587,7 +2587,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Cargo Hauler">
 					<Position>
@@ -2632,7 +2632,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Cargo Hauler">
 					<Position>
@@ -2681,7 +2681,7 @@
 		
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
 					<Position>
@@ -2731,7 +2731,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Transport">
 					<Position>
@@ -2780,7 +2780,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
 					<Position>
@@ -2830,7 +2830,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
 					<Position>
@@ -2879,7 +2879,7 @@
 
             </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.5</Frequency>
+			<Frequency>0.8</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-GIRR) Repurposed Passenger Transport">
 					<Position>
@@ -2888,7 +2888,7 @@
 						<Z>0.0</Z>
 					</Position>
 					<Speed>400</Speed>
-					<Behaviour>BH-GIRR-Merchant</Behaviour>
+					<Behaviour>BH-GIRR-Passenger</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>

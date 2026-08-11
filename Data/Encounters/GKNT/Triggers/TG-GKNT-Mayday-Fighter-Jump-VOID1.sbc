@@ -113,9 +113,10 @@
       
       [UseSpawn:true]
       
-      [SpawningType:SpaceCargoShip]
+      [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:1]
       
       [SpawnGroups:(NPC-VOID) Mayday Stingray]
@@ -174,9 +175,10 @@
       
       [UseSpawn:true]
       
-      [SpawningType:SpaceCargoShip]
+      [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:1]
       
       [SpawnGroups:(NPC-VOID) Mayday Hunter]
@@ -235,9 +237,10 @@
       
       [UseSpawn:true]
       
-      [SpawningType:SpaceCargoShip]
+      [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:1]
       
       [SpawnGroups:(NPC-VOID) Mayday Stingbaby]
@@ -296,9 +299,10 @@
       
       [UseSpawn:true]
       
-      [SpawningType:SpaceCargoShip]
+      [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:1]
       
       [SpawnGroups:(NPC-VOID) Mayday Stingbaby]

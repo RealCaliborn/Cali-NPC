@@ -3,20 +3,51 @@
   <EntityComponents>
 
     <!-- BH-PRTH-Cargo-Solo is used for Cargo ships that do not spawn reinforcements -->
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    
+
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>BH-PRTH-Cargo-Solo</SubtypeId>
+        <SubtypeId>BH-PRTH-Cargo-Solo-Bulk</SubtypeId>
       </Id>
       <Description>
 
         [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:40]
+        [HorseFighterTimeApproaching:22]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-PRTH-Cargo-Solo]
+        [Triggers:TR-PRTH-FireFixed-Cargo]
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+        [TriggerGroups:TG-PRTH-Reputation]
 
-        [BehaviorName:CargoShip]
+      </Description>
+    </EntityComponent>
 
-        [AutopilotData:AP-Common-Cargo-Default]
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Cargo-Solo-Hauler</SubtypeId>
+      </Id>
+      <Description>
 
-
+        [RivalAI Behavior]
+        [BehaviorName:Horsefly]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
         [TriggerGroups:TG-PRTH-Cargo-Solo]
         [Triggers:TR-PRTH-FireFixed-Cargo]
         [TriggerGroups:TG-PRTH-Target-Sharing]
@@ -26,20 +57,51 @@
     </EntityComponent>
 
     <!-- BH-PRTH-Cargo-Easy is used for Cargo ships that spawn easy reinforcements -->
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    
+
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>BH-PRTH-Cargo-Easy</SubtypeId>
+        <SubtypeId>BH-PRTH-Cargo-Easy-Bulk</SubtypeId>
       </Id>
       <Description>
 
         [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:40]
+        [HorseFighterTimeApproaching:22]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-PRTH-Cargo-Easy]
+        [Triggers:TR-PRTH-FireFixed-Cargo]
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+        [TriggerGroups:TG-PRTH-Reputation]
 
-        [BehaviorName:CargoShip]
+      </Description>
+    </EntityComponent>
 
-        [AutopilotData:AP-Common-Cargo-Default]
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Cargo-Easy-Hauler</SubtypeId>
+      </Id>
+      <Description>
 
-
+        [RivalAI Behavior]
+        [BehaviorName:Horsefly]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
         [TriggerGroups:TG-PRTH-Cargo-Easy]
         [Triggers:TR-PRTH-FireFixed-Cargo]
         [TriggerGroups:TG-PRTH-Target-Sharing]
@@ -49,20 +111,51 @@
     </EntityComponent>
 
     <!-- BH-PRTH-Cargo-Medium is used for Cargo ships that spawn difficult reinforcements -->
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+    
+
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>BH-PRTH-Cargo-Medium</SubtypeId>
+        <SubtypeId>BH-PRTH-Cargo-Medium-Bulk</SubtypeId>
       </Id>
       <Description>
 
         [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:40]
+        [HorseFighterTimeApproaching:22]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-PRTH-Cargo-Medium]
+        [Triggers:TR-PRTH-FireFixed-Cargo]
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+        [TriggerGroups:TG-PRTH-Reputation]
 
-        [BehaviorName:CargoShip]
+      </Description>
+    </EntityComponent>
 
-        [AutopilotData:AP-Common-Cargo-Default]
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Cargo-Medium-Hauler</SubtypeId>
+      </Id>
+      <Description>
 
-
+        [RivalAI Behavior]
+        [BehaviorName:Horsefly]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
         [TriggerGroups:TG-PRTH-Cargo-Medium]
         [Triggers:TR-PRTH-FireFixed-Cargo]
         [TriggerGroups:TG-PRTH-Target-Sharing]

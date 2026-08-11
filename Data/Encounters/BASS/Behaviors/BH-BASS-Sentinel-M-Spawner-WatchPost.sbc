@@ -34,6 +34,7 @@
         [TriggerGroups:TG-BASS-Chat]
         [TriggerGroups:TG-BASS-Detect]
         [TriggerGroups:TG-BASS-Chat-WatchPost]
+        [TriggerGroups:TG-BASS-Sentinel-Ram]
 
         [UseBarrageFire:false]
 

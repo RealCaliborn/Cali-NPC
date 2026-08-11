@@ -1,0 +1,1784 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-BASS-Sentinel-G-Answered-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Horsefly]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+        [TargetData:TA-Common-8000-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-BASS-Target-Sharing]
+        [TriggerGroups:TG-BASS-Chat]
+        [TriggerGroups:TG-BASS-Sentinel-Ram]
+        [TriggerGroups:TG-PRTH-BASS-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-BASS-Mayday-Responder]
+        [UseBarrageFire:false]
+        [TriggerGroups:TG-ECHO-BASS-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-BASS-Sentinel-M-NoSpawn-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+
+        [TargetData:TA-Common-8000-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-BASS-Target-Sharing]
+        [TriggerGroups:TG-BASS-Chat]
+        [TriggerGroups:TG-BASS-Detect]
+        [TriggerGroups:TG-BASS-Sentinel-Ram]
+
+        [UseBarrageFire:false]
+        [TriggerGroups:TG-ECHO-BASS-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-BASS-Sentinel-M-Spawner-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+
+        [TargetData:TA-Common-8000-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-BASS-Sentinel-Spawner-ECHO-Mayday]
+        [TriggerGroups:TG-BASS-Target-Sharing]
+        [TriggerGroups:TG-BASS-Chat]
+        [TriggerGroups:TG-BASS-Detect]
+        [TriggerGroups:TG-BASS-Sentinel-Ram]
+
+        [UseBarrageFire:false]
+        [TriggerGroups:TG-ECHO-BASS-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GIRR-CruiserNospawn-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [HorseFighterTimeEngaging:45]
+        [HorseFighterTimeApproaching:25]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [TriggerGroups:TG-Common-PvE-Hard]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-GIRR-Cruiser]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+        [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
+        [UseBarrageFire:true]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GIRR-CruiserSpawn-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [HorseFighterTimeEngaging:45]
+        [HorseFighterTimeApproaching:25]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [TriggerGroups:TG-Common-PvE-Hard]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-GIRR-Cruiser]
+        [Triggers:TR-GIRR-CruiserSpawn]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+        [UseBarrageFire:true]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GIRR-Hauler-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+        [HorseFighterTimeEngaging:35]
+        [HorseFighterTimeApproaching:19]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-GIRR-Hauler]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+        [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
+        [UseBarrageFire:true]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GIRR-MRC07-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:57]
+        [HorseFighterTimeApproaching:31]
+        [TargetData:TA-Common-8000-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [UseBarrageFire:true]
+        [RemoteControlCode:SI-Roaches-Boss-Any]
+        [TriggerGroups:TG-Common-PvE-Hard]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-GIRR-MRC07]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GIRR-Merchant-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:38]
+        [HorseFighterTimeApproaching:20]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-GIRR-Merchant]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+        [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:9000]
+        [UseTurrets:true]
+        [UseBarrageFire:true]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GIRR-Miner-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:38]
+        [HorseFighterTimeApproaching:20]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-GIRR-Miner]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+        [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:4000]
+        [UseTurrets:true]
+        [UseBarrageFire:true]
+        [RetreatDespawnDistance:12000]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GIRR-Transport-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:40]
+        [HorseFighterTimeApproaching:22]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-Common-Jump]
+        [Triggers:TR-Common-FireFixed]
+        [TriggerGroups:TG-GIRR-Transport]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+        [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:4000]
+        [UseTurrets:true]
+        [UseBarrageFire:true]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Hoplon-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:38]
+        [HorseFighterTimeApproaching:20]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [TriggerGroups:TG-Common-PvE-Hard]
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+        [Triggers:TR-PRTH-Any-Engaging]
+        [TriggerGroups:TG-ECHO-PRTH-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Nymph-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Fighter]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Brawler-Default-B]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseBarrageFire:false]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+        [Triggers:TR-PRTH-Any-Engaging]
+        [TriggerGroups:TG-ECHO-PRTH-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Speartip-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Horsefly]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+        [Triggers:TR-PRTH-Any-Engaging]
+        [TriggerGroups:TG-ECHO-PRTH-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-PRTH-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Thunderbolt-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Horsefly]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [TriggerGroups:TG-Common-PvE-Hard]
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+        [Triggers:TR-PRTH-Any-Engaging]
+        [TriggerGroups:TG-ECHO-PRTH-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-PRTH-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Trident-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:53]
+        [HorseFighterTimeApproaching:29]
+        [TargetData:TA-Common-8000-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [RemoteControlCode:SI-Roaches-Boss-Any]
+        [TriggerGroups:TG-Common-PvE-Hard]
+        [TriggerGroups:TG-PRTH-Trident]
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+        [TriggerGroups:TG-ECHO-PRTH-Mayday-Responder]
+        [Triggers:TR-PRTH-Any-Engaging]
+        [TriggerGroups:TG-ECHO-PRTH-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Chordata-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [HorseFighterTimeEngaging:43]
+        [HorseFighterTimeApproaching:23]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [UseAmmoReplenish:true]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-Common-FireFixed]
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Hunter-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Horsefly]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [UseAmmoReplenish:true]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Kraken-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:55]
+        [HorseFighterTimeApproaching:29]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [RemoteControlCode:SI-Roaches-Boss-Any]
+        [UseAmmoReplenish:true]
+        [TriggerGroups:TG-Common-PvE-Hard]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [Triggers:TR-Common-FireFixed]
+        [TriggerGroups:TG-VOID-Kraken]
+        [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Lamprey-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+        [Triggers:TR-Common-FireFixed]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-2500-3750-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+
+        [UseAmmoReplenish:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Lamprey-B-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+        [Triggers:TR-Common-FireFixed]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-2500-3750-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+
+        [UseAmmoReplenish:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-PRTH-VOID-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Leviathan-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:62]
+        [HorseFighterTimeApproaching:34]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [RemoteControlCode:SI-Roaches-Boss-Any]
+        [UseAmmoReplenish:true]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-Common-FireFixed]
+        [Triggers:TR-VOID-LeviathanBroadcast]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-VOID-Leviathan-Carrier]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Mahi-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Horsefly]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [UseAmmoReplenish:true]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-PRTH-VOID-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-StingBaby-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+        [HorseFighterTimeEngaging:30]
+        [HorseFighterTimeApproaching:16]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-StingBro-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2000-B]
+        [HorseFighterTimeEngaging:35]
+        [HorseFighterTimeApproaching:19]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Stingray-Single-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Horsefly]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-ThunderKraken-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [RemoteControlCode:SI-Roaches-Boss-Any]
+
+        [UseAmmoReplenish:true]
+
+        [TriggerGroups:TG-Common-PvE-Hard]
+        [Triggers:TR-Common-FireFixed]
+
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-VOID-ThunderKraken-Chat]
+        [TriggerGroups:TG-VOID-ThunderKraken-Carrier]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Urchin-B-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+
+        [UseAmmoReplenish:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-Common-FireFixed]
+
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Urchin-S-ECHOExpandedMayday</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+
+        [BehaviorName:Hunter]
+
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+
+        [UseAmmoReplenish:true]
+
+        [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-Common-FireFixed]
+
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-ECHO-VOID-Mayday-Responder</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+        [Triggers:TR-ECHO-VOID-Mayday-Alive]
+        [Triggers:TR-ECHO-VOID-Mayday-CloseWave]
+        [Triggers:TR-ECHO-VOID-Mayday-Damaged]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-VOID-Mayday-Alive</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-ECHO-VOID-Mayday-CheckAlive]
+        [Actions:AC-ECHO-VOID-Mayday-Alive]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-VOID-Mayday-Alive</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-ECHO-VOID-Mayday-Alive]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CO-ECHO-VOID-Mayday-Alive</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+        [CommandCode:CO-ECHO-VOID-Mayday-Alive]
+        [MatchSenderReceiverOwners:false]
+        [IgnoreAntennaRequirement:true]
+        [Radius:12000]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-VOID-Mayday-CloseWave</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:1]
+        [CommandReceiveCode:CO-ECHO-VOID-Mayday-CloseWave]
+        [Actions:AC-ECHO-VOID-Mayday-CloseWave]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-VOID-Mayday-CloseWave</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-VOID-Mayday-Alive]
+        [DisableTriggerNames:TR-ECHO-VOID-Mayday-CloseWave]
+        [DisableTriggerNames:TR-VOID-Kraken-LaunchFighters]
+        [DisableTriggerNames:TR-VOID-Kraken-LaunchFighter-Port]
+        [DisableTriggerNames:TR-VOID-Kraken-LaunchFighter-Starboard]
+        [DisableTriggerNames:TR-VOID-Kraken-CheckFighter-Port]
+        [DisableTriggerNames:TR-VOID-Kraken-CheckFighter-Starboard]
+        [DisableTriggerNames:TR-VOID-Kraken-ReceiveFighter-Port]
+        [DisableTriggerNames:TR-VOID-Kraken-ReceiveFighter-Starboard]
+        [DisableTriggerNames:TR-VOID-Kraken-ShieldsDown-Spawn]
+        [DisableTriggerNames:TR-VOID-Kraken-LaunchFighter-Screen]
+        [DisableTriggerNames:TR-VOID-Kraken-CheckFighter-Screen]
+        [DisableTriggerNames:TR-VOID-Kraken-ReceiveFighter-Screen]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Activate]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Launch-Port]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Check-Port]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Receive-Port]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Launch-Starboard]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Check-Starboard]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Receive-Starboard]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-ArmorBreach]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Activate]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Launch-Port]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Check-Port]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Receive-Port]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Launch-Starboard]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Check-Starboard]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Receive-Starboard]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-ArmorBreach]
+        [DisableTriggerNames:TR-PRTH-Trident-Activate]
+        [DisableTriggerNames:TR-PRTH-Trident-Launch-Breaker1]
+        [DisableTriggerNames:TR-PRTH-Trident-Check-Breaker1]
+        [DisableTriggerNames:TR-PRTH-Trident-Receive-Breaker1]
+        [DisableTriggerNames:TR-PRTH-Trident-Launch-Breaker2]
+        [DisableTriggerNames:TR-PRTH-Trident-Check-Breaker2]
+        [DisableTriggerNames:TR-PRTH-Trident-Receive-Breaker2]
+        [DisableTriggerNames:TR-PRTH-Trident-Launch-Screen]
+        [DisableTriggerNames:TR-PRTH-Trident-Check-Screen]
+        [DisableTriggerNames:TR-PRTH-Trident-Receive-Screen]
+        [DisableTriggerNames:TR-PRTH-Trident-ShieldsDown-Spawn]
+        [DisableTriggerNames:TR-GIRR-MRC07-Launch-Breaker1]
+        [DisableTriggerNames:TR-GIRR-MRC07-Check-Breaker1]
+        [DisableTriggerNames:TR-GIRR-MRC07-Receive-Breaker1]
+        [DisableTriggerNames:TR-GIRR-MRC07-Launch-Breaker2]
+        [DisableTriggerNames:TR-GIRR-MRC07-Check-Breaker2]
+        [DisableTriggerNames:TR-GIRR-MRC07-Receive-Breaker2]
+        [DisableTriggerNames:TR-GIRR-MRC07-Launch-Screen]
+        [DisableTriggerNames:TR-GIRR-MRC07-Check-Screen]
+        [DisableTriggerNames:TR-GIRR-MRC07-Receive-Screen]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-VOID-Mayday-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        [MinCooldownMs:5000]
+        [MaxCooldownMs:5001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-VOID-Mayday-Damaged]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-VOID-Mayday-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [ChangeAttackerReputation:true]
+        [ChangeAttackerReputationFaction:ECHO]
+        [ChangeAttackerReputationAmount:1]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-ECHO-PRTH-Mayday-Responder</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+        [Triggers:TR-ECHO-PRTH-Mayday-Alive]
+        [Triggers:TR-ECHO-PRTH-Mayday-CloseWave]
+        [Triggers:TR-ECHO-PRTH-Mayday-Damaged]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-PRTH-Mayday-Alive</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-ECHO-PRTH-Mayday-CheckAlive]
+        [Actions:AC-ECHO-PRTH-Mayday-Alive]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-PRTH-Mayday-Alive</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-ECHO-PRTH-Mayday-Alive]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CO-ECHO-PRTH-Mayday-Alive</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+        [CommandCode:CO-ECHO-PRTH-Mayday-Alive]
+        [MatchSenderReceiverOwners:false]
+        [IgnoreAntennaRequirement:true]
+        [Radius:12000]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-PRTH-Mayday-CloseWave</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:1]
+        [CommandReceiveCode:CO-ECHO-PRTH-Mayday-CloseWave]
+        [Actions:AC-ECHO-PRTH-Mayday-CloseWave]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-PRTH-Mayday-CloseWave</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-PRTH-Mayday-Alive]
+        [DisableTriggerNames:TR-ECHO-PRTH-Mayday-CloseWave]
+        [DisableTriggerNames:TR-VOID-Kraken-LaunchFighters]
+        [DisableTriggerNames:TR-VOID-Kraken-LaunchFighter-Port]
+        [DisableTriggerNames:TR-VOID-Kraken-LaunchFighter-Starboard]
+        [DisableTriggerNames:TR-VOID-Kraken-CheckFighter-Port]
+        [DisableTriggerNames:TR-VOID-Kraken-CheckFighter-Starboard]
+        [DisableTriggerNames:TR-VOID-Kraken-ReceiveFighter-Port]
+        [DisableTriggerNames:TR-VOID-Kraken-ReceiveFighter-Starboard]
+        [DisableTriggerNames:TR-VOID-Kraken-ShieldsDown-Spawn]
+        [DisableTriggerNames:TR-VOID-Kraken-LaunchFighter-Screen]
+        [DisableTriggerNames:TR-VOID-Kraken-CheckFighter-Screen]
+        [DisableTriggerNames:TR-VOID-Kraken-ReceiveFighter-Screen]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Activate]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Launch-Port]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Check-Port]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Receive-Port]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Launch-Starboard]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Check-Starboard]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Receive-Starboard]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-ArmorBreach]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Activate]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Launch-Port]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Check-Port]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Receive-Port]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Launch-Starboard]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Check-Starboard]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Receive-Starboard]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-ArmorBreach]
+        [DisableTriggerNames:TR-PRTH-Trident-Activate]
+        [DisableTriggerNames:TR-PRTH-Trident-Launch-Breaker1]
+        [DisableTriggerNames:TR-PRTH-Trident-Check-Breaker1]
+        [DisableTriggerNames:TR-PRTH-Trident-Receive-Breaker1]
+        [DisableTriggerNames:TR-PRTH-Trident-Launch-Breaker2]
+        [DisableTriggerNames:TR-PRTH-Trident-Check-Breaker2]
+        [DisableTriggerNames:TR-PRTH-Trident-Receive-Breaker2]
+        [DisableTriggerNames:TR-PRTH-Trident-Launch-Screen]
+        [DisableTriggerNames:TR-PRTH-Trident-Check-Screen]
+        [DisableTriggerNames:TR-PRTH-Trident-Receive-Screen]
+        [DisableTriggerNames:TR-PRTH-Trident-ShieldsDown-Spawn]
+        [DisableTriggerNames:TR-GIRR-MRC07-Launch-Breaker1]
+        [DisableTriggerNames:TR-GIRR-MRC07-Check-Breaker1]
+        [DisableTriggerNames:TR-GIRR-MRC07-Receive-Breaker1]
+        [DisableTriggerNames:TR-GIRR-MRC07-Launch-Breaker2]
+        [DisableTriggerNames:TR-GIRR-MRC07-Check-Breaker2]
+        [DisableTriggerNames:TR-GIRR-MRC07-Receive-Breaker2]
+        [DisableTriggerNames:TR-GIRR-MRC07-Launch-Screen]
+        [DisableTriggerNames:TR-GIRR-MRC07-Check-Screen]
+        [DisableTriggerNames:TR-GIRR-MRC07-Receive-Screen]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-PRTH-Mayday-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        [MinCooldownMs:5000]
+        [MaxCooldownMs:5001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-PRTH-Mayday-Damaged]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-PRTH-Mayday-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [ChangeAttackerReputation:true]
+        [ChangeAttackerReputationFaction:ECHO]
+        [ChangeAttackerReputationAmount:1]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-ECHO-GIRR-Mayday-Responder</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+        [Triggers:TR-ECHO-GIRR-Mayday-Alive]
+        [Triggers:TR-ECHO-GIRR-Mayday-CloseWave]
+        [Triggers:TR-ECHO-GIRR-Mayday-Damaged]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-GIRR-Mayday-Alive</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-ECHO-GIRR-Mayday-CheckAlive]
+        [Actions:AC-ECHO-GIRR-Mayday-Alive]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-GIRR-Mayday-Alive</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-ECHO-GIRR-Mayday-Alive]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CO-ECHO-GIRR-Mayday-Alive</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+        [CommandCode:CO-ECHO-GIRR-Mayday-Alive]
+        [MatchSenderReceiverOwners:false]
+        [IgnoreAntennaRequirement:true]
+        [Radius:12000]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-GIRR-Mayday-CloseWave</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:1]
+        [CommandReceiveCode:CO-ECHO-GIRR-Mayday-CloseWave]
+        [Actions:AC-ECHO-GIRR-Mayday-CloseWave]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-GIRR-Mayday-CloseWave</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-GIRR-Mayday-Alive]
+        [DisableTriggerNames:TR-ECHO-GIRR-Mayday-CloseWave]
+        [DisableTriggerNames:TR-VOID-Kraken-LaunchFighters]
+        [DisableTriggerNames:TR-VOID-Kraken-LaunchFighter-Port]
+        [DisableTriggerNames:TR-VOID-Kraken-LaunchFighter-Starboard]
+        [DisableTriggerNames:TR-VOID-Kraken-CheckFighter-Port]
+        [DisableTriggerNames:TR-VOID-Kraken-CheckFighter-Starboard]
+        [DisableTriggerNames:TR-VOID-Kraken-ReceiveFighter-Port]
+        [DisableTriggerNames:TR-VOID-Kraken-ReceiveFighter-Starboard]
+        [DisableTriggerNames:TR-VOID-Kraken-ShieldsDown-Spawn]
+        [DisableTriggerNames:TR-VOID-Kraken-LaunchFighter-Screen]
+        [DisableTriggerNames:TR-VOID-Kraken-CheckFighter-Screen]
+        [DisableTriggerNames:TR-VOID-Kraken-ReceiveFighter-Screen]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Activate]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Launch-Port]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Check-Port]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Receive-Port]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Launch-Starboard]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Check-Starboard]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Receive-Starboard]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-ArmorBreach]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Activate]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Launch-Port]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Check-Port]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Receive-Port]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Launch-Starboard]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Check-Starboard]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Receive-Starboard]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-ArmorBreach]
+        [DisableTriggerNames:TR-PRTH-Trident-Activate]
+        [DisableTriggerNames:TR-PRTH-Trident-Launch-Breaker1]
+        [DisableTriggerNames:TR-PRTH-Trident-Check-Breaker1]
+        [DisableTriggerNames:TR-PRTH-Trident-Receive-Breaker1]
+        [DisableTriggerNames:TR-PRTH-Trident-Launch-Breaker2]
+        [DisableTriggerNames:TR-PRTH-Trident-Check-Breaker2]
+        [DisableTriggerNames:TR-PRTH-Trident-Receive-Breaker2]
+        [DisableTriggerNames:TR-PRTH-Trident-Launch-Screen]
+        [DisableTriggerNames:TR-PRTH-Trident-Check-Screen]
+        [DisableTriggerNames:TR-PRTH-Trident-Receive-Screen]
+        [DisableTriggerNames:TR-PRTH-Trident-ShieldsDown-Spawn]
+        [DisableTriggerNames:TR-GIRR-MRC07-Launch-Breaker1]
+        [DisableTriggerNames:TR-GIRR-MRC07-Check-Breaker1]
+        [DisableTriggerNames:TR-GIRR-MRC07-Receive-Breaker1]
+        [DisableTriggerNames:TR-GIRR-MRC07-Launch-Breaker2]
+        [DisableTriggerNames:TR-GIRR-MRC07-Check-Breaker2]
+        [DisableTriggerNames:TR-GIRR-MRC07-Receive-Breaker2]
+        [DisableTriggerNames:TR-GIRR-MRC07-Launch-Screen]
+        [DisableTriggerNames:TR-GIRR-MRC07-Check-Screen]
+        [DisableTriggerNames:TR-GIRR-MRC07-Receive-Screen]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-GIRR-Mayday-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        [MinCooldownMs:5000]
+        [MaxCooldownMs:5001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-GIRR-Mayday-Damaged]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-GIRR-Mayday-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [ChangeAttackerReputation:true]
+        [ChangeAttackerReputationFaction:ECHO]
+        [ChangeAttackerReputationAmount:1]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-ECHO-BASS-Mayday-Responder</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+        [Triggers:TR-ECHO-BASS-Mayday-Alive]
+        [Triggers:TR-ECHO-BASS-Mayday-CloseWave]
+        [Triggers:TR-ECHO-BASS-Mayday-Damaged]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-BASS-Mayday-Alive</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-ECHO-BASS-Mayday-CheckAlive]
+        [Actions:AC-ECHO-BASS-Mayday-Alive]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-BASS-Mayday-Alive</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-ECHO-BASS-Mayday-Alive]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CO-ECHO-BASS-Mayday-Alive</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+        [CommandCode:CO-ECHO-BASS-Mayday-Alive]
+        [MatchSenderReceiverOwners:false]
+        [IgnoreAntennaRequirement:true]
+        [Radius:12000]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-BASS-Mayday-CloseWave</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:1]
+        [CommandReceiveCode:CO-ECHO-BASS-Mayday-CloseWave]
+        [Actions:AC-ECHO-BASS-Mayday-CloseWave]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-BASS-Mayday-CloseWave</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-BASS-Mayday-Alive]
+        [DisableTriggerNames:TR-ECHO-BASS-Mayday-CloseWave]
+        [DisableTriggerNames:TR-VOID-Kraken-LaunchFighters]
+        [DisableTriggerNames:TR-VOID-Kraken-LaunchFighter-Port]
+        [DisableTriggerNames:TR-VOID-Kraken-LaunchFighter-Starboard]
+        [DisableTriggerNames:TR-VOID-Kraken-CheckFighter-Port]
+        [DisableTriggerNames:TR-VOID-Kraken-CheckFighter-Starboard]
+        [DisableTriggerNames:TR-VOID-Kraken-ReceiveFighter-Port]
+        [DisableTriggerNames:TR-VOID-Kraken-ReceiveFighter-Starboard]
+        [DisableTriggerNames:TR-VOID-Kraken-ShieldsDown-Spawn]
+        [DisableTriggerNames:TR-VOID-Kraken-LaunchFighter-Screen]
+        [DisableTriggerNames:TR-VOID-Kraken-CheckFighter-Screen]
+        [DisableTriggerNames:TR-VOID-Kraken-ReceiveFighter-Screen]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Activate]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Launch-Port]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Check-Port]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Receive-Port]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Launch-Starboard]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Check-Starboard]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Receive-Starboard]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-ArmorBreach]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Activate]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Launch-Port]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Check-Port]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Receive-Port]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Launch-Starboard]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Check-Starboard]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Receive-Starboard]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-ArmorBreach]
+        [DisableTriggerNames:TR-PRTH-Trident-Activate]
+        [DisableTriggerNames:TR-PRTH-Trident-Launch-Breaker1]
+        [DisableTriggerNames:TR-PRTH-Trident-Check-Breaker1]
+        [DisableTriggerNames:TR-PRTH-Trident-Receive-Breaker1]
+        [DisableTriggerNames:TR-PRTH-Trident-Launch-Breaker2]
+        [DisableTriggerNames:TR-PRTH-Trident-Check-Breaker2]
+        [DisableTriggerNames:TR-PRTH-Trident-Receive-Breaker2]
+        [DisableTriggerNames:TR-PRTH-Trident-Launch-Screen]
+        [DisableTriggerNames:TR-PRTH-Trident-Check-Screen]
+        [DisableTriggerNames:TR-PRTH-Trident-Receive-Screen]
+        [DisableTriggerNames:TR-PRTH-Trident-ShieldsDown-Spawn]
+        [DisableTriggerNames:TR-GIRR-MRC07-Launch-Breaker1]
+        [DisableTriggerNames:TR-GIRR-MRC07-Check-Breaker1]
+        [DisableTriggerNames:TR-GIRR-MRC07-Receive-Breaker1]
+        [DisableTriggerNames:TR-GIRR-MRC07-Launch-Breaker2]
+        [DisableTriggerNames:TR-GIRR-MRC07-Check-Breaker2]
+        [DisableTriggerNames:TR-GIRR-MRC07-Receive-Breaker2]
+        [DisableTriggerNames:TR-GIRR-MRC07-Launch-Screen]
+        [DisableTriggerNames:TR-GIRR-MRC07-Check-Screen]
+        [DisableTriggerNames:TR-GIRR-MRC07-Receive-Screen]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-BASS-Mayday-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [ExcludedDamageTypes:Environment]
+        [ExcludedDamageTypes:Deformation]
+        [MinCooldownMs:5000]
+        [MaxCooldownMs:5001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-BASS-Mayday-Damaged]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-BASS-Mayday-Damaged</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [ChangeAttackerReputation:true]
+        [ChangeAttackerReputationFaction:ECHO]
+        [ChangeAttackerReputationAmount:1]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-ECHO-Station-Mayday-VOID-Easy-Expanded</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Passive]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-ECHO-Target-Sharing]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Easy]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-ECHO-Station-Mayday-VOID-Medium-Expanded</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Passive]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-ECHO-Target-Sharing]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Medium]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-ECHO-Station-Mayday-VOID-Hard-Expanded</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Passive]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-ECHO-Target-Sharing]
+        [TriggerGroups:TG-ECHO-VOID-Mayday-Hard]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-ECHO-Station-Mayday-PRTH-Easy-Expanded</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Passive]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-ECHO-Target-Sharing]
+        [TriggerGroups:TG-ECHO-PRTH-Mayday-Easy]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-ECHO-Station-Mayday-PRTH-Medium-Expanded</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Passive]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-ECHO-Target-Sharing]
+        [TriggerGroups:TG-ECHO-PRTH-Mayday-Medium]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-ECHO-Station-Mayday-PRTH-Hard-Expanded</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Passive]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-ECHO-Target-Sharing]
+        [TriggerGroups:TG-ECHO-PRTH-Mayday-Hard]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-ECHO-Station-Mayday-GIRR-Easy-Expanded</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Passive]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-ECHO-Target-Sharing]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Easy]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-ECHO-Station-Mayday-GIRR-Medium-Expanded</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Passive]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-ECHO-Target-Sharing]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Medium]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-ECHO-Station-Mayday-GIRR-Hard-Expanded</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Passive]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-ECHO-Target-Sharing]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Hard]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-ECHO-Station-Mayday-BASS-Easy-Expanded</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Passive]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-ECHO-Target-Sharing]
+        [TriggerGroups:TG-ECHO-BASS-Mayday-Easy]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-ECHO-Station-Mayday-BASS-Medium-Expanded</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Passive]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-ECHO-Target-Sharing]
+        [TriggerGroups:TG-ECHO-BASS-Mayday-Medium]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-ECHO-Station-Mayday-BASS-Hard-Expanded</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Passive]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-ECHO-Target-Sharing]
+        [TriggerGroups:TG-ECHO-BASS-Mayday-Hard]
+
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>

@@ -55,7 +55,6 @@
 
         [SpawnEncounter:true]
         [Spawner:SP-GIRR-Probe-A-Trap1-Player-Really-Near]
-        [Spawner:SP-GIRR-Probe-A-Trap1-Player-Really-Near]
 
       </Description>
     </EntityComponent>
@@ -73,7 +72,8 @@
       
       [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:-1]
       
       [SpawnGroups:(NPC-GIRR) CruiserSpawn Hauler]

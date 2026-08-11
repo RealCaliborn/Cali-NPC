@@ -27,7 +27,7 @@
 
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.0</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-PRTH) Nymph">
                 <Position>
@@ -41,14 +41,15 @@
         </Prefabs>
     </SpawnGroup>
 
+    <!-- Trident maintained shield-breaker #1: Speartip (Paladin Cannon) -->
     <SpawnGroup>
         <Id>
             <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-            <SubtypeId>(NPC-PRTH) Spawn TridentFighter Nymph</SubtypeId>
+            <SubtypeId>(NPC-PRTH) Trident Breaker Speartip</SubtypeId>
         </Id>
         <Description>
 
-        [Modular Encounters SpawnGroup] 
+        [Modular Encounters SpawnGroup]
 
         [RivalAiSpawn:true]
         [SpaceRandomEncounter:false]
@@ -59,7 +60,7 @@
         [FactionOwner:PRTH]
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
-                
+
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
         [RotateFirstCockpitToForward:true]
@@ -67,16 +68,98 @@
 
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.0</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
-            <Prefab SubtypeId="(NPC-PRTH) Nymph">
+            <Prefab SubtypeId="(NPC-PRTH) Speartip">
                 <Position>
                     <X>0.0</X>
                     <Y>0.0</Y>
                     <Z>0.0</Z>
                 </Position>
                 <Speed>400</Speed>
-                <Behaviour>BH-PRTH-Nymph-TridentFighter</Behaviour>
+                <Behaviour>BH-PRTH-Trident-Breaker-Speartip</Behaviour>
+            </Prefab>
+        </Prefabs>
+    </SpawnGroup>
+
+    <!-- Trident maintained shield-breaker #2: Thunderbolt (14x Heavy Bolter) -->
+    <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+            <SubtypeId>(NPC-PRTH) Trident Breaker Thunderbolt</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [RivalAiSpawn:true]
+        [SpaceRandomEncounter:false]
+        [SpaceCargoShip:false]
+        [LunarCargoShip:false]
+        [AtmosphericCargoShip:false]
+        [PlanetaryInstallation:false]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [RotateFirstCockpitToForward:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+
+        </Description>
+        <IsPirate>true</IsPirate> <!--Do not edit-->
+        <Frequency>1.1</Frequency>
+        <Prefabs>
+            <Prefab SubtypeId="(NPC-PRTH) Thunderbolt">
+                <Position>
+                    <X>0.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>400</Speed>
+                <Behaviour>BH-PRTH-Trident-Breaker-Thunderbolt</Behaviour>
+            </Prefab>
+        </Prefabs>
+    </SpawnGroup>
+
+    <!-- Trident maintained anti-missile screen: Hoplon (PDX lasers) -->
+    <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+            <SubtypeId>(NPC-PRTH) Trident Screen Hoplon</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+
+        [RivalAiSpawn:true]
+        [SpaceRandomEncounter:false]
+        [SpaceCargoShip:false]
+        [LunarCargoShip:false]
+        [AtmosphericCargoShip:false]
+        [PlanetaryInstallation:false]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [RotateFirstCockpitToForward:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+
+        </Description>
+        <IsPirate>true</IsPirate> <!--Do not edit-->
+        <Frequency>1.1</Frequency>
+        <Prefabs>
+            <Prefab SubtypeId="(NPC-PRTH) Hoplon">
+                <Position>
+                    <X>0.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>400</Speed>
+                <Behaviour>BH-PRTH-Trident-Screen-Hoplon</Behaviour>
             </Prefab>
         </Prefabs>
     </SpawnGroup>
@@ -107,7 +190,7 @@
 
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.0</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-PRTH) Nymph">
                 <Position>

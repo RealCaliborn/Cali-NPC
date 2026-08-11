@@ -299,9 +299,10 @@
         [RivalAI Spawn]
               
         [UseSpawn:true]
-        [SpawningType:SpaceCargoShip]
+        [SpawningType:CustomSpawn]
         [StartsReady:true]
-        [SpawnMinCooldown:0]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
         [MaxSpawns:-1]
               
         [SpawnGroups:(NPC-GKNT) Helper 1Swallow]
@@ -339,9 +340,10 @@
         [RivalAI Spawn]
               
         [UseSpawn:true]
-        [SpawningType:SpaceCargoShip]
+        [SpawningType:CustomSpawn]
         [StartsReady:true]
-        [SpawnMinCooldown:0]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
         [MaxSpawns:-1]
               
         [SpawnGroups:(NPC-GKNT) Helper 2Swallow]
@@ -379,9 +381,10 @@
         [RivalAI Spawn]
               
         [UseSpawn:true]
-        [SpawningType:SpaceCargoShip]
+        [SpawningType:CustomSpawn]
         [StartsReady:true]
-        [SpawnMinCooldown:0]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
         [MaxSpawns:-1]
               
         [SpawnGroups:(NPC-GKNT) Helper 1Sabre]
@@ -419,9 +422,10 @@
         [RivalAI Spawn]
               
         [UseSpawn:true]
-        [SpawningType:SpaceCargoShip]
+        [SpawningType:CustomSpawn]
         [StartsReady:true]
-        [SpawnMinCooldown:0]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
         [MaxSpawns:-1]
               
         [SpawnGroups:(NPC-GKNT) Helper 2Sabre]
@@ -459,9 +463,10 @@
         [RivalAI Spawn]
 
         [UseSpawn:true]
-        [SpawningType:SpaceCargoShip]
+        [SpawningType:CustomSpawn]
         [StartsReady:true]
-        [SpawnMinCooldown:0]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
         [MaxSpawns:-1]
 
         [SpawnGroups:(NPC-GKNT) Helper 1Saber1Swallow]
@@ -499,9 +504,10 @@
         [RivalAI Spawn]
 
         [UseSpawn:true]
-        [SpawningType:SpaceCargoShip]
+        [SpawningType:CustomSpawn]
         [StartsReady:true]
-        [SpawnMinCooldown:0]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
         [MaxSpawns:-1]
 
         [SpawnGroups:(NPC-GKNT) Helper Flagship]

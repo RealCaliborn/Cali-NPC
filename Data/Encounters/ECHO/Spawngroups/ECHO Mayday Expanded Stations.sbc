@@ -1,0 +1,1037 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Mandir Mayday VOID Easy Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:1999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Mandir">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-VOID-Easy-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Port Royal Mayday VOID Easy Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:1999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Port Royal">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-VOID-Easy-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Mandir Mayday VOID Medium Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:2000]
+        [ThreatScoreMaximum:4999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Mandir">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-VOID-Medium-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Port Royal Mayday VOID Medium Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:2000]
+        [ThreatScoreMaximum:4999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Port Royal">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-VOID-Medium-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Mandir Mayday VOID Hard Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:5000]
+        [ThreatScoreMaximum:-1]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Mandir">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-VOID-Hard-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Port Royal Mayday VOID Hard Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:5000]
+        [ThreatScoreMaximum:-1]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Port Royal">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-VOID-Hard-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Mandir Mayday PRTH Easy Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:1999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Mandir">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-PRTH-Easy-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Port Royal Mayday PRTH Easy Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:1999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Port Royal">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-PRTH-Easy-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Mandir Mayday PRTH Medium Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:2000]
+        [ThreatScoreMaximum:4999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Mandir">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-PRTH-Medium-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Port Royal Mayday PRTH Medium Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:2000]
+        [ThreatScoreMaximum:4999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Port Royal">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-PRTH-Medium-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Mandir Mayday PRTH Hard Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:5000]
+        [ThreatScoreMaximum:-1]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Mandir">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-PRTH-Hard-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Port Royal Mayday PRTH Hard Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:5000]
+        [ThreatScoreMaximum:-1]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Port Royal">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-PRTH-Hard-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Mandir Mayday GIRR Easy Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:1999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Mandir">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-GIRR-Easy-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Port Royal Mayday GIRR Easy Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:1999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Port Royal">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-GIRR-Easy-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Mandir Mayday GIRR Medium Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:2000]
+        [ThreatScoreMaximum:4999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Mandir">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-GIRR-Medium-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Port Royal Mayday GIRR Medium Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:2000]
+        [ThreatScoreMaximum:4999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Port Royal">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-GIRR-Medium-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Mandir Mayday GIRR Hard Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:5000]
+        [ThreatScoreMaximum:-1]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Mandir">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-GIRR-Hard-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Port Royal Mayday GIRR Hard Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:5000]
+        [ThreatScoreMaximum:-1]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Port Royal">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-GIRR-Hard-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Mandir Mayday BASS Easy Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:1999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Mandir">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-BASS-Easy-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Port Royal Mayday BASS Easy Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:1999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Port Royal">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-BASS-Easy-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Mandir Mayday BASS Medium Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:2000]
+        [ThreatScoreMaximum:4999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Mandir">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-BASS-Medium-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Port Royal Mayday BASS Medium Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:2000]
+        [ThreatScoreMaximum:4999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Port Royal">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-BASS-Medium-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Mandir Mayday BASS Hard Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:5000]
+        [ThreatScoreMaximum:-1]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Mandir">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-BASS-Hard-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) Port Royal Mayday BASS Hard Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:ECHO]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:5000]
+        [ThreatScoreMaximum:-1]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-ECHO) Port Royal">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-ECHO-Station-Mayday-BASS-Hard-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>

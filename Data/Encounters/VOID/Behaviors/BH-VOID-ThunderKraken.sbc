@@ -37,6 +37,7 @@
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]
         [TriggerGroups:TG-VOID-ThunderKraken-Chat]
+        [TriggerGroups:TG-VOID-ThunderKraken-Carrier]
 
       </Description>
     </EntityComponent>

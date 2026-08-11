@@ -18,7 +18,7 @@
 
         [TimeUntilTargetAcquisition:1]
         [UseTargetRefresh:true]
-        [TimeUntilNextRefresh:20]
+        [TimeUntilNextRefresh:10]
 
         [MatchAllFilters:OutsideOfSafezone]
         [MatchAllFilters:Owner]
@@ -33,10 +33,10 @@
         [MatchAnyFilters:MovementScore]
         [MatchAnyFilters:LineOfSight]
 
-        [NonBroadcastVisualRange:4000]
-        [MinMovementScore:400]
-        [MaxMovementDetectableDistance:7000]
-        [MaxLineOfSight:4000]
+        [NonBroadcastVisualRange:6000]
+        [MinMovementScore:200]
+        [MaxMovementDetectableDistance:10000]
+        [MaxLineOfSight:8000]
 
         [MatchNoneFilters:Faction]
 

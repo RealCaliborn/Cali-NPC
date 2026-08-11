@@ -58,9 +58,10 @@
       
       [UseSpawn:true]
       
-      [SpawningType:SpaceCargoShip]
+      [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:1]
 
       [SpawnGroups:SG-GKNT-Mayday-Fighter-Jump]

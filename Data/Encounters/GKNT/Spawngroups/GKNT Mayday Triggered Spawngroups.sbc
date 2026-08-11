@@ -24,7 +24,7 @@
 
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.0</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                 <Position>
@@ -33,7 +33,7 @@
                     <Z>0.0</Z>
                 </Position>
                 <Speed>400</Speed>
-                <Behaviour>BH-GKNT-Mayday-Fighter-Jump</Behaviour>
+                <Behaviour>BH-GKNT-Mayday-Fighter-Jump-Saber</Behaviour>
             </Prefab>
             <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
                 <Position>
@@ -42,7 +42,7 @@
                     <Z>0.0</Z>
                 </Position>
                 <Speed>400</Speed>
-                <Behaviour>BH-GKNT-Mayday-Fighter-Jump</Behaviour>
+                <Behaviour>BH-GKNT-Mayday-Fighter-Jump-Swallow</Behaviour>
             </Prefab>
         </Prefabs>
     </SpawnGroup>

@@ -39,7 +39,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Speartip">
                     <Position>
@@ -91,7 +91,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>1.1</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Nymph">
                     <Position>
@@ -144,7 +144,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Speartip">
                     <Position>
@@ -196,7 +196,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>1.1</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Nymph">
                     <Position>
@@ -257,7 +257,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Speartip">
                     <Position>
@@ -309,7 +309,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Speartip">
                     <Position>
@@ -370,7 +370,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Speartip">
                     <Position>
@@ -431,7 +431,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Speartip">
                     <Position>
@@ -501,7 +501,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>2.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Thunderbolt">
                     <Position>
@@ -562,7 +562,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.5</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Speartip">
                     <Position>
@@ -632,7 +632,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.5</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Speartip">
                     <Position>
@@ -702,7 +702,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.5</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Thunderbolt">
                     <Position>
@@ -763,7 +763,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.5</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Thunderbolt">
                     <Position>
@@ -824,7 +824,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.5</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Thunderbolt">
                     <Position>
@@ -885,7 +885,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.5</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Thunderbolt">
                     <Position>
@@ -946,7 +946,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>2.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Thunderbolt">
                     <Position>
@@ -1016,7 +1016,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>2.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Thunderbolt">
                     <Position>
@@ -1086,7 +1086,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>2.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Speartip">
                     <Position>
@@ -1160,7 +1160,7 @@
 
     </Description>
     <IsPirate>true</IsPirate>
-    <Frequency>1.0</Frequency>
+    <Frequency>0.8</Frequency>
     <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH) Trident">
             <Position>
@@ -1225,7 +1225,7 @@
 
     </Description>
     <IsPirate>true</IsPirate>
-    <Frequency>1.0</Frequency>
+    <Frequency>0.8</Frequency>
     <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH) Trident">
             <Position>
@@ -1298,7 +1298,7 @@
        
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>2.0</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH) Bulk Freighter">
             <Position>
@@ -1307,7 +1307,7 @@
               <Z>0.0</Z>
             </Position>
             <Speed>20</Speed>
-            <Behaviour>BH-PRTH-Cargo-Solo</Behaviour>
+            <Behaviour>BH-PRTH-Cargo-Solo-Bulk</Behaviour>
           </Prefab>
         </Prefabs>
       </SpawnGroup>
@@ -1352,7 +1352,7 @@
        
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>2.0</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH) Bulk Freighter">
             <Position>
@@ -1361,7 +1361,7 @@
               <Z>0.0</Z>
             </Position>
             <Speed>20</Speed>
-            <Behaviour>BH-PRTH-Cargo-Solo</Behaviour>
+            <Behaviour>BH-PRTH-Cargo-Solo-Bulk</Behaviour>
           </Prefab>
         </Prefabs>
       </SpawnGroup>
@@ -1407,7 +1407,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>2.0</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH) Cargo Hauler">
             <Position>
@@ -1416,7 +1416,7 @@
               <Z>0.0</Z>
             </Position>
             <Speed>20</Speed>
-            <Behaviour>BH-PRTH-Cargo-Solo</Behaviour>
+            <Behaviour>BH-PRTH-Cargo-Solo-Hauler</Behaviour>
           </Prefab>
         </Prefabs>
       </SpawnGroup>
@@ -1461,7 +1461,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>2.0</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH) Cargo Hauler">
             <Position>
@@ -1470,7 +1470,7 @@
               <Z>0.0</Z>
             </Position>
             <Speed>20</Speed>
-            <Behaviour>BH-PRTH-Cargo-Solo</Behaviour>
+            <Behaviour>BH-PRTH-Cargo-Solo-Hauler</Behaviour>
           </Prefab>
         </Prefabs>
       </SpawnGroup>
@@ -1515,7 +1515,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>2.0</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH) Bulk Freighter">
             <Position>
@@ -1524,7 +1524,7 @@
               <Z>0.0</Z>
             </Position>
             <Speed>20</Speed>
-            <Behaviour>BH-PRTH-Cargo-Easy</Behaviour>
+            <Behaviour>BH-PRTH-Cargo-Easy-Bulk</Behaviour>
           </Prefab>
         </Prefabs>
       </SpawnGroup>
@@ -1569,7 +1569,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>2.0</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH) Cargo Hauler">
             <Position>
@@ -1578,7 +1578,7 @@
               <Z>0.0</Z>
             </Position>
             <Speed>20</Speed>
-            <Behaviour>BH-PRTH-Cargo-Easy</Behaviour>
+            <Behaviour>BH-PRTH-Cargo-Easy-Hauler</Behaviour>
           </Prefab>
         </Prefabs>
       </SpawnGroup>
@@ -1623,7 +1623,7 @@
        
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>3.0</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH) Bulk Freighter">
             <Position>
@@ -1632,7 +1632,7 @@
               <Z>0.0</Z>
             </Position>
             <Speed>20</Speed>
-            <Behaviour>BH-PRTH-Cargo-Medium</Behaviour>
+            <Behaviour>BH-PRTH-Cargo-Medium-Bulk</Behaviour>
           </Prefab>
         </Prefabs>
       </SpawnGroup>
@@ -1677,7 +1677,7 @@
        
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>3.0</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH) Cargo Hauler">
             <Position>
@@ -1686,7 +1686,7 @@
               <Z>0.0</Z>
             </Position>
             <Speed>20</Speed>
-            <Behaviour>BH-PRTH-Cargo-Medium</Behaviour>
+            <Behaviour>BH-PRTH-Cargo-Medium-Hauler</Behaviour>
           </Prefab>
         </Prefabs>
       </SpawnGroup>
@@ -1725,7 +1725,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>2.0</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH-TS) Zenith Trade Hub">
             <Position>
@@ -1778,7 +1778,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>1.5</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
             <Position>
@@ -1831,7 +1831,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>1.5</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
             <Position>
@@ -1884,7 +1884,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>2.0</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
             <Position>
@@ -1937,7 +1937,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>2.0</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
             <Position>
@@ -1956,7 +1956,7 @@
       <SpawnGroup>
         <Id>
             <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
-            <SubtypeId>(NPC-PRTH) Zenith Trade Hub Mayday VOID Easy (OUTER;INNER)</SubtypeId>
+            <SubtypeId>(NPC-PRTH) Zenith Trade Hub Mayday VOID Easy Legacy Disabled</SubtypeId>
         </Id>
         <Description>
 
@@ -1964,7 +1964,7 @@
 
         [DisableDampeners:false]
 
-        [SpaceRandomEncounter:true]
+        [SpaceRandomEncounter:false]
 
         [FactionOwner:PRTH]
         [ReplenishSystems:true]
@@ -1990,7 +1990,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>3.0</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
             <Position>
@@ -2009,7 +2009,7 @@
       <SpawnGroup>
         <Id>
             <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
-            <SubtypeId>(NPC-PRTH-TS) The Crown Mayday VOID Easy (OUTER;INNER)</SubtypeId>
+            <SubtypeId>(NPC-PRTH-TS) The Crown Mayday VOID Easy Legacy Disabled</SubtypeId>
         </Id>
         <Description>
 
@@ -2017,7 +2017,7 @@
 
         [DisableDampeners:false]
 
-        [SpaceRandomEncounter:true]
+        [SpaceRandomEncounter:false]
 
         [FactionOwner:PRTH]
         [ReplenishSystems:true]
@@ -2043,7 +2043,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>3.0</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
             <Position>
@@ -2062,7 +2062,7 @@
       <SpawnGroup>
         <Id>
             <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
-            <SubtypeId>(NPC-PRTH) Zenith Trade Hub Mayday VOID Medium (OUTER;INNER)</SubtypeId>
+            <SubtypeId>(NPC-PRTH) Zenith Trade Hub Mayday VOID Medium Legacy Disabled</SubtypeId>
         </Id>
         <Description>
 
@@ -2070,7 +2070,7 @@
 
         [DisableDampeners:false]
 
-        [SpaceRandomEncounter:true]
+        [SpaceRandomEncounter:false]
 
         [FactionOwner:PRTH]
         [ReplenishSystems:true]
@@ -2096,7 +2096,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>4.0</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
             <Position>
@@ -2115,7 +2115,7 @@
       <SpawnGroup>
         <Id>
             <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
-            <SubtypeId>(NPC-PRTH-TS) The Crown Mayday VOID Medium (OUTER;INNER)</SubtypeId>
+            <SubtypeId>(NPC-PRTH-TS) The Crown Mayday VOID Medium Legacy Disabled</SubtypeId>
         </Id>
         <Description>
 
@@ -2123,7 +2123,7 @@
 
         [DisableDampeners:false]
 
-        [SpaceRandomEncounter:true]
+        [SpaceRandomEncounter:false]
 
         [FactionOwner:PRTH]
         [ReplenishSystems:true]
@@ -2149,7 +2149,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>4.0</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
             <Position>
@@ -2202,7 +2202,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Speartip">
                     <Position>
@@ -2254,7 +2254,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>1.1</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Nymph">
                     <Position>
@@ -2306,7 +2306,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Speartip">
                     <Position>
@@ -2358,7 +2358,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>1.1</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Nymph">
                     <Position>
@@ -2419,7 +2419,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Speartip">
                     <Position>
@@ -2471,7 +2471,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Speartip">
                     <Position>
@@ -2532,7 +2532,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Speartip">
                     <Position>
@@ -2593,7 +2593,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Speartip">
                     <Position>
@@ -2653,7 +2653,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-PRTH) Thunderbolt">
                     <Position>

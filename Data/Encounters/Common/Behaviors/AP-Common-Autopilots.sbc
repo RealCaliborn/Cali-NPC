@@ -55,13 +55,14 @@
 
         [AllowStrafing:true]
         [StrafeMinDurationMs:1500]
-        [StrafeMaxDurationMs:3000]
-        [StrafeMinCooldownMs:6000]
-        [StrafeMaxCooldownMs:10000]
-        [StrafeMinimumSafeAngleFromTarget:25]
+        [StrafeMaxDurationMs:4000]
+        [StrafeMinCooldownMs:3000]
+        [StrafeMaxCooldownMs:5000]
+        [StrafeMinimumSafeAngleFromTarget:15]
         [StrafeMinimumTargetDistance:150]
         [StrafeSpeedCutOff:240]
         [StrafeDistanceCutOff:100]
+        [RotationMultiplier:1.25]
 
         [EngageDistanceSpace:400]
         [EngageDistancePlanet:400]
@@ -97,12 +98,13 @@
         [AllowStrafing:true]
         [StrafeMinDurationMs:3000]
         [StrafeMaxDurationMs:4500]
-        [StrafeMinCooldownMs:6000]
-        [StrafeMaxCooldownMs:10000]
-        [StrafeMinimumSafeAngleFromTarget:25]
+        [StrafeMinCooldownMs:3000]
+        [StrafeMaxCooldownMs:5000]
+        [StrafeMinimumSafeAngleFromTarget:15]
         [StrafeMinimumTargetDistance:400]
         [StrafeSpeedCutOff:240]
         [StrafeDistanceCutOff:150]
+        [RotationMultiplier:1.25]
 
         [EngageDistanceSpace:900]
         [EngageDistancePlanet:900]
@@ -127,8 +129,8 @@
         [DisableInertiaDampeners:false]
         [FlyLevelWithGravity:true]
         [WaypointTolerance:50]
-        [IdealMinSpeed:0]
-        [IdealMaxSpeed:360]
+        [IdealMinSpeed:20]
+        [IdealMaxSpeed:400]
         [MaxSpeedTolerance:5]
         [SlowDownOnWaypointApproach:true]
         [ExtraSlowDownDistance:2000]
@@ -136,16 +138,56 @@
 
         [AllowStrafing:true]
         [StrafeMinDurationMs:1000]
-        [StrafeMaxDurationMs:3000]
-        [StrafeMinCooldownMs:6000]
-        [StrafeMaxCooldownMs:10000]
-        [StrafeMinimumSafeAngleFromTarget:25]
+        [StrafeMaxDurationMs:4000]
+        [StrafeMinCooldownMs:3000]
+        [StrafeMaxCooldownMs:5000]
+        [StrafeMinimumSafeAngleFromTarget:15]
         [StrafeMinimumTargetDistance:1500]
+        [RotationMultiplier:1.25]
 
         [EngageDistanceSpace:2000]
         [EngageDistancePlanet:2000]
         [DisengageDistanceSpace:2250]
         [DisengageDistancePlanet:2250]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- Autopilot-B for Standoff Support, range 1500m - 2000m -->
+    <!-- Standoff autopilot activates automatically on target acquisition (no companion TriggerGroup required) -->
+    <!-- Built for StingBro: close enough to intercept missiles for the ship it escorts, while its railguns engage -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AP-Common-Standoff-1500-2000-B</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+
+        [DisableInertiaDampeners:false]
+        [FlyLevelWithGravity:true]
+        [WaypointTolerance:50]
+        [IdealMinSpeed:20]
+        [IdealMaxSpeed:400]
+        [MaxSpeedTolerance:5]
+        [SlowDownOnWaypointApproach:true]
+        [ExtraSlowDownDistance:2000]
+        [UseProjectileLeadPrediction:true]
+
+        [AllowStrafing:true]
+        [StrafeMinDurationMs:1000]
+        [StrafeMaxDurationMs:4000]
+        [StrafeMinCooldownMs:3000]
+        [StrafeMaxCooldownMs:5000]
+        [StrafeMinimumSafeAngleFromTarget:15]
+        [StrafeMinimumTargetDistance:1500]
+        [RotationMultiplier:1.25]
+
+        [EngageDistanceSpace:1750]
+        [EngageDistancePlanet:1750]
+        [DisengageDistanceSpace:2000]
+        [DisengageDistancePlanet:2000]
 
       </Description>
     </EntityComponent>
@@ -165,8 +207,8 @@
         [DisableInertiaDampeners:false]
         [FlyLevelWithGravity:true]
         [WaypointTolerance:50]
-        [IdealMinSpeed:0]
-        [IdealMaxSpeed:340]
+        [IdealMinSpeed:20]
+        [IdealMaxSpeed:400]
         [MaxSpeedTolerance:5]
         [SlowDownOnWaypointApproach:true]
         [ExtraSlowDownDistance:500]
@@ -175,10 +217,11 @@
         [AllowStrafing:true]
         [StrafeMinDurationMs:3000]
         [StrafeMaxDurationMs:6000]
-        [StrafeMinCooldownMs:6000]
-        [StrafeMaxCooldownMs:10000]
-        [StrafeMinimumSafeAngleFromTarget:25]
+        [StrafeMinCooldownMs:3000]
+        [StrafeMaxCooldownMs:5000]
+        [StrafeMinimumSafeAngleFromTarget:15]
         [StrafeMinimumTargetDistance:2500]
+        [RotationMultiplier:1.25]
 
         [EngageDistanceSpace:3500]
         [EngageDistancePlanet:3500]
@@ -203,8 +246,8 @@
         [DisableInertiaDampeners:false]
         [FlyLevelWithGravity:true]
         [WaypointTolerance:50]
-        [IdealMinSpeed:0]
-        [IdealMaxSpeed:300]
+        [IdealMinSpeed:20]
+        [IdealMaxSpeed:400]
         [MaxSpeedTolerance:5]
         [SlowDownOnWaypointApproach:true]
         [ExtraSlowDownDistance:500]
@@ -213,10 +256,11 @@
         [AllowStrafing:true]
         [StrafeMinDurationMs:3000]
         [StrafeMaxDurationMs:6000]
-        [StrafeMinCooldownMs:6000]
-        [StrafeMaxCooldownMs:10000]
-        [StrafeMinimumSafeAngleFromTarget:25]
+        [StrafeMinCooldownMs:3000]
+        [StrafeMaxCooldownMs:5000]
+        [StrafeMinimumSafeAngleFromTarget:15]
         [StrafeMinimumTargetDistance:3500]
+        [RotationMultiplier:1.25]
 
         [EngageDistanceSpace:4500]
         [EngageDistancePlanet:4500]
@@ -226,68 +270,39 @@
       </Description>
     </EntityComponent>
 
-    <!-- Autopilot-B for Standoff Support, range 6000m - 8000m -->
-    <!-- Standoff autopilot activates automatically on target acquisition (no companion TriggerGroup required) -->
-    <!-- Built for long-range standoff NPCs using M-1 Torpedoes -->
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>AP-Common-Standoff-6000-8000-B</SubtypeId>
-      </Id>
-      <Description>
+<!-- AP-Common-Strike-Default-A for Strike-archetype dive/breakaway fighters -->
+<!-- Built for GKNT Swallow Light Fighter: fast, forward-armed, no Keen autopilot -->
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+  <Id>
+    <TypeId>Inventory</TypeId>
+    <SubtypeId>AP-Common-Strike-Default-A</SubtypeId>
+  </Id>
+  <Description>
 
-        [RivalAI Autopilot]
+    [RivalAI Autopilot]
 
-        [DisableInertiaDampeners:false]
-        [FlyLevelWithGravity:true]
-        [WaypointTolerance:50]
-        [IdealMinSpeed:0]
-        [IdealMaxSpeed:300]
-        [MaxSpeedTolerance:5]
-        [SlowDownOnWaypointApproach:true]
-        [ExtraSlowDownDistance:500]
-        [UseProjectileLeadPrediction:true]
-        [OffsetSpaceMinDistFromTarget:4700]
-        [OffsetSpaceMaxDistFromTarget:5300]
+    [DisableInertiaDampeners:false]
+    [FlyLevelWithGravity:false]
+    [WaypointTolerance:40]
+    [IdealMinSpeed:20]
+    [IdealMaxSpeed:360]
+    [MaxSpeedTolerance:10]
+    [SlowDownOnWaypointApproach:false]
+    [UseProjectileLeadPrediction:true]
 
-        [AllowStrafing:true]
-        [StrafeMinDurationMs:3000]
-        [StrafeMaxDurationMs:6000]
-        [StrafeMinCooldownMs:6000]
-        [StrafeMaxCooldownMs:10000]
-        [StrafeMinimumSafeAngleFromTarget:100]
-        [StrafeMinimumTargetDistance:6000]
+    [OffsetSpaceMinDistFromTarget:1200]
+    [OffsetSpaceMaxDistFromTarget:2000]
+    [OffsetPlanetMinDistFromTarget:1200]
+    [OffsetPlanetMaxDistFromTarget:2000]
 
-        [EngageDistanceSpace:7750]
-        [EngageDistancePlanet:7750]
-        [DisengageDistanceSpace:8000]
-        [DisengageDistancePlanet:8000]
+    [UseVelocityCollisionEvasion:true]
 
-      </Description>
-    </EntityComponent>
+    [AngleAllowedForForwardThrust:15]
+    [MaxVelocityAngleForSpeedControl:15]
+    [RotationMultiplier:1.25]
 
-    <!-- AP-Common-Cargo-Default for actual cargo ships -->
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>AP-Common-Cargo-Default</SubtypeId>
-      </Id>
-      <Description>
+  </Description>
+</EntityComponent>
 
-        [RivalAI Autopilot]
-
-        [DisableInertiaDampeners:false]
-        [FlyLevelWithGravity:true]
-        [WaypointTolerance:25]
-        [IdealMinSpeed:20]
-        [IdealMaxSpeed:100]
-        [MaxSpeedTolerance:5]
-        [SlowDownOnWaypointApproach:true]
-        [ExtraSlowDownDistance:250]
-        [UseVelocityCollisionEvasion:false]
-
-      </Description>
-    </EntityComponent>
-
-  </EntityComponents>
+</EntityComponents>
 </Definitions>

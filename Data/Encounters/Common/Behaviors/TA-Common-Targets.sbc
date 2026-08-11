@@ -18,7 +18,7 @@
 
         [TimeUntilTargetAcquisition:1]
         [UseTargetRefresh:true]
-        [TimeUntilNextRefresh:20]
+        [TimeUntilNextRefresh:10]
 
         [MatchAllFilters:OutsideOfSafezone]
         [MatchAllFilters:Owner]
@@ -29,10 +29,10 @@
         [MatchAnyFilters:MovementScore]
         [MatchAnyFilters:LineOfSight]
 
-        [NonBroadcastVisualRange:2000]
-        [MinMovementScore:1000]
-        [MaxMovementDetectableDistance:8000]
-        [MaxLineOfSight:7000]
+        [NonBroadcastVisualRange:7000]
+        [MinMovementScore:200]
+        [MaxMovementDetectableDistance:10000]
+        [MaxLineOfSight:10000]
 
         [Owners:Player]
         [Relations:Enemy]
@@ -91,7 +91,7 @@
 
         [TimeUntilTargetAcquisition:1]
         [UseTargetRefresh:true]
-        [TimeUntilNextRefresh:20]
+        [TimeUntilNextRefresh:10]
 
         [MatchAllFilters:OutsideOfSafezone]
         [MatchAllFilters:Owner]
@@ -102,10 +102,10 @@
         [MatchAnyFilters:MovementScore]
         [MatchAnyFilters:LineOfSight]
 
-        [NonBroadcastVisualRange:8000]
+        [NonBroadcastVisualRange:9000]
         [MinMovementScore:200]
-        [MaxMovementDetectableDistance:8000]
-        [MaxLineOfSight:8000]
+        [MaxMovementDetectableDistance:10000]
+        [MaxLineOfSight:10000]
 
         [Owners:Player]
         [Relations:Enemy]

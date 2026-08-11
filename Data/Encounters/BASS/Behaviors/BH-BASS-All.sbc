@@ -28,6 +28,7 @@
         [TriggerGroups:TG-BASS-Target-Sharing]
         [TriggerGroups:TG-BASS-Chat]
         [TriggerGroups:TG-BASS-Detect]
+        [TriggerGroups:TG-BASS-Sentinel-Ram]
 
         [UseBarrageFire:false]
 
@@ -59,6 +60,7 @@
         [TriggerGroups:TG-BASS-Target-Sharing]
         [TriggerGroups:TG-BASS-Chat]
         [TriggerGroups:TG-BASS-Detect]
+        [TriggerGroups:TG-BASS-Sentinel-Ram]
 
         [UseBarrageFire:false]
 
@@ -74,23 +76,21 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:Horsefly]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
-
         [TargetData:TA-Common-8000-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
+        [UseTurrets:true]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-BASS-Target-Sharing]
         [TriggerGroups:TG-BASS-Chat]
         [TriggerGroups:TG-BASS-Detect]
-
+        [TriggerGroups:TG-BASS-Sentinel-Ram]
+        [TriggerGroups:TG-PRTH-BASS-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-BASS-Mayday-Responder]
         [UseBarrageFire:false]
 
       </Description>

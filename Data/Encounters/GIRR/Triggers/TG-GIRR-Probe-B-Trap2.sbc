@@ -56,7 +56,6 @@
 
         [SpawnEncounter:true]
         [Spawner:SP-GIRR-Probe-B-Trap2-TrapSpawner]
-        [Spawner:SP-GIRR-Probe-B-Trap2-TrapSpawner]
 
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-GIRR-Probe-B-Trap2-TrapSpawner]
@@ -119,7 +118,8 @@
       
       [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:60]
+      [SpawnMaxCooldown:89]
       [MaxSpawns:-1]
       
       [SpawnGroups:(NPC-GIRR) CruiserSpawn Hauler]

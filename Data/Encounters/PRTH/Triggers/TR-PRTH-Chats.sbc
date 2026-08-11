@@ -13,7 +13,7 @@
         [RivalAI Trigger]
 
         [UseTrigger:true]
-        [Type:BehaviorTriggerA]
+        [Type:AcquiredTarget]
         [MinCooldownMs:120000]
         [MaxCooldownMs:120001]
         [StartsReady:true]

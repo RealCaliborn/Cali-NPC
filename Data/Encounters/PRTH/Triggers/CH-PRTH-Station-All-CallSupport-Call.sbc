@@ -31,6 +31,8 @@
       [BroadcastChatType:Chat]
 
       [ChatAudio:None]
+      [ChatAudio:None]
+      [ChatAudio:None]
 
       </Description>
     </EntityComponent>
@@ -64,6 +66,8 @@
       [BroadcastChatType:Chat]
 
       [ChatAudio:None]
+      [ChatAudio:None]
+      [ChatAudio:None]
 
       </Description>
     </EntityComponent>
@@ -96,6 +100,8 @@
       [ChatMessages:Your stars are crossed, there are none who can reach you in time.]
       [BroadcastChatType:Chat]
 
+      [ChatAudio:None]
+      [ChatAudio:None]
       [ChatAudio:None]
 
       </Description>

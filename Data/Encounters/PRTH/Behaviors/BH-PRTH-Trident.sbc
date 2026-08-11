@@ -10,28 +10,65 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
-
+        [HorseFighterTimeEngaging:53]
+        [HorseFighterTimeApproaching:29]
         [TargetData:TA-Common-8000-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
+        [UseTurrets:true]
         [UseBarrageFire:false]
         [RemoteControlCode:SI-Roaches-Boss-Any]
-
         [TriggerGroups:TG-Common-PvE-Hard]
-
         [TriggerGroups:TG-PRTH-Trident]
         [TriggerGroups:TG-PRTH-Target-Sharing]
-
+        [TriggerGroups:TG-ECHO-PRTH-Mayday-Responder]
         [Triggers:TR-PRTH-Any-Engaging]
 
+
+      </Description>
+    </EntityComponent>
+
+    <!-- ============================================================ -->
+    <!-- Maintained shield-breaker #1: (NPC-PRTH) Speartip           -->
+    <!-- Paladin Cannon (7x vs shields + ~2% shield bypass)          -->
+    <!-- ============================================================ -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Trident-Breaker-Speartip</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+        [HorseFighterTimeEngaging:50]
+        [HorseFighterTimeApproaching:12]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [UseAmmoReplenish:true]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-Common-FireFixed]
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+        [TriggerGroups:TG-ECHO-PRTH-Mayday-Responder]
+        [Triggers:TR-PRTH-Any-Engaging]
+        [Triggers:TR-PRTH-Trident-Breaker1-Answer]
+        [Triggers:TR-PRTH-Trident-Breaker1-SpawnCall]
 
       </Description>
     </EntityComponent>
@@ -39,35 +76,401 @@
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>BH-PRTH-Nymph-TridentFighter</SubtypeId>
+        <SubtypeId>TR-PRTH-Trident-Breaker1-Answer</SubtypeId>
       </Id>
       <Description>
 
-        [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
-
-        [TargetData:TA-Common-Default-A]
-        [OverrideTargetData:TA-Common-Default-B]
-
-        [EngageOnTargetLineOfSight:true]
-        [EngageOnWeaponActivation:true]
-
-        [UseBarrageFire:false]
-
-        [TriggerGroups:TG-Common-PvE-Default]
-
-        [TriggerGroups:TG-PRTH-Target-Sharing]
-
-        [Triggers:TR-PRTH-Any-Engaging]
-        [Triggers:TR-PRTH-Answer-Trident]
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-PRTH-Trident-Check-Breaker1]
+        [Actions:AC-PRTH-Trident-Breaker1-Answer]
 
       </Description>
     </EntityComponent>
 
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Trident-Breaker1-Answer</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-PRTH-Trident-Alive-Breaker1]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CO-PRTH-Trident-Alive-Breaker1</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+        [CommandCode:CO-PRTH-Trident-Alive-Breaker1]
+        [MatchSenderReceiverOwners:true]
+        [IgnoreAntennaRequirement:true]
+        [Radius:12000]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Trident-Breaker1-SpawnCall</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:1500]
+        [MaxCooldownMs:2500]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-PRTH-Trident-Breaker1-SpawnCall]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Trident-Breaker1-SpawnCall</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [UseChatBroadcast:true]
+        [ChatData:CH-PRTH-Trident-Breaker1-SpawnCall]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-PRTH-Trident-Breaker1-SpawnCall</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:false]
+        [Author:Speartip]
+        [Color:Red]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Speartip answering the call — breaking your shields.]
+        [ChatAudio:prth-whoosh-01]
+        [BroadcastChatType:Chat]
+        [ChatVolumeMultiplier:0.35]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- ============================================================ -->
+    <!-- Maintained shield-breaker #2: (NPC-PRTH) Thunderbolt         -->
+    <!-- 14x Heavy Bolter, heavy sustained kinetic                    -->
+    <!-- ============================================================ -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Trident-Breaker-Thunderbolt</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+        [HorseFighterTimeEngaging:50]
+        [HorseFighterTimeApproaching:12]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [UseAmmoReplenish:true]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-Common-FireFixed]
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+        [TriggerGroups:TG-ECHO-PRTH-Mayday-Responder]
+        [Triggers:TR-PRTH-Any-Engaging]
+        [Triggers:TR-PRTH-Trident-Breaker2-Answer]
+        [Triggers:TR-PRTH-Trident-Breaker2-SpawnCall]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Trident-Breaker2-Answer</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-PRTH-Trident-Check-Breaker2]
+        [Actions:AC-PRTH-Trident-Breaker2-Answer]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Trident-Breaker2-Answer</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-PRTH-Trident-Alive-Breaker2]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CO-PRTH-Trident-Alive-Breaker2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+        [CommandCode:CO-PRTH-Trident-Alive-Breaker2]
+        [MatchSenderReceiverOwners:true]
+        [IgnoreAntennaRequirement:true]
+        [Radius:12000]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Trident-Breaker2-SpawnCall</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:1500]
+        [MaxCooldownMs:2500]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-PRTH-Trident-Breaker2-SpawnCall]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Trident-Breaker2-SpawnCall</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [UseChatBroadcast:true]
+        [ChatData:CH-PRTH-Trident-Breaker2-SpawnCall]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-PRTH-Trident-Breaker2-SpawnCall</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:false]
+        [Author:Thunderbolt]
+        [Color:Red]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Thunderbolt inbound — bolters spinning up.]
+        [ChatAudio:prth-whoosh-01]
+        [BroadcastChatType:Chat]
+        [ChatVolumeMultiplier:0.35]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- ============================================================ -->
+    <!-- Maintained anti-missile screen: (NPC-PRTH) Hoplon           -->
+    <!-- PDX lasers intercept incoming missiles, defensive standoff   -->
+    <!-- ============================================================ -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Trident-Screen-Hoplon</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2000-B]
+        [HorseFighterTimeEngaging:38]
+        [HorseFighterTimeApproaching:20]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [UseAmmoReplenish:true]
+        [TriggerGroups:TG-Common-PvE-Hard]
+        [Triggers:TR-Common-FireFixed]
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+        [TriggerGroups:TG-ECHO-PRTH-Mayday-Responder]
+        [Triggers:TR-PRTH-Any-Engaging]
+        [Triggers:TR-PRTH-Trident-Screen-Answer]
+        [Triggers:TR-PRTH-Trident-Screen-SpawnCall]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Trident-Screen-Answer</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-PRTH-Trident-Check-Screen]
+        [Actions:AC-PRTH-Trident-Screen-Answer]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Trident-Screen-Answer</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-PRTH-Trident-Alive-Screen]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CO-PRTH-Trident-Alive-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+        [CommandCode:CO-PRTH-Trident-Alive-Screen]
+        [MatchSenderReceiverOwners:true]
+        [IgnoreAntennaRequirement:true]
+        [Radius:12000]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Trident-Screen-SpawnCall</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Timer]
+        [MinCooldownMs:1500]
+        [MaxCooldownMs:2500]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-PRTH-Trident-Screen-SpawnCall]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Trident-Screen-SpawnCall</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [UseChatBroadcast:true]
+        [ChatData:CH-PRTH-Trident-Screen-SpawnCall]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-PRTH-Trident-Screen-SpawnCall</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [MaxChats:1]
+        [BroadcastRandomly:false]
+        [Author:Hoplon]
+        [Color:Red]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Hoplon on screen — intercepting your missiles.]
+        [ChatAudio:prth-ping-01]
+        [BroadcastChatType:Chat]
+        [ChatVolumeMultiplier:0.35]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- ============================================================ -->
+    <!-- Hoplon-with-Trident escort encounter (separate spawn) — unchanged -->
+    <!-- ============================================================ -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
@@ -76,27 +479,21 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:HorseFighter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
-
+        [HorseFighterTimeEngaging:38]
+        [HorseFighterTimeApproaching:20]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
         [UseStaticGuns:true]
         [MaxStaticWeaponRange:-1]
         [UseTurrets:true]
         [UseBarrageFire:false]
-
         [TriggerGroups:TG-Common-PvE-Hard]
-
         [TriggerGroups:TG-PRTH-Target-Sharing]
-
         [TriggerGroups:TG-PRTH-Hoplon-withTrident]
         [Triggers:TR-PRTH-Any-Engaging]
 
@@ -111,24 +508,19 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
-
+        [BehaviorName:Fighter]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
         [UseBarrageFire:false]
-
         [TriggerGroups:TG-Common-PvE-Default]
-
         [TriggerGroups:TG-PRTH-Target-Sharing]
-
         [Triggers:TR-PRTH-Any-Engaging]
         [Triggers:TR-PRTH-Answer-Hoplon]
 

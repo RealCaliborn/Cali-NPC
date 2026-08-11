@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+    <ContainerType CountMin="3" CountMax="3">
+      <Id>
+        <TypeId>ContainerTypeDefinition</TypeId>
+        <SubtypeId>PRTH Medium Expanded Reward</SubtypeId>
+      </Id>
+      <Items>
+        <Item AmountMin="750" AmountMax="1200">
+          <Frequency>5</Frequency>
+          <Id>
+            <TypeId>Component</TypeId>
+            <SubtypeId>Tech2x</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="450" AmountMax="900">
+          <Frequency>8</Frequency>
+          <Id>
+            <TypeId>Component</TypeId>
+            <SubtypeId>Tech4x</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="375" AmountMax="600">
+          <Frequency>20</Frequency>
+          <Id>
+            <TypeId>Component</TypeId>
+            <SubtypeId>Tech8x</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="150" AmountMax="375">
+          <Frequency>20</Frequency>
+          <Id>
+            <TypeId>Component</TypeId>
+            <SubtypeId>GammaMeshRefractor</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="8" AmountMax="15">
+          <Frequency>5</Frequency>
+          <Id>
+            <TypeId>ConsumableItem</TypeId>
+            <SubtypeId>Medkit</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="8" AmountMax="15">
+          <Frequency>5</Frequency>
+          <Id>
+            <TypeId>ConsumableItem</TypeId>
+            <SubtypeId>Powerkit</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="3000000" AmountMax="6000000">
+          <Frequency>10</Frequency>
+          <Id>
+            <TypeId>PhysicalObject</TypeId>
+            <SubtypeId>SpaceCredit</SubtypeId>
+          </Id>
+        </Item>
+      </Items>
+    </ContainerType>
+    <ContainerType CountMin="3" CountMax="3">
+      <Id>
+        <TypeId>ContainerTypeDefinition</TypeId>
+        <SubtypeId>PRTH Hard Expanded Reward</SubtypeId>
+      </Id>
+      <Items>
+        <Item AmountMin="1000" AmountMax="1600">
+          <Frequency>5</Frequency>
+          <Id>
+            <TypeId>Component</TypeId>
+            <SubtypeId>Tech2x</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="600" AmountMax="1200">
+          <Frequency>8</Frequency>
+          <Id>
+            <TypeId>Component</TypeId>
+            <SubtypeId>Tech4x</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="500" AmountMax="800">
+          <Frequency>20</Frequency>
+          <Id>
+            <TypeId>Component</TypeId>
+            <SubtypeId>Tech8x</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="200" AmountMax="500">
+          <Frequency>20</Frequency>
+          <Id>
+            <TypeId>Component</TypeId>
+            <SubtypeId>GammaMeshRefractor</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="10" AmountMax="20">
+          <Frequency>5</Frequency>
+          <Id>
+            <TypeId>ConsumableItem</TypeId>
+            <SubtypeId>Medkit</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="10" AmountMax="20">
+          <Frequency>5</Frequency>
+          <Id>
+            <TypeId>ConsumableItem</TypeId>
+            <SubtypeId>Powerkit</SubtypeId>
+          </Id>
+        </Item>
+        <Item AmountMin="4000000" AmountMax="8000000">
+          <Frequency>10</Frequency>
+          <Id>
+            <TypeId>PhysicalObject</TypeId>
+            <SubtypeId>SpaceCredit</SubtypeId>
+          </Id>
+        </Item>
+      </Items>
+    </ContainerType>
+  </ContainerTypes>
+</Definitions>

@@ -73,9 +73,10 @@
 
       [UseSpawn:true]
 
-      [SpawningType:SpaceCargoShip]
+      [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:25]
+      [SpawnMaxCooldown:29]
       [MaxSpawns:2]
 
       [SpawnGroups:NPC-Protection-GetHelp-Base]

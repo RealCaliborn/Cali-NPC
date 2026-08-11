@@ -28,7 +28,7 @@
 
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.0</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
                 <Position>
@@ -69,7 +69,7 @@
 
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.0</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
                 <Position>

@@ -18,6 +18,7 @@
         [Triggers:TR-Common-ReceiveTarget]
 		[Triggers:TR-Common-Jump-Completed]
 		[Triggers:TR-Common-Jump-Acquired]
+		[Triggers:TR-Common-Jump-Away]
 
       </Description>
     </EntityComponent>
@@ -57,6 +58,7 @@
         [Triggers:TR-Common-ReceiveTarget]
 		[Triggers:TR-Common-Jump-Completed]
 		[Triggers:TR-Common-Jump-Acquired]
+		[Triggers:TR-Common-Jump-Away]
 
       </Description>
     </EntityComponent>

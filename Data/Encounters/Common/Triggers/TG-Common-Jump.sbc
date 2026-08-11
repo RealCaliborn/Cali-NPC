@@ -12,7 +12,8 @@
 			
 			[Triggers:TR-Common-Jump-Completed]
 			[Triggers:TR-Common-Jump-Acquired]
-      
+			[Triggers:TR-Common-Jump-Away]
+
 			</Description>
 		</EntityComponent>
 		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
@@ -52,6 +53,26 @@
 			[MaxCooldownMs:1001]
 			[Conditions:CD-Jump-Condition-Target]
 			[Actions:AC-Common-Jump-To-Target]
+
+			</Description>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>TR-Common-Jump-Away</SubtypeId>
+			</Id>
+			<Description>
+
+			[RivalAI Trigger]
+
+			[UseTrigger:true]
+			[Type:Damage]
+			[DamageTypes:Deformation]
+			[StartsReady:true]
+			[MinCooldownMs:1000]
+			[MaxCooldownMs:1001]
+			[MaxActions:-1]
+			[Actions:AC-Common-Jump-Away]
 		  
 			</Description>
 		</EntityComponent>
@@ -94,7 +115,7 @@
 
 				[RivalAI Action]
 			  
-				[Chance:30]
+				[Chance:50]
 				[JumpToTarget:true]
 				[UseChatBroadcast:true]
 				[ChatData:CH-Common-Jump]
@@ -109,10 +130,25 @@
 			<Description>
 
 				[RivalAI Action]
-			  
-				[Chance:30]
+
+				[Chance:80]
 				[JumpToJumpedEntity:true]
-				
+
+			</Description>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>AC-Common-Jump-Away</SubtypeId>
+			</Id>
+			<Description>
+
+				[RivalAI Action]
+
+				[Chance:30]
+				[JumpToWaypoint:true]
+				[JumpWaypoint:WP-Waypoint-Self]
+
 			</Description>
 		</EntityComponent>
 		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">

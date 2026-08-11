@@ -111,9 +111,10 @@
       [RivalAI Spawn]
 
       [UseSpawn:true]
-      [SpawningType:SpaceCargoShip]
+      [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:-1]
 
       [SpawnGroups:(NPC-GKNT) Scramble 1Swallow]
@@ -156,9 +157,10 @@
       [RivalAI Spawn]
 
       [UseSpawn:true]
-      [SpawningType:SpaceCargoShip]
+      [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:-1]
 
       [SpawnGroups:(NPC-GKNT) Scramble 2Swallow]
@@ -201,9 +203,10 @@
       [RivalAI Spawn]
 
       [UseSpawn:true]
-      [SpawningType:SpaceCargoShip]
+      [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:-1]
 
       [SpawnGroups:(NPC-GKNT) Scramble 1Saber]
@@ -269,9 +272,10 @@
       [RivalAI Spawn]
 
       [UseSpawn:true]
-      [SpawningType:SpaceCargoShip]
+      [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:-1]
 
       [SpawnGroups:(NPC-ECHO) GKNT-Assist 2xScarab]
@@ -311,9 +315,10 @@
       [RivalAI Spawn]
 
       [UseSpawn:true]
-      [SpawningType:SpaceCargoShip]
+      [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:-1]
 
       [SpawnGroups:(NPC-PRTH) GKNT-Assist 2xThunderbolt]

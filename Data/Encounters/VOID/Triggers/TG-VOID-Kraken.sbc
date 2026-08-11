@@ -23,6 +23,10 @@
         [Triggers:TR-VOID-Kraken-ReceiveFighter-Port]
         [Triggers:TR-VOID-Kraken-ReceiveFighter-Starboard]
 
+        [Triggers:TR-VOID-Kraken-LaunchFighter-Screen]
+        [Triggers:TR-VOID-Kraken-CheckFighter-Screen]
+        [Triggers:TR-VOID-Kraken-ReceiveFighter-Screen]
+
         [Triggers:TR-VOID-Kraken-ShieldsDown-Spawn]
 
       </Description>
@@ -142,12 +146,15 @@
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-VOID-Kraken-CheckFighter-Port]
         [ResetTriggerCooldownNames:TR-VOID-Kraken-CheckFighter-Starboard]
+        [ResetTriggerCooldownNames:TR-VOID-Kraken-CheckFighter-Screen]
 
         [EnableTriggers:true]
         [EnableTriggerNames:TR-VOID-Kraken-LaunchFighter-Port]
         [EnableTriggerNames:TR-VOID-Kraken-LaunchFighter-Starboard]
         [EnableTriggerNames:TR-VOID-Kraken-CheckFighter-Port]
         [EnableTriggerNames:TR-VOID-Kraken-CheckFighter-Starboard]
+        [EnableTriggerNames:TR-VOID-Kraken-LaunchFighter-Screen]
+        [EnableTriggerNames:TR-VOID-Kraken-CheckFighter-Screen]
 
         [DisableTriggers:true]
         [DisableTriggerNames:TR-VOID-Kraken-LaunchFighters]
@@ -210,10 +217,11 @@
       
       [UseSpawn:true]
       
-      [SpawningType:SpaceCargoShip]
+      [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
-      [MaxSpawns:4]
+      [SpawnMinCooldown:25]
+      [SpawnMaxCooldown:29]
+      [MaxSpawns:-1]
       
       [SpawnGroups:(NPC-VOID) Kraken-Stingbaby-Port]
       
@@ -276,10 +284,11 @@
       
       [UseSpawn:true]
       
-      [SpawningType:SpaceCargoShip]
+      [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
-      [MaxSpawns:4]
+      [SpawnMinCooldown:25]
+      [SpawnMaxCooldown:29]
+      [MaxSpawns:-1]
       
       [SpawnGroups:(NPC-VOID) Kraken-Stingbaby-Starboard]
       
@@ -312,11 +321,11 @@
         [IgnoreAntennaRequirement:true]
         [IgnoredAntennaRangeOverride:10000]
 
-        [ChatMessages:Launching fighter.]
+        [ChatMessages:Attack wing down. Synthesizing another.]
         [BroadcastChatType:Chat]
-        [ChatMessages:Fighter construction complete.]
+        [ChatMessages:One of my own has fallen. It is being remade.]
         [BroadcastChatType:Chat]
-        [ChatMessages:Fighter synthesis complete.]
+        [ChatMessages:The void provides. A replacement rises.]
         [BroadcastChatType:Chat]
 
       </Description>
@@ -570,9 +579,10 @@
       
       [UseSpawn:true]
       
-      [SpawningType:SpaceCargoShip]
+      [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:1]
       
       [SpawnGroups:(NPC-VOID) 1xLampreyB]
@@ -619,5 +629,151 @@
 
 
 
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Kraken-LaunchFighter-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:30000]
+        [MaxCooldownMs:30001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-VOID-Kraken-LaunchFighter-Screen]
+
+      </Description>
+
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Kraken-LaunchFighter-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-VOID-Kraken-LaunchFighter-Screen]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-VOID-Kraken-LaunchFighter]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>SP-VOID-Kraken-LaunchFighter-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Spawn]
+      
+      [UseSpawn:true]
+      
+      [SpawningType:CustomSpawn]
+      [StartsReady:true]
+      [SpawnMinCooldown:25]
+      [SpawnMaxCooldown:29]
+      [MaxSpawns:-1]
+      
+      [SpawnGroups:(NPC-VOID) Kraken-Screen-Wing]
+      
+      [UseRelativeSpawnPosition:true]
+      [RelativeSpawnOffset:{X:-20 Y:20 Z:20}]
+      [RelativeSpawnVelocity:{X:0 Y:45 Z:0}]
+      [IgnoreSafetyChecks:true]
+      
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Kraken-CheckFighter-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:10000]
+        [MaxCooldownMs:10001]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [Actions:AC-VOID-Kraken-CheckFighter-Screen]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Kraken-CheckFighter-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-VOID-Kraken-Calling-Screen]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+          <TypeId>Inventory</TypeId>
+          <SubtypeId>CO-VOID-Kraken-Calling-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+      [RivalAI Command]
+
+      [CommandCode:CO-VOID-Kraken-Calling-Screen]
+      [MatchSenderReceiverOwners:true]
+      [IgnoreAntennaRequirement:true]
+      [Radius:12000]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Kraken-ReceiveFighter-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-VOID-Baby-Answering-Screen]
+        [Actions:AC-VOID-Kraken-ReceiveFighter-Screen]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Kraken-ReceiveFighter-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-VOID-Kraken-LaunchFighter-Screen]
+
+      </Description>
+    </EntityComponent>
   </EntityComponents>
 </Definitions>

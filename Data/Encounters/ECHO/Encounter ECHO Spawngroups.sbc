@@ -35,7 +35,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>0.5</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Scarab">
               <Position>
@@ -83,7 +83,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.5</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Scarab">
             <Position>
@@ -134,7 +134,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>0.5</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
             <Position>
@@ -184,7 +184,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>0.5</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
             <Position>
@@ -235,7 +235,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>0.5</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
             <Position>
@@ -285,7 +285,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>0.5</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
             <Position>
@@ -330,7 +330,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>0.75</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
             <Position>
@@ -375,7 +375,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>0.75</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
             <Position>
@@ -425,7 +425,7 @@
        
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>0.85</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
             <Position>
@@ -475,7 +475,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>0.85</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
             <Position>
@@ -522,7 +522,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>0.5</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO-TS) Mandir">
             <Position>
@@ -569,7 +569,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>0.5</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO-TS) Port Royal">
             <Position>
@@ -621,7 +621,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>0.65</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Mandir">
             <Position>
@@ -673,7 +673,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>0.65</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Port Royal">
             <Position>
@@ -725,7 +725,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>0.75</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Mandir">
             <Position>
@@ -777,7 +777,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>0.75</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Port Royal">
             <Position>
@@ -796,7 +796,7 @@
       <SpawnGroup>
         <Id>
             <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
-            <SubtypeId>(NPC-ECHO) Mandir Mayday VOID Easy (OUTER;INNER)</SubtypeId>
+            <SubtypeId>(NPC-ECHO) Mandir Mayday VOID Easy Legacy Disabled</SubtypeId>
         </Id>
         <Description>
 
@@ -804,7 +804,7 @@
 
         [DisableDampeners:false]
 
-        [SpaceRandomEncounter:true]
+        [SpaceRandomEncounter:false]
 
         [FactionOwner:ECHO]
         [ReplenishSystems:true]
@@ -829,7 +829,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>0.85</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Mandir">
             <Position>
@@ -848,7 +848,7 @@
       <SpawnGroup>
         <Id>
             <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
-            <SubtypeId>(NPC-ECHO) Port Royal Mayday VOID Easy (OUTER;INNER)</SubtypeId>
+            <SubtypeId>(NPC-ECHO) Port Royal Mayday VOID Easy Legacy Disabled</SubtypeId>
         </Id>
         <Description>
 
@@ -856,7 +856,7 @@
 
         [DisableDampeners:false]
 
-        [SpaceRandomEncounter:true]
+        [SpaceRandomEncounter:false]
 
         [FactionOwner:ECHO]
         [ReplenishSystems:true]
@@ -881,7 +881,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>0.85</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Port Royal">
             <Position>
@@ -900,7 +900,7 @@
       <SpawnGroup>
         <Id>
             <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
-            <SubtypeId>(NPC-ECHO) Mandir Mayday VOID Medium (OUTER;INNER)</SubtypeId>
+            <SubtypeId>(NPC-ECHO) Mandir Mayday VOID Medium Legacy Disabled</SubtypeId>
         </Id>
         <Description>
 
@@ -908,7 +908,7 @@
 
         [DisableDampeners:false]
 
-        [SpaceRandomEncounter:true]
+        [SpaceRandomEncounter:false]
 
         [FactionOwner:ECHO]
         [ReplenishSystems:true]
@@ -933,7 +933,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>0.95</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Mandir">
             <Position>
@@ -952,7 +952,7 @@
       <SpawnGroup>
         <Id>
             <TypeId>SpawnGroupDefinition</TypeId>               <!--Do Not Edit-->
-            <SubtypeId>(NPC-ECHO) Port Royal Mayday VOID Medium (OUTER;INNER)</SubtypeId>
+            <SubtypeId>(NPC-ECHO) Port Royal Mayday VOID Medium Legacy Disabled</SubtypeId>
         </Id>
         <Description>
 
@@ -960,7 +960,7 @@
 
         [DisableDampeners:false]
 
-        [SpaceRandomEncounter:true]
+        [SpaceRandomEncounter:false]
 
         [FactionOwner:ECHO]
         [ReplenishSystems:true]
@@ -985,7 +985,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>0.95</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Port Royal">
             <Position>
@@ -1028,7 +1028,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>0.4</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Scarab">
             <Position>
@@ -1079,7 +1079,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>0.4</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Scarab">
             <Position>
@@ -1130,7 +1130,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>0.2</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Scarab">
             <Position>
@@ -1193,7 +1193,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>0.4</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
             <Position>
@@ -1247,7 +1247,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>0.4</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
             <Position>
@@ -1297,7 +1297,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>0.55</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
             <Position>
@@ -1351,7 +1351,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>0.6</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
             <Position>
@@ -1405,7 +1405,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>0.4</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
             <Position>
@@ -1459,7 +1459,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>0.4</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
             <Position>
@@ -1509,7 +1509,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>0.55</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
             <Position>
@@ -1563,7 +1563,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>0.6</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Small Cargo Ship">
             <Position>
@@ -1617,7 +1617,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>0.4</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
             <Position>
@@ -1671,7 +1671,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>0.4</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
             <Position>
@@ -1721,7 +1721,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>0.55</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
             <Position>
@@ -1775,7 +1775,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>0.6</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Cargo Freighter">
             <Position>

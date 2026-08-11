@@ -92,6 +92,7 @@
       [BroadcastChatType:Chat]
 
       [ChatAudio:None]
+      [ChatAudio:None]
 
       </Description>
     </EntityComponent>
@@ -280,9 +281,10 @@
       
       [UseSpawn:true]
       
-      [SpawningType:SpaceCargoShip]
+      [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:1]
       
       [SpawnGroups:(NPC-VOID) PRTH Mayday Wave 1Stingray1Hunter1UrchinB]
@@ -353,9 +355,10 @@
       
       [UseSpawn:true]
       
-      [SpawningType:SpaceCargoShip]
+      [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:1]
       
       [SpawnGroups:(NPC-VOID) PRTH Mayday Wave 1Stingray1UrchinB1UrchinS2Bro]
@@ -426,9 +429,10 @@
       
       [UseSpawn:true]
       
-      [SpawningType:SpaceCargoShip]
+      [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:1]
       
       [SpawnGroups:(NPC-VOID) PRTH Mayday Wave 2Stingray1Chordata1UrchinS]
@@ -511,9 +515,10 @@
       
       [UseSpawn:true]
       
-      [SpawningType:SpaceCargoShip]
+      [SpawningType:CustomSpawn]
       [StartsReady:true]
-      [SpawnMinCooldown:0]
+      [SpawnMinCooldown:1]
+      [SpawnMaxCooldown:2]
       [MaxSpawns:1]
       
       [SpawnGroups:(NPC-PRTH) PRTH Mayday Medium Reward]

@@ -26,7 +26,7 @@
 
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.0</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-VOID) Stingbaby">
                 <Position>
@@ -64,7 +64,7 @@
 
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.0</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-VOID) Stingbaby">
                 <Position>
@@ -112,9 +112,9 @@
 
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.0</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
-            <Prefab SubtypeId="(NPC-VOID) Stingbaby">
+            <Prefab SubtypeId="(NPC-VOID) Lamprey">
                 <Position>
                     <X>0.0</X>
                     <Y>0.0</Y>
@@ -151,9 +151,9 @@
 
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.0</Frequency>
+        <Frequency>1.1</Frequency>
         <Prefabs>
-            <Prefab SubtypeId="(NPC-VOID) Stingbaby">
+            <Prefab SubtypeId="(NPC-VOID) Stingray">
                 <Position>
                     <X>0.0</X>
                     <Y>0.0</Y>
@@ -165,5 +165,29 @@
         </Prefabs>
     </SpawnGroup>
 
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) Kraken-Screen-Wing</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [RivalAiSpawn:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) StingBro">
+          <Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Kraken-StingBro-Screen</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
   </SpawnGroups>
 </Definitions>

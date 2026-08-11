@@ -11,24 +11,19 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
-
+        [BehaviorName:Fighter]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
         [UseBarrageFire:false]
-
         [TriggerGroups:TG-Common-PvE-Default]
-
         [TriggerGroups:TG-PRTH-Target-Sharing]
-
         [Triggers:TR-PRTH-Any-Engaging]
 
 
@@ -44,24 +39,49 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:Horsefly]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
-
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
+        [UseTurrets:true]
         [UseBarrageFire:false]
-
         [TriggerGroups:TG-Common-PvE-Default]
-
         [TriggerGroups:TG-PRTH-Target-Sharing]
+        [Triggers:TR-PRTH-Any-Engaging]
+        [TriggerGroups:TG-ECHO-PRTH-Mayday-Responder]
 
+
+      </Description>
+    </EntityComponent>
+
+<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Speartip-FG</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:34]
+        [HorseFighterTimeApproaching:18]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-PRTH-Target-Sharing]
         [Triggers:TR-PRTH-Any-Engaging]
 
 
@@ -77,24 +97,17 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:Horsefly]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
-
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
+        [UseTurrets:true]
         [UseBarrageFire:false]
-
         [TriggerGroups:TG-Common-PvE-Default]
-
         [TriggerGroups:TG-PRTH-Target-Sharing]
-
         [Triggers:TR-PRTH-Spawn-1xNymph]
         [Triggers:TR-PRTH-Any-Engaging]
 
@@ -111,24 +124,17 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:Horsefly]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
-
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
+        [UseTurrets:true]
         [UseBarrageFire:false]
-
         [TriggerGroups:TG-Common-PvE-Default]
-
         [TriggerGroups:TG-PRTH-Target-Sharing]
-
         [Triggers:TR-PRTH-Spawn-2xNymph]
         [Triggers:TR-PRTH-Any-Engaging]
 
@@ -145,25 +151,19 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:Horsefly]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
-
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
+        [UseTurrets:true]
         [UseBarrageFire:false]
-
         [TriggerGroups:TG-Common-PvE-Hard]
-
         [TriggerGroups:TG-PRTH-Target-Sharing]
-
         [Triggers:TR-PRTH-Any-Engaging]
+        [TriggerGroups:TG-ECHO-PRTH-Mayday-Responder]
 
 
       </Description>
@@ -178,24 +178,17 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:Horsefly]
         [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
-
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
+        [UseTurrets:true]
         [UseBarrageFire:false]
-
         [TriggerGroups:TG-Common-PvE-Hard]
-
         [TriggerGroups:TG-PRTH-Target-Sharing]
-
         [Triggers:TR-PRTH-Spawn-2xNymph]
         [Triggers:TR-PRTH-Any-Engaging]
 
@@ -212,27 +205,21 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:HorseFighter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
-
+        [HorseFighterTimeEngaging:38]
+        [HorseFighterTimeApproaching:20]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
         [UseStaticGuns:true]
         [MaxStaticWeaponRange:-1]
         [UseTurrets:true]
         [UseBarrageFire:false]
-
         [TriggerGroups:TG-Common-PvE-Hard]
-
         [TriggerGroups:TG-PRTH-Target-Sharing]
-
         [Triggers:TR-PRTH-Any-Engaging]
 
       </Description>

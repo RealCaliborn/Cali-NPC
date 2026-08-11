@@ -1,0 +1,1037 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) Zenith Trade Hub Mayday VOID Easy Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:1999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-VOID-Easy-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) The Crown Mayday VOID Easy Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:1999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-VOID-Easy-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) Zenith Trade Hub Mayday VOID Medium Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:2000]
+        [ThreatScoreMaximum:4999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-VOID-Medium-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) The Crown Mayday VOID Medium Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:2000]
+        [ThreatScoreMaximum:4999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-VOID-Medium-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) Zenith Trade Hub Mayday VOID Hard Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:5000]
+        [ThreatScoreMaximum:-1]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-VOID-Hard-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) The Crown Mayday VOID Hard Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:5000]
+        [ThreatScoreMaximum:-1]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-VOID-Hard-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) Zenith Trade Hub Mayday ECHO Easy Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:1999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-ECHO-Easy-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) The Crown Mayday ECHO Easy Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:1999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-ECHO-Easy-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) Zenith Trade Hub Mayday ECHO Medium Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:2000]
+        [ThreatScoreMaximum:4999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-ECHO-Medium-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) The Crown Mayday ECHO Medium Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:2000]
+        [ThreatScoreMaximum:4999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-ECHO-Medium-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) Zenith Trade Hub Mayday ECHO Hard Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:5000]
+        [ThreatScoreMaximum:-1]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-ECHO-Hard-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) The Crown Mayday ECHO Hard Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:5000]
+        [ThreatScoreMaximum:-1]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-ECHO-Hard-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) Zenith Trade Hub Mayday GIRR Easy Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:1999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-GIRR-Easy-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) The Crown Mayday GIRR Easy Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:1999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-GIRR-Easy-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) Zenith Trade Hub Mayday GIRR Medium Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:2000]
+        [ThreatScoreMaximum:4999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-GIRR-Medium-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) The Crown Mayday GIRR Medium Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:2000]
+        [ThreatScoreMaximum:4999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-GIRR-Medium-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) Zenith Trade Hub Mayday GIRR Hard Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:5000]
+        [ThreatScoreMaximum:-1]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-GIRR-Hard-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) The Crown Mayday GIRR Hard Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:5000]
+        [ThreatScoreMaximum:-1]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-GIRR-Hard-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) Zenith Trade Hub Mayday BASS Easy Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:1999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-BASS-Easy-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) The Crown Mayday BASS Easy Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:1000]
+        [ThreatScoreMaximum:1999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-BASS-Easy-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) Zenith Trade Hub Mayday BASS Medium Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:2000]
+        [ThreatScoreMaximum:4999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-BASS-Medium-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) The Crown Mayday BASS Medium Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:2000]
+        [ThreatScoreMaximum:4999]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-BASS-Medium-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) Zenith Trade Hub Mayday BASS Hard Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:5000]
+        [ThreatScoreMaximum:-1]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-BASS-Hard-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-PRTH) The Crown Mayday BASS Hard Expanded (OUTER;INNER)</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [SpaceRandomEncounter:true]
+        [FactionOwner:PRTH]
+        [ReplenishSystems:true]
+        [IgnoreShieldProviderMod:false]
+        [ForceStaticGrid:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [UseThreatLevelCheck:true]
+        [ThreatLevelCheckRange:10000]
+        [UseRemoteControlCodeRestrictions:true]
+        [RemoteControlCode:Cali-Mayday-Controller]
+        [RemoteControlCodeMinDistance:30000]
+        [ThreatScoreMinimum:5000]
+        [ThreatScoreMaximum:-1]
+        [AddDefenseShieldBlocks:true]
+        [ReplaceArmorBlocksWithModules:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Store Default,Small Cargo Container|PRTH Store Default]
+        [InitializeStoreBlocks:true]
+        [ContainerTypesForStoreOrders:ECHO Cargo Ship Default]
+        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Frequency>0.275</Frequency>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>25</Speed>
+          <Behaviour>BH-PRTH-Station-Mayday-BASS-Hard-Expanded</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>

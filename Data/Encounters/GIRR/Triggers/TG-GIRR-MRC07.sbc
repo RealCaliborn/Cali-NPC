@@ -2,6 +2,17 @@
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
 
+    <!--
+      MRC07 capital boss maintain-alive reinforcement system.
+      Three Launch->Check->Receive loops, each keeps exactly one escort alive
+      and respawns it indefinitely (MaxSpawns:-1) until MRC07 itself dies:
+        Breaker1 - (NPC-GIRR) Captured Cruiser  (aggressive shield-breaker)
+        Breaker2 - (NPC-GIRR) Modified Transport (aggressive shield-breaker)
+        Screen   - (NPC-GIRR) Class B Probe      (defensive anti-missile screen)
+      Modeled on the VOID ThunderKraken carrier Port/Starboard pattern with an
+      added third "Screen" loop.
+    -->
+
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
@@ -12,12 +23,23 @@
         [RivalAI TriggerGroup]
 
         [Triggers:TR-GIRR-MRC07-Engaging]
-        [Triggers:TR-GIRR-MRC07-Backup1]
-        [Triggers:TR-GIRR-MRC07-Backup2]
-        [Triggers:TR-GIRR-MRC07-Backup3]
+
+        [Triggers:TR-GIRR-MRC07-Launch-Breaker1]
+        [Triggers:TR-GIRR-MRC07-Launch-Breaker2]
+        [Triggers:TR-GIRR-MRC07-Launch-Screen]
+
+        [Triggers:TR-GIRR-MRC07-Check-Breaker1]
+        [Triggers:TR-GIRR-MRC07-Check-Breaker2]
+        [Triggers:TR-GIRR-MRC07-Check-Screen]
+
+        [Triggers:TR-GIRR-MRC07-Receive-Breaker1]
+        [Triggers:TR-GIRR-MRC07-Receive-Breaker2]
+        [Triggers:TR-GIRR-MRC07-Receive-Screen]
 
       </Description>
     </EntityComponent>
+
+    <!-- ================= ACTIVATE ================= -->
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
@@ -29,11 +51,11 @@
         [RivalAI Trigger]
 
         [UseTrigger:true]
-        [Type:BehaviorTriggerA]
-        [MinCooldownMs:120000]
-        [MaxCooldownMs:120001]
+        [Type:AcquiredTarget]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
         [StartsReady:true]
-        [MaxActions:-1]
+        [MaxActions:1]
         [Actions:AC-GIRR-MRC07-Engaging]
 
       </Description>
@@ -51,18 +73,21 @@
         [UseChatBroadcast:true]
         [ChatData:CH-GIRR-MRC07-Engaging]
 
-        [DisableTriggers:true]
-        [DisableTriggerNames:TR-GIRR-MRC07-Engaging]
-
         [ResetCooldownTimeOfTriggers:true]
-        [ResetTriggerCooldownNames:TR-GIRR-MRC07-Backup1]
-        [ResetTriggerCooldownNames:TR-GIRR-MRC07-Backup2]
-        [ResetTriggerCooldownNames:TR-GIRR-MRC07-Backup3]
+        [ResetTriggerCooldownNames:TR-GIRR-MRC07-Check-Breaker1]
+        [ResetTriggerCooldownNames:TR-GIRR-MRC07-Check-Breaker2]
+        [ResetTriggerCooldownNames:TR-GIRR-MRC07-Check-Screen]
 
         [EnableTriggers:true]
-        [EnableTriggerNames:TR-GIRR-MRC07-Backup1]
-        [EnableTriggerNames:TR-GIRR-MRC07-Backup2]
-        [EnableTriggerNames:TR-GIRR-MRC07-Backup3]
+        [EnableTriggerNames:TR-GIRR-MRC07-Launch-Breaker1]
+        [EnableTriggerNames:TR-GIRR-MRC07-Launch-Breaker2]
+        [EnableTriggerNames:TR-GIRR-MRC07-Launch-Screen]
+        [EnableTriggerNames:TR-GIRR-MRC07-Check-Breaker1]
+        [EnableTriggerNames:TR-GIRR-MRC07-Check-Breaker2]
+        [EnableTriggerNames:TR-GIRR-MRC07-Check-Screen]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-GIRR-MRC07-Engaging]
 
       </Description>
     </EntityComponent>
@@ -101,136 +126,11 @@
       </Description>
     </EntityComponent>
 
+    <!-- Shared boss relaunch chat: fired every time a loop deploys a replacement escort -->
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
         <TypeId>Inventory</TypeId>
-        <SubtypeId>TR-GIRR-MRC07-Backup1</SubtypeId>
-      </Id>
-      <Description>
-
-        [RivalAI Trigger]
-
-        [UseTrigger:true]
-        [Type:Timer]
-        [MinCooldownMs:120000]
-        [MaxCooldownMs:120001]
-        [StartsReady:false]
-        [MaxActions:-1]
-        [Actions:AC-GIRR-MRC07-Backup1]
-
-      </Description>
-
-    </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>AC-GIRR-MRC07-Backup1</SubtypeId>
-      </Id>
-      <Description>
-
-        [RivalAI Action]
-
-        [DisableTriggers:true]
-        [DisableTriggerNames:TR-GIRR-MRC07-Backup1]
-
-        [UseChatBroadcast:true]
-        [ChatData:CH-GIRR-MRC07-Backup]
-
-        [SpawnEncounter:true]
-        [Spawner:SP-GIRR-MRC07-Backup]
-
-      </Description>
-    </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>TR-GIRR-MRC07-Backup2</SubtypeId>
-      </Id>
-      <Description>
-
-        [RivalAI Trigger]
-
-        [UseTrigger:true]
-        [Type:Timer]
-        [MinCooldownMs:360000]
-        [MaxCooldownMs:360001]
-        [StartsReady:false]
-        [MaxActions:-1]
-        [Actions:AC-GIRR-MRC07-Backup2]
-
-      </Description>
-
-    </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>AC-GIRR-MRC07-Backup2</SubtypeId>
-      </Id>
-      <Description>
-
-        [RivalAI Action]
-
-        [DisableTriggers:true]
-        [DisableTriggerNames:TR-GIRR-MRC07-Backup2]
-
-        [UseChatBroadcast:true]
-        [ChatData:CH-GIRR-MRC07-Backup]
-
-        [SpawnEncounter:true]
-        [Spawner:SP-GIRR-MRC07-Backup]
-
-      </Description>
-    </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>TR-GIRR-MRC07-Backup3</SubtypeId>
-      </Id>
-      <Description>
-
-        [RivalAI Trigger]
-
-        [UseTrigger:true]
-        [Type:Timer]
-        [MinCooldownMs:600000]
-        [MaxCooldownMs:600001]
-        [StartsReady:false]
-        [MaxActions:-1]
-        [Actions:AC-GIRR-MRC07-Backup3]
-
-      </Description>
-
-    </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>AC-GIRR-MRC07-Backup3</SubtypeId>
-      </Id>
-      <Description>
-
-        [RivalAI Action]
-
-        [DisableTriggers:true]
-        [DisableTriggerNames:TR-GIRR-MRC07-Backup3]
-
-        [UseChatBroadcast:true]
-        [ChatData:CH-GIRR-MRC07-Backup]
-
-        [SpawnEncounter:true]
-        [Spawner:SP-GIRR-MRC07-Backup]
-
-      </Description>
-    </EntityComponent>
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>CH-GIRR-MRC07-Backup</SubtypeId>
+        <SubtypeId>CH-GIRR-MRC07-Relaunch</SubtypeId>
       </Id>
       <Description>
 
@@ -238,50 +138,451 @@
 
         [UseChat:true]
         [StartsReady:true]
-        [Author:GIRR]
+        [Author:MRC07]
         [Color:Red]
 
-        [Chance:80]
-        [MaxChats:1]
+        [Chance:100]
+        [MaxChats:-1]
         [BroadcastRandomly:true]
 
         [IgnoreAntennaRequirement:true]
         [IgnoredAntennaRangeOverride:10000]
 
-        [ChatMessages:Friendlies inbound.]
+        [ChatMessages:Escort down. Deploying another.]
         [BroadcastChatType:Chat]
-        [ChatMessages:Taking up defensive position.]
+        [ChatMessages:Lost a wingman. Scrambling a replacement.]
         [BroadcastChatType:Chat]
-        [ChatMessages:We're here!]
+        [ChatMessages:Reserves, fill the gap. Now.]
         [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- ================= BREAKER1 LOOP (Captured Cruiser) ================= -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-MRC07-Launch-Breaker1</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:20000]
+        [MaxCooldownMs:20001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-MRC07-Launch-Breaker1]
 
       </Description>
     </EntityComponent>
 
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
       <Id>
-          <TypeId>Inventory</TypeId>
-          <SubtypeId>SP-GIRR-MRC07-Backup</SubtypeId>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-MRC07-Launch-Breaker1</SubtypeId>
       </Id>
       <Description>
 
-      [RivalAI Spawn]
+        [RivalAI Action]
+        [SpawnEncounter:true]
+        [Spawner:SP-GIRR-MRC07-Launch-Breaker1]
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-MRC07-Relaunch]
 
-      [UseSpawn:true]
+      </Description>
+    </EntityComponent>
 
-      [SpawningType:CustomSpawn]
-      [StartsReady:true]
-      [SpawnMinCooldown:0]
-      [MaxSpawns:-1]
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-GIRR-MRC07-Launch-Breaker1</SubtypeId>
+      </Id>
+      <Description>
 
-      [SpawnGroups:(NPC-GIRR) CruiserSpawn Transport]
-      [SpawnGroups:(NPC-GIRR) CruiserSpawn Miner]
-      [SpawnGroups:(NPC-GIRR) CruiserSpawn Merchant]
+        [RivalAI Spawn]
+        [UseSpawn:true]
+        [SpawningType:CustomSpawn]
+        [StartsReady:true]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
+        [MaxSpawns:-1]
+        [SpawnGroups:(NPC-GIRR) MRC07 Breaker1 Wing]
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:1500]
+        [MaxDistance:2500]
+        [IgnoreSafetyChecks:false]
 
-      [UseRelativeSpawnPosition:false]
-      [MinDistance:1500]
-      [MaxDistance:3000]
-      [IgnoreSafetyChecks:false]
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-MRC07-Check-Breaker1</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:8000]
+        [MaxCooldownMs:8001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-MRC07-Check-Breaker1]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-MRC07-Check-Breaker1</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-GIRR-MRC07-Check-Breaker1]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CO-GIRR-MRC07-Check-Breaker1</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+        [CommandCode:CO-GIRR-MRC07-Check-Breaker1]
+        [MatchSenderReceiverOwners:true]
+        [IgnoreAntennaRequirement:true]
+        [Radius:10000]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-MRC07-Receive-Breaker1</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-GIRR-MRC07-Alive-Breaker1]
+        [Actions:AC-GIRR-MRC07-Receive-Breaker1]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-MRC07-Receive-Breaker1</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-GIRR-MRC07-Launch-Breaker1]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- ================= BREAKER2 LOOP (Modified Transport) ================= -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-MRC07-Launch-Breaker2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:20000]
+        [MaxCooldownMs:20001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-MRC07-Launch-Breaker2]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-MRC07-Launch-Breaker2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [SpawnEncounter:true]
+        [Spawner:SP-GIRR-MRC07-Launch-Breaker2]
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-MRC07-Relaunch]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-GIRR-MRC07-Launch-Breaker2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+        [UseSpawn:true]
+        [SpawningType:CustomSpawn]
+        [StartsReady:true]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
+        [MaxSpawns:-1]
+        [SpawnGroups:(NPC-GIRR) MRC07 Breaker2 Wing]
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:1500]
+        [MaxDistance:2500]
+        [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-MRC07-Check-Breaker2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:8000]
+        [MaxCooldownMs:8001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-MRC07-Check-Breaker2]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-MRC07-Check-Breaker2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-GIRR-MRC07-Check-Breaker2]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CO-GIRR-MRC07-Check-Breaker2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+        [CommandCode:CO-GIRR-MRC07-Check-Breaker2]
+        [MatchSenderReceiverOwners:true]
+        [IgnoreAntennaRequirement:true]
+        [Radius:10000]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-MRC07-Receive-Breaker2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-GIRR-MRC07-Alive-Breaker2]
+        [Actions:AC-GIRR-MRC07-Receive-Breaker2]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-MRC07-Receive-Breaker2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-GIRR-MRC07-Launch-Breaker2]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- ================= SCREEN LOOP (Class B Probe) ================= -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-MRC07-Launch-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:20000]
+        [MaxCooldownMs:20001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-MRC07-Launch-Screen]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-MRC07-Launch-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [SpawnEncounter:true]
+        [Spawner:SP-GIRR-MRC07-Launch-Screen]
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-MRC07-Relaunch]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-GIRR-MRC07-Launch-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+        [UseSpawn:true]
+        [SpawningType:CustomSpawn]
+        [StartsReady:true]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
+        [MaxSpawns:-1]
+        [SpawnGroups:(NPC-GIRR) MRC07 Screen Wing]
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:800]
+        [MaxDistance:1500]
+        [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-MRC07-Check-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:8000]
+        [MaxCooldownMs:8001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-MRC07-Check-Screen]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-MRC07-Check-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-GIRR-MRC07-Check-Screen]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CO-GIRR-MRC07-Check-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+        [CommandCode:CO-GIRR-MRC07-Check-Screen]
+        [MatchSenderReceiverOwners:true]
+        [IgnoreAntennaRequirement:true]
+        [Radius:10000]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-MRC07-Receive-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-GIRR-MRC07-Alive-Screen]
+        [Actions:AC-GIRR-MRC07-Receive-Screen]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-MRC07-Receive-Screen</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-GIRR-MRC07-Launch-Screen]
 
       </Description>
     </EntityComponent>

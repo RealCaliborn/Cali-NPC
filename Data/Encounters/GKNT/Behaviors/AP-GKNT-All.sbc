@@ -39,6 +39,7 @@
         [StrafeMinimumTargetDistance:150]
         [StrafeSpeedCutOff:260]
         [StrafeDistanceCutOff:100]
+        [RotationMultiplier:1.25]
 
       </Description>
     </EntityComponent>

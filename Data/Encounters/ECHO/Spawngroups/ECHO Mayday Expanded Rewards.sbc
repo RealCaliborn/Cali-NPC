@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) ECHO Mayday Medium Expanded Reward</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:Nobody]
+        [ReplenishSystems:false]
+        [ClearGridInventories:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Reward Container|ECHO Medium Expanded Reward]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-All) SI Loot Pod">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-Common-None</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-ECHO) ECHO Mayday Hard Expanded Reward</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [IgnoreCleanupRules:true]
+        [RivalAiSpawn:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [FactionOwner:Nobody]
+        [ReplenishSystems:false]
+        [ClearGridInventories:true]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Large Reward Container|ECHO Hard Expanded Reward]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-All) SI Loot Pod">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-Common-None</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>

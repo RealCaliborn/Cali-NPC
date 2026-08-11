@@ -10,32 +10,27 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:HorseFighter]
         [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
-
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:62]
+        [HorseFighterTimeApproaching:34]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
         [UseStaticGuns:true]
         [MaxStaticWeaponRange:-1]
         [UseTurrets:true]
         [UseBarrageFire:false]
         [RemoteControlCode:SI-Roaches-Boss-Any]
-
         [UseAmmoReplenish:true]
-
         [TriggerGroups:TG-Common-PvE-Default]
         [Triggers:TR-Common-FireFixed]
-
         [Triggers:TR-VOID-LeviathanBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-VOID-Leviathan-Carrier]
 
       </Description>
     </EntityComponent>

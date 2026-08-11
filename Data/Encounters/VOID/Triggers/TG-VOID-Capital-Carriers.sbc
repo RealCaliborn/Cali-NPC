@@ -1,0 +1,859 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-VOID-ThunderKraken-Carrier</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+        [Triggers:TR-VOID-ThunderKraken-Carrier-Activate]
+        [Triggers:TR-VOID-ThunderKraken-Carrier-Launch-Port]
+        [Triggers:TR-VOID-ThunderKraken-Carrier-Launch-Starboard]
+        [Triggers:TR-VOID-ThunderKraken-Carrier-Check-Port]
+        [Triggers:TR-VOID-ThunderKraken-Carrier-Check-Starboard]
+        [Triggers:TR-VOID-ThunderKraken-Carrier-Receive-Port]
+        [Triggers:TR-VOID-ThunderKraken-Carrier-Receive-Starboard]
+        [Triggers:TR-VOID-ThunderKraken-Carrier-ArmorBreach]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-ThunderKraken-Carrier-Activate</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:3000]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-VOID-ThunderKraken-Carrier-Activate]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-ThunderKraken-Carrier-Activate</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-VOID-ThunderKraken-Carrier-Check-Port]
+        [ResetTriggerCooldownNames:TR-VOID-ThunderKraken-Carrier-Check-Starboard]
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-VOID-ThunderKraken-Carrier-Launch-Port]
+        [EnableTriggerNames:TR-VOID-ThunderKraken-Carrier-Launch-Starboard]
+        [EnableTriggerNames:TR-VOID-ThunderKraken-Carrier-Check-Port]
+        [EnableTriggerNames:TR-VOID-ThunderKraken-Carrier-Check-Starboard]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-Activate]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-ThunderKraken-Carrier-Launch-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:20000]
+        [MaxCooldownMs:20001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-VOID-ThunderKraken-Carrier-Launch-Port]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-ThunderKraken-Carrier-Launch-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [SpawnEncounter:true]
+        [Spawner:SP-VOID-ThunderKraken-Carrier-Launch-Port]
+        [UseChatBroadcast:true]
+        [ChatData:CH-VOID-ThunderKraken-Carrier-Launch]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-VOID-ThunderKraken-Carrier-Launch-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+        [UseSpawn:true]
+        [SpawningType:CustomSpawn]
+        [StartsReady:true]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
+        [MaxSpawns:6]
+        [SpawnGroups:(NPC-VOID) ThunderKraken Carrier Port Wing]
+        [UseRelativeSpawnPosition:true]
+        [RelativeSpawnOffset:{X:-25 Y:20 Z:20}]
+        [RelativeSpawnVelocity:{X:0 Y:45 Z:0}]
+        [IgnoreSafetyChecks:true]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-ThunderKraken-Carrier-Check-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:8000]
+        [MaxCooldownMs:8001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-VOID-ThunderKraken-Carrier-Check-Port]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-ThunderKraken-Carrier-Check-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-VOID-ThunderKraken-Carrier-Check-Port]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CO-VOID-ThunderKraken-Carrier-Check-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+        [CommandCode:CO-VOID-ThunderKraken-Carrier-Check-Port]
+        [MatchSenderReceiverOwners:true]
+        [IgnoreAntennaRequirement:true]
+        [Radius:10000]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-ThunderKraken-Carrier-Receive-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-VOID-ThunderKraken-Carrier-Alive-Port]
+        [Actions:AC-VOID-ThunderKraken-Carrier-Receive-Port]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-ThunderKraken-Carrier-Receive-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-VOID-ThunderKraken-Carrier-Launch-Port]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-ThunderKraken-Carrier-Launch-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:20000]
+        [MaxCooldownMs:20001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-VOID-ThunderKraken-Carrier-Launch-Starboard]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-ThunderKraken-Carrier-Launch-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [SpawnEncounter:true]
+        [Spawner:SP-VOID-ThunderKraken-Carrier-Launch-Starboard]
+        [UseChatBroadcast:true]
+        [ChatData:CH-VOID-ThunderKraken-Carrier-Launch]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-VOID-ThunderKraken-Carrier-Launch-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+        [UseSpawn:true]
+        [SpawningType:CustomSpawn]
+        [StartsReady:true]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
+        [MaxSpawns:6]
+        [SpawnGroups:(NPC-VOID) ThunderKraken Carrier Starboard Wing]
+        [UseRelativeSpawnPosition:true]
+        [RelativeSpawnOffset:{X:25 Y:20 Z:20}]
+        [RelativeSpawnVelocity:{X:0 Y:45 Z:0}]
+        [IgnoreSafetyChecks:true]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-ThunderKraken-Carrier-Check-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:8000]
+        [MaxCooldownMs:8001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-VOID-ThunderKraken-Carrier-Check-Starboard]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-ThunderKraken-Carrier-Check-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-VOID-ThunderKraken-Carrier-Check-Starboard]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CO-VOID-ThunderKraken-Carrier-Check-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+        [CommandCode:CO-VOID-ThunderKraken-Carrier-Check-Starboard]
+        [MatchSenderReceiverOwners:true]
+        [IgnoreAntennaRequirement:true]
+        [Radius:10000]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-ThunderKraken-Carrier-Receive-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-VOID-ThunderKraken-Carrier-Alive-Starboard]
+        [Actions:AC-VOID-ThunderKraken-Carrier-Receive-Starboard]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-ThunderKraken-Carrier-Receive-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-VOID-ThunderKraken-Carrier-Launch-Starboard]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-ThunderKraken-Carrier-ArmorBreach</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Deformation]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-VOID-ThunderKraken-Carrier-ArmorBreach]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-ThunderKraken-Carrier-ArmorBreach</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [SpawnEncounter:true]
+        [Spawner:SP-VOID-ThunderKraken-Carrier-ArmorBreach]
+        [UseChatBroadcast:true]
+        [ChatData:CH-VOID-ThunderKraken-Carrier-ArmorBreach]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-VOID-ThunderKraken-Carrier-ArmorBreach]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-VOID-ThunderKraken-Carrier-ArmorBreach</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+        [UseSpawn:true]
+        [SpawningType:CustomSpawn]
+        [StartsReady:true]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
+        [MaxSpawns:1]
+        [SpawnGroups:(NPC-VOID) ThunderKraken ArmorBreach 2xLampreyB]
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:1500]
+        [MaxDistance:2500]
+        [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-VOID-ThunderKraken-Carrier-Launch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:ThunderKraken]
+        [Color:Red]
+        [Chance:100]
+        [MaxChats:-1]
+        [BroadcastRandomly:false]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:StingBro defender wing launched.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-VOID-ThunderKraken-Carrier-ArmorBreach</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:ThunderKraken]
+        [Color:Red]
+        [Chance:100]
+        [MaxChats:1]
+        [BroadcastRandomly:false]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Armor breach detected. 2 Lamprey B reinforcements called.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-VOID-Leviathan-Carrier</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+        [Triggers:TR-VOID-Leviathan-Carrier-Activate]
+        [Triggers:TR-VOID-Leviathan-Carrier-Launch-Port]
+        [Triggers:TR-VOID-Leviathan-Carrier-Launch-Starboard]
+        [Triggers:TR-VOID-Leviathan-Carrier-Check-Port]
+        [Triggers:TR-VOID-Leviathan-Carrier-Check-Starboard]
+        [Triggers:TR-VOID-Leviathan-Carrier-Receive-Port]
+        [Triggers:TR-VOID-Leviathan-Carrier-Receive-Starboard]
+        [Triggers:TR-VOID-Leviathan-Carrier-ArmorBreach]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Leviathan-Carrier-Activate</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:3000]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-VOID-Leviathan-Carrier-Activate]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Leviathan-Carrier-Activate</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-VOID-Leviathan-Carrier-Check-Port]
+        [ResetTriggerCooldownNames:TR-VOID-Leviathan-Carrier-Check-Starboard]
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-VOID-Leviathan-Carrier-Launch-Port]
+        [EnableTriggerNames:TR-VOID-Leviathan-Carrier-Launch-Starboard]
+        [EnableTriggerNames:TR-VOID-Leviathan-Carrier-Check-Port]
+        [EnableTriggerNames:TR-VOID-Leviathan-Carrier-Check-Starboard]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-Activate]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Leviathan-Carrier-Launch-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:18000]
+        [MaxCooldownMs:18001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-VOID-Leviathan-Carrier-Launch-Port]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Leviathan-Carrier-Launch-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [SpawnEncounter:true]
+        [Spawner:SP-VOID-Leviathan-Carrier-Launch-Port]
+        [UseChatBroadcast:true]
+        [ChatData:CH-VOID-Leviathan-Carrier-Launch]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-VOID-Leviathan-Carrier-Launch-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+        [UseSpawn:true]
+        [SpawningType:CustomSpawn]
+        [StartsReady:true]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
+        [MaxSpawns:4]
+        [SpawnGroups:(NPC-VOID) Leviathan Carrier Port Wing]
+        [UseRelativeSpawnPosition:true]
+        [RelativeSpawnOffset:{X:-60 Y:25 Z:35}]
+        [RelativeSpawnVelocity:{X:0 Y:45 Z:0}]
+        [IgnoreSafetyChecks:true]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Leviathan-Carrier-Check-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:5000]
+        [MaxCooldownMs:5001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-VOID-Leviathan-Carrier-Check-Port]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Leviathan-Carrier-Check-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-VOID-Leviathan-Carrier-Check-Port]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CO-VOID-Leviathan-Carrier-Check-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+        [CommandCode:CO-VOID-Leviathan-Carrier-Check-Port]
+        [MatchSenderReceiverOwners:true]
+        [IgnoreAntennaRequirement:true]
+        [Radius:10000]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Leviathan-Carrier-Receive-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-VOID-Leviathan-Carrier-Alive-Port]
+        [Actions:AC-VOID-Leviathan-Carrier-Receive-Port]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Leviathan-Carrier-Receive-Port</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-VOID-Leviathan-Carrier-Launch-Port]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Leviathan-Carrier-Launch-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:18000]
+        [MaxCooldownMs:18001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-VOID-Leviathan-Carrier-Launch-Starboard]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Leviathan-Carrier-Launch-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [SpawnEncounter:true]
+        [Spawner:SP-VOID-Leviathan-Carrier-Launch-Starboard]
+        [UseChatBroadcast:true]
+        [ChatData:CH-VOID-Leviathan-Carrier-Launch]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-VOID-Leviathan-Carrier-Launch-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+        [UseSpawn:true]
+        [SpawningType:CustomSpawn]
+        [StartsReady:true]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
+        [MaxSpawns:4]
+        [SpawnGroups:(NPC-VOID) Leviathan Carrier Starboard Wing]
+        [UseRelativeSpawnPosition:true]
+        [RelativeSpawnOffset:{X:60 Y:25 Z:35}]
+        [RelativeSpawnVelocity:{X:0 Y:45 Z:0}]
+        [IgnoreSafetyChecks:true]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Leviathan-Carrier-Check-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:5000]
+        [MaxCooldownMs:5001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-VOID-Leviathan-Carrier-Check-Starboard]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Leviathan-Carrier-Check-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-VOID-Leviathan-Carrier-Check-Starboard]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CO-VOID-Leviathan-Carrier-Check-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+        [CommandCode:CO-VOID-Leviathan-Carrier-Check-Starboard]
+        [MatchSenderReceiverOwners:true]
+        [IgnoreAntennaRequirement:true]
+        [Radius:10000]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Leviathan-Carrier-Receive-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-VOID-Leviathan-Carrier-Alive-Starboard]
+        [Actions:AC-VOID-Leviathan-Carrier-Receive-Starboard]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Leviathan-Carrier-Receive-Starboard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-VOID-Leviathan-Carrier-Launch-Starboard]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Leviathan-Carrier-ArmorBreach</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Deformation]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-VOID-Leviathan-Carrier-ArmorBreach]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Leviathan-Carrier-ArmorBreach</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [SpawnEncounter:true]
+        [Spawner:SP-VOID-Leviathan-Carrier-ArmorBreach]
+        [UseChatBroadcast:true]
+        [ChatData:CH-VOID-Leviathan-Carrier-ArmorBreach]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-VOID-Leviathan-Carrier-ArmorBreach]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-VOID-Leviathan-Carrier-ArmorBreach</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+        [UseSpawn:true]
+        [SpawningType:CustomSpawn]
+        [StartsReady:true]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
+        [MaxSpawns:1]
+        [SpawnGroups:(NPC-VOID) Leviathan ArmorBreach 1xMahi2xLampreyB]
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:1500]
+        [MaxDistance:2500]
+        [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-VOID-Leviathan-Carrier-Launch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:Leviathan]
+        [Color:Red]
+        [Chance:100]
+        [MaxChats:-1]
+        [BroadcastRandomly:false]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Stingray and Chordata defender wing launched.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-VOID-Leviathan-Carrier-ArmorBreach</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:Leviathan]
+        [Color:Red]
+        [Chance:100]
+        [MaxChats:1]
+        [BroadcastRandomly:false]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Armor breach detected. 1 Mahi and 2 Lamprey B reinforcements called.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>

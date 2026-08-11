@@ -26,10 +26,11 @@
                 [ThreatLevelCheckRange:10000]
                 [ThreatScoreMinimum:10000]
                 [ThreatScoreMaximum:-1]
+                [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>0.5</Frequency>
+            <Frequency>0.2</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-All) MAYDAY RivalAI Container">
                     <Position>
@@ -67,10 +68,11 @@
                 [ThreatLevelCheckRange:10000]
                 [ThreatScoreMinimum:10000]
                 [ThreatScoreMaximum:-1]
+                [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>0.5</Frequency>
+            <Frequency>0.2</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-All) MAYDAY RivalAI Container">
                     <Position>
@@ -101,10 +103,11 @@
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
                 [RotateFirstCockpitToForward:true]
+                [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>1.1</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                     <Position>
@@ -113,7 +116,7 @@
                         <Z>0.0</Z>
                     </Position>
                     <Speed>0</Speed>
-                    <Behaviour>BH-GKNT-Protected-Patrol</Behaviour>
+                    <Behaviour>BH-GKNT-Protected-Patrol-Saber</Behaviour>
                 </Prefab>
             </Prefabs>
         </SpawnGroup>
@@ -136,10 +139,11 @@
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
                 [RotateFirstCockpitToForward:true]
+                [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>1.1</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                     <Position>
@@ -148,7 +152,7 @@
                         <Z>0.0</Z>
                     </Position>
                     <Speed>0</Speed>
-                    <Behaviour>BH-GKNT-Protected-Patrol</Behaviour>
+                    <Behaviour>BH-GKNT-Protected-Patrol-Saber</Behaviour>
                 </Prefab>
                 <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
                     <Position>
@@ -157,7 +161,7 @@
                         <Z>0.0</Z>
                     </Position>
                     <Speed>0</Speed>
-                    <Behaviour>BH-GKNT-Protected-Patrol</Behaviour>
+                    <Behaviour>BH-GKNT-Protected-Patrol-Swallow</Behaviour>
                 </Prefab>
             </Prefabs>
         </SpawnGroup>
@@ -181,10 +185,11 @@
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
                 [RotateFirstCockpitToForward:true]
+                [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>1.1</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                     <Position>
@@ -193,7 +198,7 @@
                         <Z>0.0</Z>
                     </Position>
                     <Speed>0</Speed>
-                    <Behaviour>BH-GKNT-Protected-Patrol</Behaviour>
+                    <Behaviour>BH-GKNT-Protected-Patrol-Saber</Behaviour>
                 </Prefab>
                 <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                     <Position>
@@ -202,7 +207,7 @@
                         <Z>0.0</Z>
                     </Position>
                     <Speed>0</Speed>
-                    <Behaviour>BH-GKNT-Protected-Patrol</Behaviour>
+                    <Behaviour>BH-GKNT-Protected-Patrol-Saber</Behaviour>
                 </Prefab>
                 <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
                     <Position>
@@ -211,7 +216,7 @@
                         <Z>0.0</Z>
                     </Position>
                     <Speed>0</Speed>
-                    <Behaviour>BH-GKNT-Protected-Patrol</Behaviour>
+                    <Behaviour>BH-GKNT-Protected-Patrol-Swallow</Behaviour>
                 </Prefab>
             </Prefabs>
         </SpawnGroup>
@@ -235,10 +240,11 @@
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
                 [RotateFirstCockpitToForward:true]
+                [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>1.1</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                     <Position>
@@ -247,7 +253,7 @@
                         <Z>0.0</Z>
                     </Position>
                     <Speed>0</Speed>
-                    <Behaviour>BH-GKNT-Protected-Patrol</Behaviour>
+                    <Behaviour>BH-GKNT-Protected-Patrol-Saber</Behaviour>
                 </Prefab>
                 <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
                     <Position>
@@ -256,7 +262,7 @@
                         <Z>0.0</Z>
                     </Position>
                     <Speed>0</Speed>
-                    <Behaviour>BH-GKNT-Protected-Patrol</Behaviour>
+                    <Behaviour>BH-GKNT-Protected-Patrol-Swallow</Behaviour>
                 </Prefab>
                 <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
                     <Position>
@@ -265,7 +271,7 @@
                         <Z>0.0</Z>
                     </Position>
                     <Speed>0</Speed>
-                    <Behaviour>BH-GKNT-Protected-Patrol</Behaviour>
+                    <Behaviour>BH-GKNT-Protected-Patrol-Swallow</Behaviour>
                 </Prefab>
             </Prefabs>
         </SpawnGroup>
@@ -289,10 +295,11 @@
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
                 [RotateFirstCockpitToForward:true]
+                [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>1.1</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
                     <Position>
@@ -325,10 +332,11 @@
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
                 [RotateFirstCockpitToForward:true]
+                [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>1.1</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                     <Position>
@@ -373,10 +381,11 @@
                 [UseRemoteControlCodeRestrictions:true]
                 [RemoteControlCode:SI-Roaches-Boss-GKNT]
                 [RemoteControlCodeMinDistance:20000]
+                [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>0.3</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GKNT) The Sword of Justice">
                     <Position>

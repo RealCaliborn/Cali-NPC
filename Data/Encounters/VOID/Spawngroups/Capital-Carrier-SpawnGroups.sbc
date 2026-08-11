@@ -1,0 +1,218 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Definitions xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <SpawnGroups>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) ThunderKraken Carrier Port Wing</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [RivalAiSpawn:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) StingBro">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-ThunderKraken-StingBro-Port</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) Leviathan Carrier Port Wing</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [RivalAiSpawn:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) Stingray">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Leviathan-Stingray-Port</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Chordata">
+          <Position>
+            <X>150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Leviathan-Chordata-Port</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) ThunderKraken Carrier Starboard Wing</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [RivalAiSpawn:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) StingBro">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-ThunderKraken-StingBro-Starboard</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) Leviathan Carrier Starboard Wing</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [RivalAiSpawn:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) Stingray">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Leviathan-Stingray-Starboard</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Chordata">
+          <Position>
+            <X>150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Leviathan-Chordata-Starboard</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) ThunderKraken ArmorBreach 2xLampreyB</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [RivalAiSpawn:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) Lamprey B">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Lamprey-B</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Lamprey B">
+          <Position>
+            <X>150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Lamprey-B</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+    <SpawnGroup>
+      <Id>
+        <TypeId>SpawnGroupDefinition</TypeId>
+        <SubtypeId>(NPC-VOID) Leviathan ArmorBreach 1xMahi2xLampreyB</SubtypeId>
+      </Id>
+      <Description>
+        [Modular Encounters SpawnGroup]
+        [RivalAiSpawn:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+      <IsPirate>true</IsPirate>
+      <Prefabs>
+        <Prefab SubtypeId="(NPC-VOID) Mahi">
+          <Position>
+            <X>0.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Mahi</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Lamprey B">
+          <Position>
+            <X>150.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Lamprey-B</Behaviour>
+        </Prefab>
+        <Prefab SubtypeId="(NPC-VOID) Lamprey B">
+          <Position>
+            <X>300.0</X>
+            <Y>0.0</Y>
+            <Z>0.0</Z>
+          </Position>
+          <Speed>400</Speed>
+          <Behaviour>BH-VOID-Lamprey-B</Behaviour>
+        </Prefab>
+      </Prefabs>
+    </SpawnGroup>
+  </SpawnGroups>
+</Definitions>

@@ -33,7 +33,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>0.8</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-VOID) Stingray">
                     <Position>
@@ -79,7 +79,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>1.1</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-VOID) Hunter">
                     <Position>
@@ -124,7 +124,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.0</Frequency>
+            <Frequency>1.1</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-VOID) Urchin B">
                     <Position>
@@ -169,7 +169,7 @@
 
             </Description>
             <IsPirate>true</IsPirate> <!--Do not edit-->
-            <Frequency>1.0</Frequency>
+            <Frequency>1.1</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-VOID) Stingbaby">
                     <Position>
@@ -214,7 +214,7 @@
 
             </Description>
             <IsPirate>true</IsPirate> <!--Do not edit-->
-            <Frequency>1.0</Frequency>
+            <Frequency>1.1</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-VOID) StingBro">
                     <Position>

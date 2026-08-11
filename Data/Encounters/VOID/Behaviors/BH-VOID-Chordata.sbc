@@ -10,28 +10,22 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:HorseFighter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
-
+        [HorseFighterTimeEngaging:43]
+        [HorseFighterTimeApproaching:23]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
         [UseStaticGuns:true]
         [MaxStaticWeaponRange:-1]
         [UseTurrets:true]
         [UseBarrageFire:false]
-
         [UseAmmoReplenish:true]
-
         [TriggerGroups:TG-Common-PvE-Default]
         [Triggers:TR-Common-FireFixed]
-
         [Triggers:TR-VOID-ScreamBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]
@@ -47,28 +41,22 @@
       <Description>
 
         [RivalAI Behavior]
-
-        [BehaviorName:Hunter]
-
+        [BehaviorName:HorseFighter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
-
+        [HorseFighterTimeEngaging:43]
+        [HorseFighterTimeApproaching:23]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
-
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-
         [UseStaticGuns:true]
         [MaxStaticWeaponRange:-1]
         [UseTurrets:true]
         [UseBarrageFire:false]
-
         [UseAmmoReplenish:true]
-
         [TriggerGroups:TG-Common-PvE-Default]
         [Triggers:TR-Common-FireFixed]
-
         [Triggers:TR-VOID-Spawn-1xStingbaby]
         [Triggers:TR-VOID-ScreamBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]

@@ -33,6 +33,42 @@
         <Wave Type="D3">
           <Start>Audio\void-screams-med-05.xwm</Start>
         </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\void-scream-01.xwm</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\void-scream-02.xwm</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\void-scream-03.xwm</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\void-scream-04.xwm</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\void-scream-05.xwm</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\void-scream-06.xwm</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\void-scream-07.xwm</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\void-scream-08.xwm</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\void-scream-09.xwm</Start>
+        </Wave>
         
       </Waves>
     </Sound>
@@ -51,6 +87,22 @@
 
         <Wave Type="D3">
           <Start>Audio\voidvoice.wav</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\void-screams-long-01.xwm</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\void-screams-long-02.xwm</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\void-screams-long-03.xwm</Start>
+        </Wave>
+
+        <Wave Type="D3">
+          <Start>Audio\void-screams-long-04.xwm</Start>
         </Wave>
         
       </Waves>
