@@ -366,5 +366,55 @@
         </SpawnGroup>
         <!-- (NPC-GIRR) MRC07 Screen Wing -->
 
+        <!-- =========================================================
+             Standalone GIRR reinforcement: Modified Battleship. Called
+             ONCE (MaxSpawns:1 on SP-GIRR-Battleship-Launch) by a heavy
+             GIRR Cruiser via TG-GIRR-Battleship-Call. Not respawned on death. -->
+
+        <!-- (NPC-GIRR) Battleship Wing -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-GIRR) Battleship Wing</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+            [RivalAiSpawn:true]
+
+            [FactionOwner:GIRR]
+            [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-GIRR) Modified Battleship">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-GIRR-Battleship</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-GIRR) Battleship Wing -->
+
     </SpawnGroups>
 </Definitions>

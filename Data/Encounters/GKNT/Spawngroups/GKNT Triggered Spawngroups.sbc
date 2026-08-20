@@ -19,6 +19,7 @@
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -65,6 +66,7 @@
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -102,6 +104,7 @@
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -148,6 +151,7 @@
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -164,6 +168,15 @@
                 </Position>
                 <Speed>400</Speed>
                 <Behaviour>BH-GKNT-Fighter-Default-Saber</Behaviour>
+            </Prefab>
+                    <Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat B">
+                <Position>
+                    <X>350.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>100</Speed>
+                <Behaviour>BH-GKNT-Gunboat-B</Behaviour>
             </Prefab>
         </Prefabs>
     </SpawnGroup>
@@ -185,6 +198,7 @@
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -211,6 +225,15 @@
                 <Speed>400</Speed>
                 <Behaviour>BH-GKNT-Fighter-Default-Saber</Behaviour>
             </Prefab>
+                    <Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat A">
+                <Position>
+                    <X>350.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>100</Speed>
+                <Behaviour>BH-GKNT-Gunboat-A</Behaviour>
+            </Prefab>
         </Prefabs>
     </SpawnGroup>
 
@@ -232,6 +255,7 @@
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -270,6 +294,7 @@
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -296,6 +321,15 @@
                 <Speed>400</Speed>
                 <Behaviour>BH-GKNT-Fighter-Scrambled-Swallow</Behaviour>
             </Prefab>
+                    <Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat C">
+                <Position>
+                    <X>350.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>100</Speed>
+                <Behaviour>BH-GKNT-Gunboat-C</Behaviour>
+            </Prefab>
         </Prefabs>
     </SpawnGroup>
 
@@ -317,6 +351,7 @@
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -333,6 +368,15 @@
                 </Position>
                 <Speed>400</Speed>
                 <Behaviour>BH-GKNT-Fighter-Scrambled-Saber</Behaviour>
+            </Prefab>
+                    <Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat A">
+                <Position>
+                    <X>350.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>100</Speed>
+                <Behaviour>BH-GKNT-Gunboat-A</Behaviour>
             </Prefab>
         </Prefabs>
     </SpawnGroup>
@@ -355,6 +399,7 @@
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -393,6 +438,7 @@
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -419,6 +465,15 @@
                 <Speed>400</Speed>
                 <Behaviour>BH-GKNT-Fighter-Default-Swallow</Behaviour>
             </Prefab>
+                    <Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat B">
+                <Position>
+                    <X>350.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>100</Speed>
+                <Behaviour>BH-GKNT-Gunboat-B</Behaviour>
+            </Prefab>
         </Prefabs>
     </SpawnGroup>
 
@@ -440,6 +495,7 @@
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -456,6 +512,15 @@
                 </Position>
                 <Speed>25</Speed>
                 <Behaviour>BH-GKNT-SwordOfJustice</Behaviour>
+            </Prefab>
+                    <Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat C">
+                <Position>
+                    <X>350.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>100</Speed>
+                <Behaviour>BH-GKNT-Gunboat-C</Behaviour>
             </Prefab>
         </Prefabs>
     </SpawnGroup>

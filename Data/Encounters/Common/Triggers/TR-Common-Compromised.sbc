@@ -15,6 +15,7 @@
 
         [UseTrigger:true]
         [Type:Compromised]
+        [Conditions:CD-Common-CompromisedGate]
         [StartsReady:true]
         [MaxActions:1]
         [Actions:AC-Common-Compromised-A]
@@ -68,6 +69,8 @@
 
         [StopAllRotation:true]
         [StopAllThrust:true]
+        [ChangeInertiaDampeners:true]
+        [InertiaDampenersEnable:true]
 
       </Description>
     </EntityComponent>

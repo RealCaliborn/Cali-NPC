@@ -26,7 +26,7 @@
                 [ThreatLevelCheckRange:10000]
                 [ThreatScoreMinimum:10000]
                 [ThreatScoreMaximum:-1]
-                [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+                [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
 
             </Description>
             <IsPirate>true</IsPirate>
@@ -68,7 +68,7 @@
                 [ThreatLevelCheckRange:10000]
                 [ThreatScoreMinimum:10000]
                 [ThreatScoreMaximum:-1]
-                [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+                [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
 
             </Description>
             <IsPirate>true</IsPirate>
@@ -103,7 +103,7 @@
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
                 [RotateFirstCockpitToForward:true]
-                [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+                [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
 
             </Description>
             <IsPirate>true</IsPirate>
@@ -139,7 +139,7 @@
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
                 [RotateFirstCockpitToForward:true]
-                [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+                [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
 
             </Description>
             <IsPirate>true</IsPirate>
@@ -185,7 +185,7 @@
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
                 [RotateFirstCockpitToForward:true]
-                [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+                [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
 
             </Description>
             <IsPirate>true</IsPirate>
@@ -240,7 +240,7 @@
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
                 [RotateFirstCockpitToForward:true]
-                [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+                [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
 
             </Description>
             <IsPirate>true</IsPirate>
@@ -295,7 +295,7 @@
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
                 [RotateFirstCockpitToForward:true]
-                [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+                [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
 
             </Description>
             <IsPirate>true</IsPirate>
@@ -332,7 +332,7 @@
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
                 [RotateFirstCockpitToForward:true]
-                [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+                [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
 
             </Description>
             <IsPirate>true</IsPirate>
@@ -381,7 +381,7 @@
                 [UseRemoteControlCodeRestrictions:true]
                 [RemoteControlCode:SI-Roaches-Boss-GKNT]
                 [RemoteControlCodeMinDistance:20000]
-                [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+                [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
 
             </Description>
             <IsPirate>true</IsPirate>

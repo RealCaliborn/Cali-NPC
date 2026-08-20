@@ -2312,7 +2312,7 @@
 			<IsPirate>true</IsPirate>
 			<Frequency>0.7</Frequency>
 			<Prefabs>
-				<Prefab SubtypeId="(NPC-VOID) Kraken">
+				<Prefab SubtypeId="(NPC-VOID) Thunder_Kraken">
 					<Position>
 						<X>0.0</X>
 						<Y>0.0</Y>
@@ -2779,5 +2779,281 @@
 		</SpawnGroup>
 		<!-- (NPC-VOID) Stingray (INNER) -->
 
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) Horror (INNER)</SubtypeId>
+			</Id>
+			<Description>
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Horror">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Horror</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) Wraith (INNER)</SubtypeId>
+			</Id>
+			<Description>
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Wraith">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Wraith</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xHorror 2xStingray (INNER)</SubtypeId>
+			</Id>
+			<Description>
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Horror">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Horror</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>-800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xHorror 2xWraith (INNER)</SubtypeId>
+			</Id>
+			<Description>
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Horror">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Horror</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Wraith">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Wraith</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Wraith">
+					<Position>
+						<X>-800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Wraith</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 2xWraith (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Wraith">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Wraith</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Wraith">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Wraith</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xStingray 1xWraith (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+        [DisableDampeners:false]
+        [SpaceCargoShip:true]
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-VOID) Wraith">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Wraith</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
 	</SpawnGroups>
 </Definitions>

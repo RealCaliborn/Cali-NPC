@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
 	<EntityComponents>
 		<!-- BH-GIRR-Lead-Hauler is used for Hauler type ships given the "formation leader" role -->
@@ -293,6 +293,7 @@
         [Triggers:TR-GIRR-CruiserSpawn]
         [TriggerGroups:TG-GIRR-Target-Sharing]
         [TriggerGroups:TG-GIRR-Reputation]
+        [TriggerGroups:TG-GIRR-Battleship-Call]
         [UseBarrageFire:true]
 
       </Description>
@@ -468,6 +469,7 @@
         [Triggers:TR-GIRR-FireFixed-Cargo]
         [TriggerGroups:TG-GIRR-Target-Sharing]
         [TriggerGroups:TG-GIRR-Reputation]
+        [Triggers:TR-Common-Compromised-Stop]
 		
 
 		
@@ -502,6 +504,7 @@
         [Triggers:TR-GIRR-FireFixed-Cargo]
         [TriggerGroups:TG-GIRR-Target-Sharing]
         [TriggerGroups:TG-GIRR-Reputation]
+        [Triggers:TR-Common-Compromised-Stop]
 		
 
 		
@@ -536,10 +539,69 @@
         [Triggers:TR-GIRR-FireFixed-Cargo]
         [TriggerGroups:TG-GIRR-Target-Sharing]
         [TriggerGroups:TG-GIRR-Reputation]
+        [Triggers:TR-Common-Compromised-Stop]
 		
 
 		
 
+      </Description>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BH-GIRR-Garbage-Dump</SubtypeId>
+			</Id>
+			<Description>
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:45]
+        [HorseFighterTimeApproaching:25]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [TriggerGroups:TG-Common-PvE-Hard]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-GIRR-Cruiser]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+        [UseBarrageFire:true]
+      </Description>
+		</EntityComponent>
+		<EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+			<Id>
+				<TypeId>Inventory</TypeId>
+				<SubtypeId>BH-GIRR-Modified-Surveyor</SubtypeId>
+			</Id>
+			<Description>
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:45]
+        [HorseFighterTimeApproaching:25]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [TriggerGroups:TG-Common-PvE-Hard]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-GIRR-Cruiser]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+        [UseBarrageFire:true]
       </Description>
 		</EntityComponent>
 	</EntityComponents>

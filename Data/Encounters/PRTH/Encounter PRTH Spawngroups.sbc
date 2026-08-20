@@ -1725,7 +1725,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>0.5</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH-TS) Zenith Trade Hub">
             <Position>
@@ -1778,7 +1778,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>0.5</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
             <Position>
@@ -1831,7 +1831,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>0.5</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
             <Position>
@@ -1884,7 +1884,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>0.5</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
             <Position>
@@ -1937,7 +1937,7 @@
         
         </Description>
         <IsPirate>true</IsPirate>           <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>0.5</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
             <Position>
@@ -2676,6 +2676,1998 @@
             </Prefabs>
         </SpawnGroup>
 <!-- (NPC-PRTH) GKNT-Assist 2xThunderbolt -->
+
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 1xBird Of Prey (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Bird Of Prey">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Bird-Of-Prey</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 1xEradicator (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Eradicator">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Eradicator</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 1xBird Of Prey 2xNymph (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Bird Of Prey">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Bird-Of-Prey</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Nymph">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Nymph</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Nymph">
+					<Position>
+						<X>-800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Nymph</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 1xEradicator 2xNymph (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Eradicator">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Eradicator</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Nymph">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Nymph</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Nymph">
+					<Position>
+						<X>-800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Nymph</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 1xHoplon 1xEradicator (INNER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Hoplon">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Hoplon</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Eradicator">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Eradicator</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 1xBird Of Prey 1xEradicator (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Bird Of Prey">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Bird-Of-Prey</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Eradicator">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Eradicator</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 1xBird Of Prey (INNER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Bird Of Prey">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Bird-Of-Prey</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 1xEradicator (INNER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Eradicator">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Eradicator</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 1xBird Of Prey 2xNymph (INNER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Bird Of Prey">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Bird-Of-Prey</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Nymph">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Nymph</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Nymph">
+					<Position>
+						<X>-800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Nymph</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 1xEradicator 2xNymph (INNER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Eradicator">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Eradicator</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Nymph">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Nymph</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Nymph">
+					<Position>
+						<X>-800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Nymph</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 1xHoplon 1xBird Of Prey (INNER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Hoplon">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Hoplon</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Bird Of Prey">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Bird-Of-Prey</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 1xHoplon 1xBird Of Prey (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Hoplon">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Hoplon</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Bird Of Prey">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Bird-Of-Prey</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 1xHoplon 1xEradicator (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Hoplon">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Hoplon</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Eradicator">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Eradicator</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 1xSpeartip 1xEradicator (INNER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Speartip">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Speartip</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Eradicator">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Eradicator</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 1xSpeartip 1xBird Of Prey (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Speartip">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Speartip</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Bird Of Prey">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Bird-Of-Prey</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 1xThunderbolt 1xEradicator (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Thunderbolt">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Thunderbolt</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Eradicator">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Eradicator</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 1xThunderbolt 1xBird Of Prey (INNER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Thunderbolt">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Thunderbolt</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Bird Of Prey">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Bird-Of-Prey</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 2xEradicator (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Eradicator">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Eradicator</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Eradicator">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Eradicator</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 2xBird Of Prey (INNER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Bird Of Prey">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Bird-Of-Prey</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Bird Of Prey">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Bird-Of-Prey</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-PRTH) 1xHoplon 1xBird Of Prey 1xEradicator (INNER)</SubtypeId>
+			</Id>
+			<Description>
+            [Modular Encounters SpawnGroup]
+            [DisableDampeners:false]
+            [SpaceCargoShip:true]
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+			[SpaceRandomEncounter:true]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+			[AddDefenseShieldBlocks:true]
+			[ReplaceArmorBlocksWithModules:true]
+			[ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMaximum:1249]
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.8</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-PRTH) Hoplon">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Hoplon</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Bird Of Prey">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Bird-Of-Prey</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-PRTH) Eradicator">
+					<Position>
+						<X>-800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>25</Speed>
+					<Behaviour>BH-PRTH-Eradicator</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-PRTH) 1xMinotaur 2xNymph (OUTER)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:true]
+            [SpaceRandomEncounter:true]
+
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMinimum:1000]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+
+            [AddDefenseShieldBlocks:true]
+            [ReplaceArmorBlocksWithModules:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.8</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-PRTH) Minotaur">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Minotaur</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) Nymph">
+                    <Position>
+                        <X>600.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Nymph</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) Nymph">
+                    <Position>
+                        <X>-600.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Nymph</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-PRTH) 1xMinotaur 2xNymph (INNER)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:true]
+            [SpaceRandomEncounter:true]
+
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMinimum:-1]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+
+            [AddDefenseShieldBlocks:true]
+            [ReplaceArmorBlocksWithModules:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.8</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-PRTH) Minotaur">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Minotaur</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) Nymph">
+                    <Position>
+                        <X>600.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Nymph</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) Nymph">
+                    <Position>
+                        <X>-600.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Nymph</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-PRTH) 1xMinotaur 1xThunderbolt (OUTER)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:true]
+            [SpaceRandomEncounter:true]
+
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMinimum:1500]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+
+            [AddDefenseShieldBlocks:true]
+            [ReplaceArmorBlocksWithModules:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.8</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-PRTH) Minotaur">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Minotaur</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) Thunderbolt">
+                    <Position>
+                        <X>500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Thunderbolt</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-PRTH) 1xMinotaur 1xThunderbolt (INNER)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:true]
+            [SpaceRandomEncounter:true]
+
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMinimum:-1]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+
+            [AddDefenseShieldBlocks:true]
+            [ReplaceArmorBlocksWithModules:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.8</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-PRTH) Minotaur">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Minotaur</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) Thunderbolt">
+                    <Position>
+                        <X>500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Thunderbolt</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-PRTH) 1xHoplon 1xMinotaur (OUTER)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:true]
+            [SpaceRandomEncounter:true]
+
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMinimum:1250]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+
+            [AddDefenseShieldBlocks:true]
+            [ReplaceArmorBlocksWithModules:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.8</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-PRTH) Hoplon">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Hoplon</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) Minotaur">
+                    <Position>
+                        <X>500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Minotaur</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-PRTH) 1xHoplon 1xMinotaur (INNER)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:true]
+            [SpaceRandomEncounter:true]
+
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMinimum:-1]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+
+            [AddDefenseShieldBlocks:true]
+            [ReplaceArmorBlocksWithModules:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.8</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-PRTH) Hoplon">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Hoplon</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) Minotaur">
+                    <Position>
+                        <X>500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Minotaur</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-PRTH) 1xXiphos (OUTER) -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-PRTH) 1xXiphos (OUTER)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:true]
+            [SpaceRandomEncounter:true]
+
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMinimum:1000]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+
+            [AddDefenseShieldBlocks:true]
+            [ReplaceArmorBlocksWithModules:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.8</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-PRTH) The Xiphos">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Xiphos</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-PRTH) 1xXiphos (OUTER) -->
+
+        <!-- (NPC-PRTH) 2xXiphos (OUTER) -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-PRTH) 2xXiphos (OUTER)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:true]
+            [SpaceRandomEncounter:true]
+
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMinimum:1000]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+
+            [AddDefenseShieldBlocks:true]
+            [ReplaceArmorBlocksWithModules:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.8</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-PRTH) The Xiphos">
+                    <Position>
+                        <X>-250.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Xiphos</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) The Xiphos">
+                    <Position>
+                        <X>250.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Xiphos</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-PRTH) 2xXiphos (OUTER) -->
+
+        <!-- (NPC-PRTH) 1xXiphos1xSpeartip (OUTER) -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-PRTH) 1xXiphos1xSpeartip (OUTER)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:true]
+            [SpaceRandomEncounter:true]
+
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMinimum:1000]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+
+            [AddDefenseShieldBlocks:true]
+            [ReplaceArmorBlocksWithModules:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.8</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-PRTH) The Xiphos">
+                    <Position>
+                        <X>-250.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Xiphos</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) Speartip">
+                    <Position>
+                        <X>250.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Speartip</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-PRTH) 1xXiphos1xSpeartip (OUTER) -->
+
+        <!-- (NPC-PRTH) 1xXiphos1xHoplon (OUTER) -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-PRTH) 1xXiphos1xHoplon (OUTER)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:true]
+            [SpaceRandomEncounter:true]
+
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMinimum:1000]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+
+            [AddDefenseShieldBlocks:true]
+            [ReplaceArmorBlocksWithModules:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.8</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-PRTH) The Xiphos">
+                    <Position>
+                        <X>-250.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Xiphos</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) Hoplon">
+                    <Position>
+                        <X>250.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Hoplon</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-PRTH) 1xXiphos1xHoplon (OUTER) -->
+
+        <!-- (NPC-PRTH) 1xXiphos1xThunderbolt (OUTER) -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-PRTH) 1xXiphos1xThunderbolt (OUTER)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:true]
+            [SpaceRandomEncounter:true]
+
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMinimum:1000]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+
+            [AddDefenseShieldBlocks:true]
+            [ReplaceArmorBlocksWithModules:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.8</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-PRTH) The Xiphos">
+                    <Position>
+                        <X>-250.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Xiphos</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) Thunderbolt">
+                    <Position>
+                        <X>250.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Thunderbolt</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-PRTH) 1xXiphos1xThunderbolt (OUTER) -->
+
+        <!-- (NPC-PRTH) 1xXiphos2xNymph (INNER) -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-PRTH) 1xXiphos2xNymph (INNER)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:true]
+            [SpaceRandomEncounter:true]
+
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMinimum:1000]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+
+            [AddDefenseShieldBlocks:true]
+            [ReplaceArmorBlocksWithModules:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.8</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-PRTH) The Xiphos">
+                    <Position>
+                        <X>-500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Xiphos</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) Nymph">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Nymph</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) Nymph">
+                    <Position>
+                        <X>500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Nymph</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-PRTH) 1xXiphos2xNymph (INNER) -->
+
+        <!-- (NPC-PRTH) 2xXiphos1xSpeartip (OUTER) -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-PRTH) 2xXiphos1xSpeartip (OUTER)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:true]
+            [SpaceRandomEncounter:true]
+
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMinimum:1000]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+
+            [AddDefenseShieldBlocks:true]
+            [ReplaceArmorBlocksWithModules:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.8</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-PRTH) The Xiphos">
+                    <Position>
+                        <X>-500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Xiphos</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) The Xiphos">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Xiphos</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) Speartip">
+                    <Position>
+                        <X>500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Speartip</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-PRTH) 2xXiphos1xSpeartip (OUTER) -->
+
+        <!-- (NPC-PRTH) 1xHoplon1xXiphos1xSpeartip (OUTER) -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-PRTH) 1xHoplon1xXiphos1xSpeartip (OUTER)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:true]
+            [SpaceRandomEncounter:true]
+
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMinimum:1000]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+
+            [AddDefenseShieldBlocks:true]
+            [ReplaceArmorBlocksWithModules:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.8</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-PRTH) Hoplon">
+                    <Position>
+                        <X>-500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Hoplon</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) The Xiphos">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Xiphos</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) Speartip">
+                    <Position>
+                        <X>500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Speartip</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-PRTH) 1xHoplon1xXiphos1xSpeartip (OUTER) -->
+
+        <!-- (NPC-PRTH) 1xXiphos1xHoplon1xThunderbolt (OUTER) -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-PRTH) 1xXiphos1xHoplon1xThunderbolt (OUTER)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:true]
+            [SpaceRandomEncounter:true]
+
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMinimum:1000]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+
+            [AddDefenseShieldBlocks:true]
+            [ReplaceArmorBlocksWithModules:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.8</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-PRTH) The Xiphos">
+                    <Position>
+                        <X>-500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Xiphos</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) Hoplon">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Hoplon</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) Thunderbolt">
+                    <Position>
+                        <X>500.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Thunderbolt</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-PRTH) 1xXiphos1xHoplon1xThunderbolt (OUTER) -->
+
+        <!-- (NPC-PRTH) 1xXiphos1xNymph (INNER) -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-PRTH) 1xXiphos1xNymph (INNER)</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:true]
+            [SpaceRandomEncounter:true]
+
+            [FactionOwner:PRTH]
+            [ReplenishSystems:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+
+            [UseThreatLevelCheck:false]
+            [ThreatLevelCheckRange:10000]
+            [ThreatScoreMinimum:1000]
+            [GridsAreEditable:true]
+            [GridsAreDestructable:true]
+
+            [AddDefenseShieldBlocks:true]
+            [ReplaceArmorBlocksWithModules:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|PRTH Easy Reward,Small Cargo Container|PRTH Easy Reward,Medium Cargo Container|PRTH Easy Reward]
+
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>0.8</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-PRTH) The Xiphos">
+                    <Position>
+                        <X>-250.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Xiphos</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-PRTH) Nymph">
+                    <Position>
+                        <X>250.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>25</Speed>
+                    <Behaviour>BH-PRTH-Nymph</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-PRTH) 1xXiphos1xNymph (INNER) -->
 
     </SpawnGroups>
 </Definitions>

@@ -1,0 +1,292 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- DroneCarrier-B staged escort spawner. Modeled on TG-BASS-Sentinel-Spawner.
+         Stage 1 (PlayerNear): launches 2x Sentinel-C escorts, enables Stage 2.
+         Stage 2 (Damage, enabled by Stage 1): launches 2x Sentinel-D, enables Stage 3.
+         Stage 3 (Damage, enabled by Stage 2): launches 2x Sentinel-F.
+         Escort prefabs run their own combat behaviors with no onward spawner, so the
+         chain has a single origin and cannot cascade. -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-BASS-Carrier-Spawner</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-BASS-Carrier-Stage1]
+        [Triggers:TR-BASS-Carrier-Stage2]
+        [Triggers:TR-BASS-Carrier-Stage3]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- Stage 1: on first player approach, launch the light escort wing -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-BASS-Carrier-Stage1</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:PlayerNear]
+        [TargetDistance:3500]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:3000]
+        [MaxActions:1]
+        [EnableNamedTriggerOnSuccess:TR-BASS-Carrier-Stage2]
+        [Actions:AC-BASS-Carrier-Stage1]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-BASS-Carrier-Stage1</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-BASS-Carrier-Stage1]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-BASS-Carrier-Launch]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-BASS-Carrier-Launch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:90]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Launching interceptors. Hold the line.]
+        [ChatAudio:bass-alarm-01]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Escort wing away. Screening the carrier.]
+        [ChatAudio:bass-alarm-01]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-BASS-Carrier-Stage1</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+
+        [UseSpawn:true]
+
+        [SpawningType:CustomSpawn]
+        [StartsReady:true]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
+        [MaxSpawns:1]
+
+        [SpawnGroups:(NPC-BASS) Carrier-Cx2]
+
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:500]
+        [MaxDistance:1200]
+        [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- Stage 2: enabled by Stage 1; on taking damage, launch the medium escort wing -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-BASS-Carrier-Stage2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [StartsReady:true]
+        [MaxActions:1]
+        [EnableNamedTriggerOnSuccess:TR-BASS-Carrier-Stage3]
+        [Actions:AC-BASS-Carrier-Stage2]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-BASS-Carrier-Stage2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-BASS-Carrier-Stage2]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-BASS-Carrier-Escalate]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-BASS-Carrier-Stage3]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-BASS-Carrier-Escalate</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+
+        [Chance:100]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+
+        [ChatMessages:Carrier under fire. Deploying heavy escort.]
+        [ChatAudio:bass-riser-01]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Hull breached. Second wing launching now.]
+        [ChatAudio:bass-riser-01]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-BASS-Carrier-Stage2</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+
+        [UseSpawn:true]
+
+        [SpawningType:CustomSpawn]
+        [StartsReady:true]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
+        [MaxSpawns:1]
+
+        [SpawnGroups:(NPC-BASS) Carrier-Dx2]
+
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:500]
+        [MaxDistance:1200]
+        [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- Stage 3: enabled by Stage 2; on further damage, launch the heavy escort wing -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-BASS-Carrier-Stage3</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:false]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [StartsReady:false]
+        [MaxActions:1]
+        [Actions:AC-BASS-Carrier-Stage3]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-BASS-Carrier-Stage3</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SpawnEncounter:true]
+        [Spawner:SP-BASS-Carrier-Stage3]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-BASS-Carrier-Stage3</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+
+        [UseSpawn:true]
+
+        [SpawningType:CustomSpawn]
+        [StartsReady:true]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
+        [MaxSpawns:1]
+
+        [SpawnGroups:(NPC-BASS) Carrier-Fx2]
+
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:500]
+        [MaxDistance:1200]
+        [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

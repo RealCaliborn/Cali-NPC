@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
@@ -12,7 +12,7 @@
         [CommandCode:CO-ECHO-VOID-Mayday-CheckAlive]
         [MatchSenderReceiverOwners:false]
         [IgnoreAntennaRequirement:true]
-        [Radius:12000]
+        [Radius:30000]
 
       </Description>
     </EntityComponent>
@@ -27,7 +27,7 @@
         [CommandCode:CO-ECHO-VOID-Mayday-CloseWave]
         [MatchSenderReceiverOwners:false]
         [IgnoreAntennaRequirement:true]
-        [Radius:12000]
+        [Radius:30000]
 
       </Description>
     </EntityComponent>
@@ -45,6 +45,7 @@
         [Triggers:TR-ECHO-VOID-Mayday-Easy-NextWave]
         [Triggers:TR-ECHO-VOID-Mayday-Easy-WaveStart]
         [Triggers:TR-ECHO-VOID-Mayday-Easy-Watchdog]
+        [Triggers:TR-ECHO-VOID-Mayday-Easy-StallNotice]
 
       </Description>
     </EntityComponent>
@@ -288,8 +289,10 @@
         [ChatData:CH-ECHO-VOID-Mayday-Easy-Wave-1]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-VOID-Mayday-Easy-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-VOID-Mayday-Easy-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-VOID-Mayday-Easy-Watchdog]
+        [EnableTriggerNames:TR-ECHO-VOID-Mayday-Easy-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-VOID-Mayday-Easy-Wave-1]
 
@@ -352,8 +355,10 @@
         [ChatData:CH-ECHO-VOID-Mayday-Easy-Wave-2]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-VOID-Mayday-Easy-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-VOID-Mayday-Easy-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-VOID-Mayday-Easy-Watchdog]
+        [EnableTriggerNames:TR-ECHO-VOID-Mayday-Easy-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-VOID-Mayday-Easy-Wave-2]
 
@@ -416,8 +421,10 @@
         [ChatData:CH-ECHO-VOID-Mayday-Easy-Wave-3]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-VOID-Mayday-Easy-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-VOID-Mayday-Easy-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-VOID-Mayday-Easy-Watchdog]
+        [EnableTriggerNames:TR-ECHO-VOID-Mayday-Easy-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-VOID-Mayday-Easy-Wave-3]
 
@@ -483,6 +490,7 @@
         [DisableTriggerNames:TR-ECHO-VOID-Mayday-Easy-NextWave]
         [DisableTriggerNames:TR-ECHO-VOID-Mayday-Easy-WaveStart]
         [DisableTriggerNames:TR-ECHO-VOID-Mayday-Easy-Watchdog]
+        [DisableTriggerNames:TR-ECHO-VOID-Mayday-Easy-StallNotice]
         [UseChatBroadcast:true]
         [ChatData:CH-ECHO-VOID-Mayday-Easy-Reward]
         [SpawnEncounter:true]
@@ -553,6 +561,7 @@
         [Triggers:TR-ECHO-VOID-Mayday-Medium-NextWave]
         [Triggers:TR-ECHO-VOID-Mayday-Medium-WaveStart]
         [Triggers:TR-ECHO-VOID-Mayday-Medium-Watchdog]
+        [Triggers:TR-ECHO-VOID-Mayday-Medium-StallNotice]
 
       </Description>
     </EntityComponent>
@@ -798,8 +807,10 @@
         [ChatData:CH-ECHO-VOID-Mayday-Medium-Wave-1]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-VOID-Mayday-Medium-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-VOID-Mayday-Medium-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-VOID-Mayday-Medium-Watchdog]
+        [EnableTriggerNames:TR-ECHO-VOID-Mayday-Medium-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-VOID-Mayday-Medium-Wave-1]
 
@@ -862,8 +873,10 @@
         [ChatData:CH-ECHO-VOID-Mayday-Medium-Wave-2]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-VOID-Mayday-Medium-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-VOID-Mayday-Medium-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-VOID-Mayday-Medium-Watchdog]
+        [EnableTriggerNames:TR-ECHO-VOID-Mayday-Medium-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-VOID-Mayday-Medium-Wave-2]
 
@@ -926,8 +939,10 @@
         [ChatData:CH-ECHO-VOID-Mayday-Medium-Wave-3]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-VOID-Mayday-Medium-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-VOID-Mayday-Medium-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-VOID-Mayday-Medium-Watchdog]
+        [EnableTriggerNames:TR-ECHO-VOID-Mayday-Medium-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-VOID-Mayday-Medium-Wave-3]
 
@@ -1121,6 +1136,7 @@
         [DisableTriggerNames:TR-ECHO-VOID-Mayday-Medium-NextWave]
         [DisableTriggerNames:TR-ECHO-VOID-Mayday-Medium-WaveStart]
         [DisableTriggerNames:TR-ECHO-VOID-Mayday-Medium-Watchdog]
+        [DisableTriggerNames:TR-ECHO-VOID-Mayday-Medium-StallNotice]
         [UseChatBroadcast:true]
         [ChatData:CH-ECHO-VOID-Mayday-Medium-Reward]
         [SpawnEncounter:true]
@@ -1191,6 +1207,7 @@
         [Triggers:TR-ECHO-VOID-Mayday-Hard-NextWave]
         [Triggers:TR-ECHO-VOID-Mayday-Hard-WaveStart]
         [Triggers:TR-ECHO-VOID-Mayday-Hard-Watchdog]
+        [Triggers:TR-ECHO-VOID-Mayday-Hard-StallNotice]
 
       </Description>
     </EntityComponent>
@@ -1436,8 +1453,10 @@
         [ChatData:CH-ECHO-VOID-Mayday-Hard-Wave-1]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-VOID-Mayday-Hard-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-VOID-Mayday-Hard-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-VOID-Mayday-Hard-Watchdog]
+        [EnableTriggerNames:TR-ECHO-VOID-Mayday-Hard-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-VOID-Mayday-Hard-Wave-1]
 
@@ -1500,8 +1519,10 @@
         [ChatData:CH-ECHO-VOID-Mayday-Hard-Wave-2]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-VOID-Mayday-Hard-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-VOID-Mayday-Hard-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-VOID-Mayday-Hard-Watchdog]
+        [EnableTriggerNames:TR-ECHO-VOID-Mayday-Hard-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-VOID-Mayday-Hard-Wave-2]
 
@@ -1564,8 +1585,10 @@
         [ChatData:CH-ECHO-VOID-Mayday-Hard-Wave-3]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-VOID-Mayday-Hard-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-VOID-Mayday-Hard-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-VOID-Mayday-Hard-Watchdog]
+        [EnableTriggerNames:TR-ECHO-VOID-Mayday-Hard-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-VOID-Mayday-Hard-Wave-3]
 
@@ -1759,6 +1782,7 @@
         [DisableTriggerNames:TR-ECHO-VOID-Mayday-Hard-NextWave]
         [DisableTriggerNames:TR-ECHO-VOID-Mayday-Hard-WaveStart]
         [DisableTriggerNames:TR-ECHO-VOID-Mayday-Hard-Watchdog]
+        [DisableTriggerNames:TR-ECHO-VOID-Mayday-Hard-StallNotice]
         [UseChatBroadcast:true]
         [ChatData:CH-ECHO-VOID-Mayday-Hard-Reward]
         [SpawnEncounter:true]
@@ -1859,6 +1883,7 @@
         [Triggers:TR-ECHO-PRTH-Mayday-Easy-NextWave]
         [Triggers:TR-ECHO-PRTH-Mayday-Easy-WaveStart]
         [Triggers:TR-ECHO-PRTH-Mayday-Easy-Watchdog]
+        [Triggers:TR-ECHO-PRTH-Mayday-Easy-StallNotice]
 
       </Description>
     </EntityComponent>
@@ -2102,8 +2127,10 @@
         [ChatData:CH-ECHO-PRTH-Mayday-Easy-Wave-1]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-PRTH-Mayday-Easy-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-PRTH-Mayday-Easy-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-PRTH-Mayday-Easy-Watchdog]
+        [EnableTriggerNames:TR-ECHO-PRTH-Mayday-Easy-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-PRTH-Mayday-Easy-Wave-1]
 
@@ -2166,8 +2193,10 @@
         [ChatData:CH-ECHO-PRTH-Mayday-Easy-Wave-2]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-PRTH-Mayday-Easy-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-PRTH-Mayday-Easy-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-PRTH-Mayday-Easy-Watchdog]
+        [EnableTriggerNames:TR-ECHO-PRTH-Mayday-Easy-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-PRTH-Mayday-Easy-Wave-2]
 
@@ -2230,8 +2259,10 @@
         [ChatData:CH-ECHO-PRTH-Mayday-Easy-Wave-3]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-PRTH-Mayday-Easy-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-PRTH-Mayday-Easy-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-PRTH-Mayday-Easy-Watchdog]
+        [EnableTriggerNames:TR-ECHO-PRTH-Mayday-Easy-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-PRTH-Mayday-Easy-Wave-3]
 
@@ -2297,6 +2328,7 @@
         [DisableTriggerNames:TR-ECHO-PRTH-Mayday-Easy-NextWave]
         [DisableTriggerNames:TR-ECHO-PRTH-Mayday-Easy-WaveStart]
         [DisableTriggerNames:TR-ECHO-PRTH-Mayday-Easy-Watchdog]
+        [DisableTriggerNames:TR-ECHO-PRTH-Mayday-Easy-StallNotice]
         [UseChatBroadcast:true]
         [ChatData:CH-ECHO-PRTH-Mayday-Easy-Reward]
         [SpawnEncounter:true]
@@ -2367,6 +2399,7 @@
         [Triggers:TR-ECHO-PRTH-Mayday-Medium-NextWave]
         [Triggers:TR-ECHO-PRTH-Mayday-Medium-WaveStart]
         [Triggers:TR-ECHO-PRTH-Mayday-Medium-Watchdog]
+        [Triggers:TR-ECHO-PRTH-Mayday-Medium-StallNotice]
 
       </Description>
     </EntityComponent>
@@ -2612,8 +2645,10 @@
         [ChatData:CH-ECHO-PRTH-Mayday-Medium-Wave-1]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-PRTH-Mayday-Medium-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-PRTH-Mayday-Medium-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-PRTH-Mayday-Medium-Watchdog]
+        [EnableTriggerNames:TR-ECHO-PRTH-Mayday-Medium-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-PRTH-Mayday-Medium-Wave-1]
 
@@ -2676,8 +2711,10 @@
         [ChatData:CH-ECHO-PRTH-Mayday-Medium-Wave-2]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-PRTH-Mayday-Medium-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-PRTH-Mayday-Medium-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-PRTH-Mayday-Medium-Watchdog]
+        [EnableTriggerNames:TR-ECHO-PRTH-Mayday-Medium-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-PRTH-Mayday-Medium-Wave-2]
 
@@ -2740,8 +2777,10 @@
         [ChatData:CH-ECHO-PRTH-Mayday-Medium-Wave-3]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-PRTH-Mayday-Medium-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-PRTH-Mayday-Medium-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-PRTH-Mayday-Medium-Watchdog]
+        [EnableTriggerNames:TR-ECHO-PRTH-Mayday-Medium-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-PRTH-Mayday-Medium-Wave-3]
 
@@ -2935,6 +2974,7 @@
         [DisableTriggerNames:TR-ECHO-PRTH-Mayday-Medium-NextWave]
         [DisableTriggerNames:TR-ECHO-PRTH-Mayday-Medium-WaveStart]
         [DisableTriggerNames:TR-ECHO-PRTH-Mayday-Medium-Watchdog]
+        [DisableTriggerNames:TR-ECHO-PRTH-Mayday-Medium-StallNotice]
         [UseChatBroadcast:true]
         [ChatData:CH-ECHO-PRTH-Mayday-Medium-Reward]
         [SpawnEncounter:true]
@@ -3005,6 +3045,7 @@
         [Triggers:TR-ECHO-PRTH-Mayday-Hard-NextWave]
         [Triggers:TR-ECHO-PRTH-Mayday-Hard-WaveStart]
         [Triggers:TR-ECHO-PRTH-Mayday-Hard-Watchdog]
+        [Triggers:TR-ECHO-PRTH-Mayday-Hard-StallNotice]
 
       </Description>
     </EntityComponent>
@@ -3250,8 +3291,10 @@
         [ChatData:CH-ECHO-PRTH-Mayday-Hard-Wave-1]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-PRTH-Mayday-Hard-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-PRTH-Mayday-Hard-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-PRTH-Mayday-Hard-Watchdog]
+        [EnableTriggerNames:TR-ECHO-PRTH-Mayday-Hard-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-PRTH-Mayday-Hard-Wave-1]
 
@@ -3314,8 +3357,10 @@
         [ChatData:CH-ECHO-PRTH-Mayday-Hard-Wave-2]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-PRTH-Mayday-Hard-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-PRTH-Mayday-Hard-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-PRTH-Mayday-Hard-Watchdog]
+        [EnableTriggerNames:TR-ECHO-PRTH-Mayday-Hard-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-PRTH-Mayday-Hard-Wave-2]
 
@@ -3378,8 +3423,10 @@
         [ChatData:CH-ECHO-PRTH-Mayday-Hard-Wave-3]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-PRTH-Mayday-Hard-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-PRTH-Mayday-Hard-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-PRTH-Mayday-Hard-Watchdog]
+        [EnableTriggerNames:TR-ECHO-PRTH-Mayday-Hard-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-PRTH-Mayday-Hard-Wave-3]
 
@@ -3573,6 +3620,7 @@
         [DisableTriggerNames:TR-ECHO-PRTH-Mayday-Hard-NextWave]
         [DisableTriggerNames:TR-ECHO-PRTH-Mayday-Hard-WaveStart]
         [DisableTriggerNames:TR-ECHO-PRTH-Mayday-Hard-Watchdog]
+        [DisableTriggerNames:TR-ECHO-PRTH-Mayday-Hard-StallNotice]
         [UseChatBroadcast:true]
         [ChatData:CH-ECHO-PRTH-Mayday-Hard-Reward]
         [SpawnEncounter:true]
@@ -3673,6 +3721,7 @@
         [Triggers:TR-ECHO-GIRR-Mayday-Easy-NextWave]
         [Triggers:TR-ECHO-GIRR-Mayday-Easy-WaveStart]
         [Triggers:TR-ECHO-GIRR-Mayday-Easy-Watchdog]
+        [Triggers:TR-ECHO-GIRR-Mayday-Easy-StallNotice]
 
       </Description>
     </EntityComponent>
@@ -3916,8 +3965,10 @@
         [ChatData:CH-ECHO-GIRR-Mayday-Easy-Wave-1]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-GIRR-Mayday-Easy-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-GIRR-Mayday-Easy-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-GIRR-Mayday-Easy-Watchdog]
+        [EnableTriggerNames:TR-ECHO-GIRR-Mayday-Easy-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-GIRR-Mayday-Easy-Wave-1]
 
@@ -3980,8 +4031,10 @@
         [ChatData:CH-ECHO-GIRR-Mayday-Easy-Wave-2]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-GIRR-Mayday-Easy-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-GIRR-Mayday-Easy-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-GIRR-Mayday-Easy-Watchdog]
+        [EnableTriggerNames:TR-ECHO-GIRR-Mayday-Easy-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-GIRR-Mayday-Easy-Wave-2]
 
@@ -4044,8 +4097,10 @@
         [ChatData:CH-ECHO-GIRR-Mayday-Easy-Wave-3]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-GIRR-Mayday-Easy-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-GIRR-Mayday-Easy-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-GIRR-Mayday-Easy-Watchdog]
+        [EnableTriggerNames:TR-ECHO-GIRR-Mayday-Easy-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-GIRR-Mayday-Easy-Wave-3]
 
@@ -4111,6 +4166,7 @@
         [DisableTriggerNames:TR-ECHO-GIRR-Mayday-Easy-NextWave]
         [DisableTriggerNames:TR-ECHO-GIRR-Mayday-Easy-WaveStart]
         [DisableTriggerNames:TR-ECHO-GIRR-Mayday-Easy-Watchdog]
+        [DisableTriggerNames:TR-ECHO-GIRR-Mayday-Easy-StallNotice]
         [UseChatBroadcast:true]
         [ChatData:CH-ECHO-GIRR-Mayday-Easy-Reward]
         [SpawnEncounter:true]
@@ -4181,6 +4237,7 @@
         [Triggers:TR-ECHO-GIRR-Mayday-Medium-NextWave]
         [Triggers:TR-ECHO-GIRR-Mayday-Medium-WaveStart]
         [Triggers:TR-ECHO-GIRR-Mayday-Medium-Watchdog]
+        [Triggers:TR-ECHO-GIRR-Mayday-Medium-StallNotice]
 
       </Description>
     </EntityComponent>
@@ -4426,8 +4483,10 @@
         [ChatData:CH-ECHO-GIRR-Mayday-Medium-Wave-1]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-GIRR-Mayday-Medium-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-GIRR-Mayday-Medium-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-GIRR-Mayday-Medium-Watchdog]
+        [EnableTriggerNames:TR-ECHO-GIRR-Mayday-Medium-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-GIRR-Mayday-Medium-Wave-1]
 
@@ -4490,8 +4549,10 @@
         [ChatData:CH-ECHO-GIRR-Mayday-Medium-Wave-2]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-GIRR-Mayday-Medium-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-GIRR-Mayday-Medium-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-GIRR-Mayday-Medium-Watchdog]
+        [EnableTriggerNames:TR-ECHO-GIRR-Mayday-Medium-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-GIRR-Mayday-Medium-Wave-2]
 
@@ -4554,8 +4615,10 @@
         [ChatData:CH-ECHO-GIRR-Mayday-Medium-Wave-3]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-GIRR-Mayday-Medium-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-GIRR-Mayday-Medium-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-GIRR-Mayday-Medium-Watchdog]
+        [EnableTriggerNames:TR-ECHO-GIRR-Mayday-Medium-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-GIRR-Mayday-Medium-Wave-3]
 
@@ -4749,6 +4812,7 @@
         [DisableTriggerNames:TR-ECHO-GIRR-Mayday-Medium-NextWave]
         [DisableTriggerNames:TR-ECHO-GIRR-Mayday-Medium-WaveStart]
         [DisableTriggerNames:TR-ECHO-GIRR-Mayday-Medium-Watchdog]
+        [DisableTriggerNames:TR-ECHO-GIRR-Mayday-Medium-StallNotice]
         [UseChatBroadcast:true]
         [ChatData:CH-ECHO-GIRR-Mayday-Medium-Reward]
         [SpawnEncounter:true]
@@ -4819,6 +4883,7 @@
         [Triggers:TR-ECHO-GIRR-Mayday-Hard-NextWave]
         [Triggers:TR-ECHO-GIRR-Mayday-Hard-WaveStart]
         [Triggers:TR-ECHO-GIRR-Mayday-Hard-Watchdog]
+        [Triggers:TR-ECHO-GIRR-Mayday-Hard-StallNotice]
 
       </Description>
     </EntityComponent>
@@ -5064,8 +5129,10 @@
         [ChatData:CH-ECHO-GIRR-Mayday-Hard-Wave-1]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-GIRR-Mayday-Hard-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-GIRR-Mayday-Hard-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-GIRR-Mayday-Hard-Watchdog]
+        [EnableTriggerNames:TR-ECHO-GIRR-Mayday-Hard-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-GIRR-Mayday-Hard-Wave-1]
 
@@ -5128,8 +5195,10 @@
         [ChatData:CH-ECHO-GIRR-Mayday-Hard-Wave-2]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-GIRR-Mayday-Hard-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-GIRR-Mayday-Hard-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-GIRR-Mayday-Hard-Watchdog]
+        [EnableTriggerNames:TR-ECHO-GIRR-Mayday-Hard-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-GIRR-Mayday-Hard-Wave-2]
 
@@ -5192,8 +5261,10 @@
         [ChatData:CH-ECHO-GIRR-Mayday-Hard-Wave-3]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-GIRR-Mayday-Hard-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-GIRR-Mayday-Hard-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-GIRR-Mayday-Hard-Watchdog]
+        [EnableTriggerNames:TR-ECHO-GIRR-Mayday-Hard-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-GIRR-Mayday-Hard-Wave-3]
 
@@ -5387,6 +5458,7 @@
         [DisableTriggerNames:TR-ECHO-GIRR-Mayday-Hard-NextWave]
         [DisableTriggerNames:TR-ECHO-GIRR-Mayday-Hard-WaveStart]
         [DisableTriggerNames:TR-ECHO-GIRR-Mayday-Hard-Watchdog]
+        [DisableTriggerNames:TR-ECHO-GIRR-Mayday-Hard-StallNotice]
         [UseChatBroadcast:true]
         [ChatData:CH-ECHO-GIRR-Mayday-Hard-Reward]
         [SpawnEncounter:true]
@@ -5487,6 +5559,7 @@
         [Triggers:TR-ECHO-BASS-Mayday-Easy-NextWave]
         [Triggers:TR-ECHO-BASS-Mayday-Easy-WaveStart]
         [Triggers:TR-ECHO-BASS-Mayday-Easy-Watchdog]
+        [Triggers:TR-ECHO-BASS-Mayday-Easy-StallNotice]
 
       </Description>
     </EntityComponent>
@@ -5730,8 +5803,10 @@
         [ChatData:CH-ECHO-BASS-Mayday-Easy-Wave-1]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-BASS-Mayday-Easy-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-BASS-Mayday-Easy-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-BASS-Mayday-Easy-Watchdog]
+        [EnableTriggerNames:TR-ECHO-BASS-Mayday-Easy-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-BASS-Mayday-Easy-Wave-1]
 
@@ -5794,8 +5869,10 @@
         [ChatData:CH-ECHO-BASS-Mayday-Easy-Wave-2]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-BASS-Mayday-Easy-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-BASS-Mayday-Easy-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-BASS-Mayday-Easy-Watchdog]
+        [EnableTriggerNames:TR-ECHO-BASS-Mayday-Easy-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-BASS-Mayday-Easy-Wave-2]
 
@@ -5858,8 +5935,10 @@
         [ChatData:CH-ECHO-BASS-Mayday-Easy-Wave-3]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-BASS-Mayday-Easy-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-BASS-Mayday-Easy-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-BASS-Mayday-Easy-Watchdog]
+        [EnableTriggerNames:TR-ECHO-BASS-Mayday-Easy-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-BASS-Mayday-Easy-Wave-3]
 
@@ -5925,6 +6004,7 @@
         [DisableTriggerNames:TR-ECHO-BASS-Mayday-Easy-NextWave]
         [DisableTriggerNames:TR-ECHO-BASS-Mayday-Easy-WaveStart]
         [DisableTriggerNames:TR-ECHO-BASS-Mayday-Easy-Watchdog]
+        [DisableTriggerNames:TR-ECHO-BASS-Mayday-Easy-StallNotice]
         [UseChatBroadcast:true]
         [ChatData:CH-ECHO-BASS-Mayday-Easy-Reward]
         [SpawnEncounter:true]
@@ -5995,6 +6075,7 @@
         [Triggers:TR-ECHO-BASS-Mayday-Medium-NextWave]
         [Triggers:TR-ECHO-BASS-Mayday-Medium-WaveStart]
         [Triggers:TR-ECHO-BASS-Mayday-Medium-Watchdog]
+        [Triggers:TR-ECHO-BASS-Mayday-Medium-StallNotice]
 
       </Description>
     </EntityComponent>
@@ -6240,8 +6321,10 @@
         [ChatData:CH-ECHO-BASS-Mayday-Medium-Wave-1]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-BASS-Mayday-Medium-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-BASS-Mayday-Medium-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-BASS-Mayday-Medium-Watchdog]
+        [EnableTriggerNames:TR-ECHO-BASS-Mayday-Medium-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-BASS-Mayday-Medium-Wave-1]
 
@@ -6304,8 +6387,10 @@
         [ChatData:CH-ECHO-BASS-Mayday-Medium-Wave-2]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-BASS-Mayday-Medium-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-BASS-Mayday-Medium-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-BASS-Mayday-Medium-Watchdog]
+        [EnableTriggerNames:TR-ECHO-BASS-Mayday-Medium-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-BASS-Mayday-Medium-Wave-2]
 
@@ -6368,8 +6453,10 @@
         [ChatData:CH-ECHO-BASS-Mayday-Medium-Wave-3]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-BASS-Mayday-Medium-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-BASS-Mayday-Medium-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-BASS-Mayday-Medium-Watchdog]
+        [EnableTriggerNames:TR-ECHO-BASS-Mayday-Medium-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-BASS-Mayday-Medium-Wave-3]
 
@@ -6563,6 +6650,7 @@
         [DisableTriggerNames:TR-ECHO-BASS-Mayday-Medium-NextWave]
         [DisableTriggerNames:TR-ECHO-BASS-Mayday-Medium-WaveStart]
         [DisableTriggerNames:TR-ECHO-BASS-Mayday-Medium-Watchdog]
+        [DisableTriggerNames:TR-ECHO-BASS-Mayday-Medium-StallNotice]
         [UseChatBroadcast:true]
         [ChatData:CH-ECHO-BASS-Mayday-Medium-Reward]
         [SpawnEncounter:true]
@@ -6633,6 +6721,7 @@
         [Triggers:TR-ECHO-BASS-Mayday-Hard-NextWave]
         [Triggers:TR-ECHO-BASS-Mayday-Hard-WaveStart]
         [Triggers:TR-ECHO-BASS-Mayday-Hard-Watchdog]
+        [Triggers:TR-ECHO-BASS-Mayday-Hard-StallNotice]
 
       </Description>
     </EntityComponent>
@@ -6878,8 +6967,10 @@
         [ChatData:CH-ECHO-BASS-Mayday-Hard-Wave-1]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-BASS-Mayday-Hard-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-BASS-Mayday-Hard-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-BASS-Mayday-Hard-Watchdog]
+        [EnableTriggerNames:TR-ECHO-BASS-Mayday-Hard-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-BASS-Mayday-Hard-Wave-1]
 
@@ -6942,8 +7033,10 @@
         [ChatData:CH-ECHO-BASS-Mayday-Hard-Wave-2]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-BASS-Mayday-Hard-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-BASS-Mayday-Hard-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-BASS-Mayday-Hard-Watchdog]
+        [EnableTriggerNames:TR-ECHO-BASS-Mayday-Hard-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-BASS-Mayday-Hard-Wave-2]
 
@@ -7006,8 +7099,10 @@
         [ChatData:CH-ECHO-BASS-Mayday-Hard-Wave-3]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-ECHO-BASS-Mayday-Hard-Watchdog]
+        [ResetTriggerCooldownNames:TR-ECHO-BASS-Mayday-Hard-StallNotice]
         [EnableTriggers:true]
         [EnableTriggerNames:TR-ECHO-BASS-Mayday-Hard-Watchdog]
+        [EnableTriggerNames:TR-ECHO-BASS-Mayday-Hard-StallNotice]
         [SpawnEncounter:true]
         [Spawner:SP-ECHO-BASS-Mayday-Hard-Wave-3]
 
@@ -7201,6 +7296,7 @@
         [DisableTriggerNames:TR-ECHO-BASS-Mayday-Hard-NextWave]
         [DisableTriggerNames:TR-ECHO-BASS-Mayday-Hard-WaveStart]
         [DisableTriggerNames:TR-ECHO-BASS-Mayday-Hard-Watchdog]
+        [DisableTriggerNames:TR-ECHO-BASS-Mayday-Hard-StallNotice]
         [UseChatBroadcast:true]
         [ChatData:CH-ECHO-BASS-Mayday-Hard-Reward]
         [SpawnEncounter:true]
@@ -7254,6 +7350,678 @@
         [MinDistance:500]
         [MaxDistance:1000]
         [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-VOID-Mayday-Easy-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:300000]
+        [MaxCooldownMs:300001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-VOID-Mayday-Easy-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-VOID-Mayday-Easy-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [UseChatBroadcast:true]
+        [ChatData:CH-ECHO-VOID-Mayday-Easy-StallNotice]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-VOID-Mayday-Easy-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-ECHO-VOID-Mayday-Easy-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:ECHO Station]
+        [Color:Green]
+        [Chance:100]
+        [MaxChats:-1]
+        [BroadcastRandomly:false]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Hostiles remain but are disengaged or beyond effective range. Automated defense protocol will force-advance the engagement in approximately 10 minutes if the situation does not change.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-VOID-Mayday-Medium-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:300000]
+        [MaxCooldownMs:300001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-VOID-Mayday-Medium-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-VOID-Mayday-Medium-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [UseChatBroadcast:true]
+        [ChatData:CH-ECHO-VOID-Mayday-Medium-StallNotice]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-VOID-Mayday-Medium-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-ECHO-VOID-Mayday-Medium-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:ECHO Station]
+        [Color:Green]
+        [Chance:100]
+        [MaxChats:-1]
+        [BroadcastRandomly:false]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Hostiles remain but are disengaged or beyond effective range. Automated defense protocol will force-advance the engagement in approximately 15 minutes if the situation does not change.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-VOID-Mayday-Hard-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:300000]
+        [MaxCooldownMs:300001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-VOID-Mayday-Hard-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-VOID-Mayday-Hard-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [UseChatBroadcast:true]
+        [ChatData:CH-ECHO-VOID-Mayday-Hard-StallNotice]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-VOID-Mayday-Hard-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-ECHO-VOID-Mayday-Hard-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:ECHO Station]
+        [Color:Green]
+        [Chance:100]
+        [MaxChats:-1]
+        [BroadcastRandomly:false]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Hostiles remain but are disengaged or beyond effective range. Automated defense protocol will force-advance the engagement in approximately 25 minutes if the situation does not change.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-GIRR-Mayday-Easy-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:300000]
+        [MaxCooldownMs:300001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-GIRR-Mayday-Easy-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-GIRR-Mayday-Easy-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [UseChatBroadcast:true]
+        [ChatData:CH-ECHO-GIRR-Mayday-Easy-StallNotice]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-GIRR-Mayday-Easy-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-ECHO-GIRR-Mayday-Easy-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:ECHO Station]
+        [Color:Green]
+        [Chance:100]
+        [MaxChats:-1]
+        [BroadcastRandomly:false]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Hostiles remain but are disengaged or beyond effective range. Automated defense protocol will force-advance the engagement in approximately 10 minutes if the situation does not change.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-GIRR-Mayday-Medium-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:300000]
+        [MaxCooldownMs:300001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-GIRR-Mayday-Medium-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-GIRR-Mayday-Medium-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [UseChatBroadcast:true]
+        [ChatData:CH-ECHO-GIRR-Mayday-Medium-StallNotice]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-GIRR-Mayday-Medium-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-ECHO-GIRR-Mayday-Medium-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:ECHO Station]
+        [Color:Green]
+        [Chance:100]
+        [MaxChats:-1]
+        [BroadcastRandomly:false]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Hostiles remain but are disengaged or beyond effective range. Automated defense protocol will force-advance the engagement in approximately 15 minutes if the situation does not change.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-GIRR-Mayday-Hard-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:300000]
+        [MaxCooldownMs:300001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-GIRR-Mayday-Hard-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-GIRR-Mayday-Hard-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [UseChatBroadcast:true]
+        [ChatData:CH-ECHO-GIRR-Mayday-Hard-StallNotice]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-GIRR-Mayday-Hard-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-ECHO-GIRR-Mayday-Hard-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:ECHO Station]
+        [Color:Green]
+        [Chance:100]
+        [MaxChats:-1]
+        [BroadcastRandomly:false]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Hostiles remain but are disengaged or beyond effective range. Automated defense protocol will force-advance the engagement in approximately 25 minutes if the situation does not change.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-PRTH-Mayday-Easy-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:300000]
+        [MaxCooldownMs:300001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-PRTH-Mayday-Easy-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-PRTH-Mayday-Easy-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [UseChatBroadcast:true]
+        [ChatData:CH-ECHO-PRTH-Mayday-Easy-StallNotice]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-PRTH-Mayday-Easy-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-ECHO-PRTH-Mayday-Easy-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:ECHO Station]
+        [Color:Green]
+        [Chance:100]
+        [MaxChats:-1]
+        [BroadcastRandomly:false]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Hostiles remain but are disengaged or beyond effective range. Automated defense protocol will force-advance the engagement in approximately 10 minutes if the situation does not change.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-PRTH-Mayday-Medium-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:300000]
+        [MaxCooldownMs:300001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-PRTH-Mayday-Medium-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-PRTH-Mayday-Medium-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [UseChatBroadcast:true]
+        [ChatData:CH-ECHO-PRTH-Mayday-Medium-StallNotice]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-PRTH-Mayday-Medium-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-ECHO-PRTH-Mayday-Medium-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:ECHO Station]
+        [Color:Green]
+        [Chance:100]
+        [MaxChats:-1]
+        [BroadcastRandomly:false]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Hostiles remain but are disengaged or beyond effective range. Automated defense protocol will force-advance the engagement in approximately 15 minutes if the situation does not change.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-PRTH-Mayday-Hard-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:300000]
+        [MaxCooldownMs:300001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-PRTH-Mayday-Hard-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-PRTH-Mayday-Hard-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [UseChatBroadcast:true]
+        [ChatData:CH-ECHO-PRTH-Mayday-Hard-StallNotice]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-PRTH-Mayday-Hard-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-ECHO-PRTH-Mayday-Hard-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:ECHO Station]
+        [Color:Green]
+        [Chance:100]
+        [MaxChats:-1]
+        [BroadcastRandomly:false]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Hostiles remain but are disengaged or beyond effective range. Automated defense protocol will force-advance the engagement in approximately 25 minutes if the situation does not change.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-BASS-Mayday-Easy-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:300000]
+        [MaxCooldownMs:300001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-BASS-Mayday-Easy-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-BASS-Mayday-Easy-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [UseChatBroadcast:true]
+        [ChatData:CH-ECHO-BASS-Mayday-Easy-StallNotice]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-BASS-Mayday-Easy-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-ECHO-BASS-Mayday-Easy-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:ECHO Station]
+        [Color:Green]
+        [Chance:100]
+        [MaxChats:-1]
+        [BroadcastRandomly:false]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Hostiles remain but are disengaged or beyond effective range. Automated defense protocol will force-advance the engagement in approximately 10 minutes if the situation does not change.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-BASS-Mayday-Medium-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:300000]
+        [MaxCooldownMs:300001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-BASS-Mayday-Medium-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-BASS-Mayday-Medium-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [UseChatBroadcast:true]
+        [ChatData:CH-ECHO-BASS-Mayday-Medium-StallNotice]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-BASS-Mayday-Medium-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-ECHO-BASS-Mayday-Medium-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:ECHO Station]
+        [Color:Green]
+        [Chance:100]
+        [MaxChats:-1]
+        [BroadcastRandomly:false]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Hostiles remain but are disengaged or beyond effective range. Automated defense protocol will force-advance the engagement in approximately 15 minutes if the situation does not change.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-ECHO-BASS-Mayday-Hard-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:300000]
+        [MaxCooldownMs:300001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-ECHO-BASS-Mayday-Hard-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-ECHO-BASS-Mayday-Hard-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [UseChatBroadcast:true]
+        [ChatData:CH-ECHO-BASS-Mayday-Hard-StallNotice]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-ECHO-BASS-Mayday-Hard-StallNotice]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-ECHO-BASS-Mayday-Hard-StallNotice</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:ECHO Station]
+        [Color:Green]
+        [Chance:100]
+        [MaxChats:-1]
+        [BroadcastRandomly:false]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Hostiles remain but are disengaged or beyond effective range. Automated defense protocol will force-advance the engagement in approximately 25 minutes if the situation does not change.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:None]
 
       </Description>
     </EntityComponent>

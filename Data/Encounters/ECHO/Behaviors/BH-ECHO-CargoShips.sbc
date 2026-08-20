@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
 
@@ -23,6 +23,7 @@
         [TriggerGroups:TG-ECHO-Cargo-Solo]
         [TriggerGroups:TG-ECHO-Target-Sharing]
         [TriggerGroups:TG-ECHO-Reputation]
+        [Triggers:TR-Common-Compromised-Stop]
 
       </Description>
     </EntityComponent>
@@ -48,6 +49,7 @@
         [TriggerGroups:TG-ECHO-Cargo-Easy]
         [TriggerGroups:TG-ECHO-Target-Sharing]
         [TriggerGroups:TG-ECHO-Reputation]
+        [Triggers:TR-Common-Compromised-Stop]
 
       </Description>
     </EntityComponent>
@@ -73,6 +75,7 @@
         [TriggerGroups:TG-ECHO-Cargo-Medium]
         [TriggerGroups:TG-ECHO-Target-Sharing]
         [TriggerGroups:TG-ECHO-Reputation]
+        [Triggers:TR-Common-Compromised-Stop]
 
       </Description>
     </EntityComponent>

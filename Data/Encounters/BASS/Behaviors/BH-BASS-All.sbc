@@ -96,5 +96,154 @@
       </Description>
     </EntityComponent>
 
+    <!-- BH-BASS-Sentinel-C : kinetic skirmisher (200mm + coilgun turrets, 30mm/MAC fixed) -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-BASS-Sentinel-C</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Horsefly]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+        [TargetData:TA-Common-8000-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-BASS-Target-Sharing]
+        [TriggerGroups:TG-BASS-Chat]
+        [TriggerGroups:TG-BASS-Detect]
+        [TriggerGroups:TG-BASS-Sentinel-Ram]
+        [UseBarrageFire:false]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-BASS-Sentinel-D : energy brawler (Fixed T3 + Gladius + Guardian, all fixed) -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-BASS-Sentinel-D</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Horsefly]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [TargetData:TA-Common-8000-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-BASS-Target-Sharing]
+        [TriggerGroups:TG-BASS-Chat]
+        [TriggerGroups:TG-BASS-Detect]
+        [TriggerGroups:TG-BASS-Sentinel-Ram]
+        [UseBarrageFire:false]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-BASS-Sentinel-E : energy shieldbreaker w/ ordnance (Fixed T3 + Shiva/Archer), holds standoff -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-BASS-Sentinel-E</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Horsefly]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [TargetData:TA-Common-8000-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-BASS-Target-Sharing]
+        [TriggerGroups:TG-BASS-Chat]
+        [TriggerGroups:TG-BASS-Detect]
+        [TriggerGroups:TG-BASS-Sentinel-Ram]
+        [UseBarrageFire:false]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-BASS-Sentinel-F : kinetic brawler (Railgun + HeavyBolter, all fixed) -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-BASS-Sentinel-F</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Hunter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [TargetData:TA-Common-8000-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-BASS-Target-Sharing]
+        [TriggerGroups:TG-BASS-Chat]
+        [TriggerGroups:TG-BASS-Detect]
+        [TriggerGroups:TG-BASS-Sentinel-Ram]
+        [UseBarrageFire:false]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-BASS-DroneCarrier : heavy carrier (300mm turret + Derecho/Gladius/Meatball fixed);
+         staged carrier-spawner calls in Sentinel escort waves on player-near + damage -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-BASS-DroneCarrier</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Hunter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [TargetData:TA-Common-8000-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-BASS-Carrier-Spawner]
+        [TriggerGroups:TG-BASS-Target-Sharing]
+        [TriggerGroups:TG-BASS-Chat]
+        [TriggerGroups:TG-BASS-Detect]
+        [TriggerGroups:TG-BASS-Sentinel-Ram]
+        [UseBarrageFire:false]
+
+      </Description>
+    </EntityComponent>
+
   </EntityComponents>
 </Definitions>

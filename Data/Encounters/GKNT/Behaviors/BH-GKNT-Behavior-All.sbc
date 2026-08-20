@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
 
@@ -51,7 +51,6 @@
         [StrikeBreakawayDistance:400]
         [StrikeOffsetRecalculationTime:8]
         [StrikeEngageUseSafePlanetPathing:true]
-        [StrikeEngageUseCollisionEvasion:true]
         [TargetData:TA-GKNT-NPC-Protection-A]
         [OverrideTargetData:TA-GKNT-NPC-Protection-B]
         [EngageOnTargetLineOfSight:true]
@@ -115,7 +114,6 @@
         [StrikeBreakawayDistance:400]
         [StrikeOffsetRecalculationTime:8]
         [StrikeEngageUseSafePlanetPathing:true]
-        [StrikeEngageUseCollisionEvasion:true]
         [TargetData:TA-GKNT-NPC-Protection-A]
         [OverrideTargetData:TA-GKNT-NPC-Protection-B]
         [EngageOnTargetLineOfSight:true]
@@ -142,6 +140,7 @@
         [BehaviorName:Passive]
 
         [TriggerGroups:TG-GKNT-Mayday-FJ-GIRR1]
+        [Triggers:TR-Common-Compromised-Stop]
 
       </Description>
     </EntityComponent>
@@ -158,6 +157,7 @@
         [BehaviorName:Passive]
 
         [TriggerGroups:TG-GKNT-Mayday-FJ-VOID1]
+        [Triggers:TR-Common-Compromised-Stop]
 
       </Description>
     </EntityComponent>
@@ -209,7 +209,6 @@
         [StrikeBreakawayDistance:400]
         [StrikeOffsetRecalculationTime:8]
         [StrikeEngageUseSafePlanetPathing:true]
-        [StrikeEngageUseCollisionEvasion:true]
         [TargetData:TA-GKNT-NPC-Protection-A]
         [OverrideTargetData:TA-GKNT-NPC-Protection-B]
         [EngageOnTargetLineOfSight:true]
@@ -252,6 +251,7 @@
         [TriggerGroups:TG-GKNT-Scramble]
         [TriggerGroups:TG-GKNT-Reputation]
         [TriggerGroups:TG-GKNT-Escort-Chat]
+        [Triggers:TR-Common-Compromised-Stop]
 
       </Description>
     </EntityComponent>
@@ -273,7 +273,6 @@
         [StrikeBreakawayDistance:400]
         [StrikeOffsetRecalculationTime:8]
         [StrikeEngageUseSafePlanetPathing:true]
-        [StrikeEngageUseCollisionEvasion:true]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -286,6 +285,110 @@
         [TriggerGroups:TG-GKNT-Scramble]
         [TriggerGroups:TG-GKNT-Reputation]
         [TriggerGroups:TG-GKNT-Escort-Chat]
+        [Triggers:TR-Common-Compromised-Stop]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-GKNT-Gunboat-A : kinetic railgun patrol gunboat (Saber-type HorseFighter) -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GKNT-Gunboat-A</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [HorseFighterTimeEngaging:23]
+        [HorseFighterTimeApproaching:12]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [TriggerGroups:TG-GKNT-Protected]
+        [TriggerGroups:TG-Common-NPC-Protection-Tx]
+        [TriggerGroups:TG-GKNT-Helper]
+        [TriggerGroups:TG-GKNT-Scramble]
+        [TriggerGroups:TG-GKNT-Reputation]
+        [TriggerGroups:TG-GKNT-Escort-Chat]
+        [Triggers:TR-Common-Compromised-Stop]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-GKNT-Gunboat-B : energy patrol gunboat (Saber-type HorseFighter) -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GKNT-Gunboat-B</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [HorseFighterTimeEngaging:23]
+        [HorseFighterTimeApproaching:12]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [TriggerGroups:TG-GKNT-Protected]
+        [TriggerGroups:TG-Common-NPC-Protection-Tx]
+        [TriggerGroups:TG-GKNT-Helper]
+        [TriggerGroups:TG-GKNT-Scramble]
+        [TriggerGroups:TG-GKNT-Reputation]
+        [TriggerGroups:TG-GKNT-Escort-Chat]
+        [Triggers:TR-Common-Compromised-Stop]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-GKNT-Gunboat-C : torpedo bomber gunboat (Swallow-type Strike attack runs) -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GKNT-Gunboat-C</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Strike]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Strike-Default-A]
+        [StrikeBeginSpaceAttackRunDistance:3500]
+        [StrikeBeginPlanetAttackRunDistance:2500]
+        [StrikeBreakawayDistance:400]
+        [StrikeOffsetRecalculationTime:8]
+        [StrikeEngageUseSafePlanetPathing:true]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [TriggerGroups:TG-GKNT-Protected]
+        [TriggerGroups:TG-Common-NPC-Protection-Tx]
+        [TriggerGroups:TG-GKNT-Helper]
+        [TriggerGroups:TG-GKNT-Scramble]
+        [TriggerGroups:TG-GKNT-Reputation]
+        [TriggerGroups:TG-GKNT-Escort-Chat]
+        [Triggers:TR-Common-Compromised-Stop]
 
       </Description>
     </EntityComponent>

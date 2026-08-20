@@ -225,5 +225,110 @@
       </Description>
     </EntityComponent>
 
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Bird-Of-Prey</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Behavior]
+        [BehaviorName:Fighter]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Brawler-Default-B]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+        [Triggers:TR-PRTH-Any-Engaging]
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Eradicator</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Behavior]
+        [BehaviorName:Horsefly]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [UseAmmoReplenish:true]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+        [Triggers:TR-PRTH-Any-Engaging]
+        [Triggers:TR-Common-FireFixed]
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Minotaur</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [Triggers:TR-Common-FireFixed]
+        [UseAmmoReplenish:true]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:50]
+        [HorseFighterTimeApproaching:25]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [TriggerGroups:TG-Common-PvE-Hard]
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+        [Triggers:TR-PRTH-Any-Engaging]
+      </Description>
+    </EntityComponent>
+
+    <!-- BH-PRTH-Xiphos : mixed skirmisher (500mm/railgun turrets + Gladius/MAC/ordnance), holds standoff -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-PRTH-Xiphos</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [HorseFighterTimeEngaging:38]
+        [HorseFighterTimeApproaching:20]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseStaticGuns:true]
+        [MaxStaticWeaponRange:-1]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [TriggerGroups:TG-Common-PvE-Hard]
+        [TriggerGroups:TG-PRTH-Target-Sharing]
+        [Triggers:TR-PRTH-Any-Engaging]
+
+      </Description>
+    </EntityComponent>
   </EntityComponents>
 </Definitions>

@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!--
+      Compromised-System Kill-Switch
+      ================================
+      Shared gate condition referenced by EVERY Type:Compromised trigger in the mod.
+      It passes only while the mod (Workshop 3378893295) is loaded, which is always true
+      in-game, so the compromised system is ENABLED by default.
+
+      TO DISABLE THE ENTIRE COMPROMISED-TRIGGER SYSTEM MOD-WIDE:
+        change the ID on the [AllModIDsToCheck:] line below from  3378893295  to  1
+        then reload. 1 is not a real Workshop mod, so the gate never matches and every
+        compromised trigger (stop-on-death, self-destruct, and the faction reputation-loss
+        triggers) goes inert - no ProcessAction runs, so the MES #348 reputation-action CTD
+        path is fully avoided. Set it back to 3378893295 to re-enable.
+
+      NOTE 1: use a bogus NONZERO id (1). Do NOT use 0 - the RivalAI parser discards a 0 id
+        (AllModIDsToCheck ignores tempValue==0), leaving the check list empty, and an empty
+        CheckAllLoadedModIDs list vacuously PASSES - i.e. 0 would leave the system ENABLED.
+      NOTE 2: uses CheckAllLoadedModIDs, NOT CheckAnyLoadedModIDs - the "Any" evaluator in
+        the RivalAI source iterates the wrong (All) list and never matches.
+    -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CD-Common-CompromisedGate</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Condition]
+
+        [UseConditions:true]
+
+        [CheckAllLoadedModIDs:true]
+        [AllModIDsToCheck:3378893295]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

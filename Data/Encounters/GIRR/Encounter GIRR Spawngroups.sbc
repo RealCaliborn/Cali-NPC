@@ -2894,5 +2894,344 @@
 		</SpawnGroup>
 <!-- (NPC-GIRR) 1xRepurposed Passenger Transport (INNER) -->
 
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xGarbage Dump Ship (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [DisableDampeners:false]
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:500]
+                [ThreatScoreMaximum:1249]
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Garbage Dump Ship V2">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Garbage-Dump</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xGarbage Dump Ship 1xMiner 1xMerchant (INNER)</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [DisableDampeners:false]
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:500]
+                [ThreatScoreMaximum:1249]
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Garbage Dump Ship V2">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Garbage-Dump</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Miner">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Miner</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Merchant">
+					<Position>
+						<X>-800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Merchant</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xGarbage Dump Ship 1xHauler (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [DisableDampeners:false]
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:500]
+                [ThreatScoreMaximum:1249]
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Garbage Dump Ship V2">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Garbage-Dump</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Hauler</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xModified Surveyor 1xCaptured Cruiser (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [DisableDampeners:false]
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:750]
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Surveyor">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Modified-Surveyor</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-CruiserNospawn</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xModified Surveyor 1xCaptured Cruiser (INNER)</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [DisableDampeners:false]
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:-1]
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.7</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Surveyor">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Modified-Surveyor</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-CruiserNospawn</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xModified Surveyor 1xMRC07 (OUTER)</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [DisableDampeners:false]
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:2500]
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Surveyor">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Modified-Surveyor</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) MRC07">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-MRC07</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GIRR) 1xModified Surveyor 1xMRC07 (INNER)</SubtypeId>
+			</Id>
+			<Description>
+                [Modular Encounters SpawnGroup]
+                [DisableDampeners:false]
+                [SpaceCargoShip:true]
+                [SpaceRandomEncounter:true]
+                [GridsAreEditable:true]
+                [GridsAreDestructable:true]
+                [FactionOwner:GIRR]
+                [ReplenishSystems:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:false]
+                [AddDefenseShieldBlocks:true]
+                [UseThreatLevelCheck:false]
+                [ThreatLevelCheckRange:10000]
+                [ThreatScoreMinimum:-1]
+                [UseContainerTypeAssignment:true]
+                [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Loot Default,Small Cargo Container|GIRR Loot Default,NPC_Container|GIRR Loot Default]
+				[ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>0.5</Frequency>
+			<Prefabs>
+				<Prefab SubtypeId="(NPC-GIRR) Modified Surveyor">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-Modified-Surveyor</Behaviour>
+				</Prefab>
+				<Prefab SubtypeId="(NPC-GIRR) MRC07">
+					<Position>
+						<X>800.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GIRR-MRC07</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
 </SpawnGroups>
 </Definitions>

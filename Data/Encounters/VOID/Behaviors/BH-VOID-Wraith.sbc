@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-VOID-Wraith</SubtypeId>
+      </Id>
+      <Description>
+        [RivalAI Behavior]
+        [BehaviorName:Horsefly]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [UseTurrets:true]
+        [UseBarrageFire:false]
+        [UseAmmoReplenish:true]
+        [TriggerGroups:TG-Common-PvE-Default]
+        [Triggers:TR-VOID-ScreamBroadcast]
+        [TriggerGroups:TG-VOID-Target-Sharing]
+        [TriggerGroups:TG-VOID-Reputation]
+      </Description>
+    </EntityComponent>
+  </EntityComponents>
+</Definitions>

@@ -1,0 +1,258 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!--
+      Standalone GIRR heavy reinforcement caller. Carried by BH-GIRR-CruiserSpawn
+      (single heavy anchor). Modeled on the TG-GIRR-MRC07 Launch->Check->Receive
+      maintain-alive loop, but call-once: the spawner is MaxSpawns:1, so the
+      Modified Battleship is called in a single time and NOT respawned when it dies.
+      On engaging a target, the caller enables the Launch + Check timers; ~20s later
+      Launch fires and spawns the Battleship; the Battleship answers Check with Alive,
+      which resets the Launch timer so it never re-fires while the capital lives, and
+      MaxSpawns:1 prevents a respawn after it dies. Command codes (Check/Alive) are
+      unique to this system so it does not collide with the MRC07 boss loop.
+    -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GIRR-Battleship-Call</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GIRR-Battleship-Engaging]
+        [Triggers:TR-GIRR-Battleship-Launch]
+        [Triggers:TR-GIRR-Battleship-Check]
+        [Triggers:TR-GIRR-Battleship-Receive]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- ================= ACTIVATE ================= -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Battleship-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:AcquiredTarget]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GIRR-Battleship-Engaging]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Battleship-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Battleship-Engaging]
+
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-GIRR-Battleship-Check]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-GIRR-Battleship-Launch]
+        [EnableTriggerNames:TR-GIRR-Battleship-Check]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-GIRR-Battleship-Engaging]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Battleship-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:GIRR Captured Cruiser]
+        [Color:Red]
+
+        [Chance:80]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:12000]
+
+        [ChatMessages:Contact holding — signalling the fleet for a battleship.]
+        [ChatAudio:girr-whoosh-03]
+        [BroadcastChatType:Chat]
+        [ChatMessages:This one's tough. Calling in the heavy.]
+        [ChatAudio:girr-whoosh-03]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- ================= LAUNCH (call-once) ================= -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Battleship-Launch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:20000]
+        [MaxCooldownMs:20001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-Battleship-Launch]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Battleship-Launch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [SpawnEncounter:true]
+        [Spawner:SP-GIRR-Battleship-Launch]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-GIRR-Battleship-Launch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+        [UseSpawn:true]
+        [SpawningType:CustomSpawn]
+        [StartsReady:true]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
+        [MaxSpawns:1]
+        [SpawnGroups:(NPC-GIRR) Battleship Wing]
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:2000]
+        [MaxDistance:3000]
+        [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- ================= CHECK (poll alive) ================= -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Battleship-Check</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:8000]
+        [MaxCooldownMs:8001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-GIRR-Battleship-Check]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Battleship-Check</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-GIRR-Battleship-Check]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CO-GIRR-Battleship-Check</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+        [CommandCode:CO-GIRR-Battleship-Check]
+        [MatchSenderReceiverOwners:true]
+        [IgnoreAntennaRequirement:true]
+        [Radius:12000]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- ================= RECEIVE (reset relaunch while alive) ================= -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Battleship-Receive</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-GIRR-Battleship-Alive]
+        [Actions:AC-GIRR-Battleship-Receive]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Battleship-Receive</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-GIRR-Battleship-Launch]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

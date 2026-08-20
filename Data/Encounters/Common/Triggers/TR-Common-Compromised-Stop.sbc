@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!--
+      Compromised - Stop Only
+      =======================
+      Lightweight companion to TR-Common-Compromised. Fires once when a grid is
+      compromised (RC-loss / core function loss) and only halts motion - no self-destruct.
+      Wired into TG-Common-PvE-Default / -NoNewTarget and directly onto the encounter
+      behaviors that use neither, so every ship stops instead of spinning at max or
+      coasting off into the void on death.
+
+      Reuses AC-Common-Compromised-C (StopAllRotation + StopAllThrust + dampeners) from
+      TR-Common-Compromised.sbc - actions resolve globally by SubtypeId.
+
+      Gated by CD-Common-CompromisedGate (mod-wide kill-switch).
+    -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-Common-Compromised-Stop</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Compromised]
+        [StartsReady:true]
+        [MaxActions:1]
+
+        [Conditions:CD-Common-CompromisedGate]
+
+        [Actions:AC-Common-Compromised-C]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

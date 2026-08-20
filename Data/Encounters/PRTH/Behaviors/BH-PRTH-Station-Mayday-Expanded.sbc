@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+﻿<?xml version='1.0' encoding='utf-8'?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
@@ -75,7 +75,6 @@
         [TriggerGroups:TG-PRTH-BASS-Mayday-Responder]
         [TriggerGroups:TG-ECHO-BASS-Mayday-Responder]
         [UseBarrageFire:false]
-        [TriggerGroups:TG-PRTH-BASS-Mayday-Responder]
 
       </Description>
     </EntityComponent>
@@ -163,6 +162,7 @@
         [TriggerGroups:TG-ECHO-Target-Sharing]
         [TriggerGroups:TG-ECHO-Reputation]
         [TriggerGroups:TG-PRTH-ECHO-Mayday-Responder]
+        [Triggers:TR-Common-Compromised-Stop]
 
       </Description>
     </EntityComponent>
@@ -246,7 +246,6 @@
         [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
         [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
         [UseBarrageFire:true]
-        [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
 
       </Description>
     </EntityComponent>
@@ -313,7 +312,6 @@
         [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
         [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
         [UseBarrageFire:true]
-        [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
 
       </Description>
     </EntityComponent>
@@ -374,7 +372,6 @@
         [MaxStaticWeaponRange:9000]
         [UseTurrets:true]
         [UseBarrageFire:true]
-        [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
 
       </Description>
     </EntityComponent>
@@ -407,7 +404,6 @@
         [UseTurrets:true]
         [UseBarrageFire:true]
         [RetreatDespawnDistance:12000]
-        [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
 
       </Description>
     </EntityComponent>
@@ -440,7 +436,6 @@
         [MaxStaticWeaponRange:4000]
         [UseTurrets:true]
         [UseBarrageFire:true]
-        [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
 
       </Description>
     </EntityComponent>
@@ -606,7 +601,6 @@
         [TriggerGroups:TG-VOID-Reputation]
         [TriggerGroups:TG-PRTH-VOID-Mayday-Responder]
         [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
-        [TriggerGroups:TG-PRTH-VOID-Mayday-Responder]
 
       </Description>
     </EntityComponent>
@@ -667,7 +661,6 @@
         [TriggerGroups:TG-VOID-Reputation]
         [TriggerGroups:TG-PRTH-VOID-Mayday-Responder]
         [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
-        [TriggerGroups:TG-PRTH-VOID-Mayday-Responder]
 
       </Description>
     </EntityComponent>
@@ -881,6 +874,7 @@
 
         [RivalAI TriggerGroup]
         [Triggers:TR-PRTH-VOID-Mayday-Alive]
+        [Triggers:TR-PRTH-VOID-Mayday-Disarmed]
         [Triggers:TR-PRTH-VOID-Mayday-CloseWave]
         [Triggers:TR-PRTH-VOID-Mayday-Damaged]
 
@@ -962,6 +956,7 @@
         [RivalAI Action]
         [DisableTriggers:true]
         [DisableTriggerNames:TR-PRTH-VOID-Mayday-Alive]
+        [DisableTriggerNames:TR-PRTH-VOID-Mayday-Disarmed]
         [DisableTriggerNames:TR-PRTH-VOID-Mayday-CloseWave]
         [DisableTriggerNames:TR-VOID-Kraken-LaunchFighters]
         [DisableTriggerNames:TR-VOID-Kraken-LaunchFighter-Port]
@@ -1057,6 +1052,7 @@
 
         [RivalAI TriggerGroup]
         [Triggers:TR-PRTH-ECHO-Mayday-Alive]
+        [Triggers:TR-PRTH-ECHO-Mayday-Disarmed]
         [Triggers:TR-PRTH-ECHO-Mayday-CloseWave]
         [Triggers:TR-PRTH-ECHO-Mayday-Damaged]
 
@@ -1138,6 +1134,7 @@
         [RivalAI Action]
         [DisableTriggers:true]
         [DisableTriggerNames:TR-PRTH-ECHO-Mayday-Alive]
+        [DisableTriggerNames:TR-PRTH-ECHO-Mayday-Disarmed]
         [DisableTriggerNames:TR-PRTH-ECHO-Mayday-CloseWave]
         [DisableTriggerNames:TR-VOID-Kraken-LaunchFighters]
         [DisableTriggerNames:TR-VOID-Kraken-LaunchFighter-Port]
@@ -1233,6 +1230,7 @@
 
         [RivalAI TriggerGroup]
         [Triggers:TR-PRTH-GIRR-Mayday-Alive]
+        [Triggers:TR-PRTH-GIRR-Mayday-Disarmed]
         [Triggers:TR-PRTH-GIRR-Mayday-CloseWave]
         [Triggers:TR-PRTH-GIRR-Mayday-Damaged]
 
@@ -1314,6 +1312,7 @@
         [RivalAI Action]
         [DisableTriggers:true]
         [DisableTriggerNames:TR-PRTH-GIRR-Mayday-Alive]
+        [DisableTriggerNames:TR-PRTH-GIRR-Mayday-Disarmed]
         [DisableTriggerNames:TR-PRTH-GIRR-Mayday-CloseWave]
         [DisableTriggerNames:TR-VOID-Kraken-LaunchFighters]
         [DisableTriggerNames:TR-VOID-Kraken-LaunchFighter-Port]
@@ -1409,6 +1408,7 @@
 
         [RivalAI TriggerGroup]
         [Triggers:TR-PRTH-BASS-Mayday-Alive]
+        [Triggers:TR-PRTH-BASS-Mayday-Disarmed]
         [Triggers:TR-PRTH-BASS-Mayday-CloseWave]
         [Triggers:TR-PRTH-BASS-Mayday-Damaged]
 
@@ -1490,6 +1490,7 @@
         [RivalAI Action]
         [DisableTriggers:true]
         [DisableTriggerNames:TR-PRTH-BASS-Mayday-Alive]
+        [DisableTriggerNames:TR-PRTH-BASS-Mayday-Disarmed]
         [DisableTriggerNames:TR-PRTH-BASS-Mayday-CloseWave]
         [DisableTriggerNames:TR-VOID-Kraken-LaunchFighters]
         [DisableTriggerNames:TR-VOID-Kraken-LaunchFighter-Port]
@@ -1765,6 +1766,134 @@
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-PRTH-Target-Sharing]
         [TriggerGroups:TG-PRTH-BASS-Mayday-Hard]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-VOID-Mayday-Disarmed</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:NoWeapon]
+        [MinCooldownMs:10000]
+        [MaxCooldownMs:10001]
+        [StartsReady:false]
+        [MaxActions:1]
+        [Actions:AC-PRTH-VOID-Mayday-Disarmed]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-VOID-Mayday-Disarmed</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-PRTH-VOID-Mayday-Alive]
+        [DisableTriggerNames:TR-PRTH-VOID-Mayday-Disarmed]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-ECHO-Mayday-Disarmed</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:NoWeapon]
+        [MinCooldownMs:10000]
+        [MaxCooldownMs:10001]
+        [StartsReady:false]
+        [MaxActions:1]
+        [Actions:AC-PRTH-ECHO-Mayday-Disarmed]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-ECHO-Mayday-Disarmed</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-PRTH-ECHO-Mayday-Alive]
+        [DisableTriggerNames:TR-PRTH-ECHO-Mayday-Disarmed]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-GIRR-Mayday-Disarmed</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:NoWeapon]
+        [MinCooldownMs:10000]
+        [MaxCooldownMs:10001]
+        [StartsReady:false]
+        [MaxActions:1]
+        [Actions:AC-PRTH-GIRR-Mayday-Disarmed]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-GIRR-Mayday-Disarmed</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-PRTH-GIRR-Mayday-Alive]
+        [DisableTriggerNames:TR-PRTH-GIRR-Mayday-Disarmed]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-BASS-Mayday-Disarmed</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:NoWeapon]
+        [MinCooldownMs:10000]
+        [MaxCooldownMs:10001]
+        [StartsReady:false]
+        [MaxActions:1]
+        [Actions:AC-PRTH-BASS-Mayday-Disarmed]
+
+      </Description>
+    </EntityComponent>
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-BASS-Mayday-Disarmed</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-PRTH-BASS-Mayday-Alive]
+        [DisableTriggerNames:TR-PRTH-BASS-Mayday-Disarmed]
 
       </Description>
     </EntityComponent>

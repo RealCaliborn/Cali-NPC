@@ -15,12 +15,12 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
         [RemoteControlCodeMinDistance:30000]
-        [ThreatScoreMinimum:1000]
+        [ThreatScoreMinimum:500]
         [ThreatScoreMaximum:1999]
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
@@ -31,7 +31,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -58,12 +58,12 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
         [RemoteControlCodeMinDistance:30000]
-        [ThreatScoreMinimum:1000]
+        [ThreatScoreMinimum:500]
         [ThreatScoreMaximum:1999]
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
@@ -74,7 +74,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -101,7 +101,7 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
@@ -117,7 +117,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -144,7 +144,7 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
@@ -160,7 +160,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -187,7 +187,7 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
@@ -203,7 +203,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -230,7 +230,7 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
@@ -246,7 +246,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -273,12 +273,12 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
         [RemoteControlCodeMinDistance:30000]
-        [ThreatScoreMinimum:1000]
+        [ThreatScoreMinimum:500]
         [ThreatScoreMaximum:1999]
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
@@ -289,7 +289,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -316,12 +316,12 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
         [RemoteControlCodeMinDistance:30000]
-        [ThreatScoreMinimum:1000]
+        [ThreatScoreMinimum:500]
         [ThreatScoreMaximum:1999]
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
@@ -332,7 +332,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -359,7 +359,7 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
@@ -375,7 +375,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -402,7 +402,7 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
@@ -418,7 +418,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -445,7 +445,7 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
@@ -461,7 +461,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -488,7 +488,7 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
@@ -504,7 +504,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -531,12 +531,12 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
         [RemoteControlCodeMinDistance:30000]
-        [ThreatScoreMinimum:1000]
+        [ThreatScoreMinimum:500]
         [ThreatScoreMaximum:1999]
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
@@ -547,7 +547,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -574,12 +574,12 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
         [RemoteControlCodeMinDistance:30000]
-        [ThreatScoreMinimum:1000]
+        [ThreatScoreMinimum:500]
         [ThreatScoreMaximum:1999]
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
@@ -590,7 +590,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -617,7 +617,7 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
@@ -633,7 +633,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -660,7 +660,7 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
@@ -676,7 +676,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -703,7 +703,7 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
@@ -719,7 +719,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -746,7 +746,7 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
@@ -762,7 +762,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -789,12 +789,12 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
         [RemoteControlCodeMinDistance:30000]
-        [ThreatScoreMinimum:1000]
+        [ThreatScoreMinimum:500]
         [ThreatScoreMaximum:1999]
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
@@ -805,7 +805,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -832,12 +832,12 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
         [RemoteControlCodeMinDistance:30000]
-        [ThreatScoreMinimum:1000]
+        [ThreatScoreMinimum:500]
         [ThreatScoreMaximum:1999]
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
@@ -848,7 +848,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -875,7 +875,7 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
@@ -891,7 +891,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -918,7 +918,7 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
@@ -934,7 +934,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -961,7 +961,7 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
@@ -977,7 +977,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -1004,7 +1004,7 @@
         [ForceStaticGrid:true]
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
-        [UseThreatLevelCheck:true]
+        [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
         [UseRemoteControlCodeRestrictions:true]
         [RemoteControlCode:Cali-Mayday-Controller]
@@ -1020,7 +1020,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.275</Frequency>
+      <Frequency>0.7</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>

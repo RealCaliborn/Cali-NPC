@@ -92,5 +92,157 @@
         </Prefabs>
     </SpawnGroup>
 
+    <!-- ===== DroneCarrier-B escort wings (called by TG-BASS-Carrier-Spawner) ===== -->
+
+    <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+            <SubtypeId>(NPC-BASS) Carrier-Cx2</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+        [RivalAiSpawn:true]
+        [SpaceRandomEncounter:false]
+        [SpaceCargoShip:false]
+        [LunarCargoShip:false]
+        [AtmosphericCargoShip:false]
+        [PlanetaryInstallation:false]
+        [FactionOwner:BASS]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [RotateFirstCockpitToForward:true]
+
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+        [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+
+        </Description>
+        <IsPirate>true</IsPirate> <!--Do not edit-->
+        <Frequency>1.1</Frequency>
+        <Prefabs>
+            <Prefab SubtypeId="(NPC-BASS) Sentinel-C">
+                <Position>
+                    <X>-300.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>25</Speed>
+                <Behaviour>BH-BASS-Sentinel-C</Behaviour>
+            </Prefab>
+            <Prefab SubtypeId="(NPC-BASS) Sentinel-C">
+                <Position>
+                    <X>300.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>25</Speed>
+                <Behaviour>BH-BASS-Sentinel-C</Behaviour>
+            </Prefab>
+        </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+            <SubtypeId>(NPC-BASS) Carrier-Dx2</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+        [RivalAiSpawn:true]
+        [SpaceRandomEncounter:false]
+        [SpaceCargoShip:false]
+        [LunarCargoShip:false]
+        [AtmosphericCargoShip:false]
+        [PlanetaryInstallation:false]
+        [FactionOwner:BASS]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [RotateFirstCockpitToForward:true]
+
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+        [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+
+        </Description>
+        <IsPirate>true</IsPirate> <!--Do not edit-->
+        <Frequency>1.1</Frequency>
+        <Prefabs>
+            <Prefab SubtypeId="(NPC-BASS) Sentinel-D">
+                <Position>
+                    <X>-300.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>25</Speed>
+                <Behaviour>BH-BASS-Sentinel-D</Behaviour>
+            </Prefab>
+            <Prefab SubtypeId="(NPC-BASS) Sentinel-D">
+                <Position>
+                    <X>300.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>25</Speed>
+                <Behaviour>BH-BASS-Sentinel-D</Behaviour>
+            </Prefab>
+        </Prefabs>
+    </SpawnGroup>
+
+    <SpawnGroup>
+        <Id>
+            <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
+            <SubtypeId>(NPC-BASS) Carrier-Fx2</SubtypeId>
+        </Id>
+        <Description>
+
+        [Modular Encounters SpawnGroup]
+        [RivalAiSpawn:true]
+        [SpaceRandomEncounter:false]
+        [SpaceCargoShip:false]
+        [LunarCargoShip:false]
+        [AtmosphericCargoShip:false]
+        [PlanetaryInstallation:false]
+        [FactionOwner:BASS]
+        [ReplenishSystems:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [RotateFirstCockpitToForward:true]
+
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+        [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+
+        </Description>
+        <IsPirate>true</IsPirate> <!--Do not edit-->
+        <Frequency>1.1</Frequency>
+        <Prefabs>
+            <Prefab SubtypeId="(NPC-BASS) Sentinel-F">
+                <Position>
+                    <X>-300.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>25</Speed>
+                <Behaviour>BH-BASS-Sentinel-F</Behaviour>
+            </Prefab>
+            <Prefab SubtypeId="(NPC-BASS) Sentinel-F">
+                <Position>
+                    <X>300.0</X>
+                    <Y>0.0</Y>
+                    <Z>0.0</Z>
+                </Position>
+                <Speed>25</Speed>
+                <Behaviour>BH-BASS-Sentinel-F</Behaviour>
+            </Prefab>
+        </Prefabs>
+    </SpawnGroup>
+
   </SpawnGroups>
 </Definitions>

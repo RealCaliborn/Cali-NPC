@@ -18,6 +18,7 @@
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -66,6 +67,7 @@
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
@@ -103,6 +105,7 @@
         [FactionOwner:GKNT]
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
+        [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
                 
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]

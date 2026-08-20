@@ -581,7 +581,7 @@
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
-        <Prefab SubtypeId="(NPC-VOID) Kraken">
+        <Prefab SubtypeId="(NPC-VOID) Thunder_Kraken">
           <Position>
             <X>-500.0</X>
             <Y>0.0</Y>

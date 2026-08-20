@@ -26,6 +26,10 @@
         [Triggers:TR-PRTH-Trident-Check-Screen]
         [Triggers:TR-PRTH-Trident-Receive-Screen]
 
+        [Triggers:TR-PRTH-Trident-Launch-Breaker3]
+        [Triggers:TR-PRTH-Trident-Check-Breaker3]
+        [Triggers:TR-PRTH-Trident-Receive-Breaker3]
+
         [Triggers:TR-PRTH-Trident-ShieldsDown-Spawn]
 
       </Description>
@@ -136,6 +140,7 @@
         [ResetTriggerCooldownNames:TR-PRTH-Trident-Check-Breaker1]
         [ResetTriggerCooldownNames:TR-PRTH-Trident-Check-Breaker2]
         [ResetTriggerCooldownNames:TR-PRTH-Trident-Check-Screen]
+        [ResetTriggerCooldownNames:TR-PRTH-Trident-Check-Breaker3]
 
         [EnableTriggers:true]
         [EnableTriggerNames:TR-PRTH-Trident-Launch-Breaker1]
@@ -144,6 +149,8 @@
         [EnableTriggerNames:TR-PRTH-Trident-Check-Breaker2]
         [EnableTriggerNames:TR-PRTH-Trident-Launch-Screen]
         [EnableTriggerNames:TR-PRTH-Trident-Check-Screen]
+        [EnableTriggerNames:TR-PRTH-Trident-Launch-Breaker3]
+        [EnableTriggerNames:TR-PRTH-Trident-Check-Breaker3]
 
         [DisableTriggers:true]
         [DisableTriggerNames:TR-PRTH-Trident-Activate]
@@ -651,6 +658,174 @@
         [RivalAI Action]
         [ResetCooldownTimeOfTriggers:true]
         [ResetTriggerCooldownNames:TR-PRTH-Trident-Launch-Screen]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- ############################################################ -->
+    <!-- LOOP 4 — heavy shield-breaker: (NPC-PRTH) Minotaur          -->
+    <!-- ############################################################ -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Trident-Launch-Breaker3</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:18000]
+        [MaxCooldownMs:18001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-PRTH-Trident-Launch-Breaker3]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Trident-Launch-Breaker3</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [SpawnEncounter:true]
+        [Spawner:SP-PRTH-Trident-Launch-Breaker3]
+        [UseChatBroadcast:true]
+        [ChatData:CH-PRTH-Trident-Launch-Breaker3]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-PRTH-Trident-Launch-Breaker3</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+        [UseSpawn:true]
+        [SpawningType:CustomSpawn]
+        [StartsReady:true]
+        [SpawnMinCooldown:1]
+        [SpawnMaxCooldown:2]
+        [MaxSpawns:-1]
+        [SpawnGroups:(NPC-PRTH) Trident Breaker Minotaur]
+        [UseRelativeSpawnPosition:true]
+        [RelativeSpawnOffset:{X:0 Y:40 Z:60}]
+        [RelativeSpawnVelocity:{X:0 Y:45 Z:0}]
+        [IgnoreSafetyChecks:true]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-PRTH-Trident-Launch-Breaker3</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:Trident]
+        [Color:Red]
+        [Chance:100]
+        [MaxChats:-1]
+        [BroadcastRandomly:false]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:10000]
+        [ChatMessages:Minotaur escort down. Deploying another.]
+        [BroadcastChatType:Chat]
+        [ChatAudio:None]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Trident-Check-Breaker3</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:5000]
+        [MaxCooldownMs:5001]
+        [StartsReady:false]
+        [MaxActions:-1]
+        [Actions:AC-PRTH-Trident-Check-Breaker3]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Trident-Check-Breaker3</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [BroadcastCommandProfiles:true]
+        [CommandProfileIds:CO-PRTH-Trident-Check-Breaker3]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CO-PRTH-Trident-Check-Breaker3</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Command]
+        [CommandCode:CO-PRTH-Trident-Check-Breaker3]
+        [MatchSenderReceiverOwners:true]
+        [IgnoreAntennaRequirement:true]
+        [Radius:12000]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-PRTH-Trident-Receive-Breaker3</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:CommandReceived]
+        [MinCooldownMs:0]
+        [MaxCooldownMs:1]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [CommandReceiveCode:CO-PRTH-Trident-Alive-Breaker3]
+        [Actions:AC-PRTH-Trident-Receive-Breaker3]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-PRTH-Trident-Receive-Breaker3</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [ResetCooldownTimeOfTriggers:true]
+        [ResetTriggerCooldownNames:TR-PRTH-Trident-Launch-Breaker3]
 
       </Description>
     </EntityComponent>

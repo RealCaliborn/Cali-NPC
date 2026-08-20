@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
 
@@ -19,6 +19,7 @@
 		[Triggers:TR-Common-Jump-Completed]
 		[Triggers:TR-Common-Jump-Acquired]
 		[Triggers:TR-Common-Jump-Away]
+		[Triggers:TR-Common-Compromised-Stop]
 
       </Description>
     </EntityComponent>
@@ -36,6 +37,7 @@
         [Triggers:TR-Common-HydrogenManNear]
         [Triggers:TR-Common-HydrogenManFar]
         [Triggers:TR-Common-ReceiveTarget]
+        [Triggers:TR-Common-Compromised-Stop]
 
       </Description>
     </EntityComponent>
