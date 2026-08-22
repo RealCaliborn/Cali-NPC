@@ -77,8 +77,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Horsefly]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+        [AutopilotData:AP-Common-Brawler-Close-B]
         [TargetData:TA-Common-8000-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -106,8 +105,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Horsefly]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+        [AutopilotData:AP-Common-Brawler-Close-B]
         [TargetData:TA-Common-8000-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -136,8 +134,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Horsefly]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [AutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-Common-8000-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -164,7 +161,7 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:Horsefly]
+        [BehaviorName:Hunter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
         [TargetData:TA-Common-8000-A]

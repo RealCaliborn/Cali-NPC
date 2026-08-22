@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
 
@@ -13,11 +13,9 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:HorseFighter]
+        [BehaviorName:Hunter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
-        [HorseFighterTimeEngaging:40]
-        [HorseFighterTimeApproaching:22]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -42,8 +40,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Horsefly]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [AutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -69,11 +66,9 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:HorseFighter]
+        [BehaviorName:Hunter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
-        [HorseFighterTimeEngaging:40]
-        [HorseFighterTimeApproaching:22]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -98,8 +93,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Horsefly]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [AutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -125,11 +119,9 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:HorseFighter]
+        [BehaviorName:Hunter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
-        [HorseFighterTimeEngaging:40]
-        [HorseFighterTimeApproaching:22]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -154,8 +146,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Horsefly]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [AutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]

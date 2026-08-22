@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+<?xml version="1.0"?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
 
@@ -12,8 +12,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Horsefly]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [AutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-GKNT-NPC-Protection-A]
         [OverrideTargetData:TA-GKNT-NPC-Protection-B]
         [EngageOnTargetLineOfSight:true]
@@ -38,8 +37,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Horsefly]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [AutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-GKNT-NPC-Protection-A]
         [OverrideTargetData:TA-GKNT-NPC-Protection-B]
         [EngageOnTargetLineOfSight:true]
@@ -64,8 +62,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Horsefly]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [AutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-GKNT-NPC-Protection-A]
         [OverrideTargetData:TA-GKNT-NPC-Protection-B]
         [EngageOnTargetLineOfSight:true]

@@ -1,4 +1,4 @@
-﻿<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='utf-8'?>
 <Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
   <EntityComponents>
     <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
@@ -61,8 +61,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Horsefly]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+        [AutopilotData:AP-Common-Brawler-Close-B]
         [TargetData:TA-Common-8000-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -150,8 +149,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Horsefly]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [AutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-PRTH-ECHO-Mayday-Player-A]
         [OverrideTargetData:TA-PRTH-ECHO-Mayday-Player-B]
         [EngageOnTargetLineOfSight:true]
@@ -179,8 +177,7 @@
         [MaxStaticWeaponRange:-1]
         [Triggers:TR-Common-FireFixed]
         [UseAmmoReplenish:true]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [AutopilotData:AP-Common-Brawler-Default-B]
         [HorseFighterTimeEngaging:27]
         [HorseFighterTimeApproaching:15]
         [TargetData:TA-PRTH-ECHO-Mayday-Player-A]
@@ -229,8 +226,7 @@
         [MaxStaticWeaponRange:-1]
         [Triggers:TR-Common-FireFixed]
         [UseAmmoReplenish:true]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [AutopilotData:AP-Common-Brawler-Default-B]
         [HorseFighterTimeEngaging:45]
         [HorseFighterTimeApproaching:25]
         [TargetData:TA-Common-Default-A]
@@ -262,8 +258,7 @@
         [MaxStaticWeaponRange:-1]
         [Triggers:TR-Common-FireFixed]
         [UseAmmoReplenish:true]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [AutopilotData:AP-Common-Brawler-Default-B]
         [HorseFighterTimeEngaging:45]
         [HorseFighterTimeApproaching:25]
         [TargetData:TA-Common-Default-A]
@@ -295,8 +290,7 @@
         [MaxStaticWeaponRange:-1]
         [Triggers:TR-Common-FireFixed]
         [UseAmmoReplenish:true]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+        [AutopilotData:AP-Common-Brawler-Close-B]
         [HorseFighterTimeEngaging:35]
         [HorseFighterTimeApproaching:19]
         [TargetData:TA-Common-Default-A]
@@ -323,11 +317,9 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:HorseFighter]
+        [BehaviorName:Hunter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
-        [HorseFighterTimeEngaging:57]
-        [HorseFighterTimeApproaching:31]
         [TargetData:TA-Common-8000-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -352,11 +344,9 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:HorseFighter]
+        [BehaviorName:Hunter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
-        [HorseFighterTimeEngaging:38]
-        [HorseFighterTimeApproaching:20]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -383,11 +373,9 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:HorseFighter]
+        [BehaviorName:Hunter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
-        [HorseFighterTimeEngaging:38]
-        [HorseFighterTimeApproaching:20]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -415,11 +403,9 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:HorseFighter]
+        [BehaviorName:Hunter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
-        [HorseFighterTimeEngaging:40]
-        [HorseFighterTimeApproaching:22]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -448,8 +434,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:HorseFighter]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
+        [AutopilotData:AP-Common-Brawler-Default-B]
         [HorseFighterTimeEngaging:43]
         [HorseFighterTimeApproaching:23]
         [TargetData:TA-Common-Default-A]
@@ -479,8 +464,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Horsefly]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [AutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -504,11 +488,9 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:HorseFighter]
+        [BehaviorName:Hunter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
-        [HorseFighterTimeEngaging:55]
-        [HorseFighterTimeApproaching:29]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -612,11 +594,9 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:HorseFighter]
+        [BehaviorName:Hunter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
-        [HorseFighterTimeEngaging:62]
-        [HorseFighterTimeApproaching:34]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -645,7 +625,7 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:Horsefly]
+        [BehaviorName:Hunter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
         [TargetData:TA-Common-Default-A]
@@ -677,8 +657,7 @@
         [MaxStaticWeaponRange:-1]
         [Triggers:TR-Common-FireFixed]
         [UseAmmoReplenish:true]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
+        [AutopilotData:AP-Common-Brawler-Close-B]
         [HorseFighterTimeEngaging:30]
         [HorseFighterTimeApproaching:16]
         [TargetData:TA-Common-Default-A]
@@ -703,15 +682,13 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:HorseFighter]
+        [BehaviorName:Hunter]
         [UseStaticGuns:true]
         [MaxStaticWeaponRange:-1]
         [Triggers:TR-Common-FireFixed]
         [UseAmmoReplenish:true]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2000-B]
-        [HorseFighterTimeEngaging:35]
-        [HorseFighterTimeApproaching:19]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -734,7 +711,7 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:Horsefly]
+        [BehaviorName:Hunter]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
         [TargetData:TA-Common-Default-A]

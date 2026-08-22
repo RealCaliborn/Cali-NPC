@@ -35,7 +35,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>1.0</Frequency>
+        <Frequency>0.8</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Scarab">
               <Position>
@@ -83,7 +83,7 @@
 
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>1.0</Frequency>
+      <Frequency>0.8</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Scarab">
             <Position>
@@ -1028,7 +1028,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>1.0</Frequency>
+        <Frequency>0.8</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Scarab">
             <Position>
@@ -1079,7 +1079,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>1.0</Frequency>
+        <Frequency>0.8</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Scarab">
             <Position>
@@ -1130,7 +1130,7 @@
 
         </Description>
         <IsPirate>true</IsPirate>
-        <Frequency>1.0</Frequency>
+        <Frequency>0.8</Frequency>
         <Prefabs>
           <Prefab SubtypeId="(NPC-ECHO) Scarab">
             <Position>
