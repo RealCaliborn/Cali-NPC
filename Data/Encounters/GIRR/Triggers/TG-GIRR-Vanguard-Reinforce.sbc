@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!--
+      Battleship Vanguard reinforcement caller. Carried by BH-GIRR-Battleship-Vanguard
+      (variation 5 lead). Modeled on TG-GIRR-Battleship-Call but CALL-ONCE, not keep-alive:
+      the summoned wing (Modified Transport + Repurposed Passenger Transport) uses stock
+      combat behaviors that do not answer a poll, so there is no Check/Receive loop.
+      On acquiring a target the caller fires a chat, enables the Launch timer, and disables
+      itself (MaxActions:1). ~20s later Launch spawns the wing exactly once
+      (SP spawner MaxSpawns:1 + Launch MaxActions:1). Command/trigger codes are unique to
+      this system so it cannot collide with the Battleship keep-alive loop.
+    -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GIRR-Vanguard-Reinforce-Call</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+
+        [Triggers:TR-GIRR-Vanguard-Reinforce-Engaging]
+        [Triggers:TR-GIRR-Vanguard-Reinforce-Launch]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- ================= ACTIVATE ================= -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Vanguard-Reinforce-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:AcquiredTarget]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [StartsReady:true]
+        [MaxActions:1]
+        [Actions:AC-GIRR-Vanguard-Reinforce-Engaging]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Vanguard-Reinforce-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Vanguard-Reinforce-Engaging]
+
+        [EnableTriggers:true]
+        [EnableTriggerNames:TR-GIRR-Vanguard-Reinforce-Launch]
+
+        [DisableTriggers:true]
+        [DisableTriggerNames:TR-GIRR-Vanguard-Reinforce-Engaging]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Vanguard-Reinforce-Engaging</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:GIRR Modified Battleship]
+        [Color:Red]
+
+        [Chance:100]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:12000]
+
+        [ChatMessages:Vanguard engaged — signal the wing to close and support.]
+        [ChatAudio:girr-whoosh-03]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- ================= LAUNCH (call-once) ================= -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Vanguard-Reinforce-Launch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:false]
+        [Type:Timer]
+        [MinCooldownMs:20000]
+        [MaxCooldownMs:20001]
+        [StartsReady:false]
+        [MaxActions:1]
+        [Actions:AC-GIRR-Vanguard-Reinforce-Launch]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Vanguard-Reinforce-Launch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [SpawnEncounter:true]
+        [Spawner:SP-GIRR-Vanguard-Reinforce-Launch]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-GIRR-Vanguard-Reinforce-Launch</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+        [UseSpawn:true]
+        [SpawningType:CustomSpawn]
+        [SpawnMinCooldown:0]
+        [SpawnMaxCooldown:0]
+        [MaxSpawns:1]
+        [SpawnGroups:(NPC-GIRR) Battleship Vanguard Wing]
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:2000]
+        [MaxDistance:3000]
+        [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

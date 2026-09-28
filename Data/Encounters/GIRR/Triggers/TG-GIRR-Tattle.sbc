@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-GIRR-Tattle</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:Red]
+        [Chance:100]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:15000]
+        [ChatMessages:Oi! You just poked the wrong scrapper - Boss is gonna hear about THIS!]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Big mistake, groundling. I'm calling in the big guns!]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-GIRR-Tattle</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+        [UseSpawn:true]
+        [SpawningType:CustomSpawn]
+        [SpawnMinCooldown:0]
+        [SpawnMaxCooldown:0]
+        [MaxSpawns:1]
+        [SpawnGroups:(NPC-GIRR) 1xMRC071xMerchant]
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:900]
+        [MaxDistance:1600]
+        [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-GIRR-Tattle</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [Chance:10]
+        [SpawnEncounter:true]
+        [Spawner:SP-GIRR-Tattle]
+        [UseChatBroadcast:true]
+        [ChatData:CH-GIRR-Tattle]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-GIRR-Tattle</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [StartsReady:true]
+        [MaxActions:1]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [Actions:AC-GIRR-Tattle]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-GIRR-Tattle</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+        [Triggers:TR-GIRR-Tattle]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

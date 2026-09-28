@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- Satisfied when grid integrity has dropped below 35% of spawn value. -->
+    <!-- Gates the flee-jump so ships only run when actually badly hurt. -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CD-Common-LowHull-35</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Condition]
+
+        [UseConditions:true]
+        [CheckHealthPercentage:true]
+        [MaxPercentageOfHealthRemaining:35]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- Satisfied when grid integrity has dropped below 30% of spawn value. -->
+    <!-- Gates the boss point-blank enrage switch. -->
+
+    <!-- Satisfied when the current target is within 45 degrees of the grid's forward. -->
+    <!-- Gates the BASS ram so it only commits when roughly pointed at the target. -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CD-Common-TargetAhead</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Condition]
+
+        [UseConditions:true]
+        [CheckTargetAngleFromForward:true]
+        [MaxTargetAngle:45]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

@@ -5743,8 +5743,8 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>true</Enabled>
-              <BroadcastRadius>50000</BroadcastRadius>
-              <ShowShipName>true</ShowShipName>
+              <BroadcastRadius>20000</BroadcastRadius>
+              <ShowShipName>false</ShowShipName>
               <EnableBroadcasting>true</EnableBroadcasting>
               <AttachedPB>0</AttachedPB>
               <IgnoreAllied>false</IgnoreAllied>
@@ -11726,7 +11726,7 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <Enabled>false</Enabled>
-              <BroadcastRadius>690.695435</BroadcastRadius>
+              <BroadcastRadius>1</BroadcastRadius>
               <ShowShipName>false</ShowShipName>
               <EnableBroadcasting>false</EnableBroadcasting>
               <AttachedPB>0</AttachedPB>

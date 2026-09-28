@@ -14,7 +14,7 @@
         [UseCustomTargeting:true]
         [Target:PlayerAndGrid]
 
-        [MaxDistance:10000]
+        [MaxDistance:20000]
 
         [TimeUntilTargetAcquisition:1]
         [UseTargetRefresh:true]
@@ -29,10 +29,10 @@
         [MatchAnyFilters:MovementScore]
         [MatchAnyFilters:LineOfSight]
 
-        [NonBroadcastVisualRange:7000]
+        [NonBroadcastVisualRange:20000]
         [MinMovementScore:200]
-        [MaxMovementDetectableDistance:10000]
-        [MaxLineOfSight:10000]
+        [MaxMovementDetectableDistance:20000]
+        [MaxLineOfSight:20000]
 
         [Owners:Player]
         [Relations:Enemy]
@@ -54,7 +54,7 @@
         [UseCustomTargeting:true]
         [Target:PlayerAndGrid]
 
-        [MaxDistance:10000]
+        [MaxDistance:20000]
 
         [TimeUntilTargetAcquisition:1]
         [UseTargetRefresh:true]
@@ -87,7 +87,7 @@
         [UseCustomTargeting:true]
         [Target:PlayerAndGrid]
 
-        [MaxDistance:10000]
+        [MaxDistance:20000]
 
         [TimeUntilTargetAcquisition:1]
         [UseTargetRefresh:true]
@@ -102,10 +102,10 @@
         [MatchAnyFilters:MovementScore]
         [MatchAnyFilters:LineOfSight]
 
-        [NonBroadcastVisualRange:9000]
+        [NonBroadcastVisualRange:20000]
         [MinMovementScore:200]
-        [MaxMovementDetectableDistance:10000]
-        [MaxLineOfSight:10000]
+        [MaxMovementDetectableDistance:20000]
+        [MaxLineOfSight:20000]
 
         [Owners:Player]
         [Relations:Enemy]

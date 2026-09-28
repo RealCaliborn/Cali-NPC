@@ -218,10 +218,9 @@
       [UseSpawn:true]
       
       [SpawningType:CustomSpawn]
-      [StartsReady:true]
-      [SpawnMinCooldown:25]
-      [SpawnMaxCooldown:29]
-      [MaxSpawns:-1]
+      [SpawnMinCooldown:0]
+      [SpawnMaxCooldown:0]
+      [MaxSpawns:1]
       
       [SpawnGroups:(NPC-VOID) Kraken-Stingbaby-Port]
       
@@ -285,10 +284,9 @@
       [UseSpawn:true]
       
       [SpawningType:CustomSpawn]
-      [StartsReady:true]
-      [SpawnMinCooldown:25]
-      [SpawnMaxCooldown:29]
-      [MaxSpawns:-1]
+      [SpawnMinCooldown:0]
+      [SpawnMaxCooldown:0]
+      [MaxSpawns:1]
       
       [SpawnGroups:(NPC-VOID) Kraken-Stingbaby-Starboard]
       
@@ -580,9 +578,8 @@
       [UseSpawn:true]
       
       [SpawningType:CustomSpawn]
-      [StartsReady:true]
-      [SpawnMinCooldown:1]
-      [SpawnMaxCooldown:2]
+      [SpawnMinCooldown:0]
+      [SpawnMaxCooldown:0]
       [MaxSpawns:1]
       
       [SpawnGroups:(NPC-VOID) 1xLampreyB]
@@ -678,10 +675,9 @@
       [UseSpawn:true]
       
       [SpawningType:CustomSpawn]
-      [StartsReady:true]
-      [SpawnMinCooldown:25]
-      [SpawnMaxCooldown:29]
-      [MaxSpawns:-1]
+      [SpawnMinCooldown:0]
+      [SpawnMaxCooldown:0]
+      [MaxSpawns:1]
       
       [SpawnGroups:(NPC-VOID) Kraken-Screen-Wing]
       

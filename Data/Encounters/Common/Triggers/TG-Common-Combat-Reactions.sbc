@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!-- ============================================================ -->
+    <!-- RETALIATE: on being hit, focus the attacker + reverse circle. -->
+    <!-- Throttled to 15-20s so ships commit to a threat, not thrash.  -->
+    <!-- Added to TG-Common-PvE-Default and TG-Common-PvE-Hard.        -->
+    <!-- ============================================================ -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-Common-Retaliate</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [MinCooldownMs:15000]
+        [MaxCooldownMs:20000]
+
+        [Actions:AC-Common-Retaliate]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-Common-Retaliate</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [SwitchTargetToDamager:true]
+        [ChangeRotationDirection:true]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- ============================================================ -->
+    <!-- ERRATIC EVASION: elite/hard encounters jink under fire.       -->
+    <!-- 25% roll per hit, 6-10s cooldown. TG-Common-PvE-Hard only.    -->
+    <!-- ============================================================ -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-Common-Evade-Erratic</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [MinCooldownMs:6000]
+        [MaxCooldownMs:10000]
+
+        [Actions:AC-Common-Evade-Erratic]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-Common-Evade-Erratic</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+
+        [Chance:25]
+        [RandomThrustDirection:true]
+        [RandomGyroRotation:true]
+
+      </Description>
+    </EntityComponent>
+
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-Common-Ram</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [Chance:40]
+        [Ramming:true]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-Common-Ram</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [MinCooldownMs:12000]
+        [MaxCooldownMs:22000]
+        [Conditions:CD-Common-TargetAhead]
+        [Actions:AC-Common-Ram]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-Common-Ram</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+        [Triggers:TR-Common-Ram]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-Common-Evade-Roll</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [Chance:25]
+        [BarrelRoll:true]
+        [HeavyYaw:true]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-Common-Evade-Roll</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [StartsReady:true]
+        [MaxActions:-1]
+        [MinCooldownMs:7000]
+        [MaxCooldownMs:12000]
+        [Actions:AC-Common-Evade-Roll]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-Common-Evade-Roll</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+        [Triggers:TR-Common-Evade-Roll]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-Common-Escalate</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [Chance:100]
+        [ChangeBehaviorSubclass:true]
+        [NewBehaviorSubclass:Vulture]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-Common-Escalate</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [StartsReady:true]
+        [MaxActions:1]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [Conditions:CD-Common-LowHull-35]
+        [Actions:AC-Common-Escalate]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-Common-Escalate</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+        [Triggers:TR-Common-Escalate]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

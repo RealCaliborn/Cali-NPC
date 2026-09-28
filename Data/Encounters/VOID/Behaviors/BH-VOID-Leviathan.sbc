@@ -10,25 +10,20 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:Hunter]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [BehaviorName:HorseFighter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [AutopilotData:AP-Common-Standoff-1500-2250-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
         [RemoteControlCode:SI-Roaches-Boss-Any]
-        [UseAmmoReplenish:true]
         [TriggerGroups:TG-Common-PvE-Default]
-        [Triggers:TR-Common-FireFixed]
         [Triggers:TR-VOID-LeviathanBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]
         [TriggerGroups:TG-VOID-Leviathan-Carrier]
+        [TriggerGroups:TG-Common-Escalate]
 
       </Description>
     </EntityComponent>

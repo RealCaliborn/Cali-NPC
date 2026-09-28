@@ -722,8 +722,8 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
-              <Enabled>true</Enabled>
-              <BroadcastRadius>20000</BroadcastRadius>
+              <Enabled>false</Enabled>
+              <BroadcastRadius>1</BroadcastRadius>
               <HudText />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_Passage">
@@ -818,13 +818,13 @@
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
-              <BroadcastRadius>5000</BroadcastRadius>
+              <BroadcastRadius>20000</BroadcastRadius>
               <ShowShipName>false</ShowShipName>
               <EnableBroadcasting>true</EnableBroadcasting>
               <AttachedPB>0</AttachedPB>
               <IgnoreAllied>false</IgnoreAllied>
               <IgnoreOther>true</IgnoreOther>
-              <HudText />
+              <HudText>Sentinel-E</HudText>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
               <SubtypeName>Catwalk</SubtypeName>
@@ -3523,10 +3523,10 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>2</NumberInGrid>
-              <Enabled>true</Enabled>
-              <BroadcastRadius>5000</BroadcastRadius>
+              <Enabled>false</Enabled>
+              <BroadcastRadius>1</BroadcastRadius>
               <ShowShipName>false</ShowShipName>
-              <EnableBroadcasting>true</EnableBroadcasting>
+              <EnableBroadcasting>false</EnableBroadcasting>
               <AttachedPB>0</AttachedPB>
               <IgnoreAllied>false</IgnoreAllied>
               <IgnoreOther>true</IgnoreOther>
@@ -8060,10 +8060,10 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
-              <Enabled>true</Enabled>
-              <BroadcastRadius>5000</BroadcastRadius>
+              <Enabled>false</Enabled>
+              <BroadcastRadius>1</BroadcastRadius>
               <ShowShipName>false</ShowShipName>
-              <EnableBroadcasting>true</EnableBroadcasting>
+              <EnableBroadcasting>false</EnableBroadcasting>
               <AttachedPB>0</AttachedPB>
               <IgnoreAllied>false</IgnoreAllied>
               <IgnoreOther>true</IgnoreOther>
@@ -12074,10 +12074,10 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>4</NumberInGrid>
-              <Enabled>true</Enabled>
-              <BroadcastRadius>5000</BroadcastRadius>
+              <Enabled>false</Enabled>
+              <BroadcastRadius>1</BroadcastRadius>
               <ShowShipName>false</ShowShipName>
-              <EnableBroadcasting>true</EnableBroadcasting>
+              <EnableBroadcasting>false</EnableBroadcasting>
               <AttachedPB>0</AttachedPB>
               <IgnoreAllied>false</IgnoreAllied>
               <IgnoreOther>true</IgnoreOther>
@@ -12096,10 +12096,10 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>5</NumberInGrid>
-              <Enabled>true</Enabled>
-              <BroadcastRadius>5000</BroadcastRadius>
+              <Enabled>false</Enabled>
+              <BroadcastRadius>1</BroadcastRadius>
               <ShowShipName>false</ShowShipName>
-              <EnableBroadcasting>true</EnableBroadcasting>
+              <EnableBroadcasting>false</EnableBroadcasting>
               <AttachedPB>0</AttachedPB>
               <IgnoreAllied>false</IgnoreAllied>
               <IgnoreOther>true</IgnoreOther>
@@ -12118,10 +12118,10 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>6</NumberInGrid>
-              <Enabled>true</Enabled>
-              <BroadcastRadius>5000</BroadcastRadius>
+              <Enabled>false</Enabled>
+              <BroadcastRadius>1</BroadcastRadius>
               <ShowShipName>false</ShowShipName>
-              <EnableBroadcasting>true</EnableBroadcasting>
+              <EnableBroadcasting>false</EnableBroadcasting>
               <AttachedPB>0</AttachedPB>
               <IgnoreAllied>false</IgnoreAllied>
               <IgnoreOther>true</IgnoreOther>
@@ -12140,10 +12140,10 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>7</NumberInGrid>
-              <Enabled>true</Enabled>
-              <BroadcastRadius>5000</BroadcastRadius>
+              <Enabled>false</Enabled>
+              <BroadcastRadius>1</BroadcastRadius>
               <ShowShipName>false</ShowShipName>
-              <EnableBroadcasting>true</EnableBroadcasting>
+              <EnableBroadcasting>false</EnableBroadcasting>
               <AttachedPB>0</AttachedPB>
               <IgnoreAllied>false</IgnoreAllied>
               <IgnoreOther>true</IgnoreOther>

@@ -32,10 +32,11 @@
             [RivalAiReplaceRemoteControl:true]
             [RotateFirstCockpitToForward:true]
             [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+        [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>0.8</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
                     <Position>
@@ -77,10 +78,11 @@
             [RivalAiReplaceRemoteControl:true]
             [RotateFirstCockpitToForward:true]
             [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+        [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>0.8</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GIRR) Modified Transport">
                     <Position>
@@ -122,10 +124,11 @@
             [RivalAiReplaceRemoteControl:true]
             [RotateFirstCockpitToForward:true]
             [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+        [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>0.8</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GIRR) Modified Miner">
                     <Position>
@@ -167,6 +170,7 @@
             [RivalAiReplaceRemoteControl:true]
             [RotateFirstCockpitToForward:true]
             [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+        [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
 
             </Description>
             <IsPirate>true</IsPirate>

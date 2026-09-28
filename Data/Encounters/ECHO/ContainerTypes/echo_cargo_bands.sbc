@@ -1,0 +1,40 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+
+<!-- ECHO combat-ship cargo. Electronics / AI theme with the same value scale
+     as the other faction cargo bands. Backbone ids only; no chase items. -->
+
+<!-- ECHO Cargo Easy -->
+    <ContainerType CountMin="2" CountMax="3">
+      <Id><TypeId>ContainerTypeDefinition</TypeId><SubtypeId>ECHO Cargo Easy</SubtypeId></Id>
+      <Items>
+        <Item AmountMin="50" AmountMax="200"><Frequency>4</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Computer</SubtypeId></Id></Item>
+        <Item AmountMin="25" AmountMax="100"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Detector</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Display</SubtypeId></Id></Item>
+        <Item AmountMin="25" AmountMax="100"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>RadioCommunication</SubtypeId></Id></Item>
+        <Item AmountMin="100" AmountMax="400"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>SteelPlate</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>2</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Tech2x</SubtypeId></Id></Item>
+        <Item AmountMin="5000" AmountMax="25000"><Frequency>2</Frequency><Id><TypeId>PhysicalObject</TypeId><SubtypeId>SpaceCredit</SubtypeId></Id></Item>
+      </Items>
+    </ContainerType>
+
+<!-- ECHO Cargo Medium -->
+    <ContainerType CountMin="3" CountMax="4">
+      <Id><TypeId>ContainerTypeDefinition</TypeId><SubtypeId>ECHO Cargo Medium</SubtypeId></Id>
+      <Items>
+        <Item AmountMin="150" AmountMax="600"><Frequency>4</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Computer</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Detector</SubtypeId></Id></Item>
+        <Item AmountMin="150" AmountMax="600"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Display</SubtypeId></Id></Item>
+        <Item AmountMin="75" AmountMax="300"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>RadioCommunication</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>2</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Superconductor</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>2</Frequency><Id><TypeId>Component</TypeId><SubtypeId>PowerCell</SubtypeId></Id></Item>
+        <Item AmountMin="200" AmountMax="800"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Tech2x</SubtypeId></Id></Item>
+        <Item AmountMin="100" AmountMax="400"><Frequency>2</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Tech4x</SubtypeId></Id></Item>
+        <Item AmountMin="3" AmountMax="8"><Frequency>2</Frequency><Id><TypeId>ConsumableItem</TypeId><SubtypeId>Powerkit</SubtypeId></Id></Item>
+        <Item AmountMin="25000" AmountMax="100000"><Frequency>2</Frequency><Id><TypeId>PhysicalObject</TypeId><SubtypeId>SpaceCredit</SubtypeId></Id></Item>
+      </Items>
+    </ContainerType>
+
+  </ContainerTypes>
+</Definitions>

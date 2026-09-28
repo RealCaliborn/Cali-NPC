@@ -72,6 +72,9 @@
 			[MinCooldownMs:1000]
 			[MaxCooldownMs:1001]
 			[MaxActions:-1]
+
+			[Conditions:CD-Common-LowHull-35]
+
 			[Actions:AC-Common-Jump-Away]
 		  
 			</Description>

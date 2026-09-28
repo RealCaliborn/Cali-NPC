@@ -12,7 +12,8 @@
         [RivalAI Behavior]
 
         [BehaviorName:Hunter]
-        [Triggers:TR-Common-FireFixed]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
 
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-2500-3750-B]
@@ -23,18 +24,14 @@
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
 
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
 
-        [UseAmmoReplenish:true]
 
         [TriggerGroups:TG-Common-PvE-Default]
 
         [Triggers:TR-VOID-ScreamBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-VOID-Tattle]
 
       </Description>
     </EntityComponent>
@@ -49,7 +46,8 @@
         [RivalAI Behavior]
 
         [BehaviorName:Hunter]
-        [Triggers:TR-Common-FireFixed]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
 
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-2500-3750-B]
@@ -60,12 +58,7 @@
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
 
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
 
-        [UseAmmoReplenish:true]
 
         [TriggerGroups:TG-Common-PvE-Default]
 
@@ -74,6 +67,7 @@
         [TriggerGroups:TG-VOID-Reputation]
         [TriggerGroups:TG-PRTH-VOID-Mayday-Responder]
         [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+        [TriggerGroups:TG-Common-Escalate]
 
       </Description>
     </EntityComponent>

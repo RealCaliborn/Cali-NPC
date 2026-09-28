@@ -64,6 +64,9 @@
         [StrafeDistanceCutOff:100]
         [RotationMultiplier:1.25]
 
+        [RamMinDurationMs:6000]
+        [RamMaxDurationMs:9000]
+
         [EngageDistanceSpace:400]
         [EngageDistancePlanet:400]
         [DisengageDistanceSpace:700]
@@ -106,6 +109,9 @@
         [StrafeDistanceCutOff:150]
         [RotationMultiplier:1.25]
 
+        [RamMinDurationMs:6000]
+        [RamMaxDurationMs:9000]
+
         [EngageDistanceSpace:900]
         [EngageDistancePlanet:900]
         [DisengageDistanceSpace:1000]
@@ -144,6 +150,9 @@
         [StrafeMinimumSafeAngleFromTarget:15]
         [StrafeMinimumTargetDistance:1500]
         [RotationMultiplier:1.25]
+
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.7]
 
         [EngageDistanceSpace:2000]
         [EngageDistancePlanet:2000]
@@ -184,6 +193,9 @@
         [StrafeMinimumTargetDistance:1500]
         [RotationMultiplier:1.25]
 
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.7]
+
         [EngageDistanceSpace:1750]
         [EngageDistancePlanet:1750]
         [DisengageDistanceSpace:2000]
@@ -222,6 +234,9 @@
         [StrafeMinimumSafeAngleFromTarget:15]
         [StrafeMinimumTargetDistance:2500]
         [RotationMultiplier:1.25]
+
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.6]
 
         [EngageDistanceSpace:3500]
         [EngageDistancePlanet:3500]
@@ -262,6 +277,9 @@
         [StrafeMinimumTargetDistance:3500]
         [RotationMultiplier:1.25]
 
+        [LimitRotationSpeed:true]
+        [MaxRotationMagnitude:0.5]
+
         [EngageDistanceSpace:4500]
         [EngageDistancePlanet:4500]
         [DisengageDistanceSpace:4750]
@@ -280,6 +298,12 @@
   <Description>
 
     [RivalAI Autopilot]
+
+    [AttackRunDistanceSpace:3500]
+    [AttackRunDistancePlanet:2500]
+    [AttackRunBreakawayDistance:400]
+    [OffsetRecalculationTime:8]
+    [AttackRunUseSafePlanetPathing:true]
 
     [DisableInertiaDampeners:false]
     [FlyLevelWithGravity:false]
@@ -303,6 +327,43 @@
 
   </Description>
 </EntityComponent>
+
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AP-Common-Vulture-Spiral-B</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Autopilot]
+        [DisableInertiaDampeners:false]
+        [FlyLevelWithGravity:true]
+        [WaypointTolerance:40]
+        [IdealMinSpeed:10]
+        [IdealMaxSpeed:400]
+        [MaxSpeedTolerance:5]
+        [SlowDownOnWaypointApproach:true]
+        [UseProjectileLeadPrediction:true]
+        [OffsetSpaceMinDistFromTarget:400]
+        [OffsetSpaceMaxDistFromTarget:900]
+        [OffsetPlanetMinDistFromTarget:400]
+        [OffsetPlanetMaxDistFromTarget:900]
+        [OffsetPlanetMinTargetAltitude:300]
+        [OffsetPlanetMaxTargetAltitude:700]
+        [CircleTargetRadiusConstriction:true]
+        [CircleTargetRadiusConstrictionAmount:8]
+        [CircleTargetClockwise:true]
+        [CircleTargetUpAngleLimit:90]
+        [CircleTargetDriftExemption:true]
+        [RotationMultiplier:1.25]
+        [EngageDistanceSpace:1200]
+        [EngageDistancePlanet:1200]
+        [DisengageDistanceSpace:2000]
+        [DisengageDistancePlanet:2000]
+
+      </Description>
+    </EntityComponent>
 
 </EntityComponents>
 </Definitions>

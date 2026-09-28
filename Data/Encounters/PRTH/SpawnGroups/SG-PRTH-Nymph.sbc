@@ -25,9 +25,10 @@
         [RotateFirstCockpitToForward:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
 
+        [AssignContainerTypesToAllCargo:PRTH Cargo Easy]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-PRTH) Nymph">
                 <Position>
@@ -66,9 +67,10 @@
         [RotateFirstCockpitToForward:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
 
+        [AssignContainerTypesToAllCargo:PRTH Cargo Medium]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-PRTH) Speartip">
                 <Position>
@@ -107,9 +109,10 @@
         [RotateFirstCockpitToForward:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
 
+        [AssignContainerTypesToAllCargo:PRTH Cargo Medium]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-PRTH) Thunderbolt">
                 <Position>
@@ -148,9 +151,10 @@
         [RotateFirstCockpitToForward:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
 
+        [AssignContainerTypesToAllCargo:PRTH Cargo Hard]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-PRTH) Hoplon">
                 <Position>
@@ -188,9 +192,10 @@
         [RotateFirstCockpitToForward:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
 
+        [AssignContainerTypesToAllCargo:PRTH Cargo Easy]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-PRTH) Nymph">
                 <Position>
@@ -229,9 +234,10 @@
         [RotateFirstCockpitToForward:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
 
+        [AssignContainerTypesToAllCargo:PRTH Cargo Easy]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-PRTH) Minotaur">
                 <Position>

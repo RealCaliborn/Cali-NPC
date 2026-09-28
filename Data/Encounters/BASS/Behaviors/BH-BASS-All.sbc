@@ -13,6 +13,8 @@
         [RivalAI Behavior]
 
         [BehaviorName:Hunter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
 
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
@@ -30,7 +32,6 @@
         [TriggerGroups:TG-BASS-Detect]
         [TriggerGroups:TG-BASS-Sentinel-Ram]
 
-        [UseBarrageFire:false]
 
       </Description>
     </EntityComponent>
@@ -46,6 +47,8 @@
         [RivalAI Behavior]
 
         [BehaviorName:Hunter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
 
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
@@ -61,8 +64,8 @@
         [TriggerGroups:TG-BASS-Chat]
         [TriggerGroups:TG-BASS-Detect]
         [TriggerGroups:TG-BASS-Sentinel-Ram]
+        [TriggerGroups:TG-Common-Evade-Roll]
 
-        [UseBarrageFire:false]
 
       </Description>
     </EntityComponent>
@@ -77,12 +80,12 @@
 
         [RivalAI Behavior]
         [BehaviorName:Horsefly]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Close-B]
         [TargetData:TA-Common-8000-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-BASS-Target-Sharing]
         [TriggerGroups:TG-BASS-Chat]
@@ -90,7 +93,7 @@
         [TriggerGroups:TG-BASS-Sentinel-Ram]
         [TriggerGroups:TG-PRTH-BASS-Mayday-Responder]
         [TriggerGroups:TG-ECHO-BASS-Mayday-Responder]
-        [UseBarrageFire:false]
+        [TriggerGroups:TG-Common-Evade-Roll]
 
       </Description>
     </EntityComponent>
@@ -105,21 +108,19 @@
 
         [RivalAI Behavior]
         [BehaviorName:Horsefly]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Close-B]
         [TargetData:TA-Common-8000-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [Triggers:TR-Common-FireFixed]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-BASS-Target-Sharing]
         [TriggerGroups:TG-BASS-Chat]
         [TriggerGroups:TG-BASS-Detect]
         [TriggerGroups:TG-BASS-Sentinel-Ram]
-        [UseBarrageFire:false]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-Common-Evade-Roll]
 
       </Description>
     </EntityComponent>
@@ -134,20 +135,18 @@
 
         [RivalAI Behavior]
         [BehaviorName:Horsefly]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-Common-8000-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [Triggers:TR-Common-FireFixed]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-BASS-Target-Sharing]
         [TriggerGroups:TG-BASS-Chat]
         [TriggerGroups:TG-BASS-Detect]
         [TriggerGroups:TG-BASS-Sentinel-Ram]
-        [UseBarrageFire:false]
+        [TriggerGroups:TG-Common-Jump]
 
       </Description>
     </EntityComponent>
@@ -161,22 +160,20 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:Hunter]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [BehaviorName:Horsefly]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [AutopilotData:AP-Common-Standoff-1500-2250-B]
         [TargetData:TA-Common-8000-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [Triggers:TR-Common-FireFixed]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-BASS-Target-Sharing]
         [TriggerGroups:TG-BASS-Chat]
         [TriggerGroups:TG-BASS-Detect]
         [TriggerGroups:TG-BASS-Sentinel-Ram]
-        [UseBarrageFire:false]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-Common-Escalate]
 
       </Description>
     </EntityComponent>
@@ -191,21 +188,20 @@
 
         [RivalAI Behavior]
         [BehaviorName:Hunter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-Common-8000-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [Triggers:TR-Common-FireFixed]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-BASS-Target-Sharing]
         [TriggerGroups:TG-BASS-Chat]
         [TriggerGroups:TG-BASS-Detect]
         [TriggerGroups:TG-BASS-Sentinel-Ram]
-        [UseBarrageFire:false]
+        [TriggerGroups:TG-Common-Jump]
 
       </Description>
     </EntityComponent>
@@ -221,23 +217,21 @@
 
         [RivalAI Behavior]
         [BehaviorName:Hunter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
         [TargetData:TA-Common-8000-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [Triggers:TR-Common-FireFixed]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-BASS-Carrier-Spawner]
         [TriggerGroups:TG-BASS-Target-Sharing]
         [TriggerGroups:TG-BASS-Chat]
         [TriggerGroups:TG-BASS-Detect]
         [TriggerGroups:TG-BASS-Sentinel-Ram]
-        [UseBarrageFire:false]
+        [TriggerGroups:TG-Common-Jump]
 
       </Description>
     </EntityComponent>

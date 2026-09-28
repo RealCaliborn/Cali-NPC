@@ -279,9 +279,8 @@
       [UseSpawn:true]
       
       [SpawningType:CustomSpawn]
-      [StartsReady:true]
-      [SpawnMinCooldown:1]
-      [SpawnMaxCooldown:2]
+      [SpawnMinCooldown:0]
+      [SpawnMaxCooldown:0]
       [MaxSpawns:1]
       
       [SpawnGroups:(NPC-VOID) ECHO Mayday Wave 1Stingray1Hunter1UrchinB]
@@ -353,9 +352,8 @@
       [UseSpawn:true]
       
       [SpawningType:CustomSpawn]
-      [StartsReady:true]
-      [SpawnMinCooldown:1]
-      [SpawnMaxCooldown:2]
+      [SpawnMinCooldown:0]
+      [SpawnMaxCooldown:0]
       [MaxSpawns:1]
       
       [SpawnGroups:(NPC-VOID) ECHO Mayday Wave 1Stingray1UrchinB1UrchinS2Bro]
@@ -427,9 +425,8 @@
       [UseSpawn:true]
       
       [SpawningType:CustomSpawn]
-      [StartsReady:true]
-      [SpawnMinCooldown:1]
-      [SpawnMaxCooldown:2]
+      [SpawnMinCooldown:0]
+      [SpawnMaxCooldown:0]
       [MaxSpawns:1]
       
       [SpawnGroups:(NPC-VOID) ECHO Mayday Wave 2Stingray1Chordata1UrchinS]
@@ -513,9 +510,8 @@
       [UseSpawn:true]
       
       [SpawningType:CustomSpawn]
-      [StartsReady:true]
-      [SpawnMinCooldown:1]
-      [SpawnMaxCooldown:2]
+      [SpawnMinCooldown:0]
+      [SpawnMaxCooldown:0]
       [MaxSpawns:1]
       
       [SpawnGroups:(NPC-ECHO) ECHO Mayday Medium Reward]

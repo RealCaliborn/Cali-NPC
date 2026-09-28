@@ -17,6 +17,8 @@
         [RivalAI Behavior]
 
         [BehaviorName:Hunter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
 
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
@@ -36,7 +38,6 @@
         [TriggerGroups:TG-BASS-Chat-WatchPost]
         [TriggerGroups:TG-BASS-Sentinel-Ram]
 
-        [UseBarrageFire:false]
 
       </Description>
     </EntityComponent>

@@ -10,23 +10,18 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:Hunter]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-1500-2000-B]
+        [BehaviorName:HorseFighter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [AutopilotData:AP-Common-Standoff-1500-2000-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
         [TriggerGroups:TG-Common-PvE-Default]
         [Triggers:TR-VOID-ScreamBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-Common-Evade-Roll]
 
       </Description>
     </EntityComponent>

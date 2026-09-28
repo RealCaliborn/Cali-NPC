@@ -36,9 +36,13 @@
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 			[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
+      [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+			
+      [UseContainerTypeAssignment:true]
+      [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.7</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Urchin S">
 					<Position>
@@ -72,7 +76,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) Boss Encounter 1 (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) Boss Encounter 1</SubtypeId>
 			</Id>
 			<Description>
 
@@ -106,9 +110,13 @@
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 			[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 				
+      [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+				
+      [UseContainerTypeAssignment:true]
+      [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.7</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Kraken">
 					<Position>
@@ -143,7 +151,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) Boss Encounter 2 (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) Boss Encounter 2</SubtypeId>
 			</Id>
 			<Description>
 
@@ -173,12 +181,13 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+		[AssignContainerTypesToAllCargo:VOID Cargo Hard]
 		[UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 			    
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.5</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Leviathan">
 					<Position>
@@ -255,9 +264,13 @@
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 			[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 				
+      [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+				
+      [UseContainerTypeAssignment:true]
+      [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.7</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Kraken">
 					<Position>
@@ -288,439 +301,12 @@
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
-		<!-- (NPC-VOID) Hunter -->
-		<SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) Hunter (OUTER)</SubtypeId>
-			</Id>
-			<Description>
-
-        [Modular Encounters SpawnGroup]
-		[IgnoreCombatPhase:true]
-
-        [DisableDampeners:false]
-
-        [SpaceCargoShip:true]
-
-        [FactionOwner:VOID]
-        [ReplenishSystems:true]
-        [GridsAreEditable:true]
-        [GridsAreDestructable:true]
-        [UseRivalAi:true]
-        [RivalAiReplaceRemoteControl:true]
-        [AddDefenseShieldBlocks:true]
-
-        [UseThreatLevelCheck:false]
-        [ThreatLevelCheckRange:10000]
-        [ThreatScoreMinimum:500]
-        [ThreatScoreMaximum:1499]
-		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
-			
-      </Description>
-			<IsPirate>true</IsPirate>
-			<Frequency>1.1</Frequency>
-			<Prefabs>
-				<Prefab SubtypeId="(NPC-VOID) Hunter">
-					<Position>
-						<X>0.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Hunter</Behaviour>
-				</Prefab>
-			</Prefabs>
-		</SpawnGroup>
-		<!-- (NPC-VOID) Hunter -->
-		<!-- (NPC-VOID) 2xHunter -->
-		<SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 2xHunter (OUTER)</SubtypeId>
-			</Id>
-			<Description>
-
-        [Modular Encounters SpawnGroup]
-		[IgnoreCombatPhase:true]
-
-        [DisableDampeners:false]
-
-        [SpaceCargoShip:true]
-
-        [FactionOwner:VOID]
-        [ReplenishSystems:true]
-        [GridsAreEditable:true]
-        [GridsAreDestructable:true]
-        [UseRivalAi:true]
-        [RivalAiReplaceRemoteControl:true]
-        [AddDefenseShieldBlocks:true]
-
-        [UseThreatLevelCheck:false]
-        [ThreatLevelCheckRange:10000]
-        [ThreatScoreMinimum:750]
-        [ThreatScoreMaximum:1999]
-
-        [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
-		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
-			
-      </Description>
-			<IsPirate>true</IsPirate>
-			<Frequency>1.1</Frequency>
-			<Prefabs>
-				<Prefab SubtypeId="(NPC-VOID) Hunter">
-					<Position>
-						<X>-250.2</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Hunter</Behaviour>
-				</Prefab>
-				<Prefab SubtypeId="(NPC-VOID) Hunter">
-					<Position>
-						<X>250.2</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Hunter</Behaviour>
-				</Prefab>
-			</Prefabs>
-		</SpawnGroup>
-		<!-- (NPC-VOID) 2xHunter -->
-		<!-- (NPC-VOID) HunterUrchinS -->
-		<SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) HunterUrchinS (OUTER)</SubtypeId>
-			</Id>
-			<Description>
-
-        [Modular Encounters SpawnGroup]
-		[IgnoreCombatPhase:true]
-
-        [DisableDampeners:false]
-
-        [SpaceCargoShip:true]
-        [SpaceRandomEncounter:true]
-
-        [FactionOwner:VOID]
-        [ReplenishSystems:true]
-        [GridsAreEditable:true]
-        [GridsAreDestructable:true]
-        [UseRivalAi:true]
-        [RivalAiReplaceRemoteControl:true]
-        [AddDefenseShieldBlocks:true]
-
-        [UseThreatLevelCheck:false]
-        [ThreatLevelCheckRange:10000]
-        [ThreatScoreMinimum:750]
-        [ThreatScoreMaximum:1999]
-
-        [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
-		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
-			
-      </Description>
-			<IsPirate>true</IsPirate>
-			<Frequency>1.0</Frequency>
-			<Prefabs>
-				<Prefab SubtypeId="(NPC-VOID) Hunter">
-					<Position>
-						<X>-250.2</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Hunter</Behaviour>
-				</Prefab>
-				<Prefab SubtypeId="(NPC-VOID) Urchin S">
-					<Position>
-						<X>250.2</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Urchin-S</Behaviour>
-				</Prefab>
-			</Prefabs>
-		</SpawnGroup>
-		<!-- (NPC-VOID) HunterUrchinS -->
-		<!-- (NPC-VOID) HunterUrchinB -->
-		<SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) HunterUrchinB (OUTER)</SubtypeId>
-			</Id>
-			<Description>
-
-        [Modular Encounters SpawnGroup]
-		[IgnoreCombatPhase:true]
-
-        [DisableDampeners:false]
-
-        [SpaceCargoShip:true]
-
-        [FactionOwner:VOID]
-        [ReplenishSystems:true]
-        [GridsAreEditable:true]
-        [GridsAreDestructable:true]
-        [UseRivalAi:true]
-        [RivalAiReplaceRemoteControl:true]
-        [AddDefenseShieldBlocks:true]
-
-        [UseThreatLevelCheck:false]
-        [ThreatLevelCheckRange:10000]
-        [ThreatScoreMinimum:750]
-        [ThreatScoreMaximum:1999]
-
-        [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
-		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
-			
-      </Description>
-			<IsPirate>true</IsPirate>
-			<Frequency>1.1</Frequency>
-			<Prefabs>
-				<Prefab SubtypeId="(NPC-VOID) Hunter">
-					<Position>
-						<X>-250.2</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Hunter</Behaviour>
-				</Prefab>
-				<Prefab SubtypeId="(NPC-VOID) Urchin B">
-					<Position>
-						<X>250.2</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Urchin-B</Behaviour>
-				</Prefab>
-			</Prefabs>
-		</SpawnGroup>
-		<!-- (NPC-VOID) HunterUrchinB -->
-		<!-- (NPC-VOID) UrchinSUrchinB -->
-		<SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) UrchinSUrchinB (OUTER)</SubtypeId>
-			</Id>
-			<Description>
-
-        [Modular Encounters SpawnGroup]
-		[IgnoreCombatPhase:true]
-
-        [DisableDampeners:false]
-
-        [SpaceCargoShip:true]
-        [SpaceRandomEncounter:true]
-
-        [FactionOwner:VOID]
-        [ReplenishSystems:true]
-        [GridsAreEditable:true]
-        [GridsAreDestructable:true]
-        [UseRivalAi:true]
-        [RivalAiReplaceRemoteControl:true]
-        [AddDefenseShieldBlocks:true]
-
-        [UseThreatLevelCheck:false]
-        [ThreatLevelCheckRange:10000]
-        [ThreatScoreMinimum:500]
-        [ThreatScoreMaximum:1749]
-
-        [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
-		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
-			
-      </Description>
-			<IsPirate>true</IsPirate>
-			<Frequency>1.0</Frequency>
-			<Prefabs>
-				<Prefab SubtypeId="(NPC-VOID) Urchin S">
-					<Position>
-						<X>-250.2</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Urchin-S</Behaviour>
-				</Prefab>
-				<Prefab SubtypeId="(NPC-VOID) Urchin B">
-					<Position>
-						<X>250.2</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Urchin-B</Behaviour>
-				</Prefab>
-			</Prefabs>
-		</SpawnGroup>
-		<!-- (NPC-VOID) UrchinSUrchinB -->
-		<!-- (NPC-VOID) Lamprey -->
-		<SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) Lamprey (OUTER)</SubtypeId>
-			</Id>
-			<Description>
-
-        [Modular Encounters SpawnGroup]
-		[IgnoreCombatPhase:true]
-
-        [DisableDampeners:false]
-
-        [SpaceCargoShip:true]
-
-        [FactionOwner:VOID]
-        [ReplenishSystems:true]
-        [GridsAreEditable:true]
-        [GridsAreDestructable:true]
-        [UseRivalAi:true]
-        [RivalAiReplaceRemoteControl:true]
-        [AddDefenseShieldBlocks:true]
-
-        [UseThreatLevelCheck:false]
-        [ThreatLevelCheckRange:10000]
-        [ThreatScoreMinimum:750]
-        [ThreatScoreMaximum:1749]
-
-        [ReplaceArmorBlocksWithModules:true]
-        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
-
-        [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
-		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
-			
-      </Description>
-			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
-			<Prefabs>
-				<Prefab SubtypeId="(NPC-VOID) Lamprey">
-					<Position>
-						<X>0.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Lamprey</Behaviour>
-				</Prefab>
-			</Prefabs>
-		</SpawnGroup>
-		<!-- (NPC-VOID) Lamprey -->
-		<!-- (NPC-VOID) Lamprey B -->
-		<SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) LampreyB (OUTER)</SubtypeId>
-			</Id>
-			<Description>
-
-        [Modular Encounters SpawnGroup]
-		[IgnoreCombatPhase:true]
-
-        [DisableDampeners:false]
-
-        [SpaceCargoShip:true]
-
-        [FactionOwner:VOID]
-        [ReplenishSystems:true]
-        [GridsAreEditable:true]
-        [GridsAreDestructable:true]
-        [UseRivalAi:true]
-        [RivalAiReplaceRemoteControl:true]
-        [AddDefenseShieldBlocks:true]
-
-        [UseThreatLevelCheck:false]
-        [ThreatLevelCheckRange:10000]
-        [ThreatScoreMinimum:750]
-        [ThreatScoreMaximum:1999]
-
-        [ReplaceArmorBlocksWithModules:true]
-        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
-
-        [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
-		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
-			
-      </Description>
-			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
-			<Prefabs>
-				<Prefab SubtypeId="(NPC-VOID) Lamprey B">
-					<Position>
-						<X>0.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Lamprey-B</Behaviour>
-				</Prefab>
-			</Prefabs>
-		</SpawnGroup>
-		<!-- (NPC-VOID) Lamprey B -->
-		<!-- (NPC-VOID) Stingray -->
-		<SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) Stingray (OUTER)</SubtypeId>
-			</Id>
-			<Description>
-
-        [Modular Encounters SpawnGroup]
-		[IgnoreCombatPhase:true]
-
-        [DisableDampeners:false]
-
-        [SpaceCargoShip:true]
-
-        [FactionOwner:VOID]
-        [ReplenishSystems:true]
-        [GridsAreEditable:true]
-        [GridsAreDestructable:true]
-        [UseRivalAi:true]
-        [RivalAiReplaceRemoteControl:true]
-        [AddDefenseShieldBlocks:true]
-
-        [UseThreatLevelCheck:false]
-        [ThreatLevelCheckRange:10000]
-        [ThreatScoreMinimum:1000]
-        [ThreatScoreMaximum:1999]
-
-        [ReplaceArmorBlocksWithModules:true]
-        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
-
-        [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
-		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
-			
-      </Description>
-			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
-			<Prefabs>
-				<Prefab SubtypeId="(NPC-VOID) Stingray">
-					<Position>
-						<X>0.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
-				</Prefab>
-			</Prefabs>
-		</SpawnGroup>
 		<!-- (NPC-VOID) Stingray -->
 		<!-- (NPC-VOID) Stingray1xBaby -->
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) Stingray1xBaby (OUTER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) Stingray1xBaby</SubtypeId>
 			</Id>
 			<Description>
 
@@ -748,13 +334,15 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -772,7 +360,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) Stingray2xBaby (OUTER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) Stingray2xBaby</SubtypeId>
 			</Id>
 			<Description>
 
@@ -799,13 +387,15 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -823,7 +413,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) Stingray2xBaby1xBro (OUTER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) Stingray2xBaby1xBro</SubtypeId>
 			</Id>
 			<Description>
 
@@ -850,13 +440,15 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -869,72 +461,12 @@
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
-		<!-- (NPC-VOID) Stingray2xBaby1xBro -->
-		<!-- (NPC-VOID) 2xStingray -->
-		<SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 2xStingray (OUTER)</SubtypeId>
-			</Id>
-			<Description>
-
-        [Modular Encounters SpawnGroup]
-		[IgnoreCombatPhase:true]
-
-        [DisableDampeners:false]
-
-        [SpaceCargoShip:true]
-
-        [FactionOwner:VOID]
-        [ReplenishSystems:true]
-        [GridsAreEditable:true]
-        [GridsAreDestructable:true]
-        [UseRivalAi:true]
-        [RivalAiReplaceRemoteControl:true]
-        [AddDefenseShieldBlocks:true]
-
-        [UseThreatLevelCheck:false]
-        [ThreatLevelCheckRange:10000]
-        [ThreatScoreMinimum:2500]
-        [ThreatScoreMaximum:-1]
-
-        [ReplaceArmorBlocksWithModules:true]
-        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
-
-        [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
-		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
-			
-      </Description>
-			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
-			<Prefabs>
-				<Prefab SubtypeId="(NPC-VOID) Stingray">
-					<Position>
-						<X>500.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
-				</Prefab>
-				<Prefab SubtypeId="(NPC-VOID) Stingray">
-					<Position>
-						<X>-500.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
-				</Prefab>
-			</Prefabs>
-		</SpawnGroup>
 		<!-- (NPC-VOID) 2xStingray -->
 		<!-- (NPC-VOID) 2xStingray -->
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 2xStingray (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) 2xStingray</SubtypeId>
 			</Id>
 			<Description>
 
@@ -961,13 +493,15 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -989,12 +523,12 @@
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
-		<!-- (NPC-VOID) 2xStingray -->
+		<!-- (NPC-VOID) 1xStingray1xLamprey -->
 		<!-- (NPC-VOID) 1xStingray1xLamprey -->
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 1xStingray1xLamprey (OUTER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) 1xStingray1xLamprey</SubtypeId>
 			</Id>
 			<Description>
 
@@ -1015,19 +549,21 @@
 
         [UseThreatLevelCheck:false]
         [ThreatLevelCheckRange:10000]
-        [ThreatScoreMinimum:2500]
+        [ThreatScoreMinimum:-1]
         [ThreatScoreMaximum:-1]
 
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1049,12 +585,12 @@
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
-		<!-- (NPC-VOID) 1xStingray1xLamprey -->
-		<!-- (NPC-VOID) 1xStingray1xLamprey -->
+		<!-- (NPC-VOID) 1xStingray1xLampreyB -->
+		<!-- (NPC-VOID) 1xStingray1xLampreyB -->
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 1xStingray1xLamprey (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) 1xStingray1xLampreyB</SubtypeId>
 			</Id>
 			<Description>
 
@@ -1081,73 +617,15 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
-			<Prefabs>
-				<Prefab SubtypeId="(NPC-VOID) Stingray">
-					<Position>
-						<X>500.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
-				</Prefab>
-				<Prefab SubtypeId="(NPC-VOID) Lamprey">
-					<Position>
-						<X>-500.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Lamprey</Behaviour>
-				</Prefab>
-			</Prefabs>
-		</SpawnGroup>
-		<!-- (NPC-VOID) 1xStingray1xLamprey -->
-		<!-- (NPC-VOID) 1xStingray1xLampreyB -->
-		<SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 1xStingray1xLampreyB (OUTER)</SubtypeId>
-			</Id>
-			<Description>
-
-        [Modular Encounters SpawnGroup]
-		[IgnoreCombatPhase:true]
-
-        [DisableDampeners:false]
-
-        [SpaceCargoShip:true]
-
-        [FactionOwner:VOID]
-        [ReplenishSystems:true]
-        [GridsAreEditable:true]
-        [GridsAreDestructable:true]
-        [UseRivalAi:true]
-        [RivalAiReplaceRemoteControl:true]
-        [AddDefenseShieldBlocks:true]
-
-        [UseThreatLevelCheck:false]
-        [ThreatLevelCheckRange:10000]
-        [ThreatScoreMinimum:2250]
-        [ThreatScoreMaximum:-1]
-
-        [ReplaceArmorBlocksWithModules:true]
-        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
-
-        [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
-		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
-			
-      </Description>
-			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1169,133 +647,12 @@
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
-		<!-- (NPC-VOID) 1xStingray1xLampreyB -->
-		<!-- (NPC-VOID) 1xStingray1xLampreyB -->
-		<SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 1xStingray1xLampreyB (INNER)</SubtypeId>
-			</Id>
-			<Description>
-
-        [Modular Encounters SpawnGroup]
-		[IgnoreCombatPhase:true]
-
-        [DisableDampeners:false]
-
-        [SpaceCargoShip:true]
-
-        [FactionOwner:VOID]
-        [ReplenishSystems:true]
-        [GridsAreEditable:true]
-        [GridsAreDestructable:true]
-        [UseRivalAi:true]
-        [RivalAiReplaceRemoteControl:true]
-        [AddDefenseShieldBlocks:true]
-
-        [UseThreatLevelCheck:false]
-        [ThreatLevelCheckRange:10000]
-        [ThreatScoreMinimum:-1]
-        [ThreatScoreMaximum:-1]
-
-        [ReplaceArmorBlocksWithModules:true]
-        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
-
-        [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
-		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
-			
-      </Description>
-			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
-			<Prefabs>
-				<Prefab SubtypeId="(NPC-VOID) Stingray">
-					<Position>
-						<X>500.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
-				</Prefab>
-				<Prefab SubtypeId="(NPC-VOID) Lamprey B">
-					<Position>
-						<X>-500.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Lamprey-B</Behaviour>
-				</Prefab>
-			</Prefabs>
-		</SpawnGroup>
-		<!-- (NPC-VOID) 1xStingray1xLampreyB -->
-		<!-- (NPC-VOID) 2xStingray2xBaby -->
-		<SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 2xStingray2xBaby (OUTER)</SubtypeId>
-			</Id>
-			<Description>
-
-        [Modular Encounters SpawnGroup]
-		[IgnoreCombatPhase:true]
-
-        [DisableDampeners:false]
-
-        [SpaceCargoShip:true]
-        [SpaceRandomEncounter:true]
-
-        [FactionOwner:VOID]
-        [ReplenishSystems:true]
-        [AddDefenseShieldBlocks:true]
-        [GridsAreEditable:true]
-        [GridsAreDestructable:true]
-        [UseRivalAi:true]
-        [RivalAiReplaceRemoteControl:true]
-
-        [UseThreatLevelCheck:false]
-        [ThreatLevelCheckRange:10000]
-        [ThreatScoreMinimum:2800]
-        [ThreatScoreMaximum:-1]
-
-        [ReplaceArmorBlocksWithModules:true]
-        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
-
-        [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
-		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
-			
-      </Description>
-			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
-			<Prefabs>
-				<Prefab SubtypeId="(NPC-VOID) Stingray">
-					<Position>
-						<X>500.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-1xBaby</Behaviour>
-				</Prefab>
-				<Prefab SubtypeId="(NPC-VOID) Stingray">
-					<Position>
-						<X>-500.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-1xBaby</Behaviour>
-				</Prefab>
-			</Prefabs>
-		</SpawnGroup>
 		<!-- (NPC-VOID) 2xStingray2xBaby -->
 		<!-- (NPC-VOID) 2xStingray2xBaby -->
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 2xStingray2xBaby (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) 2xStingray2xBaby</SubtypeId>
 			</Id>
 			<Description>
 
@@ -1323,13 +680,15 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1351,72 +710,12 @@
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
-		<!-- (NPC-VOID) 2xStingray2xBaby -->
-		<!-- (NPC-VOID) 2xStingray4xBaby -->
-		<SpawnGroup>
-			<Id>
-				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 2xStingray4xBaby (OUTER)</SubtypeId>
-			</Id>
-			<Description>
-
-        [Modular Encounters SpawnGroup]
-		[IgnoreCombatPhase:true]
-
-        [DisableDampeners:false]
-
-        [SpaceCargoShip:true]
-
-        [FactionOwner:VOID]
-        [ReplenishSystems:true]
-        [AddDefenseShieldBlocks:true]
-        [GridsAreEditable:true]
-        [GridsAreDestructable:true]
-        [UseRivalAi:true]
-        [RivalAiReplaceRemoteControl:true]
-
-        [UseThreatLevelCheck:false]
-        [ThreatLevelCheckRange:10000]
-        [ThreatScoreMinimum:3499]
-        [ThreatScoreMaximum:-1]
-
-        [ReplaceArmorBlocksWithModules:true]
-        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
-
-        [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
-		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
-			
-      </Description>
-			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
-			<Prefabs>
-				<Prefab SubtypeId="(NPC-VOID) Stingray">
-					<Position>
-						<X>500.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-2xBaby</Behaviour>
-				</Prefab>
-				<Prefab SubtypeId="(NPC-VOID) Stingray">
-					<Position>
-						<X>-500.0</X>
-						<Y>0.0</Y>
-						<Z>0.0</Z>
-					</Position>
-					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-2xBaby</Behaviour>
-				</Prefab>
-			</Prefabs>
-		</SpawnGroup>
 		<!-- (NPC-VOID) 2xStingray4xBaby -->
 		<!-- (NPC-VOID) 2xStingray4xBaby -->
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 2xStingray4xBaby (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) 2xStingray4xBaby</SubtypeId>
 			</Id>
 			<Description>
 
@@ -1443,13 +742,15 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1476,7 +777,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) Chordata (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) Chordata</SubtypeId>
 			</Id>
 			<Description>
 
@@ -1503,13 +804,15 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Chordata">
 					<Position>
@@ -1527,7 +830,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 1xStingray 1xUrchinS 1xUrchinB (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) 1xStingray 1xUrchinS 1xUrchinB</SubtypeId>
 			</Id>
 			<Description>
 
@@ -1553,13 +856,15 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1595,7 +900,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 1xStingray 1xUrchinS 2xStingbaby (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) 1xStingray 1xUrchinS 2xStingbaby</SubtypeId>
 			</Id>
 			<Description>
 
@@ -1622,13 +927,15 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1655,7 +962,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 1xStingray 1xHunter 2xBaby 1xBro (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) 1xStingray 1xHunter 2xBaby 1xBro</SubtypeId>
 			</Id>
 			<Description>
 
@@ -1682,13 +989,15 @@
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Energy-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1715,7 +1024,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 1xStingray 1xUrchinS 1xUrchinB 1xHunter (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) 1xStingray 1xUrchinS 1xUrchinB 1xHunter</SubtypeId>
 			</Id>
 			<Description>
 
@@ -1741,13 +1050,15 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1792,7 +1103,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 2xStingray 1xUrchinS 1xUrchinB (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) 2xStingray 1xUrchinS 1xUrchinB</SubtypeId>
 			</Id>
 			<Description>
 
@@ -1818,13 +1129,15 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1869,7 +1182,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 2xStingray 2xHunter (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) 2xStingray 2xHunter</SubtypeId>
 			</Id>
 			<Description>
 
@@ -1895,13 +1208,15 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -1946,7 +1261,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 1xChordata 2xStingray (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) 1xChordata 2xStingray</SubtypeId>
 			</Id>
 			<Description>
 
@@ -1972,13 +1287,15 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -2014,7 +1331,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 1xMahi (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) 1xMahi</SubtypeId>
 			</Id>
 			<Description>
 
@@ -2038,12 +1355,13 @@
         [ThreatScoreMinimum:2000]
         [ThreatScoreMaximum:12000]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+        [AssignContainerTypesToAllCargo:VOID Cargo Medium]
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]			
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.1</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Mahi">
 					<Position>
@@ -2061,7 +1379,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 1xChordata 1xUrchinS 1xUrchinB (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) 1xChordata 1xUrchinS 1xUrchinB</SubtypeId>
 			</Id>
 			<Description>
 
@@ -2088,8 +1406,10 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Easy]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Easy,Enhanced Medium Quantum Container 2|VOID Cargo Easy,Large Cargo Container|VOID Cargo Easy,Medium Cargo Container|VOID Cargo Easy,Medium Cargo Container 2|VOID Cargo Easy,Medium Cargo Container 3|VOID Cargo Easy,Medium Cargo Container 4|VOID Cargo Easy,Small Cargo Container|VOID Cargo Easy,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
@@ -2156,13 +1476,15 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.7</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Mahi">
 					<Position>
@@ -2226,13 +1548,14 @@
 			[RemoteControlCodeMinDistance:20000]
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+		[AssignContainerTypesToAllCargo:VOID Cargo Hard]
 		[UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			    
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.5</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Leviathan">
 					<Position>
@@ -2306,11 +1629,12 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]			
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.7</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Thunder_Kraken">
 					<Position>
@@ -2343,11 +1667,11 @@
 		</SpawnGroup>
 		<!-- Thunder Kraken 2xLamprey -->
 
-		<!-- (NPC-VOID) Hunter (INNER) -->
+		<!-- (NPC-VOID) Hunter -->
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) Hunter (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) Hunter</SubtypeId>
 			</Id>
 			<Description>
 
@@ -2372,9 +1696,13 @@
         [ThreatScoreMaximum:-1]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
+      [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+			
+      [UseContainerTypeAssignment:true]
+      [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.1</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Hunter">
 					<Position>
@@ -2387,13 +1715,13 @@
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
-		<!-- (NPC-VOID) Hunter (INNER) -->
+		<!-- (NPC-VOID) Hunter -->
 
-		<!-- (NPC-VOID) 2xHunter (INNER) -->
+		<!-- (NPC-VOID) 2xHunter -->
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 2xHunter (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) 2xHunter</SubtypeId>
 			</Id>
 			<Description>
 
@@ -2417,13 +1745,15 @@
         [ThreatScoreMinimum:-1]
         [ThreatScoreMaximum:-1]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.1</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Hunter">
 					<Position>
@@ -2445,13 +1775,13 @@
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
-		<!-- (NPC-VOID) 2xHunter (INNER) -->
+		<!-- (NPC-VOID) 2xHunter -->
 
-		<!-- (NPC-VOID) HunterUrchinS (INNER) -->
+		<!-- (NPC-VOID) HunterUrchinS -->
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) HunterUrchinS (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) HunterUrchinS</SubtypeId>
 			</Id>
 			<Description>
 
@@ -2476,8 +1806,10 @@
         [ThreatScoreMinimum:-1]
         [ThreatScoreMaximum:-1]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
@@ -2504,13 +1836,13 @@
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
-		<!-- (NPC-VOID) HunterUrchinS (INNER) -->
+		<!-- (NPC-VOID) HunterUrchinS -->
 
-		<!-- (NPC-VOID) HunterUrchinB (INNER) -->
+		<!-- (NPC-VOID) HunterUrchinB -->
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) HunterUrchinB (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) HunterUrchinB</SubtypeId>
 			</Id>
 			<Description>
 
@@ -2534,13 +1866,15 @@
         [ThreatScoreMinimum:-1]
         [ThreatScoreMaximum:-1]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>1.1</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Hunter">
 					<Position>
@@ -2562,13 +1896,13 @@
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
-		<!-- (NPC-VOID) HunterUrchinB (INNER) -->
+		<!-- (NPC-VOID) HunterUrchinB -->
 
-		<!-- (NPC-VOID) UrchinSUrchinB (INNER) -->
+		<!-- (NPC-VOID) UrchinSUrchinB -->
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) UrchinSUrchinB (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) UrchinSUrchinB</SubtypeId>
 			</Id>
 			<Description>
 
@@ -2593,8 +1927,10 @@
         [ThreatScoreMinimum:-1]
         [ThreatScoreMaximum:-1]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Easy]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Easy,Enhanced Medium Quantum Container 2|VOID Cargo Easy,Large Cargo Container|VOID Cargo Easy,Medium Cargo Container|VOID Cargo Easy,Medium Cargo Container 2|VOID Cargo Easy,Medium Cargo Container 3|VOID Cargo Easy,Medium Cargo Container 4|VOID Cargo Easy,Small Cargo Container|VOID Cargo Easy,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
@@ -2621,13 +1957,13 @@
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
-		<!-- (NPC-VOID) UrchinSUrchinB (INNER) -->
+		<!-- (NPC-VOID) UrchinSUrchinB -->
 
-		<!-- (NPC-VOID) Lamprey (INNER) -->
+		<!-- (NPC-VOID) Lamprey -->
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) Lamprey (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) Lamprey</SubtypeId>
 			</Id>
 			<Description>
 
@@ -2654,13 +1990,15 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Lamprey">
 					<Position>
@@ -2673,13 +2011,13 @@
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
-		<!-- (NPC-VOID) Lamprey (INNER) -->
+		<!-- (NPC-VOID) Lamprey -->
 
-		<!-- (NPC-VOID) LampreyB (INNER) -->
+		<!-- (NPC-VOID) LampreyB -->
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) LampreyB (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) LampreyB</SubtypeId>
 			</Id>
 			<Description>
 
@@ -2706,13 +2044,15 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Lamprey B">
 					<Position>
@@ -2725,13 +2065,13 @@
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
-		<!-- (NPC-VOID) LampreyB (INNER) -->
+		<!-- (NPC-VOID) LampreyB -->
 
-		<!-- (NPC-VOID) Stingray (INNER) -->
+		<!-- (NPC-VOID) Stingray -->
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) Stingray (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) Stingray</SubtypeId>
 			</Id>
 			<Description>
 
@@ -2758,13 +2098,15 @@
         [ReplaceArmorBlocksWithModules:true]
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
 
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|VOID Loot Default,Small Cargo Container|VOID Loot Default]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 			
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -2777,12 +2119,12 @@
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
-		<!-- (NPC-VOID) Stingray (INNER) -->
+		<!-- (NPC-VOID) Stingray -->
 
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) Horror (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) Horror</SubtypeId>
 			</Id>
 			<Description>
         [Modular Encounters SpawnGroup]
@@ -2801,9 +2143,12 @@
         [ThreatScoreMinimum:-1]
         [ThreatScoreMaximum:-1]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+      [UseContainerTypeAssignment:true]
+      [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Horror">
 					<Position>
@@ -2819,7 +2164,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) Wraith (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) Wraith</SubtypeId>
 			</Id>
 			<Description>
         [Modular Encounters SpawnGroup]
@@ -2838,9 +2183,12 @@
         [ThreatScoreMinimum:-1]
         [ThreatScoreMaximum:-1]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+      [UseContainerTypeAssignment:true]
+      [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Wraith">
 					<Position>
@@ -2856,7 +2204,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 1xHorror 2xStingray (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) 1xHorror 2xStingray</SubtypeId>
 			</Id>
 			<Description>
         [Modular Encounters SpawnGroup]
@@ -2875,9 +2223,12 @@
         [ThreatScoreMinimum:-1]
         [ThreatScoreMaximum:-1]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+      [UseContainerTypeAssignment:true]
+      [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Horror">
 					<Position>
@@ -2911,7 +2262,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 1xHorror 2xWraith (INNER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) 1xHorror 2xWraith</SubtypeId>
 			</Id>
 			<Description>
         [Modular Encounters SpawnGroup]
@@ -2930,9 +2281,12 @@
         [ThreatScoreMinimum:-1]
         [ThreatScoreMaximum:-1]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+      [UseContainerTypeAssignment:true]
+      [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Horror">
 					<Position>
@@ -2966,7 +2320,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 2xWraith (OUTER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) 2xWraith</SubtypeId>
 			</Id>
 			<Description>
         [Modular Encounters SpawnGroup]
@@ -2985,9 +2339,12 @@
         [ThreatScoreMinimum:-1]
         [ThreatScoreMaximum:-1]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+      [UseContainerTypeAssignment:true]
+      [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Wraith">
 					<Position>
@@ -3012,7 +2369,7 @@
 		<SpawnGroup>
 			<Id>
 				<TypeId>SpawnGroupDefinition</TypeId>
-				<SubtypeId>(NPC-VOID) 1xStingray 1xWraith (OUTER)</SubtypeId>
+				<SubtypeId>(NPC-VOID) 1xStingray 1xWraith</SubtypeId>
 			</Id>
 			<Description>
         [Modular Encounters SpawnGroup]
@@ -3031,9 +2388,12 @@
         [ThreatScoreMinimum:-1]
         [ThreatScoreMaximum:-1]
 		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+      [UseContainerTypeAssignment:true]
+      [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
       </Description>
 			<IsPirate>true</IsPirate>
-			<Frequency>0.8</Frequency>
+			<Frequency>1.0</Frequency>
 			<Prefabs>
 				<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position>
@@ -3055,5 +2415,2397 @@
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
-	</SpawnGroups>
+			<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xUrchinS</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Urchin S">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-S</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xUrchinB</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Urchin B">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-B</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 3xStingray</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 3xHunter</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 2xHunter1xWraith</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Wraith">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Wraith</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 2xWraith1xStingray</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Wraith">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Wraith</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Wraith">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Wraith</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xStingray2xStingbaby</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Stingbaby">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-StingBaby</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Stingbaby">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-StingBaby</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xHorror1xHunter</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Horror">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Horror</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xHorror1xWraith</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Horror">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Horror</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Wraith">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Wraith</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xLamprey1xHunter</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Lamprey">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Lamprey</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xLampreyB1xHunter</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Lamprey B">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Lamprey-B</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xChordata1xHunter</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Chordata">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Chordata</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xChordata1xWraith</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Chordata">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Chordata</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Wraith">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Wraith</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 2xStingray1xHunter</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 2xStingray1xWraith</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Wraith">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Wraith</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xStingray1xStingBro</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) StingBro">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-StingBro</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 2xStingBro</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) StingBro">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-StingBro</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) StingBro">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-StingBro</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xStingBro1xStingray1xStingbaby</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) StingBro">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-StingBro</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Stingbaby">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-StingBaby</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xLamprey1xLampreyB</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Lamprey">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Lamprey</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Lamprey B">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Lamprey-B</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 2xLamprey</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Lamprey">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Lamprey</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Lamprey">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Lamprey</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xChordata1xLamprey</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Chordata">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Chordata</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Lamprey">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Lamprey</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xHorror1xUrchinS1xUrchinB</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Horror">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Horror</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Urchin S">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-S</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Urchin B">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-B</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 2xHunter1xUrchinB</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Urchin B">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-B</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xWraith1xUrchinS</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Wraith">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Wraith</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Urchin S">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Urchin-S</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 3xHunter1xStingray</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>1001.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xStingray2xHunter1xWraith</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Wraith">
+					<Position>
+						<X>1001.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Wraith</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xChordata2xStingray1xHunter</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Chordata">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Chordata</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>1001.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xLampreyB1xStingray1xHunter</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Lamprey B">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Lamprey-B</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xHorror2xHunter</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+        [SpaceRandomEncounter:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Medium]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Medium,Enhanced Medium Quantum Container 2|VOID Cargo Medium,Large Cargo Container|VOID Cargo Medium,Medium Cargo Container|VOID Cargo Medium,Medium Cargo Container 2|VOID Cargo Medium,Medium Cargo Container 3|VOID Cargo Medium,Medium Cargo Container 4|VOID Cargo Medium,Small Cargo Container|VOID Cargo Medium,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Horror">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Horror</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 2xStingray2xHunter1xWraith</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>0.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position>
+						<X>500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>-500.5</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position>
+						<X>1001.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Wraith">
+					<Position>
+						<X>-1001.0</X>
+						<Y>0.0</Y>
+						<Z>0.0</Z>
+					</Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Wraith</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xLionFish</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Lion Fish">
+					<Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 2xLionFish</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Lion Fish">
+					<Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Lion Fish">
+					<Position><X>500.5</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xLionFish1xStingray</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Lion Fish">
+					<Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position><X>500.5</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xLionFish1xHunter</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Lion Fish">
+					<Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position><X>500.5</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xLionFish2xHunter</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Lion Fish">
+					<Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position><X>500.5</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position><X>-500.5</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xLionFish1xWraith</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Lion Fish">
+					<Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Wraith">
+					<Position><X>500.5</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Wraith</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xLionFish1xStingray1xHunter</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Lion Fish">
+					<Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Stingray">
+					<Position><X>500.5</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Hunter">
+					<Position><X>-500.5</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Hunter</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-VOID) 1xLionFish1xLamprey</SubtypeId>
+			</Id>
+			<Description>
+
+        [Modular Encounters SpawnGroup]
+		[IgnoreCombatPhase:true]
+
+        [DisableDampeners:false]
+
+        [SpaceCargoShip:true]
+
+        [FactionOwner:VOID]
+        [ReplenishSystems:true]
+        [GridsAreEditable:true]
+        [GridsAreDestructable:true]
+        [UseRivalAi:true]
+        [RivalAiReplaceRemoteControl:true]
+        [AddDefenseShieldBlocks:true]
+
+        [UseThreatLevelCheck:false]
+        [ThreatLevelCheckRange:10000]
+        [ThreatScoreMinimum:-1]
+        [ThreatScoreMaximum:-1]
+
+        [ReplaceArmorBlocksWithModules:true]
+        [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
+
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
+		[ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+			
+      </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-VOID) Lion Fish">
+					<Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-VOID) Lamprey">
+					<Position><X>500.5</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-VOID-Lamprey</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+</SpawnGroups>
 </Definitions>

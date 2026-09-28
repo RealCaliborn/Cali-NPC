@@ -14,7 +14,7 @@
         [UseCustomTargeting:true]
         [Target:PlayerAndGrid]
 
-        [MaxDistance:10000]
+        [MaxDistance:20000]
 
         [TimeUntilTargetAcquisition:1]
         [UseTargetRefresh:true]
@@ -33,10 +33,10 @@
         [MatchAnyFilters:MovementScore]
         [MatchAnyFilters:LineOfSight]
 
-        [NonBroadcastVisualRange:6000]
+        [NonBroadcastVisualRange:20000]
         [MinMovementScore:200]
-        [MaxMovementDetectableDistance:10000]
-        [MaxLineOfSight:8000]
+        [MaxMovementDetectableDistance:20000]
+        [MaxLineOfSight:20000]
 
         [MatchNoneFilters:Faction]
 
@@ -60,7 +60,7 @@
         [UseCustomTargeting:true]
         [Target:PlayerAndGrid]
 
-        [MaxDistance:12000]
+        [MaxDistance:20000]
 
         [TimeUntilTargetAcquisition:1]
         [UseTargetRefresh:true]

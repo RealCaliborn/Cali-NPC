@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+
+<!-- GKNT (Golden Knights police) band cargo. Theme: standard mil components,
+     credits, a gold nod. Threat-capped: Easy/Medium only. Backbone ids.
+     Applied via AssignContainerTypesToAllCargo (blocks are unnamed). -->
+    <ContainerType CountMin="2" CountMax="3">
+      <Id><TypeId>ContainerTypeDefinition</TypeId><SubtypeId>GKNT Cargo Easy</SubtypeId></Id>
+      <Items>
+        <Item AmountMin="50" AmountMax="200"><Frequency>4</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Construction</SubtypeId></Id></Item>
+        <Item AmountMin="100" AmountMax="400"><Frequency>4</Frequency><Id><TypeId>Component</TypeId><SubtypeId>SteelPlate</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Computer</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Motor</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>2</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Tech2x</SubtypeId></Id></Item>
+        <Item AmountMin="10" AmountMax="50"><Frequency>2</Frequency><Id><TypeId>Ingot</TypeId><SubtypeId>Gold</SubtypeId></Id></Item>
+        <Item AmountMin="5000" AmountMax="25000"><Frequency>2</Frequency><Id><TypeId>PhysicalObject</TypeId><SubtypeId>SpaceCredit</SubtypeId></Id></Item>
+      </Items>
+    </ContainerType>
+
+    <ContainerType CountMin="3" CountMax="4">
+      <Id><TypeId>ContainerTypeDefinition</TypeId><SubtypeId>GKNT Cargo Medium</SubtypeId></Id>
+      <Items>
+        <Item AmountMin="200" AmountMax="800"><Frequency>4</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Construction</SubtypeId></Id></Item>
+        <Item AmountMin="300" AmountMax="1000"><Frequency>4</Frequency><Id><TypeId>Component</TypeId><SubtypeId>SteelPlate</SubtypeId></Id></Item>
+        <Item AmountMin="100" AmountMax="400"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Computer</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Detector</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Superconductor</SubtypeId></Id></Item>
+        <Item AmountMin="100" AmountMax="200"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Reactor</SubtypeId></Id></Item>
+        <Item AmountMin="200" AmountMax="800"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Tech2x</SubtypeId></Id></Item>
+        <Item AmountMin="100" AmountMax="400"><Frequency>2</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Tech4x</SubtypeId></Id></Item>
+        <Item AmountMin="25" AmountMax="100"><Frequency>2</Frequency><Id><TypeId>Ingot</TypeId><SubtypeId>Gold</SubtypeId></Id></Item>
+        <Item AmountMin="3" AmountMax="8"><Frequency>2</Frequency><Id><TypeId>ConsumableItem</TypeId><SubtypeId>Medkit</SubtypeId></Id></Item>
+        <Item AmountMin="25000" AmountMax="100000"><Frequency>2</Frequency><Id><TypeId>PhysicalObject</TypeId><SubtypeId>SpaceCredit</SubtypeId></Id></Item>
+      </Items>
+    </ContainerType>
+
+  </ContainerTypes>
+</Definitions>

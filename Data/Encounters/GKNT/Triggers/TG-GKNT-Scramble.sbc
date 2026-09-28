@@ -112,10 +112,9 @@
 
       [UseSpawn:true]
       [SpawningType:CustomSpawn]
-      [StartsReady:true]
-      [SpawnMinCooldown:1]
-      [SpawnMaxCooldown:2]
-      [MaxSpawns:-1]
+      [SpawnMinCooldown:0]
+      [SpawnMaxCooldown:0]
+      [MaxSpawns:1]
 
       [SpawnGroups:(NPC-GKNT) Scramble 1Swallow]
 
@@ -158,10 +157,9 @@
 
       [UseSpawn:true]
       [SpawningType:CustomSpawn]
-      [StartsReady:true]
-      [SpawnMinCooldown:1]
-      [SpawnMaxCooldown:2]
-      [MaxSpawns:-1]
+      [SpawnMinCooldown:0]
+      [SpawnMaxCooldown:0]
+      [MaxSpawns:1]
 
       [SpawnGroups:(NPC-GKNT) Scramble 2Swallow]
 
@@ -204,10 +202,9 @@
 
       [UseSpawn:true]
       [SpawningType:CustomSpawn]
-      [StartsReady:true]
-      [SpawnMinCooldown:1]
-      [SpawnMaxCooldown:2]
-      [MaxSpawns:-1]
+      [SpawnMinCooldown:0]
+      [SpawnMaxCooldown:0]
+      [MaxSpawns:1]
 
       [SpawnGroups:(NPC-GKNT) Scramble 1Saber]
 
@@ -273,10 +270,9 @@
 
       [UseSpawn:true]
       [SpawningType:CustomSpawn]
-      [StartsReady:true]
-      [SpawnMinCooldown:1]
-      [SpawnMaxCooldown:2]
-      [MaxSpawns:-1]
+      [SpawnMinCooldown:0]
+      [SpawnMaxCooldown:0]
+      [MaxSpawns:1]
 
       [SpawnGroups:(NPC-ECHO) GKNT-Assist 2xScarab]
 
@@ -316,10 +312,9 @@
 
       [UseSpawn:true]
       [SpawningType:CustomSpawn]
-      [StartsReady:true]
-      [SpawnMinCooldown:1]
-      [SpawnMaxCooldown:2]
-      [MaxSpawns:-1]
+      [SpawnMinCooldown:0]
+      [SpawnMaxCooldown:0]
+      [MaxSpawns:1]
 
       [SpawnGroups:(NPC-PRTH) GKNT-Assist 2xThunderbolt]
 

@@ -31,7 +31,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -68,13 +68,13 @@
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default,Lockers|ECHO Personal,Lockers 3|ECHO Personal,Lockers 4|ECHO Personal,Weapon Rack|ECHO Armory,Armory Lockers|ECHO Armory,Armory Lockers 2|ECHO Armory]
         [InitializeStoreBlocks:true]
         [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -117,7 +117,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -154,13 +154,13 @@
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default,Lockers|ECHO Personal,Lockers 3|ECHO Personal,Lockers 4|ECHO Personal,Weapon Rack|ECHO Armory,Armory Lockers|ECHO Armory,Armory Lockers 2|ECHO Armory]
         [InitializeStoreBlocks:true]
         [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -203,7 +203,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -240,13 +240,13 @@
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default,Lockers|ECHO Personal,Lockers 3|ECHO Personal,Lockers 4|ECHO Personal,Weapon Rack|ECHO Armory,Armory Lockers|ECHO Armory,Armory Lockers 2|ECHO Armory]
         [InitializeStoreBlocks:true]
         [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -289,7 +289,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -326,13 +326,13 @@
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default,Lockers|ECHO Personal,Lockers 3|ECHO Personal,Lockers 4|ECHO Personal,Weapon Rack|ECHO Armory,Armory Lockers|ECHO Armory,Armory Lockers 2|ECHO Armory]
         [InitializeStoreBlocks:true]
         [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -375,7 +375,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -412,13 +412,13 @@
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default,Lockers|ECHO Personal,Lockers 3|ECHO Personal,Lockers 4|ECHO Personal,Weapon Rack|ECHO Armory,Armory Lockers|ECHO Armory,Armory Lockers 2|ECHO Armory]
         [InitializeStoreBlocks:true]
         [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -461,7 +461,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -498,13 +498,13 @@
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default,Lockers|ECHO Personal,Lockers 3|ECHO Personal,Lockers 4|ECHO Personal,Weapon Rack|ECHO Armory,Armory Lockers|ECHO Armory,Armory Lockers 2|ECHO Armory]
         [InitializeStoreBlocks:true]
         [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -547,7 +547,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -584,13 +584,13 @@
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default,Lockers|ECHO Personal,Lockers 3|ECHO Personal,Lockers 4|ECHO Personal,Weapon Rack|ECHO Armory,Armory Lockers|ECHO Armory,Armory Lockers 2|ECHO Armory]
         [InitializeStoreBlocks:true]
         [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -633,7 +633,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -670,13 +670,13 @@
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default,Lockers|ECHO Personal,Lockers 3|ECHO Personal,Lockers 4|ECHO Personal,Weapon Rack|ECHO Armory,Armory Lockers|ECHO Armory,Armory Lockers 2|ECHO Armory]
         [InitializeStoreBlocks:true]
         [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -719,7 +719,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -756,13 +756,13 @@
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default,Lockers|ECHO Personal,Lockers 3|ECHO Personal,Lockers 4|ECHO Personal,Weapon Rack|ECHO Armory,Armory Lockers|ECHO Armory,Armory Lockers 2|ECHO Armory]
         [InitializeStoreBlocks:true]
         [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -805,7 +805,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -842,13 +842,13 @@
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default,Lockers|ECHO Personal,Lockers 3|ECHO Personal,Lockers 4|ECHO Personal,Weapon Rack|ECHO Armory,Armory Lockers|ECHO Armory,Armory Lockers 2|ECHO Armory]
         [InitializeStoreBlocks:true]
         [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -891,7 +891,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -928,13 +928,13 @@
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default,Lockers|ECHO Personal,Lockers 3|ECHO Personal,Lockers 4|ECHO Personal,Weapon Rack|ECHO Armory,Armory Lockers|ECHO Armory,Armory Lockers 2|ECHO Armory]
         [InitializeStoreBlocks:true]
         [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>
@@ -977,7 +977,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Mandir">
           <Position>
@@ -1014,13 +1014,13 @@
         [AddDefenseShieldBlocks:true]
         [ReplaceArmorBlocksWithModules:true]
         [UseContainerTypeAssignment:true]
-        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default]
+        [ContainerTypeAssignmentReference:Large Cargo Container|ECHO Store Default,Small Cargo Container|ECHO Store Default,Lockers|ECHO Personal,Lockers 3|ECHO Personal,Lockers 4|ECHO Personal,Weapon Rack|ECHO Armory,Armory Lockers|ECHO Armory,Armory Lockers 2|ECHO Armory]
         [InitializeStoreBlocks:true]
         [ContainerTypesForStoreOrders:PRTH Cargo Ship Default]
         [ManipulationProfiles:MES-Manipulation-PropulsionECHO]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-ECHO) Port Royal">
           <Position>

@@ -13,6 +13,7 @@
         [RivalAI Behavior]
 
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
 
         [TriggerGroups:TG-Common-PvE-Default]
         [Triggers:TR-Common-WarheadOnDamage]
@@ -34,6 +35,7 @@
         [RivalAI Behavior]
 
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
 
         [TriggerGroups:TG-Common-PvE-Default]
 
@@ -54,6 +56,7 @@
         [RivalAI Behavior]
 
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
 
         [TriggerGroups:TG-Common-PvE-Default]
 

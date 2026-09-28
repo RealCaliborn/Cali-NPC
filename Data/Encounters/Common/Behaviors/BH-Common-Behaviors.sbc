@@ -11,6 +11,7 @@
         [RivalAI Behavior]
 
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
 
       </Description>
 		</EntityComponent>
@@ -24,6 +25,8 @@
         [RivalAI Behavior]
 
         [BehaviorName:Hunter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
 
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
@@ -37,7 +40,6 @@
         [TriggerGroups:TG-Common-PvE-Default]
 		[TriggerGroups:TG-Common-Jump]
 
-        [UseBarrageFire:true]
 
       </Description>
 		</EntityComponent>
@@ -51,6 +53,8 @@
         [RivalAI Behavior]
 
         [BehaviorName:Hunter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
 
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
@@ -64,7 +68,6 @@
         [TriggerGroups:TG-Common-PvE-Default]
 		[TriggerGroups:TG-Common-Jump]
 
-        [UseBarrageFire:true]
 
       </Description>
 		</EntityComponent>
@@ -78,6 +81,8 @@
         [RivalAI Behavior]
 
         [BehaviorName:Hunter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
 
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-3500-4750-B]
@@ -91,7 +96,6 @@
         [TriggerGroups:TG-Common-PvE-Default]
 		[TriggerGroups:TG-Common-Jump]
 
-        [UseBarrageFire:true]
 
       </Description>
 		</EntityComponent>
@@ -105,6 +109,8 @@
         [RivalAI Behavior]
 
         [BehaviorName:Hunter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
 
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Brawler-Default-B]
@@ -117,8 +123,8 @@
 
         [TriggerGroups:TG-Common-PvE-Hard]
 		[TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-Common-Evade-Roll]
 
-        [UseBarrageFire:true]
 
       </Description>
 		</EntityComponent>
@@ -132,6 +138,8 @@
         [RivalAI Behavior]
 
         [BehaviorName:Hunter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
 
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
@@ -144,8 +152,8 @@
 
         [TriggerGroups:TG-Common-PvE-Hard]
 		[TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-Common-Escalate]
 
-        [UseBarrageFire:true]
 
       </Description>
 		</EntityComponent>
@@ -159,6 +167,8 @@
         [RivalAI Behavior]
 
         [BehaviorName:Hunter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
 
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-3500-4750-B]
@@ -171,8 +181,8 @@
 
         [TriggerGroups:TG-Common-PvE-Hard]
 		[TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-Common-Evade-Roll]
 
-        [UseBarrageFire:true]
 
       </Description>
 		</EntityComponent>

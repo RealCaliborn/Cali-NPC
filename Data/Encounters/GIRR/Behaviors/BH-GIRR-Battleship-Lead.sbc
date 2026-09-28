@@ -1,0 +1,76 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <!--
+      (NPC-GIRR) Modified Battleship — PRIMARY encounter lead behaviors.
+      Two variants, both reusing the proven capital combat core of BH-GIRR-Battleship
+      (Hunter + Standoff, capital weapons) but WITHOUT the called-in responder wiring
+      (Answer/keep-alive/"answering the call" chat), which only applies when the
+      Battleship is summoned by a Cruiser. These lead standalone battlecruiser groups
+      that never spawn solo.
+
+        BH-GIRR-Battleship-Lead      : variations 1-4, no reinforcement call.
+        BH-GIRR-Battleship-Vanguard  : variation 5, carries the call-once reinforcement
+                                       caller group TG-GIRR-Vanguard-Reinforce-Call
+                                       (defined in Triggers/TG-GIRR-Vanguard-Reinforce.sbc).
+    -->
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GIRR-Battleship-Lead</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Hunter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [TargetData:TA-Common-8000-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [TriggerGroups:TG-Common-PvE-Hard]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+        [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-Common-Evade-Roll]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GIRR-Battleship-Vanguard</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Hunter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
+        [AutopilotData:AP-Common-Default-A]
+        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [TargetData:TA-Common-8000-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [TriggerGroups:TG-Common-PvE-Hard]
+        [TriggerGroups:TG-GIRR-Target-Sharing]
+        [TriggerGroups:TG-GIRR-Reputation]
+        [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
+        [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-GIRR-Vanguard-Reinforce-Call]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

@@ -10,19 +10,18 @@
 
         [RivalAI Behavior]
         [BehaviorName:Horsefly]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Close-B]
         [TargetData:TA-Common-8000-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-BASS-Target-Sharing]
         [TriggerGroups:TG-BASS-Chat]
         [TriggerGroups:TG-BASS-Sentinel-Ram]
         [TriggerGroups:TG-PRTH-BASS-Mayday-Responder]
         [TriggerGroups:TG-ECHO-BASS-Mayday-Responder]
-        [UseBarrageFire:false]
 
       </Description>
     </EntityComponent>
@@ -36,6 +35,8 @@
         [RivalAI Behavior]
 
         [BehaviorName:Hunter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
 
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
@@ -52,7 +53,6 @@
         [TriggerGroups:TG-BASS-Detect]
         [TriggerGroups:TG-BASS-Sentinel-Ram]
 
-        [UseBarrageFire:false]
         [TriggerGroups:TG-ECHO-BASS-Mayday-Responder]
 
       </Description>
@@ -67,6 +67,8 @@
         [RivalAI Behavior]
 
         [BehaviorName:Hunter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
 
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Brawler-Close-B]
@@ -78,14 +80,13 @@
         [EngageOnWeaponActivation:true]
 
         [TriggerGroups:TG-Common-PvE-Default]
-        [TriggerGroups:TG-BASS-Sentinel-Spawner-ECHO-Mayday]
         [TriggerGroups:TG-BASS-Target-Sharing]
         [TriggerGroups:TG-BASS-Chat]
         [TriggerGroups:TG-BASS-Detect]
         [TriggerGroups:TG-BASS-Sentinel-Ram]
 
-        [UseBarrageFire:false]
         [TriggerGroups:TG-ECHO-BASS-Mayday-Responder]
+        [TriggerGroups:TG-Common-Evade-Roll]
 
       </Description>
     </EntityComponent>
@@ -98,10 +99,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:HorseFighter]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Default-B]
         [HorseFighterTimeEngaging:45]
         [HorseFighterTimeApproaching:25]
@@ -109,7 +107,6 @@
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
         [TriggerGroups:TG-Common-PvE-Hard]
         [TriggerGroups:TG-Common-Jump]
         [TriggerGroups:TG-GIRR-Cruiser]
@@ -117,7 +114,7 @@
         [TriggerGroups:TG-GIRR-Reputation]
         [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
         [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
-        [UseBarrageFire:true]
+        [TriggerGroups:TG-Common-Escalate]
 
       </Description>
     </EntityComponent>
@@ -130,10 +127,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:HorseFighter]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Default-B]
         [HorseFighterTimeEngaging:45]
         [HorseFighterTimeApproaching:25]
@@ -141,14 +135,11 @@
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
         [TriggerGroups:TG-Common-PvE-Hard]
         [TriggerGroups:TG-Common-Jump]
         [TriggerGroups:TG-GIRR-Cruiser]
-        [Triggers:TR-GIRR-CruiserSpawn]
         [TriggerGroups:TG-GIRR-Target-Sharing]
         [TriggerGroups:TG-GIRR-Reputation]
-        [UseBarrageFire:true]
         [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
 
       </Description>
@@ -162,10 +153,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:HorseFighter]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Close-B]
         [HorseFighterTimeEngaging:35]
         [HorseFighterTimeApproaching:19]
@@ -173,7 +161,6 @@
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-Common-Jump]
         [TriggerGroups:TG-GIRR-Hauler]
@@ -181,7 +168,6 @@
         [TriggerGroups:TG-GIRR-Reputation]
         [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
         [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
-        [UseBarrageFire:true]
 
       </Description>
     </EntityComponent>
@@ -193,22 +179,20 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:Hunter]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [BehaviorName:HorseFighter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [AutopilotData:AP-Common-Standoff-1500-2250-B]
         [TargetData:TA-Common-8000-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
-        [UseBarrageFire:true]
         [RemoteControlCode:SI-Roaches-Boss-Any]
         [TriggerGroups:TG-Common-PvE-Hard]
         [TriggerGroups:TG-Common-Jump]
-        [TriggerGroups:TG-GIRR-MRC07]
         [TriggerGroups:TG-GIRR-Target-Sharing]
         [TriggerGroups:TG-GIRR-Reputation]
         [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
+        [TriggerGroups:TG-Common-Evade-Roll]
 
       </Description>
     </EntityComponent>
@@ -220,9 +204,9 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:Hunter]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [BehaviorName:HorseFighter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [AutopilotData:AP-Common-Standoff-1500-2250-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -234,10 +218,7 @@
         [TriggerGroups:TG-GIRR-Reputation]
         [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
         [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:9000]
-        [UseTurrets:true]
-        [UseBarrageFire:true]
+        [TriggerGroups:TG-Common-Evade-Roll]
 
       </Description>
     </EntityComponent>
@@ -249,9 +230,9 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:Hunter]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [BehaviorName:HorseFighter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [AutopilotData:AP-Common-Standoff-1500-2250-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
@@ -263,10 +244,7 @@
         [TriggerGroups:TG-GIRR-Reputation]
         [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
         [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:4000]
-        [UseTurrets:true]
-        [UseBarrageFire:true]
+        [TriggerGroups:TG-Common-Evade-Roll]
         [RetreatDespawnDistance:12000]
 
       </Description>
@@ -279,25 +257,20 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:Hunter]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [BehaviorName:HorseFighter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [AutopilotData:AP-Common-Standoff-1500-2250-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-Common-Jump]
-        [Triggers:TR-Common-FireFixed]
         [TriggerGroups:TG-GIRR-Transport]
         [TriggerGroups:TG-GIRR-Target-Sharing]
         [TriggerGroups:TG-GIRR-Reputation]
         [TriggerGroups:TG-PRTH-GIRR-Mayday-Responder]
         [TriggerGroups:TG-ECHO-GIRR-Mayday-Responder]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:4000]
-        [UseTurrets:true]
-        [UseBarrageFire:true]
 
       </Description>
     </EntityComponent>
@@ -309,17 +282,13 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:Hunter]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [BehaviorName:HorseFighter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [AutopilotData:AP-Common-Standoff-1500-2250-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
         [TriggerGroups:TG-Common-PvE-Hard]
         [TriggerGroups:TG-PRTH-Target-Sharing]
         [Triggers:TR-PRTH-Any-Engaging]
@@ -336,16 +305,12 @@
 
         [RivalAI Behavior]
         [BehaviorName:Fighter]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [UseBarrageFire:false]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-PRTH-Target-Sharing]
         [Triggers:TR-PRTH-Any-Engaging]
@@ -362,17 +327,18 @@
 
         [RivalAI Behavior]
         [BehaviorName:Horsefly]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-PRTH-Target-Sharing]
         [Triggers:TR-PRTH-Any-Engaging]
         [TriggerGroups:TG-ECHO-PRTH-Mayday-Responder]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-Common-Escalate]
 
       </Description>
     </EntityComponent>
@@ -385,13 +351,12 @@
 
         [RivalAI Behavior]
         [BehaviorName:Horsefly]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
         [TriggerGroups:TG-Common-PvE-Hard]
         [TriggerGroups:TG-PRTH-Target-Sharing]
         [Triggers:TR-PRTH-Any-Engaging]
@@ -407,24 +372,18 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:Hunter]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [BehaviorName:HorseFighter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [AutopilotData:AP-Common-Standoff-1500-2250-B]
         [TargetData:TA-Common-8000-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
         [RemoteControlCode:SI-Roaches-Boss-Any]
         [TriggerGroups:TG-Common-PvE-Hard]
-        [TriggerGroups:TG-PRTH-Trident]
         [TriggerGroups:TG-PRTH-Target-Sharing]
         [TriggerGroups:TG-ECHO-PRTH-Mayday-Responder]
+        [TriggerGroups:TG-Common-Jump]
         [Triggers:TR-PRTH-Any-Engaging]
 
       </Description>
@@ -438,6 +397,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:HorseFighter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Default-B]
         [HorseFighterTimeEngaging:43]
         [HorseFighterTimeApproaching:23]
@@ -445,13 +405,7 @@
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
-        [UseAmmoReplenish:true]
         [TriggerGroups:TG-Common-PvE-Default]
-        [Triggers:TR-Common-FireFixed]
         [Triggers:TR-VOID-ScreamBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]
@@ -468,14 +422,12 @@
 
         [RivalAI Behavior]
         [BehaviorName:Horsefly]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Default-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
-        [UseAmmoReplenish:true]
         [TriggerGroups:TG-Common-PvE-Default]
         [Triggers:TR-VOID-ScreamBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]
@@ -492,26 +444,20 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:Hunter]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [BehaviorName:HorseFighter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [AutopilotData:AP-Common-Standoff-1500-2250-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
         [RemoteControlCode:SI-Roaches-Boss-Any]
-        [UseAmmoReplenish:true]
         [TriggerGroups:TG-Common-PvE-Hard]
         [TriggerGroups:TG-VOID-Target-Sharing]
         [Triggers:TR-VOID-ScreamBroadcast]
-        [Triggers:TR-Common-FireFixed]
-        [TriggerGroups:TG-VOID-Kraken]
         [TriggerGroups:TG-VOID-Reputation]
         [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+        [TriggerGroups:TG-Common-Evade-Roll]
 
       </Description>
     </EntityComponent>
@@ -525,7 +471,8 @@
         [RivalAI Behavior]
 
         [BehaviorName:Hunter]
-        [Triggers:TR-Common-FireFixed]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
 
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-2500-3750-B]
@@ -536,12 +483,7 @@
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
 
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
 
-        [UseAmmoReplenish:true]
 
         [TriggerGroups:TG-Common-PvE-Default]
 
@@ -562,7 +504,8 @@
         [RivalAI Behavior]
 
         [BehaviorName:Hunter]
-        [Triggers:TR-Common-FireFixed]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
 
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-2500-3750-B]
@@ -573,12 +516,7 @@
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
 
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
 
-        [UseAmmoReplenish:true]
 
         [TriggerGroups:TG-Common-PvE-Default]
 
@@ -598,25 +536,18 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:Hunter]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [BehaviorName:HorseFighter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [AutopilotData:AP-Common-Standoff-1500-2250-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
         [RemoteControlCode:SI-Roaches-Boss-Any]
-        [UseAmmoReplenish:true]
         [TriggerGroups:TG-Common-PvE-Default]
-        [Triggers:TR-Common-FireFixed]
         [Triggers:TR-VOID-LeviathanBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]
-        [TriggerGroups:TG-VOID-Leviathan-Carrier]
         [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
 
       </Description>
@@ -629,16 +560,13 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:Hunter]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [BehaviorName:Horsefly]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [AutopilotData:AP-Common-Standoff-1500-2250-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
-        [UseAmmoReplenish:true]
         [TriggerGroups:TG-Common-PvE-Default]
         [Triggers:TR-VOID-ScreamBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]
@@ -657,10 +585,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:HorseFighter]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Close-B]
         [HorseFighterTimeEngaging:30]
         [HorseFighterTimeApproaching:16]
@@ -668,13 +593,12 @@
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
         [TriggerGroups:TG-Common-PvE-Default]
         [Triggers:TR-VOID-ScreamBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]
         [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+        [TriggerGroups:TG-Common-Evade-Roll]
 
       </Description>
     </EntityComponent>
@@ -686,19 +610,13 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:Hunter]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-1500-2000-B]
+        [BehaviorName:HorseFighter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [AutopilotData:AP-Common-Standoff-1500-2000-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
         [TriggerGroups:TG-Common-PvE-Default]
         [Triggers:TR-VOID-ScreamBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]
@@ -715,20 +633,20 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:Hunter]
-        [AutopilotData:AP-Common-Default-A]
-        [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
+        [BehaviorName:Horsefly]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [AutopilotData:AP-Common-Standoff-1500-2250-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
         [TriggerGroups:TG-Common-PvE-Default]
         [Triggers:TR-VOID-ScreamBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]
         [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-Common-Evade-Roll]
 
       </Description>
     </EntityComponent>
@@ -742,6 +660,8 @@
         [RivalAI Behavior]
 
         [BehaviorName:Hunter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
 
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
@@ -752,22 +672,15 @@
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
 
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
         [RemoteControlCode:SI-Roaches-Boss-Any]
 
-        [UseAmmoReplenish:true]
 
         [TriggerGroups:TG-Common-PvE-Hard]
-        [Triggers:TR-Common-FireFixed]
 
         [Triggers:TR-VOID-ScreamBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]
         [TriggerGroups:TG-VOID-ThunderKraken-Chat]
-        [TriggerGroups:TG-VOID-ThunderKraken-Carrier]
         [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
 
       </Description>
@@ -782,6 +695,8 @@
         [RivalAI Behavior]
 
         [BehaviorName:Hunter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
 
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
@@ -792,20 +707,15 @@
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
 
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
 
-        [UseAmmoReplenish:true]
 
         [TriggerGroups:TG-Common-PvE-Default]
-        [Triggers:TR-Common-FireFixed]
 
         [Triggers:TR-VOID-ScreamBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]
         [TriggerGroups:TG-ECHO-VOID-Mayday-Responder]
+        [TriggerGroups:TG-Common-Evade-Roll]
 
       </Description>
     </EntityComponent>
@@ -819,6 +729,8 @@
         [RivalAI Behavior]
 
         [BehaviorName:Hunter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
 
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
@@ -829,15 +741,9 @@
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
 
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
 
-        [UseAmmoReplenish:true]
 
         [TriggerGroups:TG-Common-PvE-Default]
-        [Triggers:TR-Common-FireFixed]
 
         [Triggers:TR-VOID-ScreamBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]
@@ -977,7 +883,6 @@
         [DisableTriggerNames:TR-PRTH-Trident-Launch-Screen]
         [DisableTriggerNames:TR-PRTH-Trident-Check-Screen]
         [DisableTriggerNames:TR-PRTH-Trident-Receive-Screen]
-        [DisableTriggerNames:TR-PRTH-Trident-ShieldsDown-Spawn]
         [DisableTriggerNames:TR-GIRR-MRC07-Launch-Breaker1]
         [DisableTriggerNames:TR-GIRR-MRC07-Check-Breaker1]
         [DisableTriggerNames:TR-GIRR-MRC07-Receive-Breaker1]
@@ -1155,7 +1060,6 @@
         [DisableTriggerNames:TR-PRTH-Trident-Launch-Screen]
         [DisableTriggerNames:TR-PRTH-Trident-Check-Screen]
         [DisableTriggerNames:TR-PRTH-Trident-Receive-Screen]
-        [DisableTriggerNames:TR-PRTH-Trident-ShieldsDown-Spawn]
         [DisableTriggerNames:TR-GIRR-MRC07-Launch-Breaker1]
         [DisableTriggerNames:TR-GIRR-MRC07-Check-Breaker1]
         [DisableTriggerNames:TR-GIRR-MRC07-Receive-Breaker1]
@@ -1333,7 +1237,6 @@
         [DisableTriggerNames:TR-PRTH-Trident-Launch-Screen]
         [DisableTriggerNames:TR-PRTH-Trident-Check-Screen]
         [DisableTriggerNames:TR-PRTH-Trident-Receive-Screen]
-        [DisableTriggerNames:TR-PRTH-Trident-ShieldsDown-Spawn]
         [DisableTriggerNames:TR-GIRR-MRC07-Launch-Breaker1]
         [DisableTriggerNames:TR-GIRR-MRC07-Check-Breaker1]
         [DisableTriggerNames:TR-GIRR-MRC07-Receive-Breaker1]
@@ -1511,7 +1414,6 @@
         [DisableTriggerNames:TR-PRTH-Trident-Launch-Screen]
         [DisableTriggerNames:TR-PRTH-Trident-Check-Screen]
         [DisableTriggerNames:TR-PRTH-Trident-Receive-Screen]
-        [DisableTriggerNames:TR-PRTH-Trident-ShieldsDown-Spawn]
         [DisableTriggerNames:TR-GIRR-MRC07-Launch-Breaker1]
         [DisableTriggerNames:TR-GIRR-MRC07-Check-Breaker1]
         [DisableTriggerNames:TR-GIRR-MRC07-Receive-Breaker1]
@@ -1568,6 +1470,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
         [RemoteControlCode:Cali-Mayday-Controller]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-ECHO-Target-Sharing]
@@ -1584,6 +1487,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
         [RemoteControlCode:Cali-Mayday-Controller]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-ECHO-Target-Sharing]
@@ -1600,6 +1504,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
         [RemoteControlCode:Cali-Mayday-Controller]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-ECHO-Target-Sharing]
@@ -1616,6 +1521,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
         [RemoteControlCode:Cali-Mayday-Controller]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-ECHO-Target-Sharing]
@@ -1632,6 +1538,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
         [RemoteControlCode:Cali-Mayday-Controller]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-ECHO-Target-Sharing]
@@ -1648,6 +1555,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
         [RemoteControlCode:Cali-Mayday-Controller]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-ECHO-Target-Sharing]
@@ -1664,6 +1572,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
         [RemoteControlCode:Cali-Mayday-Controller]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-ECHO-Target-Sharing]
@@ -1680,6 +1589,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
         [RemoteControlCode:Cali-Mayday-Controller]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-ECHO-Target-Sharing]
@@ -1696,6 +1606,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
         [RemoteControlCode:Cali-Mayday-Controller]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-ECHO-Target-Sharing]
@@ -1712,6 +1623,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
         [RemoteControlCode:Cali-Mayday-Controller]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-ECHO-Target-Sharing]
@@ -1728,6 +1640,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
         [RemoteControlCode:Cali-Mayday-Controller]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-ECHO-Target-Sharing]
@@ -1744,6 +1657,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
         [RemoteControlCode:Cali-Mayday-Controller]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-ECHO-Target-Sharing]

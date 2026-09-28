@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+
+<!-- Cali Reinforcement Cargo: cargo-minus-core for mayday reinforcement ships
+     (incl. the elite copies summoned in ECHO/PRTH mayday waves). Hard-difficulty
+     materials + components with MODEST credits. Deliberately excludes ALL core
+     value items: NO Tech16x/Tech32x/PrototechFrame chase, NO jackpot credits.
+     Faction-neutral (chaotic mayday reinforcements). Backbone ids only.
+     Applied via AssignContainerTypesToAllCargo, so it also fills each elite
+     copy's "Reward Container" block (a cargo container) - no Elite reward leak. -->
+    <ContainerType CountMin="3" CountMax="4">
+      <Id><TypeId>ContainerTypeDefinition</TypeId><SubtypeId>Cali Reinforcement Cargo</SubtypeId></Id>
+      <Items>
+        <Item AmountMin="500" AmountMax="1500"><Frequency>4</Frequency><Id><TypeId>Component</TypeId><SubtypeId>SteelPlate</SubtypeId></Id></Item>
+        <Item AmountMin="200" AmountMax="800"><Frequency>4</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Construction</SubtypeId></Id></Item>
+        <Item AmountMin="100" AmountMax="400"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>MetalGrid</SubtypeId></Id></Item>
+        <Item AmountMin="100" AmountMax="300"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Reactor</SubtypeId></Id></Item>
+        <Item AmountMin="100" AmountMax="300"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Thrust</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>2</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Superconductor</SubtypeId></Id></Item>
+        <Item AmountMin="300" AmountMax="900"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Tech2x</SubtypeId></Id></Item>
+        <Item AmountMin="150" AmountMax="450"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Tech4x</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="150"><Frequency>2</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Tech8x</SubtypeId></Id></Item>
+        <Item AmountMin="500" AmountMax="2000"><Frequency>2</Frequency><Id><TypeId>Ingot</TypeId><SubtypeId>Iron</SubtypeId></Id></Item>
+        <Item AmountMin="3" AmountMax="8"><Frequency>2</Frequency><Id><TypeId>ConsumableItem</TypeId><SubtypeId>Medkit</SubtypeId></Id></Item>
+        <Item AmountMin="50000" AmountMax="200000"><Frequency>2</Frequency><Id><TypeId>PhysicalObject</TypeId><SubtypeId>SpaceCredit</SubtypeId></Id></Item>
+      </Items>
+    </ContainerType>
+
+  </ContainerTypes>
+</Definitions>

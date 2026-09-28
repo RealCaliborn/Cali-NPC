@@ -210,6 +210,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Small Cargo Container</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -241,6 +242,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Small Cargo Container</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -272,6 +274,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Small Cargo Container</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -639,6 +642,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Large Cargo Container</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -3178,6 +3182,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Large Cargo Container</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -3210,6 +3215,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Large Cargo Container</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -3242,6 +3248,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Large Cargo Container</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -3274,6 +3281,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Large Cargo Container</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -3306,6 +3314,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Large Cargo Container</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -3338,6 +3347,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Large Cargo Container</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -3466,6 +3476,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Large Cargo Container</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -3498,6 +3509,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Large Cargo Container</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -3530,6 +3542,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Large Cargo Container</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -3562,6 +3575,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Large Cargo Container</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -3594,6 +3608,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Large Cargo Container</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -3626,6 +3641,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Large Cargo Container</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -3658,6 +3674,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Large Cargo Container</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -8596,8 +8613,8 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
-              <Enabled>true</Enabled>
-              <BroadcastRadius>20000</BroadcastRadius>
+              <Enabled>false</Enabled>
+              <BroadcastRadius>1</BroadcastRadius>
               <HudText />
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_ConveyorConnector">
@@ -8765,6 +8782,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Small Cargo Container</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -21872,6 +21890,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Locker Room</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -21903,6 +21922,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Locker Room</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -23926,6 +23946,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Weapon Rack</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -23957,6 +23978,7 @@
                   </ComponentData>
                 </Components>
               </ComponentContainer>
+              <CustomName>Weapon Rack</CustomName>
               <ShowOnHUD>false</ShowOnHUD>
               <ShowInTerminal>true</ShowInTerminal>
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
@@ -25077,13 +25099,13 @@
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
-              <BroadcastRadius>5000</BroadcastRadius>
+              <BroadcastRadius>20000</BroadcastRadius>
               <ShowShipName>false</ShowShipName>
               <EnableBroadcasting>true</EnableBroadcasting>
               <AttachedPB>0</AttachedPB>
               <IgnoreAllied>false</IgnoreAllied>
               <IgnoreOther>true</IgnoreOther>
-              <HudText />
+              <HudText>Garbage Dump Ship V2</HudText>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_RadioAntenna">
               <SubtypeName>LargeBlockCompactRadioAntenna</SubtypeName>
@@ -25098,10 +25120,10 @@
               <ShowInToolbarConfig>true</ShowInToolbarConfig>
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>2</NumberInGrid>
-              <Enabled>true</Enabled>
-              <BroadcastRadius>5000</BroadcastRadius>
+              <Enabled>false</Enabled>
+              <BroadcastRadius>1</BroadcastRadius>
               <ShowShipName>false</ShowShipName>
-              <EnableBroadcasting>true</EnableBroadcasting>
+              <EnableBroadcasting>false</EnableBroadcasting>
               <AttachedPB>0</AttachedPB>
               <IgnoreAllied>false</IgnoreAllied>
               <IgnoreOther>true</IgnoreOther>

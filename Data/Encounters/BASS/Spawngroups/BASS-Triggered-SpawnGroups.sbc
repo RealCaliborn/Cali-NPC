@@ -26,9 +26,10 @@
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
         [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
 
+        [AssignContainerTypesToAllCargo:BASS Cargo Easy]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
                 <Position>
@@ -67,9 +68,10 @@
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
         [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
 
+        [AssignContainerTypesToAllCargo:BASS Cargo Easy]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-BASS) Sentinel-G">
                 <Position>
@@ -119,9 +121,10 @@
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
         [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
 
+        [AssignContainerTypesToAllCargo:BASS Cargo Medium]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-BASS) Sentinel-C">
                 <Position>
@@ -169,9 +172,10 @@
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
         [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
 
+        [AssignContainerTypesToAllCargo:BASS Cargo Medium]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-BASS) Sentinel-D">
                 <Position>
@@ -219,9 +223,10 @@
         [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
         [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
 
+        [AssignContainerTypesToAllCargo:BASS Cargo Medium]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-BASS) Sentinel-F">
                 <Position>

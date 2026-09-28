@@ -260,9 +260,8 @@
       [UseSpawn:true]
       
       [SpawningType:CustomSpawn]
-      [StartsReady:true]
-      [SpawnMinCooldown:1]
-      [SpawnMaxCooldown:2]
+      [SpawnMinCooldown:0]
+      [SpawnMaxCooldown:0]
       [MaxSpawns:1]
       
       [SpawnGroups:(NPC-PRTH) Spawn 1 Speartip]
@@ -288,9 +287,8 @@
       [UseSpawn:true]
       
       [SpawningType:CustomSpawn]
-      [StartsReady:true]
-      [SpawnMinCooldown:1]
-      [SpawnMaxCooldown:2]
+      [SpawnMinCooldown:0]
+      [SpawnMaxCooldown:0]
       [MaxSpawns:1]
       
       [SpawnGroups:(NPC-PRTH) Spawn 1 Hoplon]
@@ -360,9 +358,8 @@
       [UseSpawn:true]
       
       [SpawningType:CustomSpawn]
-      [StartsReady:true]
-      [SpawnMinCooldown:1]
-      [SpawnMaxCooldown:2]
+      [SpawnMinCooldown:0]
+      [SpawnMaxCooldown:0]
       [MaxSpawns:1]
       
       [SpawnGroups:(NPC-PRTH) Spawn 1 Speartip-FG]
@@ -387,9 +384,8 @@
       [UseSpawn:true]
       
       [SpawningType:CustomSpawn]
-      [StartsReady:true]
-      [SpawnMinCooldown:1]
-      [SpawnMaxCooldown:2]
+      [SpawnMinCooldown:0]
+      [SpawnMaxCooldown:0]
       [MaxSpawns:1]
       
       [SpawnGroups:(NPC-PRTH) Spawn 1 Thunderbolt]

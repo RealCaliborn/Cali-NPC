@@ -12,6 +12,8 @@
         [RivalAI Behavior]
 
         [BehaviorName:Hunter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [LostTargetTimerTrigger:30]
 
         [AutopilotData:AP-Common-Default-A]
         [SecondaryAutopilotData:AP-Common-Standoff-1500-2250-B]
@@ -22,22 +24,17 @@
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
 
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
         [RemoteControlCode:SI-Roaches-Boss-Any]
 
-        [UseAmmoReplenish:true]
 
         [TriggerGroups:TG-Common-PvE-Hard]
-        [Triggers:TR-Common-FireFixed]
 
         [Triggers:TR-VOID-ScreamBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]
         [TriggerGroups:TG-VOID-ThunderKraken-Chat]
         [TriggerGroups:TG-VOID-ThunderKraken-Carrier]
+        [TriggerGroups:TG-Common-Escalate]
 
       </Description>
     </EntityComponent>

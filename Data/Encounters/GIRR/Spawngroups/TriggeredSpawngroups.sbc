@@ -30,9 +30,13 @@
             [RotateFirstCockpitToForward:true]
             [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
 
+            [AssignContainerTypesToAllCargo:GIRR Cargo Medium]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Cargo Medium,Small Cargo Container|GIRR Cargo Medium,NPC_Container|GIRR Cargo Medium,Modified Cargo Hauler|GIRR Cargo Medium,Enclosed Passage Cargo Access 3|GIRR Cargo Medium,Lockers|GIRR Personal,Lockers 2|GIRR Personal,Lockers 3|GIRR Personal,Lockers 4|GIRR Personal,Lockers 5|GIRR Personal,Locker Room|GIRR Personal,Weapon Rack|GIRR Armory,Weapon Rack 4|GIRR Armory,Weapon Rack 5|GIRR Armory,Armory|GIRR Armory,Armory 2|GIRR Armory,Armory Lockers|GIRR Armory,Armory Lockers 2|GIRR Armory,Reward Container|Cali Elite Reward]
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>0.8</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GIRR) Modified Hauler">
                     <Position>
@@ -75,9 +79,13 @@
             [RotateFirstCockpitToForward:true]
             [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
 
+            [AssignContainerTypesToAllCargo:GIRR Cargo Hard]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Cargo Hard,Small Cargo Container|GIRR Cargo Hard,NPC_Container|GIRR Cargo Hard,Modified Cargo Hauler|GIRR Cargo Hard,Enclosed Passage Cargo Access 3|GIRR Cargo Hard,Lockers|GIRR Personal,Lockers 2|GIRR Personal,Lockers 3|GIRR Personal,Lockers 4|GIRR Personal,Lockers 5|GIRR Personal,Locker Room|GIRR Personal,Weapon Rack|GIRR Armory,Weapon Rack 4|GIRR Armory,Weapon Rack 5|GIRR Armory,Armory|GIRR Armory,Armory 2|GIRR Armory,Armory Lockers|GIRR Armory,Armory Lockers 2|GIRR Armory,Reward Container|Cali Elite Reward]
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>0.8</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GIRR) Modified Transport">
                     <Position>
@@ -120,9 +128,13 @@
             [RotateFirstCockpitToForward:true]
             [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
 
+            [AssignContainerTypesToAllCargo:GIRR Cargo Medium]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Cargo Medium,Small Cargo Container|GIRR Cargo Medium,NPC_Container|GIRR Cargo Medium,Modified Cargo Hauler|GIRR Cargo Medium,Enclosed Passage Cargo Access 3|GIRR Cargo Medium,Lockers|GIRR Personal,Lockers 2|GIRR Personal,Lockers 3|GIRR Personal,Lockers 4|GIRR Personal,Lockers 5|GIRR Personal,Locker Room|GIRR Personal,Weapon Rack|GIRR Armory,Weapon Rack 4|GIRR Armory,Weapon Rack 5|GIRR Armory,Armory|GIRR Armory,Armory 2|GIRR Armory,Armory Lockers|GIRR Armory,Armory Lockers 2|GIRR Armory,Reward Container|Cali Elite Reward]
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>0.8</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GIRR) Modified Miner">
                     <Position>
@@ -165,6 +177,10 @@
             [RotateFirstCockpitToForward:true]
             [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
 
+            [AssignContainerTypesToAllCargo:GIRR Cargo Medium]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Cargo Medium,Small Cargo Container|GIRR Cargo Medium,NPC_Container|GIRR Cargo Medium,Modified Cargo Hauler|GIRR Cargo Medium,Enclosed Passage Cargo Access 3|GIRR Cargo Medium,Lockers|GIRR Personal,Lockers 2|GIRR Personal,Lockers 3|GIRR Personal,Lockers 4|GIRR Personal,Lockers 5|GIRR Personal,Locker Room|GIRR Personal,Weapon Rack|GIRR Armory,Weapon Rack 4|GIRR Armory,Weapon Rack 5|GIRR Armory,Armory|GIRR Armory,Armory 2|GIRR Armory,Armory Lockers|GIRR Armory,Armory Lockers 2|GIRR Armory,Reward Container|Cali Elite Reward]
             </Description>
             <IsPirate>true</IsPirate>
             <Frequency>1.0</Frequency>
@@ -210,9 +226,13 @@
             [RotateFirstCockpitToForward:true]
             [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
 
+            [AssignContainerTypesToAllCargo:GIRR Cargo Medium]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Cargo Medium,Small Cargo Container|GIRR Cargo Medium,NPC_Container|GIRR Cargo Medium,Modified Cargo Hauler|GIRR Cargo Medium,Enclosed Passage Cargo Access 3|GIRR Cargo Medium,Lockers|GIRR Personal,Lockers 2|GIRR Personal,Lockers 3|GIRR Personal,Lockers 4|GIRR Personal,Lockers 5|GIRR Personal,Locker Room|GIRR Personal,Weapon Rack|GIRR Armory,Weapon Rack 4|GIRR Armory,Weapon Rack 5|GIRR Armory,Armory|GIRR Armory,Armory 2|GIRR Armory,Armory Lockers|GIRR Armory,Armory Lockers 2|GIRR Armory,Reward Container|Cali Elite Reward]
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>0.7</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GIRR) Captured Cruiser">
                     <Position>
@@ -259,6 +279,10 @@
             [RotateFirstCockpitToForward:true]
             [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
 
+            [AssignContainerTypesToAllCargo:GIRR Cargo Medium]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Cargo Medium,Small Cargo Container|GIRR Cargo Medium,NPC_Container|GIRR Cargo Medium,Modified Cargo Hauler|GIRR Cargo Medium,Enclosed Passage Cargo Access 3|GIRR Cargo Medium,Lockers|GIRR Personal,Lockers 2|GIRR Personal,Lockers 3|GIRR Personal,Lockers 4|GIRR Personal,Lockers 5|GIRR Personal,Locker Room|GIRR Personal,Weapon Rack|GIRR Armory,Weapon Rack 4|GIRR Armory,Weapon Rack 5|GIRR Armory,Armory|GIRR Armory,Armory 2|GIRR Armory,Armory Lockers|GIRR Armory,Armory Lockers 2|GIRR Armory,Reward Container|Cali Elite Reward]
             </Description>
             <IsPirate>true</IsPirate>
             <Frequency>1.0</Frequency>
@@ -304,6 +328,10 @@
             [RotateFirstCockpitToForward:true]
             [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
 
+            [AssignContainerTypesToAllCargo:GIRR Cargo Hard]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Cargo Hard,Small Cargo Container|GIRR Cargo Hard,NPC_Container|GIRR Cargo Hard,Modified Cargo Hauler|GIRR Cargo Hard,Enclosed Passage Cargo Access 3|GIRR Cargo Hard,Lockers|GIRR Personal,Lockers 2|GIRR Personal,Lockers 3|GIRR Personal,Lockers 4|GIRR Personal,Lockers 5|GIRR Personal,Locker Room|GIRR Personal,Weapon Rack|GIRR Armory,Weapon Rack 4|GIRR Armory,Weapon Rack 5|GIRR Armory,Armory|GIRR Armory,Armory 2|GIRR Armory,Armory Lockers|GIRR Armory,Armory Lockers 2|GIRR Armory,Reward Container|Cali Elite Reward]
             </Description>
             <IsPirate>true</IsPirate>
             <Frequency>1.0</Frequency>
@@ -349,6 +377,10 @@
             [RotateFirstCockpitToForward:true]
             [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
 
+            [AssignContainerTypesToAllCargo:GIRR Cargo Easy]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Cargo Easy,Small Cargo Container|GIRR Cargo Easy,NPC_Container|GIRR Cargo Easy,Modified Cargo Hauler|GIRR Cargo Easy,Enclosed Passage Cargo Access 3|GIRR Cargo Easy,Lockers|GIRR Personal,Lockers 2|GIRR Personal,Lockers 3|GIRR Personal,Lockers 4|GIRR Personal,Lockers 5|GIRR Personal,Locker Room|GIRR Personal,Weapon Rack|GIRR Armory,Weapon Rack 4|GIRR Armory,Weapon Rack 5|GIRR Armory,Armory|GIRR Armory,Armory 2|GIRR Armory,Armory Lockers|GIRR Armory,Armory Lockers 2|GIRR Armory,Reward Container|Cali Elite Reward]
             </Description>
             <IsPirate>true</IsPirate>
             <Frequency>1.0</Frequency>
@@ -399,6 +431,10 @@
             [RotateFirstCockpitToForward:true]
             [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
 
+            [AssignContainerTypesToAllCargo:GIRR Cargo Hard]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Cargo Hard,Small Cargo Container|GIRR Cargo Hard,NPC_Container|GIRR Cargo Hard,Modified Cargo Hauler|GIRR Cargo Hard,Enclosed Passage Cargo Access 3|GIRR Cargo Hard,Lockers|GIRR Personal,Lockers 2|GIRR Personal,Lockers 3|GIRR Personal,Lockers 4|GIRR Personal,Lockers 5|GIRR Personal,Locker Room|GIRR Personal,Weapon Rack|GIRR Armory,Weapon Rack 4|GIRR Armory,Weapon Rack 5|GIRR Armory,Armory|GIRR Armory,Armory 2|GIRR Armory,Armory Lockers|GIRR Armory,Armory Lockers 2|GIRR Armory,Reward Container|Cali Elite Reward]
             </Description>
             <IsPirate>true</IsPirate>
             <Frequency>1.0</Frequency>
@@ -415,6 +451,70 @@
             </Prefabs>
         </SpawnGroup>
         <!-- (NPC-GIRR) Battleship Wing -->
+
+
+        <!-- =========================================================
+             Battleship Vanguard reinforcement wing. Called ONCE by
+             BH-GIRR-Battleship-Vanguard via TG-GIRR-Vanguard-Reinforce-Call
+             (SP-GIRR-Vanguard-Reinforce-Launch, MaxSpawns:1). Not respawned. -->
+
+        <!-- (NPC-GIRR) Battleship Vanguard Wing -->
+        <SpawnGroup>
+            <Id>
+                <TypeId>SpawnGroupDefinition</TypeId>
+                <SubtypeId>(NPC-GIRR) Battleship Vanguard Wing</SubtypeId>
+            </Id>
+            <Description>
+
+            [Modular Encounters SpawnGroup]
+
+            [DisableDampeners:false]
+
+            [SpaceCargoShip:false]
+            [LunarCargoShip:false]
+            [SpaceRandomEncounter:false]
+            [AtmosphericCargoShip:false]
+            [PlanetaryInstallation:false]
+            [RivalAiSpawn:true]
+
+            [FactionOwner:GIRR]
+            [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
+
+            [UseRivalAi:true]
+            [RivalAiReplaceRemoteControl:true]
+            [RotateFirstCockpitToForward:true]
+            [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+
+            [AssignContainerTypesToAllCargo:GIRR Cargo Hard]
+
+            [UseContainerTypeAssignment:true]
+            [ContainerTypeAssignmentReference:Large Cargo Container|GIRR Cargo Hard,Small Cargo Container|GIRR Cargo Hard,NPC_Container|GIRR Cargo Hard,Modified Cargo Hauler|GIRR Cargo Hard,Enclosed Passage Cargo Access 3|GIRR Cargo Hard,Lockers|GIRR Personal,Lockers 2|GIRR Personal,Lockers 3|GIRR Personal,Lockers 4|GIRR Personal,Lockers 5|GIRR Personal,Locker Room|GIRR Personal,Weapon Rack|GIRR Armory,Weapon Rack 4|GIRR Armory,Weapon Rack 5|GIRR Armory,Armory|GIRR Armory,Armory 2|GIRR Armory,Armory Lockers|GIRR Armory,Armory Lockers 2|GIRR Armory,Reward Container|Cali Elite Reward]
+            </Description>
+            <IsPirate>true</IsPirate>
+            <Frequency>1.0</Frequency>
+            <Prefabs>
+                <Prefab SubtypeId="(NPC-GIRR) Modified Transport">
+                    <Position>
+                        <X>0.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>400</Speed>
+                    <Behaviour>BH-GIRR-Transport</Behaviour>
+                </Prefab>
+                <Prefab SubtypeId="(NPC-GIRR) Repurposed Passenger Transport">
+                    <Position>
+                        <X>700.0</X>
+                        <Y>0.0</Y>
+                        <Z>0.0</Z>
+                    </Position>
+                    <Speed>400</Speed>
+                    <Behaviour>BH-GIRR-Passenger</Behaviour>
+                </Prefab>
+            </Prefabs>
+        </SpawnGroup>
+        <!-- (NPC-GIRR) Battleship Vanguard Wing -->
 
     </SpawnGroups>
 </Definitions>

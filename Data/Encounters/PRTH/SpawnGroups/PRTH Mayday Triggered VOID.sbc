@@ -32,9 +32,10 @@
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
             [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 
+            [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.1</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-VOID) Stingbaby">
                     <Position>
@@ -105,9 +106,10 @@
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
             [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 
+            [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.1</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-VOID) Hunter">
                     <Position>
@@ -160,9 +162,10 @@
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
             [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 
+            [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>0.8</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-VOID) Stingray">
                     <Position>
@@ -224,9 +227,10 @@
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
             [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 
+            [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>0.8</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-VOID) Stingray">
                     <Position>
@@ -288,9 +292,10 @@
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
             [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 
+            [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>0.8</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-VOID) Stingray">
                     <Position>
@@ -370,9 +375,10 @@
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
             [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 
+            [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>0.7</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-VOID) Stingray">
                     <Position>

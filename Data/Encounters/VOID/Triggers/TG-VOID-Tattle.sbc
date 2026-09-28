@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <EntityComponents>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>CH-VOID-Tattle</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Chat]
+        [UseChat:true]
+        [StartsReady:true]
+        [Author:{GridName}]
+        [Color:MediumPurple]
+        [Chance:100]
+        [MaxChats:1]
+        [BroadcastRandomly:true]
+        [IgnoreAntennaRequirement:true]
+        [IgnoredAntennaRangeOverride:15000]
+        [ChatMessages:Ssss... you hurt the small one. Now the Deep answers.]
+        [BroadcastChatType:Chat]
+        [ChatMessages:Foolish. You have woken something far larger.]
+        [BroadcastChatType:Chat]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>SP-VOID-Tattle</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Spawn]
+        [UseSpawn:true]
+        [SpawningType:CustomSpawn]
+        [SpawnMinCooldown:0]
+        [SpawnMaxCooldown:0]
+        [MaxSpawns:1]
+        [SpawnGroups:(NPC-VOID) Leviathan 2xStingray 1xMahi (WAVES)]
+        [UseRelativeSpawnPosition:false]
+        [MinDistance:900]
+        [MaxDistance:1600]
+        [IgnoreSafetyChecks:false]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>AC-VOID-Tattle</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Action]
+        [Chance:10]
+        [SpawnEncounter:true]
+        [Spawner:SP-VOID-Tattle]
+        [UseChatBroadcast:true]
+        [ChatData:CH-VOID-Tattle]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TR-VOID-Tattle</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Trigger]
+        [UseTrigger:true]
+        [Type:Damage]
+        [DamageTypes:Any]
+        [StartsReady:true]
+        [MaxActions:1]
+        [MinCooldownMs:1000]
+        [MaxCooldownMs:2000]
+        [Actions:AC-VOID-Tattle]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>TG-VOID-Tattle</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI TriggerGroup]
+        [Triggers:TR-VOID-Tattle]
+
+      </Description>
+    </EntityComponent>
+
+  </EntityComponents>
+</Definitions>

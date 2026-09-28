@@ -31,7 +31,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
           <Position>
@@ -74,7 +74,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
           <Position>
@@ -117,7 +117,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
           <Position>
@@ -160,7 +160,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
           <Position>
@@ -203,7 +203,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
           <Position>
@@ -246,7 +246,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
           <Position>
@@ -289,7 +289,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
           <Position>
@@ -332,7 +332,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
           <Position>
@@ -375,7 +375,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
           <Position>
@@ -418,7 +418,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
           <Position>
@@ -461,7 +461,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
           <Position>
@@ -504,7 +504,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
           <Position>
@@ -547,7 +547,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
           <Position>
@@ -590,7 +590,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
           <Position>
@@ -633,7 +633,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
           <Position>
@@ -676,7 +676,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
           <Position>
@@ -719,7 +719,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
           <Position>
@@ -762,7 +762,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
           <Position>
@@ -805,7 +805,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
           <Position>
@@ -848,7 +848,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
           <Position>
@@ -891,7 +891,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
           <Position>
@@ -934,7 +934,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
           <Position>
@@ -977,7 +977,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH) Zenith Trade Hub">
           <Position>
@@ -1020,7 +1020,7 @@
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
       </Description>
       <IsPirate>true</IsPirate>
-      <Frequency>0.7</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH-TS) The Crown">
           <Position>

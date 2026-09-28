@@ -28,9 +28,10 @@
         [RotateFirstCockpitToForward:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
 
+      [AssignContainerTypesToAllCargo:PRTH Cargo Medium]
       </Description>
       <IsPirate>true</IsPirate> <!--Do not edit-->
-      <Frequency>0.8</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH) Speartip">
           <Position>
@@ -70,6 +71,7 @@
         [RotateFirstCockpitToForward:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
 
+      [AssignContainerTypesToAllCargo:PRTH Cargo Medium]
       </Description>
       <IsPirate>true</IsPirate> <!--Do not edit-->
       <Frequency>1.0</Frequency>
@@ -112,9 +114,10 @@
         [RotateFirstCockpitToForward:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
 
+      [AssignContainerTypesToAllCargo:PRTH Cargo Medium]
       </Description>
       <IsPirate>true</IsPirate> <!--Do not edit-->
-      <Frequency>0.8</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH) Thunderbolt">
           <Position>
@@ -154,9 +157,10 @@
         [RotateFirstCockpitToForward:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
 
+      [AssignContainerTypesToAllCargo:PRTH Cargo Hard]
       </Description>
       <IsPirate>true</IsPirate> <!--Do not edit-->
-      <Frequency>1.1</Frequency>
+      <Frequency>1.0</Frequency>
       <Prefabs>
         <Prefab SubtypeId="(NPC-PRTH) Hoplon">
           <Position>
@@ -166,57 +170,6 @@
           </Position>
           <Speed>400</Speed>
           <Behaviour>BH-PRTH-Hoplon</Behaviour>
-        </Prefab>
-      </Prefabs>
-    </SpawnGroup>
-
-    <SpawnGroup>
-      <Id>
-          <TypeId>SpawnGroupDefinition</TypeId> <!--Do Not Edit-->
-          <SubtypeId>(NPC-PRTH) Spawn 1 Speartip 1 Thunderbolt</SubtypeId>
-      </Id>
-      <Description>
-
-        [Modular Encounters SpawnGroup]
-
-
-        [RivalAiSpawn:true]
-        [SpaceRandomEncounter:false]
-        [SpaceCargoShip:false]
-        [LunarCargoShip:false]
-        [AtmosphericCargoShip:false]
-        [PlanetaryInstallation:false]
-        [FactionOwner:PRTH]
-        [ReplenishSystems:true]
-        [AddDefenseShieldBlocks:true]
-        [GridsAreEditable:true]
-        [GridsAreDestructable:true]
-        [UseRivalAi:true]
-        [RivalAiReplaceRemoteControl:true]
-        [RotateFirstCockpitToForward:true]
-        [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
-
-      </Description>
-      <IsPirate>true</IsPirate> <!--Do not edit-->
-      <Frequency>0.8</Frequency>
-      <Prefabs>
-        <Prefab SubtypeId="(NPC-PRTH) Speartip">
-          <Position>
-            <X>0.0</X>
-            <Y>0.0</Y>
-            <Z>0.0</Z>
-          </Position>
-          <Speed>400</Speed>
-          <Behaviour>BH-PRTH-Speartip</Behaviour>
-        </Prefab>
-        <Prefab SubtypeId="(NPC-PRTH) Thunderbolt">
-          <Position>
-            <X>500.5</X>
-            <Y>0.0</Y>
-            <Z>0.0</Z>
-          </Position>
-          <Speed>400</Speed>
-          <Behaviour>BH-PRTH-Thunderbolt</Behaviour>
         </Prefab>
       </Prefabs>
     </SpawnGroup>

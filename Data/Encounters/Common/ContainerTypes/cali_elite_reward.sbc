@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+
+<!-- Cali Elite Reward: shared top-tier reward for the four Elite encounters
+     (GIRR MRC07 + Captured Cruiser, PRTH Trident, VOID Chordata). Assigned to the
+     single "Reward Container" block per elite prefab. Backbone (vanilla+bundle)
+     resolves for every subscriber; chase items (Tech16x/Tech32x server-mod,
+     PrototechFrame vanilla) are low-frequency + low-amount = probabilistic.
+     First-cut numbers - validate/tune against live elite spawn cadence. -->
+    <ContainerType CountMin="4" CountMax="6">
+      <Id>
+        <TypeId>ContainerTypeDefinition</TypeId>
+        <SubtypeId>Cali Elite Reward</SubtypeId>
+      </Id>
+      <Items>
+           <Item AmountMin="4000000" AmountMax="8000000">
+                <Frequency>12</Frequency>
+                <Id><TypeId>PhysicalObject</TypeId><SubtypeId>SpaceCredit</SubtypeId></Id>
+            </Item>
+           <Item AmountMin="1000" AmountMax="1600">
+                <Frequency>12</Frequency>
+                <Id><TypeId>Component</TypeId><SubtypeId>Tech2x</SubtypeId></Id>
+            </Item>
+           <Item AmountMin="600" AmountMax="1200">
+                <Frequency>12</Frequency>
+                <Id><TypeId>Component</TypeId><SubtypeId>Tech4x</SubtypeId></Id>
+            </Item>
+           <Item AmountMin="500" AmountMax="800">
+                <Frequency>12</Frequency>
+                <Id><TypeId>Component</TypeId><SubtypeId>Tech8x</SubtypeId></Id>
+            </Item>
+           <Item AmountMin="100" AmountMax="200">
+                <Frequency>8</Frequency>
+                <Id><TypeId>Component</TypeId><SubtypeId>LeapTube</SubtypeId></Id>
+            </Item>
+           <Item AmountMin="200" AmountMax="400">
+                <Frequency>8</Frequency>
+                <Id><TypeId>Component</TypeId><SubtypeId>QuantumCoProcessor</SubtypeId></Id>
+            </Item>
+           <Item AmountMin="50" AmountMax="200">
+                <Frequency>6</Frequency>
+                <Id><TypeId>Component</TypeId><SubtypeId>AdaptiveDynoCapacitor</SubtypeId></Id>
+            </Item>
+           <Item AmountMin="20" AmountMax="60">
+                <Frequency>6</Frequency>
+                <Id><TypeId>Component</TypeId><SubtypeId>AryxLynxon_FusionComponent</SubtypeId></Id>
+            </Item>
+           <Item AmountMin="1" AmountMax="3">
+                <Frequency>5</Frequency>
+                <Id><TypeId>Component</TypeId><SubtypeId>Tech16x</SubtypeId></Id>
+            </Item>
+           <Item AmountMin="1" AmountMax="2">
+                <Frequency>3</Frequency>
+                <Id><TypeId>Component</TypeId><SubtypeId>PrototechFrame</SubtypeId></Id>
+            </Item>
+           <Item AmountMin="1" AmountMax="1">
+                <Frequency>2</Frequency>
+                <Id><TypeId>Component</TypeId><SubtypeId>Tech32x</SubtypeId></Id>
+            </Item>
+        </Items>
+    </ContainerType>
+<!-- Cali Elite Reward -->
+
+  </ContainerTypes>
+</Definitions>

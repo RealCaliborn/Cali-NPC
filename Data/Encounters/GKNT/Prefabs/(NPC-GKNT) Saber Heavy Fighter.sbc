@@ -4300,7 +4300,7 @@
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
               <Enabled>false</Enabled>
-              <BroadcastRadius>1000.00024</BroadcastRadius>
+              <BroadcastRadius>1</BroadcastRadius>
               <HudText>Saber Heavy Fighter</HudText>
             </MyObjectBuilder_CubeBlock>
             <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_CubeBlock">
@@ -4743,8 +4743,8 @@
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
-              <BroadcastRadius>50000</BroadcastRadius>
-              <ShowShipName>true</ShowShipName>
+              <BroadcastRadius>20000</BroadcastRadius>
+              <ShowShipName>false</ShowShipName>
               <EnableBroadcasting>true</EnableBroadcasting>
               <AttachedPB>0</AttachedPB>
               <IgnoreAllied>false</IgnoreAllied>

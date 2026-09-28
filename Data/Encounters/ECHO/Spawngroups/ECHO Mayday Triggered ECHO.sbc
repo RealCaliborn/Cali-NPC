@@ -32,7 +32,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>0.2</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-All) SI Loot Pod">
                     <Position>
@@ -76,7 +76,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>0.2</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-All) SI Loot Pod">
                     <Position>

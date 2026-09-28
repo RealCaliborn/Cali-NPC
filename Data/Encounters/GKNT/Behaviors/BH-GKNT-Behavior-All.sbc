@@ -11,10 +11,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:HorseFighter]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Default-B]
         [HorseFighterTimeEngaging:23]
         [HorseFighterTimeApproaching:12]
@@ -22,13 +19,12 @@
         [OverrideTargetData:TA-GKNT-NPC-Protection-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-GKNT-Target-Sharing]
         [TriggerGroups:TG-GKNT-Reputation]
         [TriggerGroups:TG-GKNT-Patrol-Chat]
         [TriggerGroups:TG-PRTH-ECHO-Mayday-Responder]
+        [TriggerGroups:TG-Common-Evade-Roll]
 
       </Description>
     </EntityComponent>
@@ -42,21 +38,12 @@
 
         [RivalAI Behavior]
         [BehaviorName:Strike]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Strike-Default-A]
-        [StrikeBeginSpaceAttackRunDistance:3500]
-        [StrikeBeginPlanetAttackRunDistance:2500]
-        [StrikeBreakawayDistance:400]
-        [StrikeOffsetRecalculationTime:8]
-        [StrikeEngageUseSafePlanetPathing:true]
         [TargetData:TA-GKNT-NPC-Protection-A]
         [OverrideTargetData:TA-GKNT-NPC-Protection-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [UseBarrageFire:false]
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-GKNT-Target-Sharing]
         [TriggerGroups:TG-GKNT-Reputation]
@@ -75,10 +62,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:HorseFighter]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Default-B]
         [HorseFighterTimeEngaging:23]
         [HorseFighterTimeApproaching:12]
@@ -86,11 +70,10 @@
         [OverrideTargetData:TA-GKNT-NPC-Protection-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
         [TriggerGroups:TG-Common-PvE-Default-NoNewTarget]
         [TriggerGroups:TG-GKNT-Mayday-Fighter-Jump]
         [TriggerGroups:TG-GKNT-Target-Sharing]
+        [TriggerGroups:TG-Common-Escalate]
 
       </Description>
     </EntityComponent>
@@ -104,21 +87,12 @@
 
         [RivalAI Behavior]
         [BehaviorName:Strike]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Strike-Default-A]
-        [StrikeBeginSpaceAttackRunDistance:3500]
-        [StrikeBeginPlanetAttackRunDistance:2500]
-        [StrikeBreakawayDistance:400]
-        [StrikeOffsetRecalculationTime:8]
-        [StrikeEngageUseSafePlanetPathing:true]
         [TargetData:TA-GKNT-NPC-Protection-A]
         [OverrideTargetData:TA-GKNT-NPC-Protection-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [UseBarrageFire:false]
         [TriggerGroups:TG-Common-PvE-Default-NoNewTarget]
         [TriggerGroups:TG-GKNT-Mayday-Fighter-Jump]
         [TriggerGroups:TG-GKNT-Target-Sharing]
@@ -136,6 +110,7 @@
         [RivalAI Behavior]
 
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
 
         [TriggerGroups:TG-GKNT-Mayday-FJ-GIRR1]
         [Triggers:TR-Common-Compromised-Stop]
@@ -153,6 +128,7 @@
         [RivalAI Behavior]
 
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
 
         [TriggerGroups:TG-GKNT-Mayday-FJ-VOID1]
         [Triggers:TR-Common-Compromised-Stop]
@@ -169,10 +145,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:HorseFighter]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Default-B]
         [HorseFighterTimeEngaging:23]
         [HorseFighterTimeApproaching:12]
@@ -180,11 +153,10 @@
         [OverrideTargetData:TA-GKNT-NPC-Protection-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
         [TriggerGroups:TG-Common-PvE-Default]
         [Triggers:TR-GKNT-NPC-Protection-Rx]
         [TriggerGroups:TG-GKNT-Patrol-Chat]
+        [TriggerGroups:TG-Common-Evade-Roll]
 
       </Description>
     </EntityComponent>
@@ -198,21 +170,12 @@
 
         [RivalAI Behavior]
         [BehaviorName:Strike]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Strike-Default-A]
-        [StrikeBeginSpaceAttackRunDistance:3500]
-        [StrikeBeginPlanetAttackRunDistance:2500]
-        [StrikeBreakawayDistance:400]
-        [StrikeOffsetRecalculationTime:8]
-        [StrikeEngageUseSafePlanetPathing:true]
         [TargetData:TA-GKNT-NPC-Protection-A]
         [OverrideTargetData:TA-GKNT-NPC-Protection-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [UseBarrageFire:false]
         [TriggerGroups:TG-Common-PvE-Default]
         [Triggers:TR-GKNT-NPC-Protection-Rx]
         [TriggerGroups:TG-GKNT-Patrol-Chat]
@@ -229,10 +192,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:HorseFighter]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Default-B]
         [HorseFighterTimeEngaging:23]
         [HorseFighterTimeApproaching:12]
@@ -240,7 +200,6 @@
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
         [TriggerGroups:TG-GKNT-Protected]
         [TriggerGroups:TG-Common-NPC-Protection-Tx]
         [TriggerGroups:TG-GKNT-Helper]
@@ -261,20 +220,12 @@
 
         [RivalAI Behavior]
         [BehaviorName:Strike]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Strike-Default-A]
-        [StrikeBeginSpaceAttackRunDistance:3500]
-        [StrikeBeginPlanetAttackRunDistance:2500]
-        [StrikeBreakawayDistance:400]
-        [StrikeOffsetRecalculationTime:8]
-        [StrikeEngageUseSafePlanetPathing:true]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
         [TriggerGroups:TG-GKNT-Protected]
         [TriggerGroups:TG-Common-NPC-Protection-Tx]
         [TriggerGroups:TG-GKNT-Helper]
@@ -296,10 +247,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:HorseFighter]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Default-B]
         [HorseFighterTimeEngaging:23]
         [HorseFighterTimeApproaching:12]
@@ -307,13 +255,14 @@
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
         [TriggerGroups:TG-GKNT-Protected]
         [TriggerGroups:TG-Common-NPC-Protection-Tx]
         [TriggerGroups:TG-GKNT-Helper]
         [TriggerGroups:TG-GKNT-Scramble]
         [TriggerGroups:TG-GKNT-Reputation]
         [TriggerGroups:TG-GKNT-Escort-Chat]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-Common-Evade-Roll]
         [Triggers:TR-Common-Compromised-Stop]
 
       </Description>
@@ -329,10 +278,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:HorseFighter]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Default-B]
         [HorseFighterTimeEngaging:23]
         [HorseFighterTimeApproaching:12]
@@ -340,13 +286,13 @@
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
         [TriggerGroups:TG-GKNT-Protected]
         [TriggerGroups:TG-Common-NPC-Protection-Tx]
         [TriggerGroups:TG-GKNT-Helper]
         [TriggerGroups:TG-GKNT-Scramble]
         [TriggerGroups:TG-GKNT-Reputation]
         [TriggerGroups:TG-GKNT-Escort-Chat]
+        [TriggerGroups:TG-Common-Jump]
         [Triggers:TR-Common-Compromised-Stop]
 
       </Description>
@@ -362,26 +308,97 @@
 
         [RivalAI Behavior]
         [BehaviorName:Strike]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Strike-Default-A]
-        [StrikeBeginSpaceAttackRunDistance:3500]
-        [StrikeBeginPlanetAttackRunDistance:2500]
-        [StrikeBreakawayDistance:400]
-        [StrikeOffsetRecalculationTime:8]
-        [StrikeEngageUseSafePlanetPathing:true]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
         [TriggerGroups:TG-GKNT-Protected]
         [TriggerGroups:TG-Common-NPC-Protection-Tx]
         [TriggerGroups:TG-GKNT-Helper]
         [TriggerGroups:TG-GKNT-Scramble]
         [TriggerGroups:TG-GKNT-Reputation]
         [TriggerGroups:TG-GKNT-Escort-Chat]
+        [TriggerGroups:TG-Common-Jump]
+        [TriggerGroups:TG-Common-Evade-Roll]
+        [Triggers:TR-Common-Compromised-Stop]
+
+      </Description>
+    </EntityComponent>
+
+    <!-- Reinforcement-safe gunboats: combat capability without helper/scramble calls. -->
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GKNT-Gunboat-A-NoReinforcements</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [AutopilotData:AP-Common-Brawler-Default-B]
+        [HorseFighterTimeEngaging:23]
+        [HorseFighterTimeApproaching:12]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [TriggerGroups:TG-Common-NPC-Protection-Tx]
+        [TriggerGroups:TG-GKNT-Reputation]
+        [TriggerGroups:TG-GKNT-Escort-Chat]
+        [TriggerGroups:TG-Common-Jump]
+        [Triggers:TR-Common-Compromised-Stop]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GKNT-Gunboat-B-NoReinforcements</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:HorseFighter]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [AutopilotData:AP-Common-Brawler-Default-B]
+        [HorseFighterTimeEngaging:23]
+        [HorseFighterTimeApproaching:12]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [TriggerGroups:TG-Common-NPC-Protection-Tx]
+        [TriggerGroups:TG-GKNT-Reputation]
+        [TriggerGroups:TG-GKNT-Escort-Chat]
+        [TriggerGroups:TG-Common-Jump]
+        [Triggers:TR-Common-Compromised-Stop]
+
+      </Description>
+    </EntityComponent>
+
+    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
+      <Id>
+        <TypeId>Inventory</TypeId>
+        <SubtypeId>BH-GKNT-Gunboat-C-NoReinforcements</SubtypeId>
+      </Id>
+      <Description>
+
+        [RivalAI Behavior]
+        [BehaviorName:Strike]
+        [WeaponSystem:WS-Common-Baseline-Standard]
+        [AutopilotData:AP-Common-Strike-Default-A]
+        [TargetData:TA-Common-Default-A]
+        [OverrideTargetData:TA-Common-Default-B]
+        [EngageOnTargetLineOfSight:true]
+        [EngageOnWeaponActivation:true]
+        [TriggerGroups:TG-Common-NPC-Protection-Tx]
+        [TriggerGroups:TG-GKNT-Reputation]
+        [TriggerGroups:TG-GKNT-Escort-Chat]
+        [TriggerGroups:TG-Common-Jump]
         [Triggers:TR-Common-Compromised-Stop]
 
       </Description>

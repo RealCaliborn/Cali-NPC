@@ -908,8 +908,8 @@
               <ShowInInventory>true</ShowInInventory>
               <NumberInGrid>1</NumberInGrid>
               <Enabled>true</Enabled>
-              <BroadcastRadius>50000</BroadcastRadius>
-              <ShowShipName>true</ShowShipName>
+              <BroadcastRadius>20000</BroadcastRadius>
+              <ShowShipName>false</ShowShipName>
               <EnableBroadcasting>true</EnableBroadcasting>
               <AttachedPB>0</AttachedPB>
               <IgnoreAllied>false</IgnoreAllied>
@@ -9434,95 +9434,6 @@
               <BlockOrientation Forward="Right" Up="Down" />
               <ColorMaskHSV x="0.6527778" y="0.2" z="0.05" />
               <SkinSubtypeId>Retrofuture_Armor</SkinSubtypeId>
-            </MyObjectBuilder_CubeBlock>
-            <MyObjectBuilder_CubeBlock xsi:type="MyObjectBuilder_TimerBlock">
-              <SubtypeName>TimerBlockLarge</SubtypeName>
-              <EntityId>79358822100576323</EntityId>
-              <Min x="0" y="4" z="-4" />
-              <ColorMaskHSV x="0.6527778" y="0.2" z="0.05" />
-              <SkinSubtypeId>Retrofuture_Armor</SkinSubtypeId>
-              <ShareMode>Faction</ShareMode>
-              <CustomName>Timer Block Shoot</CustomName>
-              <ShowOnHUD>false</ShowOnHUD>
-              <ShowInTerminal>true</ShowInTerminal>
-              <ShowInToolbarConfig>true</ShowInToolbarConfig>
-              <ShowInInventory>true</ShowInInventory>
-              <Enabled>true</Enabled>
-              <Toolbar>
-                <ToolbarType>Character</ToolbarType>
-                <SelectedSlot xsi:nil="true" />
-                <Slots>
-                  <Slot>
-                    <Index>0</Index>
-                    <Item />
-                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
-                      <Action>ActionFire</Action>
-                      <BlockEntityId>91804697386426537</BlockEntityId>
-                    </Data>
-                  </Slot>
-                  <Slot>
-                    <Index>1</Index>
-                    <Item />
-                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
-                      <Action>ActionFire</Action>
-                      <BlockEntityId>101604739124381560</BlockEntityId>
-                    </Data>
-                  </Slot>
-                  <Slot>
-                    <Index>2</Index>
-                    <Item />
-                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
-                      <Action>ActionFire</Action>
-                      <BlockEntityId>77129601712845913</BlockEntityId>
-                    </Data>
-                  </Slot>
-                  <Slot>
-                    <Index>3</Index>
-                    <Item />
-                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
-                      <Action>ActionFire</Action>
-                      <BlockEntityId>72434661867518771</BlockEntityId>
-                    </Data>
-                  </Slot>
-                  <Slot>
-                    <Index>4</Index>
-                    <Item />
-                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
-                      <Action>ActionFire</Action>
-                      <BlockEntityId>93857453816021989</BlockEntityId>
-                    </Data>
-                  </Slot>
-                  <Slot>
-                    <Index>5</Index>
-                    <Item />
-                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
-                      <Action>ActionFire</Action>
-                      <BlockEntityId>114717428753948226</BlockEntityId>
-                    </Data>
-                  </Slot>
-                  <Slot>
-                    <Index>6</Index>
-                    <Item />
-                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
-                      <Action>ActionFire</Action>
-                      <BlockEntityId>85161590124121632</BlockEntityId>
-                    </Data>
-                  </Slot>
-                  <Slot>
-                    <Index>7</Index>
-                    <Item />
-                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
-                      <Action>ActionFire</Action>
-                      <BlockEntityId>110937564127636189</BlockEntityId>
-                    </Data>
-                  </Slot>
-                </Slots>
-                <SlotsGamepad />
-              </Toolbar>
-              <Delay>1000</Delay>
-              <CurrentTime>0</CurrentTime>
-              <IsCountingDown>false</IsCountingDown>
-              <Silent>false</Silent>
             </MyObjectBuilder_CubeBlock>
           </CubeBlocks>
           <ConveyorLines>

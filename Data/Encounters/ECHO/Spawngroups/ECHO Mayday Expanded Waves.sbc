@@ -16,6 +16,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -72,6 +73,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -110,6 +112,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -157,6 +160,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -204,6 +208,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -269,6 +274,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -325,6 +331,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -375,6 +382,7 @@
         [RemoteControlCode:SI-Roaches-Boss-Any]
         [RemoteControlCodeMinDistance:20000]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -422,6 +430,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -478,6 +487,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -528,6 +538,7 @@
         [RemoteControlCode:SI-Roaches-Boss-Any]
         [RemoteControlCodeMinDistance:20000]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -578,6 +589,7 @@
         [RemoteControlCode:SI-Roaches-Boss-Any]
         [RemoteControlCodeMinDistance:20000]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -628,6 +640,7 @@
         [RemoteControlCode:SI-Roaches-Boss-Any]
         [RemoteControlCodeMinDistance:20000]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -684,6 +697,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -722,6 +736,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -760,6 +775,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -807,6 +823,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -854,6 +871,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -901,6 +919,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -939,6 +958,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -986,6 +1006,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1024,6 +1045,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1072,15 +1094,6 @@
           <Speed>400</Speed>
           <Behaviour>BH-PRTH-Nymph-ECHOExpandedMayday</Behaviour>
         </Prefab>
-        <Prefab SubtypeId="(NPC-PRTH) Nymph">
-          <Position>
-            <X>500.0</X>
-            <Y>500.0</Y>
-            <Z>0.0</Z>
-          </Position>
-          <Speed>400</Speed>
-          <Behaviour>BH-PRTH-Nymph-ECHOExpandedMayday</Behaviour>
-        </Prefab>
       </Prefabs>
     </SpawnGroup>
     <SpawnGroup>
@@ -1098,6 +1111,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1145,6 +1159,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1192,6 +1207,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1239,6 +1255,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionPRTH]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1295,6 +1312,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1333,6 +1351,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1380,6 +1399,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1427,6 +1447,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1474,6 +1495,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1521,6 +1543,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1568,6 +1591,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1615,6 +1639,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1653,6 +1678,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1709,6 +1735,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1756,6 +1783,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1803,6 +1831,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1850,6 +1879,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionGIRR]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1897,6 +1927,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1926,6 +1957,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -1964,6 +1996,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -2002,6 +2035,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -2040,6 +2074,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -2087,6 +2122,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -2134,6 +2170,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -2181,6 +2218,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -2228,6 +2266,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -2275,6 +2314,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -2331,6 +2371,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -2387,6 +2428,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -2452,6 +2494,7 @@
         [ReplenishSystems:true]
         [AddDefenseShieldBlocks:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionBASS]
+      [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>

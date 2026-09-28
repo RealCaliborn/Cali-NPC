@@ -20,6 +20,7 @@
 		[Triggers:TR-Common-Jump-Acquired]
 		[Triggers:TR-Common-Jump-Away]
 		[Triggers:TR-Common-Compromised-Stop]
+		[Triggers:TR-Common-Retaliate]
 
       </Description>
     </EntityComponent>
@@ -61,6 +62,8 @@
 		[Triggers:TR-Common-Jump-Completed]
 		[Triggers:TR-Common-Jump-Acquired]
 		[Triggers:TR-Common-Jump-Away]
+		[Triggers:TR-Common-Retaliate]
+		[Triggers:TR-Common-Evade-Erratic]
 
       </Description>
     </EntityComponent>

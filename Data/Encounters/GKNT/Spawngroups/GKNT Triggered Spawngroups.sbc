@@ -24,9 +24,10 @@
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
 
+        [AssignContainerTypesToAllCargo:GKNT Cargo Medium]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                 <Position>
@@ -71,9 +72,10 @@
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
 
+        [AssignContainerTypesToAllCargo:GKNT Cargo Easy]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
                 <Position>
@@ -109,9 +111,10 @@
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
 
+        [AssignContainerTypesToAllCargo:GKNT Cargo Easy]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
                 <Position>
@@ -156,9 +159,10 @@
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
 
+        [AssignContainerTypesToAllCargo:GKNT Cargo Medium]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                 <Position>
@@ -176,7 +180,7 @@
                     <Z>0.0</Z>
                 </Position>
                 <Speed>100</Speed>
-                <Behaviour>BH-GKNT-Gunboat-B</Behaviour>
+                <Behaviour>BH-GKNT-Gunboat-B-NoReinforcements</Behaviour>
             </Prefab>
         </Prefabs>
     </SpawnGroup>
@@ -203,9 +207,10 @@
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
 
+        [AssignContainerTypesToAllCargo:GKNT Cargo Medium]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                 <Position>
@@ -232,7 +237,7 @@
                     <Z>0.0</Z>
                 </Position>
                 <Speed>100</Speed>
-                <Behaviour>BH-GKNT-Gunboat-A</Behaviour>
+                <Behaviour>BH-GKNT-Gunboat-A-NoReinforcements</Behaviour>
             </Prefab>
         </Prefabs>
     </SpawnGroup>
@@ -260,9 +265,10 @@
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
 
+        [AssignContainerTypesToAllCargo:GKNT Cargo Easy]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
                 <Position>
@@ -299,9 +305,10 @@
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
 
+        [AssignContainerTypesToAllCargo:GKNT Cargo Medium]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
                 <Position>
@@ -328,7 +335,7 @@
                     <Z>0.0</Z>
                 </Position>
                 <Speed>100</Speed>
-                <Behaviour>BH-GKNT-Gunboat-C</Behaviour>
+                <Behaviour>BH-GKNT-Gunboat-C-NoReinforcements</Behaviour>
             </Prefab>
         </Prefabs>
     </SpawnGroup>
@@ -356,9 +363,10 @@
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
 
+        [AssignContainerTypesToAllCargo:GKNT Cargo Medium]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                 <Position>
@@ -376,7 +384,7 @@
                     <Z>0.0</Z>
                 </Position>
                 <Speed>100</Speed>
-                <Behaviour>BH-GKNT-Gunboat-A</Behaviour>
+                <Behaviour>BH-GKNT-Gunboat-A-NoReinforcements</Behaviour>
             </Prefab>
         </Prefabs>
     </SpawnGroup>
@@ -404,9 +412,10 @@
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
 
+        [AssignContainerTypesToAllCargo:GKNT Cargo Easy]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
                 <Position>
@@ -443,9 +452,10 @@
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
 
+        [AssignContainerTypesToAllCargo:GKNT Cargo Medium]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                 <Position>
@@ -472,7 +482,7 @@
                     <Z>0.0</Z>
                 </Position>
                 <Speed>100</Speed>
-                <Behaviour>BH-GKNT-Gunboat-B</Behaviour>
+                <Behaviour>BH-GKNT-Gunboat-B-NoReinforcements</Behaviour>
             </Prefab>
         </Prefabs>
     </SpawnGroup>
@@ -500,6 +510,7 @@
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
 
+        [AssignContainerTypesToAllCargo:GKNT Cargo Medium]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
         <Frequency>1.0</Frequency>
@@ -520,7 +531,7 @@
                     <Z>0.0</Z>
                 </Position>
                 <Speed>100</Speed>
-                <Behaviour>BH-GKNT-Gunboat-C</Behaviour>
+                <Behaviour>BH-GKNT-Gunboat-C-NoReinforcements</Behaviour>
             </Prefab>
         </Prefabs>
     </SpawnGroup>

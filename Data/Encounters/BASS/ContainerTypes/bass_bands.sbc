@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+
+<!-- BASS (Blackmoon / ASTRA arms) band cargo. Theme: weapons + ammo shipments
+     alongside mil components. Threat-capped: Easy/Medium only. Backbone ids.
+     Applied via AssignContainerTypesToAllCargo (blocks are unnamed). -->
+    <ContainerType CountMin="2" CountMax="3">
+      <Id><TypeId>ContainerTypeDefinition</TypeId><SubtypeId>BASS Cargo Easy</SubtypeId></Id>
+      <Items>
+        <Item AmountMin="50" AmountMax="200"><Frequency>4</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Construction</SubtypeId></Id></Item>
+        <Item AmountMin="100" AmountMax="400"><Frequency>4</Frequency><Id><TypeId>Component</TypeId><SubtypeId>SteelPlate</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Computer</SubtypeId></Id></Item>
+        <Item AmountMin="1" AmountMax="2"><Frequency>3</Frequency><Id><TypeId>PhysicalGunObject</TypeId><SubtypeId>AutomaticRifleItem</SubtypeId></Id></Item>
+        <Item AmountMin="6" AmountMax="16"><Frequency>4</Frequency><Id><TypeId>AmmoMagazine</TypeId><SubtypeId>AutomaticRifleGun_Mag_20rd</SubtypeId></Id></Item>
+        <Item AmountMin="4" AmountMax="12"><Frequency>3</Frequency><Id><TypeId>AmmoMagazine</TypeId><SubtypeId>NATO_5p56x45mm</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>2</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Tech2x</SubtypeId></Id></Item>
+        <Item AmountMin="5000" AmountMax="25000"><Frequency>2</Frequency><Id><TypeId>PhysicalObject</TypeId><SubtypeId>SpaceCredit</SubtypeId></Id></Item>
+      </Items>
+    </ContainerType>
+
+    <ContainerType CountMin="3" CountMax="4">
+      <Id><TypeId>ContainerTypeDefinition</TypeId><SubtypeId>BASS Cargo Medium</SubtypeId></Id>
+      <Items>
+        <Item AmountMin="200" AmountMax="800"><Frequency>4</Frequency><Id><TypeId>Component</TypeId><SubtypeId>SteelPlate</SubtypeId></Id></Item>
+        <Item AmountMin="100" AmountMax="400"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Computer</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Motor</SubtypeId></Id></Item>
+        <Item AmountMin="1" AmountMax="2"><Frequency>3</Frequency><Id><TypeId>PhysicalGunObject</TypeId><SubtypeId>AutomaticRifleItem</SubtypeId></Id></Item>
+        <Item AmountMin="1" AmountMax="2"><Frequency>3</Frequency><Id><TypeId>PhysicalGunObject</TypeId><SubtypeId>RapidFireAutomaticRifleItem</SubtypeId></Id></Item>
+        <Item AmountMin="1" AmountMax="2"><Frequency>2</Frequency><Id><TypeId>PhysicalGunObject</TypeId><SubtypeId>SemiAutoPistolItem</SubtypeId></Id></Item>
+        <Item AmountMin="8" AmountMax="20"><Frequency>5</Frequency><Id><TypeId>AmmoMagazine</TypeId><SubtypeId>AutomaticRifleGun_Mag_20rd</SubtypeId></Id></Item>
+        <Item AmountMin="6" AmountMax="16"><Frequency>4</Frequency><Id><TypeId>AmmoMagazine</TypeId><SubtypeId>NATO_5p56x45mm</SubtypeId></Id></Item>
+        <Item AmountMin="4" AmountMax="12"><Frequency>3</Frequency><Id><TypeId>AmmoMagazine</TypeId><SubtypeId>RapidFireAutomaticRifleGun_Mag_50rd</SubtypeId></Id></Item>
+        <Item AmountMin="4" AmountMax="12"><Frequency>3</Frequency><Id><TypeId>AmmoMagazine</TypeId><SubtypeId>NATO_25x184mm</SubtypeId></Id></Item>
+        <Item AmountMin="200" AmountMax="800"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Tech2x</SubtypeId></Id></Item>
+        <Item AmountMin="100" AmountMax="400"><Frequency>2</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Tech4x</SubtypeId></Id></Item>
+        <Item AmountMin="25000" AmountMax="100000"><Frequency>2</Frequency><Id><TypeId>PhysicalObject</TypeId><SubtypeId>SpaceCredit</SubtypeId></Id></Item>
+      </Items>
+    </ContainerType>
+
+  </ContainerTypes>
+</Definitions>

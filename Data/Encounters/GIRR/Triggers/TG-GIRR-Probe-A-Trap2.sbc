@@ -119,10 +119,9 @@
       [UseSpawn:true]
       
       [SpawningType:CustomSpawn]
-      [StartsReady:true]
-      [SpawnMinCooldown:60]
-      [SpawnMaxCooldown:89]
-      [MaxSpawns:-1]
+      [SpawnMinCooldown:0]
+      [SpawnMaxCooldown:0]
+      [MaxSpawns:1]
       
       [SpawnGroups:(NPC-GIRR) CruiserSpawn Hauler]
       [SpawnGroups:(NPC-GIRR) CruiserSpawn Transport]

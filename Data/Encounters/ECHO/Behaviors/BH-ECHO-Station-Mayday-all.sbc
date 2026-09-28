@@ -12,6 +12,7 @@
         [RivalAI Behavior]
 
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
 
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-Common-EconDespawnTimer]
@@ -32,6 +33,7 @@
         [RivalAI Behavior]
 
         [BehaviorName:Passive]
+        [WeaponSystem:WS-Common-Baseline-Passive]
 
         [TriggerGroups:TG-Common-PvE-Default]
         [TriggerGroups:TG-Common-EconDespawnTimer]

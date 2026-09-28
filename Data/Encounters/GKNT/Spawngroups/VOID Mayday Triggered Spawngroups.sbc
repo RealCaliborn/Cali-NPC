@@ -30,10 +30,11 @@
             [ReplaceArmorBlocksWithModules:true]
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
             [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+        [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>0.8</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-VOID) Stingray">
                     <Position>
@@ -76,10 +77,11 @@
             [ReplaceArmorBlocksWithModules:true]
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
             [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+        [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.1</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-VOID) Hunter">
                     <Position>
@@ -121,10 +123,11 @@
             [ReplaceArmorBlocksWithModules:true]
             [ModulesForArmorReplacement:MyObjectBuilder_RadioAntenna/MES-Suppressor-Jetpack-Large]
             [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+        [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.1</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-VOID) Urchin B">
                     <Position>
@@ -166,10 +169,11 @@
             [UseRivalAi:true]
             [RivalAiReplaceRemoteControl:true]
             [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+        [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
 
             </Description>
             <IsPirate>true</IsPirate> <!--Do not edit-->
-            <Frequency>1.1</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-VOID) Stingbaby">
                     <Position>
@@ -211,10 +215,11 @@
             [UseRivalAi:true]
             [RivalAiReplaceRemoteControl:true]
             [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+        [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
 
             </Description>
             <IsPirate>true</IsPirate> <!--Do not edit-->
-            <Frequency>1.1</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-VOID) StingBro">
                     <Position>

@@ -15,6 +15,8 @@
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [UseContainerTypeAssignment:true]
+      [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Easy,Enhanced Medium Quantum Container 2|VOID Cargo Easy,Large Cargo Container|VOID Cargo Easy,Medium Cargo Container|VOID Cargo Easy,Medium Cargo Container 2|VOID Cargo Easy,Medium Cargo Container 3|VOID Cargo Easy,Medium Cargo Container 4|VOID Cargo Easy,Small Cargo Container|VOID Cargo Easy,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -43,6 +45,8 @@
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [UseContainerTypeAssignment:true]
+      [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -80,6 +84,8 @@
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [UseContainerTypeAssignment:true]
+      [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Easy,Enhanced Medium Quantum Container 2|VOID Cargo Easy,Large Cargo Container|VOID Cargo Easy,Medium Cargo Container|VOID Cargo Easy,Medium Cargo Container 2|VOID Cargo Easy,Medium Cargo Container 3|VOID Cargo Easy,Medium Cargo Container 4|VOID Cargo Easy,Small Cargo Container|VOID Cargo Easy,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -108,6 +114,8 @@
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [UseContainerTypeAssignment:true]
+      [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -145,6 +153,8 @@
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [UseContainerTypeAssignment:true]
+      [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>
@@ -182,6 +192,8 @@
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
+      [UseContainerTypeAssignment:true]
+      [ContainerTypeAssignmentReference:Enhanced Medium Quantum Container|VOID Cargo Hard,Enhanced Medium Quantum Container 2|VOID Cargo Hard,Large Cargo Container|VOID Cargo Hard,Medium Cargo Container|VOID Cargo Hard,Medium Cargo Container 2|VOID Cargo Hard,Medium Cargo Container 3|VOID Cargo Hard,Medium Cargo Container 4|VOID Cargo Hard,Small Cargo Container|VOID Cargo Hard,Lockers|VOID Personal,Lockers 2|VOID Personal,Lockers 3|VOID Personal,Lockers 4|VOID Personal,Lockers 5|VOID Personal,Lockers 6|VOID Personal,Lockers 7|VOID Personal,Armory|VOID Armory,Armory 10|VOID Armory,Armory 11|VOID Armory,Armory 12|VOID Armory,Armory 13|VOID Armory,Armory 14|VOID Armory,Armory 15|VOID Armory,Armory 16|VOID Armory,Armory 2|VOID Armory,Armory 3|VOID Armory,Armory 4|VOID Armory,Armory 5|VOID Armory,Armory 6|VOID Armory,Armory 7|VOID Armory,Armory 8|VOID Armory,Armory 9|VOID Armory,Armory Lockers|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory,Weapon Rack|VOID Armory,Reward Container|Cali Elite Reward]
       </Description>
       <IsPirate>true</IsPirate>
       <Prefabs>

@@ -107,9 +107,8 @@
         [UseSpawn:true]
 
         [SpawningType:CustomSpawn]
-        [StartsReady:true]
-        [SpawnMinCooldown:1]
-        [SpawnMaxCooldown:2]
+        [SpawnMinCooldown:0]
+        [SpawnMaxCooldown:0]
         [MaxSpawns:1]
 
         [SpawnGroups:(NPC-BASS) Carrier-Cx2]
@@ -209,9 +208,8 @@
         [UseSpawn:true]
 
         [SpawningType:CustomSpawn]
-        [StartsReady:true]
-        [SpawnMinCooldown:1]
-        [SpawnMaxCooldown:2]
+        [SpawnMinCooldown:0]
+        [SpawnMaxCooldown:0]
         [MaxSpawns:1]
 
         [SpawnGroups:(NPC-BASS) Carrier-Dx2]
@@ -273,9 +271,8 @@
         [UseSpawn:true]
 
         [SpawningType:CustomSpawn]
-        [StartsReady:true]
-        [SpawnMinCooldown:1]
-        [SpawnMaxCooldown:2]
+        [SpawnMinCooldown:0]
+        [SpawnMaxCooldown:0]
         [MaxSpawns:1]
 
         [SpawnGroups:(NPC-BASS) Carrier-Fx2]

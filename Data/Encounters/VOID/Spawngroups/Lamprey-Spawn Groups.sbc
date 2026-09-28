@@ -22,11 +22,14 @@
         [GridsAreDestructable:true]                
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
+        [AssignContainerTypesToAllCargo:VOID Cargo Hard]
+        [UseContainerTypeAssignment:true]
+        [ContainerTypeAssignmentReference:Armory|VOID Armory,Armory Lockers 2|VOID Armory,Armory Lockers 3|VOID Armory]
         [ManipulationProfiles:MES-Manipulation-PropulsionVOID]
 
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>0.7</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-VOID) Lamprey">
                 <Position>

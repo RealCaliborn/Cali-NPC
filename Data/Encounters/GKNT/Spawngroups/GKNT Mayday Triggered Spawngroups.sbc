@@ -23,9 +23,10 @@
         [UseRivalAi:true]
         [RivalAiReplaceRemoteControl:true]
 
+        [AssignContainerTypesToAllCargo:Cali Reinforcement Cargo]
         </Description>
         <IsPirate>true</IsPirate> <!--Do not edit-->
-        <Frequency>1.1</Frequency>
+        <Frequency>1.0</Frequency>
         <Prefabs>
             <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                 <Position>

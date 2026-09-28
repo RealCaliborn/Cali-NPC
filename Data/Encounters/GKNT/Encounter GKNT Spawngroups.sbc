@@ -17,6 +17,7 @@
 
                 [FactionOwner:GKNT]
                 [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
                 [IgnoreShieldProviderMod:true]
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
@@ -30,7 +31,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>0.2</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-All) MAYDAY RivalAI Container">
                     <Position>
@@ -59,6 +60,7 @@
 
                 [FactionOwner:GKNT]
                 [ReplenishSystems:true]
+            [AddDefenseShieldBlocks:true]
                 [IgnoreShieldProviderMod:true]
                 [UseRivalAi:true]
                 [RivalAiReplaceRemoteControl:true]
@@ -72,7 +74,7 @@
 
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>0.2</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-All) MAYDAY RivalAI Container">
                     <Position>
@@ -105,9 +107,10 @@
                 [RotateFirstCockpitToForward:true]
                 [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
 
+            [AssignContainerTypesToAllCargo:GKNT Cargo Medium]
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.1</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                     <Position>
@@ -141,9 +144,10 @@
                 [RotateFirstCockpitToForward:true]
                 [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
 
+            [AssignContainerTypesToAllCargo:GKNT Cargo Medium]
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.1</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                     <Position>
@@ -187,9 +191,10 @@
                 [RotateFirstCockpitToForward:true]
                 [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
 
+            [AssignContainerTypesToAllCargo:GKNT Cargo Medium]
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.1</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                     <Position>
@@ -242,9 +247,10 @@
                 [RotateFirstCockpitToForward:true]
                 [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
 
+            [AssignContainerTypesToAllCargo:GKNT Cargo Medium]
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.1</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                     <Position>
@@ -297,9 +303,10 @@
                 [RotateFirstCockpitToForward:true]
                 [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
 
+            [AssignContainerTypesToAllCargo:GKNT Cargo Easy]
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.1</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
                     <Position>
@@ -334,9 +341,10 @@
                 [RotateFirstCockpitToForward:true]
                 [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
 
+            [AssignContainerTypesToAllCargo:GKNT Cargo Medium]
             </Description>
             <IsPirate>true</IsPirate>
-            <Frequency>1.1</Frequency>
+            <Frequency>1.0</Frequency>
             <Prefabs>
                 <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                     <Position>
@@ -383,6 +391,7 @@
                 [RemoteControlCodeMinDistance:20000]
                 [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
 
+            [AssignContainerTypesToAllCargo:GKNT Cargo Medium]
             </Description>
             <IsPirate>true</IsPirate>
             <Frequency>1.0</Frequency>
@@ -400,5 +409,116 @@
         </SpawnGroup>
         <!-- (NPC-GKNT) The Sword of Justice -->
 
-    </SpawnGroups>
+    		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GKNT) 1xGunboatD</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GKNT]
+                [ReplenishSystems:true]
+                [AddDefenseShieldBlocks:true]
+                [IgnoreShieldProviderMod:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:true]
+                [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
+
+            [AssignContainerTypesToAllCargo:GKNT Cargo Medium]
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat D">
+					<Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GKNT-Gunboat-C-NoReinforcements</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GKNT) 1xGunboatD1xSaber</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GKNT]
+                [ReplenishSystems:true]
+                [AddDefenseShieldBlocks:true]
+                [IgnoreShieldProviderMod:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:true]
+                [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
+
+            [AssignContainerTypesToAllCargo:GKNT Cargo Medium]
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat D">
+					<Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GKNT-Gunboat-C-NoReinforcements</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
+					<Position><X>500.5</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GKNT-Fighter-Default-Saber</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+		<SpawnGroup>
+			<Id>
+				<TypeId>SpawnGroupDefinition</TypeId>
+				<SubtypeId>(NPC-GKNT) 1xGunboatD2xSwallow</SubtypeId>
+			</Id>
+			<Description>
+
+                [Modular Encounters SpawnGroup]
+
+                [SpaceRandomEncounter:true]
+
+                [FactionOwner:GKNT]
+                [ReplenishSystems:true]
+                [AddDefenseShieldBlocks:true]
+                [IgnoreShieldProviderMod:true]
+                [UseRivalAi:true]
+                [RivalAiReplaceRemoteControl:true]
+                [RotateFirstCockpitToForward:true]
+                [ManipulationProfiles:MES-Manipulation-PropulsionGKNT]
+
+            [AssignContainerTypesToAllCargo:GKNT Cargo Medium]
+            </Description>
+			<IsPirate>true</IsPirate>
+			<Frequency>1.0</Frequency>
+			<Prefabs>
+							<Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat D">
+					<Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GKNT-Gunboat-C-NoReinforcements</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
+					<Position><X>500.5</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GKNT-Fighter-Default-Swallow</Behaviour>
+				</Prefab>
+			<Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
+					<Position><X>-500.5</X><Y>0.0</Y><Z>0.0</Z></Position>
+					<Speed>400</Speed>
+					<Behaviour>BH-GKNT-Fighter-Default-Swallow</Behaviour>
+				</Prefab>
+			</Prefabs>
+		</SpawnGroup>
+</SpawnGroups>
 </Definitions>

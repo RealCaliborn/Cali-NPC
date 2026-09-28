@@ -11,10 +11,7 @@
 
         [RivalAI Behavior]
         [BehaviorName:HorseFighter]
-        [UseStaticGuns:true]
-        [MaxStaticWeaponRange:-1]
-        [Triggers:TR-Common-FireFixed]
-        [UseAmmoReplenish:true]
+        [WeaponSystem:WS-Common-Baseline-Standard]
         [AutopilotData:AP-Common-Brawler-Close-B]
         [HorseFighterTimeEngaging:30]
         [HorseFighterTimeApproaching:16]
@@ -22,12 +19,11 @@
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]
         [EngageOnWeaponActivation:true]
-        [UseTurrets:true]
-        [UseBarrageFire:false]
         [TriggerGroups:TG-Common-PvE-Default]
         [Triggers:TR-VOID-ScreamBroadcast]
         [TriggerGroups:TG-VOID-Target-Sharing]
         [TriggerGroups:TG-VOID-Reputation]
+        [TriggerGroups:TG-VOID-Tattle]
 
       </Description>
     </EntityComponent>

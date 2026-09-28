@@ -26,12 +26,14 @@
         [RivalAI Trigger]
 
         [UseTrigger:true]
-        [Type:TargetNear]
-        [TargetDistance:1000]
+        [Type:Damage]
+        [DamageTypes:Any]
         [StartsReady:true]
         [MaxActions:-1]
         [MinCooldownMs:10000]
         [MaxCooldownMs:20000]
+
+        [Conditions:CD-Common-TargetAhead]
 
         [Actions:AC-BASS-Sentinel-Ram]
 
@@ -47,6 +49,7 @@
 
         [RivalAI Action]
 
+        [Chance:50]
         [Ramming:true]
 
       </Description>

@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ContainerTypes>
+
+<!-- PRTH (Poseidon's Wrath zealot) band cargo for combat ships. Theme: mil
+     components + tech + a Poseidon/ice nod. Assigned per encounter threat band
+     (ENCOUNTER_THREAT_MAP.md). Backbone ids only. Applied via
+     AssignContainerTypesToAllCargo to previously-uncovered combat ships;
+     existing freighter/station (Cargo Ship / Store Default) wiring untouched. -->
+
+<!-- PRTH Cargo Easy (Nymph, Minotaur) -->
+    <ContainerType CountMin="2" CountMax="3">
+      <Id><TypeId>ContainerTypeDefinition</TypeId><SubtypeId>PRTH Cargo Easy</SubtypeId></Id>
+      <Items>
+        <Item AmountMin="500" AmountMax="2000"><Frequency>4</Frequency><Id><TypeId>Ore</TypeId><SubtypeId>Ice</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>4</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Construction</SubtypeId></Id></Item>
+        <Item AmountMin="100" AmountMax="400"><Frequency>4</Frequency><Id><TypeId>Component</TypeId><SubtypeId>SteelPlate</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>InteriorPlate</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Computer</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>2</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Tech2x</SubtypeId></Id></Item>
+        <Item AmountMin="5000" AmountMax="25000"><Frequency>2</Frequency><Id><TypeId>PhysicalObject</TypeId><SubtypeId>SpaceCredit</SubtypeId></Id></Item>
+      </Items>
+    </ContainerType>
+
+<!-- PRTH Cargo Medium (Thunderbolt, Speartip, Speartip-FG) -->
+    <ContainerType CountMin="3" CountMax="4">
+      <Id><TypeId>ContainerTypeDefinition</TypeId><SubtypeId>PRTH Cargo Medium</SubtypeId></Id>
+      <Items>
+        <Item AmountMin="1000" AmountMax="3000"><Frequency>3</Frequency><Id><TypeId>Ore</TypeId><SubtypeId>Ice</SubtypeId></Id></Item>
+        <Item AmountMin="200" AmountMax="800"><Frequency>4</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Construction</SubtypeId></Id></Item>
+        <Item AmountMin="300" AmountMax="1000"><Frequency>4</Frequency><Id><TypeId>Component</TypeId><SubtypeId>SteelPlate</SubtypeId></Id></Item>
+        <Item AmountMin="100" AmountMax="400"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>MetalGrid</SubtypeId></Id></Item>
+        <Item AmountMin="100" AmountMax="300"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Motor</SubtypeId></Id></Item>
+        <Item AmountMin="100" AmountMax="200"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Reactor</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Detector</SubtypeId></Id></Item>
+        <Item AmountMin="200" AmountMax="800"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Tech2x</SubtypeId></Id></Item>
+        <Item AmountMin="100" AmountMax="400"><Frequency>2</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Tech4x</SubtypeId></Id></Item>
+        <Item AmountMin="3" AmountMax="8"><Frequency>2</Frequency><Id><TypeId>ConsumableItem</TypeId><SubtypeId>Medkit</SubtypeId></Id></Item>
+        <Item AmountMin="25000" AmountMax="100000"><Frequency>2</Frequency><Id><TypeId>PhysicalObject</TypeId><SubtypeId>SpaceCredit</SubtypeId></Id></Item>
+      </Items>
+    </ContainerType>
+
+<!-- PRTH Cargo Hard (Hoplon) -->
+    <ContainerType CountMin="3" CountMax="5">
+      <Id><TypeId>ContainerTypeDefinition</TypeId><SubtypeId>PRTH Cargo Hard</SubtypeId></Id>
+      <Items>
+        <Item AmountMin="2000" AmountMax="5000"><Frequency>3</Frequency><Id><TypeId>Ore</TypeId><SubtypeId>Ice</SubtypeId></Id></Item>
+        <Item AmountMin="500" AmountMax="1500"><Frequency>4</Frequency><Id><TypeId>Component</TypeId><SubtypeId>SteelPlate</SubtypeId></Id></Item>
+        <Item AmountMin="200" AmountMax="600"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>MetalGrid</SubtypeId></Id></Item>
+        <Item AmountMin="100" AmountMax="400"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Reactor</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>2</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Superconductor</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>2</Frequency><Id><TypeId>Component</TypeId><SubtypeId>PowerCell</SubtypeId></Id></Item>
+        <Item AmountMin="400" AmountMax="1200"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Tech2x</SubtypeId></Id></Item>
+        <Item AmountMin="200" AmountMax="600"><Frequency>3</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Tech4x</SubtypeId></Id></Item>
+        <Item AmountMin="50" AmountMax="200"><Frequency>2</Frequency><Id><TypeId>Component</TypeId><SubtypeId>Tech8x</SubtypeId></Id></Item>
+        <Item AmountMin="25" AmountMax="75"><Frequency>1</Frequency><Id><TypeId>Component</TypeId><SubtypeId>GraphineGrid</SubtypeId></Id></Item>
+        <Item AmountMin="25" AmountMax="100"><Frequency>1</Frequency><Id><TypeId>Component</TypeId><SubtypeId>AdaptiveDynoCapacitor</SubtypeId></Id></Item>
+        <Item AmountMin="100000" AmountMax="300000"><Frequency>2</Frequency><Id><TypeId>PhysicalObject</TypeId><SubtypeId>SpaceCredit</SubtypeId></Id></Item>
+      </Items>
+    </ContainerType>
+
+  </ContainerTypes>
+</Definitions>
