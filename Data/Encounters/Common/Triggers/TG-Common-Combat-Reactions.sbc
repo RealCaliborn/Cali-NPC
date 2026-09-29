@@ -194,7 +194,7 @@
         [RivalAI Action]
         [Chance:100]
         [ChangeBehaviorSubclass:true]
-        [NewBehaviorSubclass:Vulture]
+        [NewBehaviorSubclass:HorseFighter]
 
       </Description>
     </EntityComponent>

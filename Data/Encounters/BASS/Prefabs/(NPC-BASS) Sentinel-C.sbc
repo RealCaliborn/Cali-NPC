@@ -8999,16 +8999,7 @@
               <Toolbar>
                 <ToolbarType>Character</ToolbarType>
                 <SelectedSlot xsi:nil="true" />
-                <Slots>
-                  <Slot>
-                    <Index>0</Index>
-                    <Item />
-                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
-                      <Action>Shoot_On</Action>
-                      <BlockEntityId>106698117478743795</BlockEntityId>
-                    </Data>
-                  </Slot>
-                </Slots>
+                <Slots />
                 <SlotsGamepad />
               </Toolbar>
               <Delay>1000</Delay>

@@ -4429,7 +4429,7 @@
 							<Prefab SubtypeId="(NPC-VOID) Lion Fish">
 					<Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
 					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+					<Behaviour>BH-VOID-Lion-Fish</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
@@ -4476,12 +4476,12 @@
 							<Prefab SubtypeId="(NPC-VOID) Lion Fish">
 					<Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
 					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+					<Behaviour>BH-VOID-Lion-Fish</Behaviour>
 				</Prefab>
 			<Prefab SubtypeId="(NPC-VOID) Lion Fish">
 					<Position><X>500.5</X><Y>0.0</Y><Z>0.0</Z></Position>
 					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+					<Behaviour>BH-VOID-Lion-Fish</Behaviour>
 				</Prefab>
 			</Prefabs>
 		</SpawnGroup>
@@ -4528,7 +4528,7 @@
 							<Prefab SubtypeId="(NPC-VOID) Lion Fish">
 					<Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
 					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+					<Behaviour>BH-VOID-Lion-Fish</Behaviour>
 				</Prefab>
 			<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position><X>500.5</X><Y>0.0</Y><Z>0.0</Z></Position>
@@ -4580,7 +4580,7 @@
 							<Prefab SubtypeId="(NPC-VOID) Lion Fish">
 					<Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
 					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+					<Behaviour>BH-VOID-Lion-Fish</Behaviour>
 				</Prefab>
 			<Prefab SubtypeId="(NPC-VOID) Hunter">
 					<Position><X>500.5</X><Y>0.0</Y><Z>0.0</Z></Position>
@@ -4632,7 +4632,7 @@
 							<Prefab SubtypeId="(NPC-VOID) Lion Fish">
 					<Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
 					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+					<Behaviour>BH-VOID-Lion-Fish</Behaviour>
 				</Prefab>
 			<Prefab SubtypeId="(NPC-VOID) Hunter">
 					<Position><X>500.5</X><Y>0.0</Y><Z>0.0</Z></Position>
@@ -4689,7 +4689,7 @@
 							<Prefab SubtypeId="(NPC-VOID) Lion Fish">
 					<Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
 					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+					<Behaviour>BH-VOID-Lion-Fish</Behaviour>
 				</Prefab>
 			<Prefab SubtypeId="(NPC-VOID) Wraith">
 					<Position><X>500.5</X><Y>0.0</Y><Z>0.0</Z></Position>
@@ -4741,7 +4741,7 @@
 							<Prefab SubtypeId="(NPC-VOID) Lion Fish">
 					<Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
 					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+					<Behaviour>BH-VOID-Lion-Fish</Behaviour>
 				</Prefab>
 			<Prefab SubtypeId="(NPC-VOID) Stingray">
 					<Position><X>500.5</X><Y>0.0</Y><Z>0.0</Z></Position>
@@ -4798,7 +4798,7 @@
 							<Prefab SubtypeId="(NPC-VOID) Lion Fish">
 					<Position><X>0.0</X><Y>0.0</Y><Z>0.0</Z></Position>
 					<Speed>400</Speed>
-					<Behaviour>BH-VOID-Stingray-Single</Behaviour>
+					<Behaviour>BH-VOID-Lion-Fish</Behaviour>
 				</Prefab>
 			<Prefab SubtypeId="(NPC-VOID) Lamprey">
 					<Position><X>500.5</X><Y>0.0</Y><Z>0.0</Z></Position>

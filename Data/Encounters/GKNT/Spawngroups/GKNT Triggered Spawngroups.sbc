@@ -173,9 +173,9 @@
                 <Speed>400</Speed>
                 <Behaviour>BH-GKNT-Fighter-Default-Saber</Behaviour>
             </Prefab>
-                    <Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat B">
+            <Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat B">
                 <Position>
-                    <X>350.0</X>
+                    <X>500.5</X>
                     <Y>0.0</Y>
                     <Z>0.0</Z>
                 </Position>
@@ -214,7 +214,7 @@
         <Prefabs>
             <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                 <Position>
-                    <X>250.2</X>
+                    <X>-500.5</X>
                     <Y>0.0</Y>
                     <Z>0.0</Z>
                 </Position>
@@ -223,16 +223,16 @@
             </Prefab>
             <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                 <Position>
-                    <X>-250.2</X>
+                    <X>500.5</X>
                     <Y>0.0</Y>
                     <Z>0.0</Z>
                 </Position>
                 <Speed>400</Speed>
                 <Behaviour>BH-GKNT-Fighter-Default-Saber</Behaviour>
             </Prefab>
-                    <Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat A">
+            <Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat A">
                 <Position>
-                    <X>350.0</X>
+                    <X>0.0</X>
                     <Y>0.0</Y>
                     <Z>0.0</Z>
                 </Position>
@@ -312,7 +312,7 @@
         <Prefabs>
             <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
                 <Position>
-                    <X>-250.2</X>
+                    <X>-500.5</X>
                     <Y>0.0</Y>
                     <Z>0.0</Z>
                 </Position>
@@ -321,16 +321,16 @@
             </Prefab>
             <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
                 <Position>
-                    <X>250.2</X>
+                    <X>500.5</X>
                     <Y>0.0</Y>
                     <Z>0.0</Z>
                 </Position>
                 <Speed>400</Speed>
                 <Behaviour>BH-GKNT-Fighter-Scrambled-Swallow</Behaviour>
             </Prefab>
-                    <Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat C">
+            <Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat C">
                 <Position>
-                    <X>350.0</X>
+                    <X>0.0</X>
                     <Y>0.0</Y>
                     <Z>0.0</Z>
                 </Position>
@@ -377,9 +377,9 @@
                 <Speed>400</Speed>
                 <Behaviour>BH-GKNT-Fighter-Scrambled-Saber</Behaviour>
             </Prefab>
-                    <Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat A">
+            <Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat A">
                 <Position>
-                    <X>350.0</X>
+                    <X>500.5</X>
                     <Y>0.0</Y>
                     <Z>0.0</Z>
                 </Position>
@@ -459,7 +459,7 @@
         <Prefabs>
             <Prefab SubtypeId="(NPC-GKNT) Saber Heavy Fighter">
                 <Position>
-                    <X>250.2</X>
+                    <X>-500.5</X>
                     <Y>0.0</Y>
                     <Z>0.0</Z>
                 </Position>
@@ -468,16 +468,16 @@
             </Prefab>
             <Prefab SubtypeId="(NPC-GKNT) Swallow Light Fighter">
                 <Position>
-                    <X>-250.2</X>
+                    <X>500.5</X>
                     <Y>0.0</Y>
                     <Z>0.0</Z>
                 </Position>
                 <Speed>400</Speed>
                 <Behaviour>BH-GKNT-Fighter-Default-Swallow</Behaviour>
             </Prefab>
-                    <Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat B">
+            <Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat B">
                 <Position>
-                    <X>350.0</X>
+                    <X>0.0</X>
                     <Y>0.0</Y>
                     <Z>0.0</Z>
                 </Position>
@@ -524,9 +524,9 @@
                 <Speed>25</Speed>
                 <Behaviour>BH-GKNT-SwordOfJustice</Behaviour>
             </Prefab>
-                    <Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat C">
+            <Prefab SubtypeId="(NPC-GKNT) Patrol Gunboat C">
                 <Position>
-                    <X>350.0</X>
+                    <X>500.5</X>
                     <Y>0.0</Y>
                     <Z>0.0</Z>
                 </Position>

@@ -988,7 +988,8 @@
         [CommandCode:CO-ECHO-PRTH-Mayday-Alive]
         [MatchSenderReceiverOwners:false]
         [IgnoreAntennaRequirement:true]
-        [Radius:12000]
+        [Radius:30000]
+        [ReturnToSender:true]
 
       </Description>
     </EntityComponent>
@@ -1165,7 +1166,8 @@
         [CommandCode:CO-ECHO-GIRR-Mayday-Alive]
         [MatchSenderReceiverOwners:false]
         [IgnoreAntennaRequirement:true]
-        [Radius:12000]
+        [Radius:30000]
+        [ReturnToSender:true]
 
       </Description>
     </EntityComponent>
@@ -1342,7 +1344,8 @@
         [CommandCode:CO-ECHO-BASS-Mayday-Alive]
         [MatchSenderReceiverOwners:false]
         [IgnoreAntennaRequirement:true]
-        [Radius:12000]
+        [Radius:30000]
+        [ReturnToSender:true]
 
       </Description>
     </EntityComponent>

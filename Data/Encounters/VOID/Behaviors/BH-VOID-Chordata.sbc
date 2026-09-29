@@ -10,9 +10,11 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:Vulture]
+        [BehaviorName:HorseFighter]
         [WeaponSystem:WS-Common-Baseline-Standard]
-        [AutopilotData:AP-Common-Vulture-Spiral-B]
+        [AutopilotData:AP-Common-Brawler-Default-B]
+        [HorseFighterTimeEngaging:43]
+        [HorseFighterTimeApproaching:23]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]

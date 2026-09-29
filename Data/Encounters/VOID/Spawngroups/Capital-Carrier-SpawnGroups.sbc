@@ -61,7 +61,7 @@
         </Prefab>
         <Prefab SubtypeId="(NPC-VOID) Chordata">
           <Position>
-            <X>150.0</X>
+            <X>500.5</X>
             <Y>0.0</Y>
             <Z>0.0</Z>
           </Position>
@@ -130,7 +130,7 @@
         </Prefab>
         <Prefab SubtypeId="(NPC-VOID) Chordata">
           <Position>
-            <X>150.0</X>
+            <X>500.5</X>
             <Y>0.0</Y>
             <Z>0.0</Z>
           </Position>
@@ -169,7 +169,7 @@
         </Prefab>
         <Prefab SubtypeId="(NPC-VOID) Lamprey B">
           <Position>
-            <X>150.0</X>
+            <X>500.5</X>
             <Y>0.0</Y>
             <Z>0.0</Z>
           </Position>
@@ -208,7 +208,7 @@
         </Prefab>
         <Prefab SubtypeId="(NPC-VOID) Lamprey B">
           <Position>
-            <X>150.0</X>
+            <X>500.5</X>
             <Y>0.0</Y>
             <Z>0.0</Z>
           </Position>
@@ -217,7 +217,7 @@
         </Prefab>
         <Prefab SubtypeId="(NPC-VOID) Lamprey B">
           <Position>
-            <X>300.0</X>
+            <X>-500.5</X>
             <Y>0.0</Y>
             <Z>0.0</Z>
           </Position>

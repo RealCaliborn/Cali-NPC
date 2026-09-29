@@ -2029,18 +2029,7 @@
               <Toolbar>
                 <ToolbarType>Character</ToolbarType>
                 <SelectedSlot xsi:nil="true" />
-                <Slots>
-                  <Slot>
-                    <Index>0</Index>
-                    <Item />
-                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalGroup">
-                      <Action>Shoot_On</Action>
-                      <GridEntityId>0</GridEntityId>
-                      <BlockEntityId>79297757494904105</BlockEntityId>
-                      <GroupName>MAC</GroupName>
-                    </Data>
-                  </Slot>
-                </Slots>
+                <Slots />
                 <SlotsGamepad />
               </Toolbar>
               <Delay>1000</Delay>

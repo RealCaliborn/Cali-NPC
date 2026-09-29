@@ -5120,14 +5120,6 @@
                     <Index>0</Index>
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
-                      <Action>ShootToggle</Action>
-                      <BlockEntityId>124319997351445041</BlockEntityId>
-                    </Data>
-                  </Slot>
-                  <Slot>
-                    <Index>1</Index>
-                    <Item />
-                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>Start</Action>
                       <BlockEntityId>100301431817016225</BlockEntityId>
                     </Data>
@@ -5798,14 +5790,6 @@
                 <Slots>
                   <Slot>
                     <Index>0</Index>
-                    <Item />
-                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
-                      <Action>ShootToggle</Action>
-                      <BlockEntityId>124319997351445041</BlockEntityId>
-                    </Data>
-                  </Slot>
-                  <Slot>
-                    <Index>1</Index>
                     <Item />
                     <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
                       <Action>ForceReload</Action>

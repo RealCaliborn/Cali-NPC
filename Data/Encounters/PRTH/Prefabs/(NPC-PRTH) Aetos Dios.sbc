@@ -3491,40 +3491,7 @@
               <Toolbar>
                 <ToolbarType>Character</ToolbarType>
                 <SelectedSlot xsi:nil="true" />
-                <Slots>
-                  <Slot>
-                    <Index>0</Index>
-                    <Item />
-                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
-                      <Action>Shoot_On</Action>
-                      <BlockEntityId>104868938697975973</BlockEntityId>
-                    </Data>
-                  </Slot>
-                  <Slot>
-                    <Index>1</Index>
-                    <Item />
-                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
-                      <Action>Shoot_On</Action>
-                      <BlockEntityId>74983960689730651</BlockEntityId>
-                    </Data>
-                  </Slot>
-                  <Slot>
-                    <Index>2</Index>
-                    <Item />
-                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
-                      <Action>Shoot_On</Action>
-                      <BlockEntityId>97505646531517818</BlockEntityId>
-                    </Data>
-                  </Slot>
-                  <Slot>
-                    <Index>3</Index>
-                    <Item />
-                    <Data xsi:type="MyObjectBuilder_ToolbarItemTerminalBlock">
-                      <Action>Shoot_On</Action>
-                      <BlockEntityId>118639734541834888</BlockEntityId>
-                    </Data>
-                  </Slot>
-                </Slots>
+                <Slots />
                 <SlotsGamepad />
               </Toolbar>
               <Delay>1000</Delay>

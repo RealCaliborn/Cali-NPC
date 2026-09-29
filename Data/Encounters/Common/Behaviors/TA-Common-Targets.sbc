@@ -28,6 +28,7 @@
         [MatchAnyFilters:Broadcasting]
         [MatchAnyFilters:MovementScore]
         [MatchAnyFilters:LineOfSight]
+        [MatchAnyFilters:PlayerControlled]
 
         [NonBroadcastVisualRange:20000]
         [MinMovementScore:200]
@@ -37,7 +38,8 @@
         [Owners:Player]
         [Relations:Enemy]
 
-        [GetTargetBy:ClosestDistance]
+        [PrioritizePlayerControlled:true]
+        [GetTargetBy:HighestTargetValue]
 
       </Description>
     </EntityComponent>

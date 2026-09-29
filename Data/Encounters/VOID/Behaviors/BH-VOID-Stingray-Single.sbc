@@ -10,9 +10,9 @@
       <Description>
 
         [RivalAI Behavior]
-        [BehaviorName:Vulture]
+        [BehaviorName:Horsefly]
         [WeaponSystem:WS-Common-Baseline-Standard]
-        [AutopilotData:AP-Common-Vulture-Spiral-B]
+        [AutopilotData:AP-Common-Standoff-1500-2250-B]
         [TargetData:TA-Common-Default-A]
         [OverrideTargetData:TA-Common-Default-B]
         [EngageOnTargetLineOfSight:true]

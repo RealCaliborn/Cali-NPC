@@ -12,7 +12,7 @@
         [CommandCode:CO-PRTH-VOID-Mayday-CheckAlive]
         [MatchSenderReceiverOwners:false]
         [IgnoreAntennaRequirement:true]
-        [Radius:12000]
+        [Radius:30000]
 
       </Description>
     </EntityComponent>
@@ -27,7 +27,7 @@
         [CommandCode:CO-PRTH-VOID-Mayday-CloseWave]
         [MatchSenderReceiverOwners:false]
         [IgnoreAntennaRequirement:true]
-        [Radius:12000]
+        [Radius:30000]
 
       </Description>
     </EntityComponent>
@@ -1834,7 +1834,7 @@
         [CommandCode:CO-PRTH-ECHO-Mayday-CheckAlive]
         [MatchSenderReceiverOwners:false]
         [IgnoreAntennaRequirement:true]
-        [Radius:12000]
+        [Radius:30000]
 
       </Description>
     </EntityComponent>
@@ -1849,7 +1849,7 @@
         [CommandCode:CO-PRTH-ECHO-Mayday-CloseWave]
         [MatchSenderReceiverOwners:false]
         [IgnoreAntennaRequirement:true]
-        [Radius:12000]
+        [Radius:30000]
 
       </Description>
     </EntityComponent>
@@ -3722,7 +3722,7 @@
         [CommandCode:CO-PRTH-GIRR-Mayday-CheckAlive]
         [MatchSenderReceiverOwners:false]
         [IgnoreAntennaRequirement:true]
-        [Radius:12000]
+        [Radius:30000]
 
       </Description>
     </EntityComponent>
@@ -3737,7 +3737,7 @@
         [CommandCode:CO-PRTH-GIRR-Mayday-CloseWave]
         [MatchSenderReceiverOwners:false]
         [IgnoreAntennaRequirement:true]
-        [Radius:12000]
+        [Radius:30000]
 
       </Description>
     </EntityComponent>
@@ -5544,7 +5544,7 @@
         [CommandCode:CO-PRTH-BASS-Mayday-CheckAlive]
         [MatchSenderReceiverOwners:false]
         [IgnoreAntennaRequirement:true]
-        [Radius:12000]
+        [Radius:30000]
 
       </Description>
     </EntityComponent>
@@ -5559,7 +5559,7 @@
         [CommandCode:CO-PRTH-BASS-Mayday-CloseWave]
         [MatchSenderReceiverOwners:false]
         [IgnoreAntennaRequirement:true]
-        [Radius:12000]
+        [Radius:30000]
 
       </Description>
     </EntityComponent>

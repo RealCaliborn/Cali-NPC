@@ -177,6 +177,7 @@
         [RivalAI Trigger]
 
         [MinCooldownMs:6000]
+        [MaxCooldownMs:6001]
 
         [UseTrigger:true]
         [Type:PlayerNear]

@@ -328,42 +328,5 @@
   </Description>
 </EntityComponent>
 
-
-    <EntityComponent xsi:type="MyObjectBuilder_InventoryComponentDefinition">
-      <Id>
-        <TypeId>Inventory</TypeId>
-        <SubtypeId>AP-Common-Vulture-Spiral-B</SubtypeId>
-      </Id>
-      <Description>
-
-        [RivalAI Autopilot]
-        [DisableInertiaDampeners:false]
-        [FlyLevelWithGravity:true]
-        [WaypointTolerance:40]
-        [IdealMinSpeed:10]
-        [IdealMaxSpeed:400]
-        [MaxSpeedTolerance:5]
-        [SlowDownOnWaypointApproach:true]
-        [UseProjectileLeadPrediction:true]
-        [OffsetSpaceMinDistFromTarget:400]
-        [OffsetSpaceMaxDistFromTarget:900]
-        [OffsetPlanetMinDistFromTarget:400]
-        [OffsetPlanetMaxDistFromTarget:900]
-        [OffsetPlanetMinTargetAltitude:300]
-        [OffsetPlanetMaxTargetAltitude:700]
-        [CircleTargetRadiusConstriction:true]
-        [CircleTargetRadiusConstrictionAmount:8]
-        [CircleTargetClockwise:true]
-        [CircleTargetUpAngleLimit:90]
-        [CircleTargetDriftExemption:true]
-        [RotationMultiplier:1.25]
-        [EngageDistanceSpace:1200]
-        [EngageDistancePlanet:1200]
-        [DisengageDistanceSpace:2000]
-        [DisengageDistancePlanet:2000]
-
-      </Description>
-    </EntityComponent>
-
 </EntityComponents>
 </Definitions>
